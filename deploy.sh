@@ -1,13 +1,11 @@
 #!/bin/bash
-# Hexo 一键更新 + GitHub Pages 部署脚本 (改进版)
+# Hexo 一键更新 + GitHub Pages 部署脚本（改进版）
 # 使用方法：在博客根目录运行 ./deploy.sh
 
-# 1️⃣ 提交源文件
+# 1️⃣ 提交源文件（文章、配置、主题）
 echo "提交源文件..."
 read -p "输入本次提交信息: " COMMIT_MSG
-
 if [ -z "$COMMIT_MSG" ]; then
-  echo "提交信息为空，使用默认信息: 更新文章/配置"
   COMMIT_MSG="更新文章/配置"
 fi
 
@@ -20,14 +18,24 @@ echo "生成静态文件..."
 hexo clean
 hexo g
 
-# 3️⃣ 确保本地 gh-pages 分支与远程一致
-echo "同步 gh-pages 分支..."
+# 3️⃣ 使用临时分支处理 gh-pages 更新
+echo "更新 gh-pages 分支..."
 git fetch origin gh-pages
-git branch -f gh-pages origin/gh-pages
+git checkout -B temp-gh-pages origin/gh-pages
 
-# 4️⃣ 推送 public/ 到 gh-pages
-echo "推送到 gh-pages 分支..."
-git subtree push --prefix public origin gh-pages || echo "推送失败，请检查远程仓库权限或冲突"
+# 覆盖临时分支的 public/ 文件
+git checkout main -- public
 
-echo "部署完成! 访问你的 GitHub Pages 查看最新内容"
+# 提交更新
+git add public
+git commit -m "更新网站静态文件" 2>/dev/null || echo "public/ 没有变化"
+
+# 强制推送到 gh-pages
+git push origin temp-gh-pages:gh-pages --force
+
+# 回到 main 分支
+git checkout main
+git branch -D temp-gh-pages
+
+echo "部署完成！访问你的 GitHub Pages 查看最新内容"
 
