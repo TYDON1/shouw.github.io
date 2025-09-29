@@ -19,7 +19,13 @@ giscus:
 
 banner:
   enable: true
-  title: 测试
+  banner:
+  title:
+    - shouw
+    - の
+    - 个
+    - 人
+    - blog
   border: true
   cloud:
     enable: true
