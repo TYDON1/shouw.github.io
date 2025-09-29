@@ -1,52 +1,44 @@
 #!/bin/bash
-# Hexo 一键更新 + GitHub Pages 部署脚本（最终版）
-# 使用方法：在博客根目录运行 ./deploy.sh
 
-# 1️⃣ 提交源文件（文章、配置、主题）
-echo "提交源文件..."
-git add .
+# Hexo Yun 部署脚本 (强制推送 gh-pages)
 
-read -p "输入本次提交信息: " COMMIT_MSG
-if [ -z "$COMMIT_MSG" ]; then
-  COMMIT_MSG="更新文章/配置"
+# 提示输入提交信息
+read -p "输入本次提交信息: " commit_msg
+if [ -z "$commit_msg" ]; then
+  commit_msg="更新"
 fi
 
-# 检查是否有变化
-if git diff-index --quiet HEAD --; then
-  echo "源文件没有变化，无需提交"
-else
-  git commit -m "$COMMIT_MSG"
-  git push origin main
-fi
-
-# 2️⃣ 生成静态文件
-echo "生成静态文件..."
+echo "清理旧文件..."
 hexo clean
+
+echo "生成静态文件..."
 hexo g
 
-# 3️⃣ 检查 public/ 是否有变化
-git add public
-if git diff-index --quiet HEAD -- public; then
-  echo "public/ 没有变化，跳过 gh-pages 提交"
-else
-  echo "更新 gh-pages 分支..."
-  git fetch origin gh-pages
-  git checkout -B temp-gh-pages origin/gh-pages
+# 添加 .gitignore 忽略不必要文件
+echo -e "node_modules/\ndb.json\n.deploy_git/" > .gitignore
 
-  # 覆盖临时分支的 public/ 文件
-  git checkout main -- public
+# 提交源文件到 main 分支
+git add -A
+git commit -m "$commit_msg" || echo "没有源文件更新"
 
-  # 提交更新
-  git add public
-  git commit -m "更新网站静态文件" 2>/dev/null || echo "public/ 没有变化"
+git push origin main
 
-  # 强制推送到 gh-pages
-  git push origin temp-gh-pages:gh-pages --force
+# 切换到临时 gh-pages 分支
+git checkout -B temp-gh-pages origin/gh-pages 2>/dev/null || git checkout -B temp-gh-pages
 
-  # 回到 main 分支
-  git checkout main
-  git branch -D temp-gh-pages
-fi
+# 清理旧内容
+git rm -rf . >/dev/null 2>&1
 
-echo "部署完成！访问你的 GitHub Pages 查看最新内容"
+# 复制 public/ 下的最新文件
+cp -r public/* ./
+
+# 添加、提交、推送到 gh-pages
+git add -A
+git commit -m "$commit_msg" || echo "没有 public 文件更新"
+git push -f origin temp-gh-pages:gh-pages
+
+# 切换回 main 分支
+git checkout main
+
+echo "部署完成! 访问你的 GitHub Pages 查看最新内容"
 
