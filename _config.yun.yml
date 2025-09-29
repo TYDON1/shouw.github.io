@@ -19,7 +19,7 @@ giscus:
 
 banner:
   enable: true
-  title: shouwのblog
+  title: 测试
   border: true
   cloud:
     enable: true
