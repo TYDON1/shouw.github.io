@@ -1,0 +1,96 @@
+mode: auto
+
+avatar:
+  url: /images/avatar.jpg
+  status:
+    enable: true
+    emoji: 🌑
+    message: Looking for dawn.
+
+giscus:
+  enable: false
+  repo: TYDON1/shouw.github.io
+  repo-id:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: night
+
+engine_search:
+  enable: false
+
+algolia_search:
+  enable: false
+  appID: "M9H4UTOSTT"
+  apiKey: "e0c7761575f19aa3aad12bb18c3c4003"
+  indexName: "你的索引名"
+
+
+google_analytics:
+  enable: true
+  id: G-RORJJ05LFW
+
+tags:
+  动画: crimson
+  漫画: orange
+  Parcel: '#21374b'
+  学习: saddlebrown
+  MAD: crimson
+  教程: royalblue
+  笔记: dimgray
+  分享: '#0078e7'
+  随笔: mediumpurple
+  Blender: '#d04d2d'
+  Linux: '#2577b1'
+  中传: '#ccb44b'
+  部落: '#DD306A'
+  科幻: midnightblue
+  蚂蚁森林: '#54a892'
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: ri:clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+wordcount:
+  enable: true
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: false
+
+social:
+  - name: GitHub
+    link: https://github.com/TYDON1
+    icon: ri:github-line
+    color: '#6e5494'
+  - name: 网易云音乐
+    link: https://y.music.163.com/m/user?id=13864950143
+    icon: ri:netease-cloud-music-line
+    color: '#C20C0C'
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/1777771249
+    icon: ri:bilibili-line
+    color: '#FF8EB3'
+  - name: QQ
+    link: https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2205639587
+    icon: ri:qq-line
+    color: '#FF8EB3'
+  - name: E-Mail
+    link: 2205639587@gmail.com
+    icon: ri:mail-line
+    color: '#8E71C1'
+# pjax:
+#   enable: true

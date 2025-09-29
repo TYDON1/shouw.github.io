@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: shouwのblog
+subtitle: '一个普普通通的blog'
 description: ''
 keywords:
 author: John Doe
@@ -96,9 +96,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: yun
 
-Deploy:
+deploy:
   type: git
-  repository: https://github.com/TYDON1/shouw.github.io.git
+  repository: git@github.com:TYDON1/shouw.github.io.git
   branch: main
