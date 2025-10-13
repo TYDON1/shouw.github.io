@@ -32,7 +32,7 @@ document.addEventListener("pjax:success", initScrollReveal);
 <meta property="og:description" content="解决clang无法使用万能头文件在 macOS 系统上进行 C++ 编程时，系统自带的编译环境是 Clang，它默认并不支持非标准的万能头文件 &lt;bits&#x2F;stdc++.h&gt;。由于 Mac 自带的 C++ 编译环境使用的是 Clang，且修改为 GCC 可能会产生潜在问题，如果想使用万能头又不想换编译器，只需要手动配置头文件即可。 解决方案：手动添加头文件由于 &lt;bits&#x2F;std">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-10-12T23:45:04.000Z">
-<meta property="article:modified_time" content="2025-10-13T00:03:49.761Z">
+<meta property="article:modified_time" content="2025-10-13T00:05:41.091Z">
 <meta property="article:author" content="shouw">
 <meta name="twitter:card" content="summary"><script>(function() {
   if (CONFIG.mode !== 'auto') return
@@ -56,7 +56,7 @@ IconifyProviders = {
 <h4 id="1-获取-stdc-h-文件内容"><a href="#1-获取-stdc-h-文件内容" class="headerlink" title="1. 获取 stdc++.h 文件内容"></a>1. 获取 <code>stdc++.h</code> 文件内容</h4><p>你需要从网络上搜索或从安装了 GCC 的系统中拷贝一份 <code>stdc++.h</code> 的完整源代码内容。</p>
 <h4 id="2-确定目标安装目录"><a href="#2-确定目标安装目录" class="headerlink" title="2. 确定目标安装目录"></a>2. 确定目标安装目录</h4><p>macOS 的 Clang&#x2F;Xcode 命令行工具的默认系统头文件路径通常位于：</p>
 <p><code>/Library/Developer/CommandLineTools/usr/include/</code></p>
-<h4 id="3-创建-bits-目录并放置文件"><a href="#3-创建-bits-目录并放置文件" class="headerlink" title="3. 创建 bits 目录并放置文件"></a>3. 创建 <code>bits</code> 目录并放置文件</h4><p>由于我们在平时使用万能头时，习惯于使用文件路径格式 <code>#include &lt;bits/stdc++.h&gt;\</code>，因此我们需要在这个路径下<strong>重建对应的目录结构</strong>：</p>
+<h4 id="3-创建-bits-目录并放置文件"><a href="#3-创建-bits-目录并放置文件" class="headerlink" title="3. 创建 bits 目录并放置文件"></a>3. 创建 <code>bits</code> 目录并放置文件</h4><p>由于我们在平时使用万能头时，习惯于使用文件路径格式 <code>#include &lt;bits/stdc++.h&gt;</code>，因此我们需要在这个路径下<strong>重建对应的目录结构</strong>：</p>
 <ol>
 <li><strong>创建 <code>bits</code> 文件夹</strong>：     你需要管理员权限来创建目录。<br><code>sudo mkdir -p /Library/Developer/CommandLineTools/usr/include/bits</code></li>
 <li><strong>下载并保存<code>stdc++.h</code>文件</strong>：将你获取到的<code>stdc++.h</code>文件内容，保存到新创建的<code>bits</code>文件夹内。<br><code>sudo cp ./stdc++.h /Library/Developer/CommandLineTools/usr/include/bits/stdc++.h </code></li>
