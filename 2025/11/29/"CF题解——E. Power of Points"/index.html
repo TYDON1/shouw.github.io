@@ -1,86 +1,157 @@
-.post-block {
-  color: var(--hty-text-color);
-  margin: 0 1rem;
-  padding: 1rem;
-  background-color: var(--post-block-bg-color);
-mobile()
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#0078E7"><meta name="author" content="shouw"><meta name="copyright" content="shouw"><meta name="generator" content="Hexo 8.0.0"><meta name="theme" content="hexo-theme-yun"><title>CF题解——E. Power of Points | shouwのblog</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&amp;display=swap" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/star-markdown-css@0.4.1/dist/yun/yun-markdown.min.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/prism-theme-vars/base.css"><script src="https://fastly.jsdelivr.net/npm/scrollreveal/dist/scrollreveal.min.js" defer></script><script>function initScrollReveal() {
+  [".post-card",".markdown-body img"].forEach((target)=> {
+    ScrollReveal().reveal(target);
+  })
 }
-.post-body {
-  padding: 0 5rem;
-tablet()
-mobile()
-}
-.post-meta {
-  font-size: 14px;
-  color: var(--hty-secondary-text-color);
-}
-.post-meta .icon {
-  margin-bottom: -1px;
-}
-.post-description {
-  font-weight: normal;
-  padding: 0.5rem;
-}
-.post-author {
-  display: flex;
-  justify-content: center;
-}
-.post-author .author-avatar {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 0;
-}
-.post-author .author-avatar img {
-  border-radius: 50%;
-  height: 1rem;
-  width: 1rem;
-  padding: 2px;
-  border: 2px solid #d3d3d3;
-}
-.post-author .author-name {
-  margin-left: 0.5rem;
-  font-size: 1rem;
-}
-.post-meta-item-icon {
-  display: inline-block;
-  color: var(--text-color, --hty-secondary-text-color);
-}
-.post-meta-divider {
-  height: 25px;
-  color: var(--hty-secondary-text-color);
-  margin: 0 0.5rem;
-}
-.post-eof {
-  margin: 50px auto;
-  width: 50%;
-  height: 1px;
-  background: $blue;
-  opacity: 0.1;
-}
-.post-copyright {
-  font-size: 0.9rem;
-  margin: 0.5rem 5rem 1rem 5rem;
-  padding: 0.5rem 1rem;
-  border-left: 4px solid #ff5252;
-  background-color: var(--hty-bg-color);
-  list-style: none;
-  word-break: break-all;
-  position: relative;
-  overflow: hidden;
-mobile()
-}
-.post-copyright::after {
-  position: absolute;
-  color: #fff;
-  background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 496 512'%3E%3Cpath fill='gray' d='M245.8 214.9l-33.2 17.3c-9.4-19.6-25.2-20-27.4-20-22.2 0-33.3 14.6-33.3 43.9 0 23.5 9.2 43.8 33.3 43.8 14.4 0 24.6-7 30.5-21.3l30.6 15.5a73.2 73.2 0 01-65.1 39c-22.6 0-74-10.3-74-77 0-58.7 43-77 72.6-77 30.8-.1 52.7 11.9 66 35.8zm143 0l-32.7 17.3c-9.5-19.8-25.7-20-27.9-20-22.1 0-33.2 14.6-33.2 43.9 0 23.5 9.2 43.8 33.2 43.8 14.5 0 24.7-7 30.5-21.3l31 15.5c-2 3.8-21.3 39-65 39-22.7 0-74-9.9-74-77 0-58.7 43-77 72.6-77C354 179 376 191 389 214.8zM247.7 8C104.7 8 0 123 0 256c0 138.4 113.6 248 247.6 248C377.5 504 496 403 496 256 496 118 389.4 8 247.6 8zm.8 450.8c-112.5 0-203.7-93-203.7-202.8 0-105.5 85.5-203.3 203.8-203.3A201.7 201.7 0 01451.3 256c0 121.7-99.7 202.9-202.9 202.9z'/%3E%3C/svg%3E");
-  content: ' ';
-  height: 10rem;
-  width: 10rem;
-  right: -2rem;
-  top: -2rem;
-  opacity: 0.1;
-}
-.tag-name {
-  padding: 0 0.1rem;
-}
+document.addEventListener("DOMContentLoaded", initScrollReveal);
+document.addEventListener("pjax:success", initScrollReveal);
+</script><link rel="stylesheet" type="text/css" href="https://fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.css"><script defer src="https://fastly.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script><link rel="stylesheet" type="text/css" href="https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.css"><script defer src="https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/copy-tex.min.js"></script><script defer src="https://fastly.jsdelivr.net/npm/katex@latest/dist/contrib/auto-render.min.js"></script><script type="module">import { renderKatex } from '/js/utils.js'
+document.addEventListener("DOMContentLoaded", () => {
+  renderKatex({
+    ...true,
+    ...true?.options,
+  });
+});</script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><link rel="preconnect" href="https://fastly.jsdelivr.net/npm/" crossorigin><script id="yun-config">
+    window.Yun = {}
+    window.CONFIG = {"hostname":"shouw.blog","root":"/","title":["shouw","の","个","人","blog"],"version":"1.10.11","mode":"auto","copycode":true,"page":{"isPost":true},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.yunyoujun.cn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"fireworks":{"colors":null},"vendors":{"host":"https://fastly.jsdelivr.net/npm/","darken":"https://fastly.jsdelivr.net/npm/darken@1.5.0"}};
+  </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="preconnect" href="https://www.google-analytics.com" crossorigin><script async src="https://www.googletagmanager.com/gtag/js?id=G-RORJJ05LFW"></script><script>if (CONFIG.hostname === location.hostname) {
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RORJJ05LFW');
+}</script><script>(function(){
+  var bp = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  if (curProtocol === 'https') {
+    bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+  }
+  else {
+    bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+  }
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(bp, s);
+})();</script><!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M9KWR9L');</script><!-- End Google Tag Manager --><meta name="description" content="E. Power of Points 解题思路核心问题分析与数学转化 本题要求对于给定的点集 $X &#x3D; \{x_1, x_2, \dots, x_n\}$，对集合中每一个 $s \in X$，计算总功率和 $\sum_{p&#x3D;1}^{10^9} f_p$。其中 $f_p$ 定义为与点 $p$ 相交的线段 $[s, x_i]$ 的数量。  1. 功率和与线段长度的关系一个关键的观察是，一个线段 $[a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CF题解——E. Power of Points">
+<meta property="og:url" content="https://shouw.blog/2025/11/29/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E.%20Power%20of%20Points%22/index.html">
+<meta property="og:site_name" content="shouwのblog">
+<meta property="og:description" content="E. Power of Points 解题思路核心问题分析与数学转化 本题要求对于给定的点集 $X &#x3D; \{x_1, x_2, \dots, x_n\}$，对集合中每一个 $s \in X$，计算总功率和 $\sum_{p&#x3D;1}^{10^9} f_p$。其中 $f_p$ 定义为与点 $p$ 相交的线段 $[s, x_i]$ 的数量。  1. 功率和与线段长度的关系一个关键的观察是，一个线段 $[a">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-11-29T13:17:20.000Z">
+<meta property="article:modified_time" content="2025-11-30T05:21:45.113Z">
+<meta property="article:author" content="shouw">
+<meta property="article:tag" content="算法竞赛">
+<meta property="article:tag" content="编程">
+<meta property="article:tag" content="题解">
+<meta name="twitter:card" content="summary"><script>(function() {
+  if (CONFIG.mode !== 'auto') return
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  const setting = localStorage.getItem('darken-mode') || 'auto'
+  if (setting === 'dark' || (prefersDark && setting !== 'light'))
+    document.documentElement.classList.toggle('dark', true)
+})()</script></head><body><script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script><script>// Define global variable
+IconifyProviders = {
+  // Empty prefix: overwrite default API provider configuration
+  '': {
+    // Use custom API first, use Iconify public API as backup
+    resources: [
+        'https://api.iconify.design',
+    ],
+    // Wait for 1 second before switching API hosts
+    rotate: 1000,
+  },
+};</script><script defer src="https://fastly.jsdelivr.net/npm/animejs@latest"></script><script defer src="/js/ui/fireworks.js" type="module"></script><canvas class="fireworks"></canvas><div class="container"><a class="sidebar-toggle hty-icon-button" id="menu-btn"><div class="hamburger hamburger--spin" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></div></a><div class="sidebar-toggle sidebar-overlay"></div><aside class="sidebar"><script src="/js/sidebar.js" type="module"></script><ul class="sidebar-nav"><li class="sidebar-nav-item sidebar-nav-toc hty-icon-button sidebar-nav-active" data-target="post-toc-wrap" title="文章目录"><span class="icon iconify" data-icon="ri:list-ordered"></span></li><li class="sidebar-nav-item sidebar-nav-overview hty-icon-button" data-target="site-overview-wrap" title="站点概览"><span class="icon iconify" data-icon="ri:passport-line"></span></li></ul><div class="sidebar-panel" id="site-overview-wrap"><div class="site-info fix-top"><a class="site-author-avatar" href="/about/" title="shouw"><img width="96" loading="lazy" src="/at.png" alt="shouw"><span class="site-author-status" title="Looking for dawn.">🌑</span></a><div class="site-author-name"><a href="/about/">shouw</a></div><a class="site-name" href="/about/site">shouwのblog</a><sub class="site-subtitle">一个普普通通的blog</sub><div class="site-description"></div></div><nav class="site-state"><a class="site-state-item hty-icon-button icon-home" href="/" title="首页"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:home-4-line"></span></span></a><div class="site-state-item"><a href="/archives/" title="归档"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:archive-line"></span></span><span class="site-state-item-count">10</span></a></div><div class="site-state-item"><a href="/categories/" title="分类"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:folder-2-line"></span></span><span class="site-state-item-count">0</span></a></div><div class="site-state-item"><a href="/tags/" title="标签"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="site-state-item-count">11</span></a></div><a class="site-state-item hty-icon-button" href="/about/#comment" title="留言板"><span class="site-state-item-icon"><span class="icon iconify" data-icon="ri:clipboard-line"></span></span></a></nav><hr style="margin-bottom:0.5rem"><div class="links-of-author"><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://github.com/TYDON1" title="GitHub" target="_blank" style="color:#6e5494"><span class="icon iconify" data-icon="ri:github-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://y.music.163.com/m/user?id=13864950143" title="网易云音乐" target="_blank" style="color:#C20C0C"><span class="icon iconify" data-icon="ri:netease-cloud-music-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://space.bilibili.com/1777771249" title="哔哩哔哩" target="_blank" style="color:#FF8EB3"><span class="icon iconify" data-icon="ri:bilibili-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d2205639587" title="QQ" target="_blank" style="color:#FF8EB3"><span class="icon iconify" data-icon="ri:qq-line"></span></a><a class="links-of-author-item hty-icon-button" rel="noopener" href="2205639587@gmail.com" title="E-Mail" target="_blank" style="color:#8E71C1"><span class="icon iconify" data-icon="ri:mail-line"></span></a></div><hr style="margin:0.5rem 1rem"><div class="links"><a class="links-item hty-icon-button" href="/links/" title="我的小伙伴们" style="color:dodgerblue"><span class="icon iconify" data-icon="ri:genderless-line"></span></a></div><br><a class="links-item hty-icon-button" id="toggle-mode-btn" href="javascript:;" title="Mode" style="color: #f1cb64"><span class="icon iconify" data-icon="ri:contrast-2-line"></span></a></div><div class="sidebar-panel sidebar-panel-active" id="post-toc-wrap"><div class="post-toc"><div class="post-toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#E-Power-of-Points-%E8%A7%A3%E9%A2%98%E6%80%9D%E8%B7%AF"><span class="toc-number">1.</span> <span class="toc-text">E. Power of Points 解题思路</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E9%97%AE%E9%A2%98%E5%88%86%E6%9E%90%E4%B8%8E%E6%95%B0%E5%AD%A6%E8%BD%AC%E5%8C%96"><span class="toc-number">1.1.</span> <span class="toc-text">核心问题分析与数学转化</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%8A%9F%E7%8E%87%E5%92%8C%E4%B8%8E%E7%BA%BF%E6%AE%B5%E9%95%BF%E5%BA%A6%E7%9A%84%E5%85%B3%E7%B3%BB"><span class="toc-number">1.1.1.</span> <span class="toc-text">1. 功率和与线段长度的关系</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E7%A6%BB%E6%95%A3%E5%8C%96%E4%B8%8E%E7%BB%93%E6%9E%9C%E7%BC%93%E5%AD%98"><span class="toc-number">1.1.2.</span> <span class="toc-text">2. 离散化与结果缓存</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A0%B8%E5%BF%83%E4%BC%98%E5%8C%96%EF%BC%9A%E5%B7%AE%E5%88%86%E9%80%92%E6%8E%A8%E8%AE%A1%E7%AE%97-s-x-i-%E4%B9%8B%E5%92%8C"><span class="toc-number">1.2.</span> <span class="toc-text">核心优化：差分递推计算 $|s - x_i|$ 之和</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%80%92%E6%8E%A8%E5%85%AC%E5%BC%8F%E7%9A%84%E5%BB%BA%E7%AB%8B"><span class="toc-number">1.2.1.</span> <span class="toc-text">递推公式的建立</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E8%AE%A1%E7%AE%97%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%82%B9-s-0-%E7%9A%84%E5%88%9D%E5%A7%8B%E5%80%BC"><span class="toc-number">1.2.2.</span> <span class="toc-text">3. 计算第一个点 $s_0$ 的初始值</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0"><span class="toc-number">1.3.</span> <span class="toc-text">C++ 代码实现</span></a></li></ol></li></ol></div></div></div></aside><main class="sidebar-translate" id="content"><div id="post"><article class="hty-card post-block" itemscope itemtype="https://schema.org/Article" style="--smc-primary:#0078E7;"><link itemprop="mainEntityOfPage" href="https://shouw.blog/2025/11/29/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E.%20Power%20of%20Points%22/"><span hidden itemprop="author" itemscope itemtype="https://schema.org/Person"><meta itemprop="name" content="shouw"><meta itemprop="description"></span><span hidden itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><meta itemprop="name" content="shouwのblog"></span><header class="post-header"><h1 class="post-title" itemprop="name headline">CF题解——E. Power of Points</h1><div class="post-meta"><div class="post-time" style="display:block"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-line"></span></span> <time title="创建时间：2025-11-29 21:17:20" itemprop="dateCreated datePublished" datetime="2025-11-29T21:17:20+08:00">2025-11-29</time><span class="post-meta-divider">-</span><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:calendar-2-line"></span></span> <time title="修改时间：2025-11-30 13:21:45" itemprop="dateModified" datetime="2025-11-30T13:21:45+08:00">2025-11-30</time></div><span class="post-count"><span class="post-symbolcount"><span class="post-meta-item-icon" title="本文字数"><span class="icon iconify" data-icon="ri:file-word-line"></span></span> <span title="本文字数">1.2k</span><span class="post-meta-divider">-</span><span class="post-meta-item-icon" title="阅读时长"><span class="icon iconify" data-icon="ri:timer-line"></span></span> <span title="阅读时长">5m</span></span></span><div class="post-classify"><span class="post-tag"><a class="tag-item" href="/tags/%E7%BC%96%E7%A8%8B/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">编程</span></a><a class="tag-item" href="/tags/%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">算法竞赛</span></a><a class="tag-item" href="/tags/%E9%A2%98%E8%A7%A3/" style="--text-color:var(--hty-text-color)"><span class="post-meta-item-icon"><span class="icon iconify" data-icon="ri:price-tag-3-line"></span></span><span class="tag-name">题解</span></a></span></div><div class="post-author"><div class="author-avatar"><img src="https://www.gravatar.com/avatar/4b4527512eeed2f9efb7410d2d80ac96?s=20&amp;d=https%3A%2F%2Fcdn.yunyoujun.cn%2Fimg%2Favatar%2Fnone.jpg"></div><span class="author-name">shouw</span></div></div></header><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"><h1 id="E-Power-of-Points-解题思路"><a href="#E-Power-of-Points-解题思路" class="headerlink" title="E. Power of Points 解题思路"></a>E. Power of Points 解题思路</h1><h2 id="核心问题分析与数学转化"><a href="#核心问题分析与数学转化" class="headerlink" title="核心问题分析与数学转化"></a>核心问题分析与数学转化</h2>
+本题要求对于给定的点集 $X = \{x_1, x_2, \dots, x_n\}$，对集合中每一个 $s \in X$，计算总功率和 $\sum_{p=1}^{10^9} f_p$。其中 $f_p$ 定义为与点 $p$ 相交的线段 $[s, x_i]$ 的数量。
+
+<h3 id="1-功率和与线段长度的关系"><a href="#1-功率和与线段长度的关系" class="headerlink" title="1. 功率和与线段长度的关系"></a>1. 功率和与线段长度的关系</h3><p>一个关键的观察是，一个线段 $[a, b]$ (不妨设 $a \le b$) 覆盖的整数点数量（即对总功率和 $\sum f_p$ 的贡献）恰好是其<strong>长度</strong> $b - a + 1$。</p>
+
+线段 $[s, x_i]$ 的长度为：
+
+$$
+\text{Length}([s, x_i]) = |\max(s, x_i) - \min(s, x_i)| + 1 = |s - x_i| + 1
+$$
+
+
+
+因此，总功率和 $\sum_{p=1}^{10^9} f_p$ 实际上等于所有 $n$ 条线段长度之和：
+
+$$
+\text{Total Power}(s) = \sum_{i=1}^{n} \text{Length}([s, x_i]) = \sum_{i=1}^{n} (|s - x_i| + 1)
+$$
+
+
+<p>总和可以简化为：<br>
+
+$$
+\text{Total Power}(s) = n + \sum_{i=1}^{n} |s - x_i|
+$$
+
+<br>
+我们的核心任务，便转化成了对每一个 $s \in X$，高效计算 $\sum_{i=1}^{n} |s - x_i|$。
+</p>
+<h3 id="2-离散化与结果缓存"><a href="#2-离散化与结果缓存" class="headerlink" title="2. 离散化与结果缓存"></a>2. 离散化与结果缓存</h3><p>由于输入点 $x_i$ 的坐标范围高达 $10^9$，但点的数量 $N$ 较小（$\le 2 \cdot 10^5$），我们采用以下策略来优化计算：</p>
+<ul>
+<li><strong>数据预处理</strong>：对原始输入进行排序，以便进行差分计算。</li>
+<li><strong>结果缓存</strong>：使用 <code>std::map&lt;long long, long long&gt; data_map</code> 存储每个<strong>不重复</strong>的 $s$ 坐标及其对应的总功率和，以应对原始输入中存在的重复点。</li>
+</ul>
+<hr>
+<h2 id="核心优化：差分递推计算-s-x-i-之和"><a href="#核心优化：差分递推计算-s-x-i-之和" class="headerlink" title="核心优化：差分递推计算 $|s - x_i|$ 之和"></a>核心优化：差分递推计算 $|s - x_i|$ 之和</h2><p>为了实现 $O(N \log N)$ 的时间复杂度（主要耗费在排序上），我们使用<strong>差分</strong>（Differential）思想。</p>
+
+设 $S(s) = \sum_{j=1}^{n} |s - x_j|$。我们对排序后的去重点 $s_{i}$ 和 $s_{i+1}$ 进行分析，差值 $\Delta = s_{i+1} - s_i > 0$。通过已知的 $S_{curr}$ 来快速计算相邻点 $S_{next}$。
+
+<h3 id="递推公式的建立"><a href="#递推公式的建立" class="headerlink" title="递推公式的建立"></a>递推公式的建立</h3>
+当 $s$ 从 $s_i$ 变化到 $s_{i+1}$ 时，每个 $x_j$ 对总和的贡献变化量 $\Delta_j$ 为：
+
+$$
+\Delta_j = |s_{i+1} - x_j| - |s_i - x_j|
+$$
+
+
+<ol>
+<li>对于 $x_j \le s_i$ (左侧)：
+    
+    $$
+    \Delta_j = (s_{i+1} - x_j) - (s_i - x_j) = s_{i+1} - s_i = \Delta
+    $$
+    
+    (贡献增加 $\Delta$)</li>
+<li>对于 $x_j > s_{i+1}$ (右侧)：
+    
+    $$
+    \Delta_j = (x_j - s_{i+1}) - (x_j - s_i) = s_i - s_{i+1} = -\Delta
+    $$
+    
+    (贡献减少 $\Delta$)
+</li>
+</ol>
+<p><strong>递推关系：</strong><br>
+
+$$
+S(s_{i+1}) = S(s_i) + \sum_{j=1}^{n} \Delta_j
+$$
+
+<br>
+设 $L$ 为 $x_j \le s_i$ 的点数，$R$ 为 $x_j > s_{i+1}$ 的点数。总和变化量 $\text{Diff}$ 为：
+
+$$
+\text{Diff} = L \cdot \Delta - R \cdot \Delta = (L - R) \cdot (s_{i+1} - s_i)
+$$
+
+</p>
+<h3 id="3-计算第一个点-s-0-的初始值"><a href="#3-计算第一个点-s-0-的初始值" class="headerlink" title="3. 计算第一个点 $s_0$ 的初始值"></a>3. 计算第一个点 $s_0$ 的初始值</h3>
+对于排序后的第一个点 $s_0 = data[0]$，所有 $x_j \ge s_0$，因此 $|s_0 - x_j| = x_j - s_0$。
+
+$$
+\sum_{j=1}^{n} |s_0 - x_j| = \sum_{j=1}^{n} (x_j - s_0) = \left(\sum_{j=1}^{n} x_j\right) - n \cdot s_0
+$$
+
+初始总功率和 $S_0$ 为：
+
+$$
+S_0 = n + \left(\sum_{j=1}^{n} x_j\right) - n \cdot s_0
+$$
+
+
+<hr>
+<h2 id="C-代码实现"><a href="#C-代码实现" class="headerlink" title="C++ 代码实现"></a>C++ 代码实现</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// N: 数据点的数量</span></span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> data_number;</span><br><span class="line">    <span class="comment">// current_sum: 用于保存 Σ|s - x_i| 的当前值 (距离和)</span></span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> current_sum = <span class="number">0</span>;</span><br><span class="line">    </span><br><span class="line">    cin &gt;&gt; data_number;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// data: 存储原始输入坐标，用于排序和递推</span></span><br><span class="line">    <span class="function">vector&lt;<span class="type">long</span> <span class="type">long</span>&gt; <span class="title">data</span><span class="params">(data_number)</span></span>;</span><br><span class="line">    <span class="comment">// ans_order: 存储原始输入顺序，用于最后按原顺序输出</span></span><br><span class="line">    <span class="function">vector&lt;<span class="type">long</span> <span class="type">long</span>&gt; <span class="title">ans_order</span><span class="params">(data_number)</span></span>; </span><br><span class="line">    </span><br><span class="line">    <span class="comment">// result_map: 存储去重后的 s 坐标及其对应的总功率和（结果）</span></span><br><span class="line">    map&lt;<span class="type">long</span> <span class="type">long</span>, <span class="type">long</span> <span class="type">long</span>&gt; result_map;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 1. 读取数据并计算所有 x_i 的总和，同时保存原始顺序</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">long</span> <span class="type">long</span> i = <span class="number">0</span>; i &lt; data_number; i++) &#123;</span><br><span class="line">        cin &gt;&gt; data[i];</span><br><span class="line">        ans_order[i] = data[i]; <span class="comment">// 保存原始顺序</span></span><br><span class="line">        current_sum += data[i]; <span class="comment">// 累加所有 x_i (Σx_i)</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 2. 排序，为差分递推做准备</span></span><br><span class="line">    <span class="built_in">sort</span>(data.<span class="built_in">begin</span>(), data.<span class="built_in">end</span>());</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 3. 计算第一个点 data[0] 的初始 Σ|s - x_i|</span></span><br><span class="line">    <span class="comment">// current_sum = (Σx_i) - n * data[0]</span></span><br><span class="line">    current_sum = current_sum - data[<span class="number">0</span>] * data_number; </span><br><span class="line">    </span><br><span class="line">    <span class="comment">// S_0 (总功率和) = Σ|s_0 - x_i| + n</span></span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> s0_total_power = data_number + current_sum; </span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 将第一个点 data[0] 的结果存入 Map</span></span><br><span class="line">    result_map[data[<span class="number">0</span>]] = s0_total_power;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 4. 差分递推计算后续点 S_i 的结果</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">long</span> <span class="type">long</span> i = <span class="number">0</span>; i &lt; data_number - <span class="number">1</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (data[i + <span class="number">1</span>] != data[i]) &#123;</span><br><span class="line">            <span class="comment">// 变化量 Δ = data[i+1] - data[i]</span></span><br><span class="line">            <span class="type">long</span> <span class="type">long</span> delta = data[i + <span class="number">1</span>] - data[i];</span><br><span class="line">            </span><br><span class="line">            <span class="comment">// L: 左侧点数，即 x_j &lt;= data[i] 的数量 (包含 data[0] 到 data[i])</span></span><br><span class="line">            <span class="type">long</span> <span class="type">long</span> L = i + <span class="number">1</span>; </span><br><span class="line">            </span><br><span class="line">            <span class="comment">// R: 右侧点数，即 x_j &gt; data[i+1] 的数量</span></span><br><span class="line">            <span class="comment">// R = 总点数 - (i + 2)</span></span><br><span class="line">            <span class="type">long</span> <span class="type">long</span> R = data_number - (i + <span class="number">2</span>); </span><br><span class="line">            </span><br><span class="line">            <span class="comment">// 递推核心： S_next - S_curr = L * Δ - R * Δ</span></span><br><span class="line">            <span class="type">long</span> <span class="type">long</span> diff = (L * delta) - (R * delta);</span><br><span class="line"></span><br><span class="line">            <span class="comment">// 更新 current_sum (Σ|s - x_i|)</span></span><br><span class="line">            current_sum += diff;</span><br><span class="line">            </span><br><span class="line">            <span class="comment">// 更新 S(s) 的总功率和 (Σ|s - x_i| + n)</span></span><br><span class="line">            result_map[data[i + <span class="number">1</span>]] = current_sum + data_number;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 5. 按原始输入顺序输出结果</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">long</span> <span class="type">long</span> i = <span class="number">0</span>; i &lt; data_number; i++) &#123;</span><br><span class="line">        cout &lt;&lt; result_map[ans_order[i]] &lt;&lt; <span class="string">&#x27; &#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    cout &lt;&lt; <span class="string">&#x27;\n&#x27;</span>;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 优化 I/O 速度</span></span><br><span class="line">    ios_base::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> test;</span><br><span class="line">    cin &gt;&gt; test;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (test--) &#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</div></section><div id="reward-container"><span class="hty-icon-button button-glow" id="reward-button" title="打赏" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === &quot;none&quot;) ? &quot;block&quot; : &quot;none&quot;;"><span class="icon iconify" data-icon="ri:hand-coin-line"></span></span><div id="reward-comment">如果这些对你有帮助的话也可以请我喝一杯咖啡（bushi</div><div id="qr" style="display:none;"><div style="display:inline-block"><a href="https://shouw.blog/zfb.jpg"><img loading="lazy" src="https://shouw.blog/zfb.jpg" alt="支付宝" title="支付宝"></a><div><span style="color:#00A3EE"><span class="icon iconify" data-icon="ri:alipay-line"></span></span></div></div><div style="display:inline-block"><a href="https://shouw.blog/wx.png"><img loading="lazy" src="https://shouw.blog/wx.png" alt="微信支付" title="微信支付"></a><div><span style="color:#2DC100"><span class="icon iconify" data-icon="ri:wechat-pay-line"></span></span></div></div></div></div><ul class="post-copyright"><li class="post-copyright-author"><strong>本文作者：</strong>shouw</li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://shouw.blog/2025/11/29/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E.%20Power%20of%20Points%22/" title="CF题解——E. Power of Points">https://shouw.blog/2025/11/29/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E.%20Power%20of%20Points%22/</a></li><li class="post-copyright-license"><strong>版权声明：</strong>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 "><span class="icon iconify" data-icon="ri:creative-commons-line"></span><span class="icon iconify" data-icon="ri:creative-commons-by-line"></span><span class="icon iconify" data-icon="ri:creative-commons-nc-line"></span><span class="icon iconify" data-icon="ri:creative-commons-sa-line"></span></a> 许可协议。</li></ul></article><div class="post-nav"><div class="post-nav-item"><a class="post-nav-prev" href="/2025/11/30/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C.%20The%20Ancient%20Wizards'%20Capes%22/" rel="prev" title="CF题解——C. The Ancient Wizards' Capes"><span class="icon iconify" data-icon="ri:arrow-left-s-line"></span><span class="post-nav-text">CF题解——C. The Ancient Wizards' Capes</span></a></div><div class="post-nav-item"><a class="post-nav-next" href="/2025/11/15/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C.%20Trip%20to%20the%20Olympiad%22/" rel="next" title="CF题解——C. Trip to the Olympiad"><span class="post-nav-text">CF题解——C. Trip to the Olympiad</span><span class="icon iconify" data-icon="ri:arrow-right-s-line"></span></a></div></div></div><div class="hty-card" id="comment"></div></main><footer class="sidebar-translate" id="footer"><div class="copyright"><span>&copy; 2019 – 2025 </span><span class="with-love" id="animate"><span class="icon iconify" data-icon="ri:cloud-line"></span></span><span class="author"> shouw</span></div><div class="powered"><span>由 <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a> 驱动 v8.0.0</span><span class="footer-separator">|</span><span>主题 - <a rel="noopener" href="https://github.com/YunYouJun/hexo-theme-yun" target="_blank"><span>Yun</span></a> v1.10.11</span></div></footer></div><a class="hty-icon-button" id="back-to-top" aria-label="back-to-top" href="#"><span class="icon iconify" data-icon="ri:arrow-up-s-line"></span><svg class="progress-circle-container" viewBox="0 0 100 100"><circle class="progress-circle" id="progressCircle" cx="50" cy="50" r="48" fill="none" stroke="#0078E7" stroke-width="2" stroke-linecap="round"></circle></svg></a></body></html>
