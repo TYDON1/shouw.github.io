@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <meta property="og:description" content="G. Garage 解题思路核心问题分析与数学转化根据题意，合适的数 $x$ 必须能被表示为 $b^2 - a^2$，其中 $a$ 和 $b$ 是正整数 ($a, b \in \mathbb{Z}^+$) 且 $a &lt; b$.  我们对平方差公式进行因式分解：  $$ x &#x3D; b^2 - a^2 &#x3D; (b - a)(b + a) $$   设 $k &#x3D; b - a$，$m &#x3D; b + a$.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-12-08T02:34:22.000Z">
-<meta property="article:modified_time" content="2025-12-08T02:42:46.235Z">
+<meta property="article:modified_time" content="2025-12-08T02:44:17.597Z">
 <meta property="article:author" content="shouw">
 <meta property="article:tag" content="算法竞赛">
 <meta property="article:tag" content="编程">
@@ -78,9 +78,9 @@ $$
 <h3 id="2-排除不合适的数-Unsuitable-Numbers"><a href="#2-排除不合适的数-Unsuitable-Numbers" class="headerlink" title="2. 排除不合适的数 (Unsuitable Numbers)"></a>2. 排除不合适的数 (Unsuitable Numbers)</h3><p>只有当 $x$ <strong>不能</strong>分解为两个奇偶性相同的因子时，它才是不合适的数。</p>
 <h4 id="排除规则-1：基于模-4-性质-x-equiv-2-pmod-4"><a href="#排除规则-1：基于模-4-性质-x-equiv-2-pmod-4" class="headerlink" title="排除规则 1：基于模 4 性质 ($x \equiv 2 \pmod 4$)"></a>排除规则 1：基于模 4 性质 ($x \equiv 2 \pmod 4$)</h4>
 
-* 如果一个数 $x$ 除以 $ 4$ 余 $ 2$（即 $x \equiv 2 \pmod 4$，如 $ 2, 6, 10, \dots$），它一定不能被表示为 $b^2 - a^2$。
-* 原因：平方数 $n^2 \equiv 0$ 或 $ 1 \pmod 4$。因此，$b^2 - a^2$ 永远不可能是 $ 2 \pmod 4$.
-* 结论： **所有 $x \equiv 2 \pmod 4$ 的数都不是合适的数。**
+如果一个数 $x$ 除以 $ 4$ 余 $ 2$（即 $x \equiv 2 \pmod 4$，如 $ 2, 6, 10, \dots$），它一定不能被表示为 $b^2 - a^2$。
+原因：平方数 $n^2 \equiv 0$ 或 $ 1 \pmod 4$。因此，$b^2 - a^2$ 永远不可能是 $ 2 \pmod 4$.
+结论： 所有 $x \equiv 2 \pmod 4$ 的数都不是合适的数。
   
 <h4 id="排除规则-2：特殊情况-x-1-和-x-4"><a href="#排除规则-2：特殊情况-x-1-和-x-4" class="headerlink" title="排除规则 2：特殊情况 $x=1$ 和 $x=4$"></a>排除规则 2：特殊情况 $x=1$ 和 $x=4$</h4><ol>
 <li><strong>$x=1$：</strong> 因子只有 $(1, 1)$. 解得 $a = (1-1)/2 = 0$. 由于 $a \ge 1$ 必须是正整数，故 $x=1$ <b>不合适</b>。</li>
