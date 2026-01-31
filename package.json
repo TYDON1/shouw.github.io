@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "build": "npm run build:ssg",
-    "build:spa": "valaxy build --base /",
-    "build:ssg": "valaxy build --ssg --base /",
+    "build:spa": "valaxy build",
+    "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
     "rss": "valaxy rss",
     "serve": "vite preview"
