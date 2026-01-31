@@ -2,7 +2,7 @@
 title: 我的小伙伴们
 keywords: 链接
 description: shouw的小伙伴们
-links: 
+links: https://friends.yunyoujun.cn/links.json
 random: true
 ---
 
