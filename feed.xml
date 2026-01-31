@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Sat, 31 Jan 2026 11:28:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 11:37:58 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,20 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CF题解——Max GEQ Sum]]></title>
+            <link>https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"</guid>
+            <pubDate>Sat, 31 Jan 2026 14:10:22 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Max GEQ Sum 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目要求判断对于数组中所有的子区间 $[i, j]$，是否都满足：区间最大值 $\ge$ 区间和。<br>
+即：</p>
+<p>$$<br>
+\max(a_</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"" target="_blank">https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Restricted Sorting]]></title>
             <link>https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</link>

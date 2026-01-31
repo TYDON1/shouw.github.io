@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"CF题解——D. Max GEQ Sum\"",
+            "content_html": "<h1>D. Max GEQ Sum 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目要求判断对于数组中所有的子区间 $[i, j]$，是否都满足：区间最大值 $\\ge$ 区间和。<br>\n即：</p>\n<p>$$<br>\n\\max(a_</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——D. Max GEQ Sum\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——D. Max GEQ Sum\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——D. Max GEQ Sum\"",
+            "title": "CF题解——Max GEQ Sum",
+            "date_modified": "2026-01-31T14:10:22.000Z",
+            "date_published": "2026-01-31T14:10:22.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"",
             "content_html": "<h1>C. Restricted Sorting 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目给定一个数组 $a$，并定义了一种交换操作：只有当 $|a_i - a_j| \\ge k$ 时，才能交换 $a</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"",
