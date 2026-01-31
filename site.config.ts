@@ -4,8 +4,10 @@ export default defineSiteConfig({
   url: 'https://shouw.blog/',
   lang: 'zh-CN',
   title: 'shouwのblog',
+  subtitle: '一个用于记录成长历程的blog',
   author: {
     name: 'shouw',
+    avatar: 'https://shouw.blog/public/avatar.jpg',
   },
   description: '欢迎来到我的个人blog',
   social: [
@@ -14,6 +16,12 @@ export default defineSiteConfig({
       link: '/atom.xml',
       icon: 'i-ri-rss-line',
       color: 'orange',
+    },
+    {
+      name: 'QQ',
+      link: 'https://shouw.blog/public/QQ.png',
+      icon: 'i-ri-qq-line',
+      color: '#12B7F5',
     },
     {
       name: 'GitHub',
@@ -41,23 +49,17 @@ export default defineSiteConfig({
 
   sponsor: {
     enable: true,
-    title: '如果我的内容对你有帮助的话可以赞助我一杯咖啡（bushi',
+    title: '如果我的内容对你有帮助的话可以赞助我一杯咖啡',
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
+        url: 'https://shouw.blog/public/ZFB.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
-        name: 'QQ 支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png',
-        color: '#12B7F5',
-        icon: 'i-ri-qq-line',
-      },
-      {
         name: '微信支付',
-        url: 'https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg',
+        url: 'https://shouw.blog/public/WX.jpg',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
