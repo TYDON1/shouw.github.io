@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-01-31T09:11:23.390Z</updated>
+    <updated>2026-01-31T09:39:34.536Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -16,7 +16,7 @@
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
     <entry>
-        <title type="html"><![CDATA[CF题解——C. Restricted Sorting]]></title>
+        <title type="html"><![CDATA[CF题解——Restricted Sorting]]></title>
         <id>https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——C. Restricted Sorting&quot;"/>
         <updated>2026-01-30T09:11:09.000Z</updated>
@@ -32,21 +32,13 @@
         <published>2026-01-30T09:11:09.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——D. Boris and His Amazing Haircut]]></title>
+        <title type="html"><![CDATA[CF题解——Boris and His Amazing Haircut]]></title>
         <id>https://shouw.blog/posts/"CF题解——D. Boris and His"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——D. Boris and His&quot;"/>
         <updated>2026-01-10T17:25:59.000Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>编程</li>
-<li>算法竞赛</li>
-<li>题解</li>
-<li>贪心</li>
-<li>数据结构</li>
-</ul>
-<hr>
-<h1>D. Boris and His Amazing Haircut 解题思路</h1>
+        <content type="html"><![CDATA[<h1>D. Boris and His Amazing Haircut 解题思路</h1>
 <h3>核心问题分析</h3>
-<p>本题要求判断是否可以通</p>
+<p>本题要求判断是否可以通过给定数量和规格的剃刀，将初始发型高度数组 $A$ 修剪为目标发型高度</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Boris and His"" target="_blank">https://shouw.blog/posts/"CF题解——D. Boris and His"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -71,7 +63,7 @@
         <published>2025-12-30T10:54:55.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——E. Data Structures Fan]]></title>
+        <title type="html"><![CDATA[CF题解——Data Structures Fan]]></title>
         <id>https://shouw.blog/posts/"CF题解——E. Data Structures Fan"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——E. Data Structures Fan&quot;"/>
         <updated>2025-12-29T16:12:42.000Z</updated>
@@ -91,14 +83,15 @@
         <published>2025-12-29T16:12:42.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——D. Shohag Loves GCD]]></title>
+        <title type="html"><![CDATA[CF题解——Shohag Loves GCD]]></title>
         <id>https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——D. Shohag Loves GCD&quot;"/>
         <updated>2025-12-29T14:36:41.000Z</updated>
         <content type="html"><![CDATA[<h1>D. Shohag Loves GCD 解题思路</h1>
 <h3>核心问题分析</h3>
-<p>题目要求我们构造一个字典序最大的数组 $a$，使得对于任意 $1 \le i &lt; j \le n$，满足：<br>
-{% ra</p>
+<p>题目要求我们构造一个字典序最大的数组 $a$，使得对于任意 $1 \le i &lt; j \le n$，满足：</p>
+<p>$$<br>
+a</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"" target="_blank">https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -108,16 +101,15 @@
         <published>2025-12-29T14:36:41.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——C. Serval and The Formula]]></title>
+        <title type="html"><![CDATA[CF题解——Serval and The Formula]]></title>
         <id>https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——C. Serval and The Formula&quot;"/>
         <updated>2025-12-26T15:41:22.000Z</updated>
         <content type="html"><![CDATA[<h1>C. Serval and The Formula 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
 <p>本题要求找到一个非负整数 $k$，使得：</p>
-<p>{% raw %}<br>
-$$<br>
-(x+k) + (y+k)</p>
+<p>$$<br>
+(x+k) + (y+k) = (x+k</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Serval and The Formula"" target="_blank">https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -127,7 +119,7 @@ $$<br>
         <published>2025-12-26T15:41:22.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——E. Graph Composition]]></title>
+        <title type="html"><![CDATA[CF题解——Graph Composition]]></title>
         <id>https://shouw.blog/posts/"CF题解——E. Graph Composition"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——E. Graph Composition&quot;"/>
         <updated>2025-12-18T17:03:21.000Z</updated>
@@ -143,7 +135,7 @@ $$<br>
         <published>2025-12-18T17:03:21.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——D. Fibonacci Paths]]></title>
+        <title type="html"><![CDATA[CF题解——Fibonacci Paths]]></title>
         <id>https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——D. Fibonacci Paths&quot;"/>
         <updated>2025-12-15T08:21:21.000Z</updated>
@@ -159,7 +151,7 @@ $$<br>
         <published>2025-12-15T08:21:21.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——G. Garage]]></title>
+        <title type="html"><![CDATA[CF题解——Garage]]></title>
         <id>https://shouw.blog/posts/"CF题解——G. Garage"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——G. Garage&quot;"/>
         <updated>2025-12-08T10:34:22.000Z</updated>
@@ -175,7 +167,7 @@ $$<br>
         <published>2025-12-08T10:34:22.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——H. Beppa and SwerChat]]></title>
+        <title type="html"><![CDATA[CF题解——Beppa and SwerChat]]></title>
         <id>https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——H. Beppa and SwerChat&quot;"/>
         <updated>2025-12-05T14:12:51.000Z</updated>
@@ -191,14 +183,13 @@ $$<br>
         <published>2025-12-05T14:12:51.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——E. Block Sequence]]></title>
+        <title type="html"><![CDATA[CF题解——Block Sequence]]></title>
         <id>https://shouw.blog/posts/"CF题解——E. Block Sequence"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——E. Block Sequence&quot;"/>
         <updated>2025-12-04T09:09:27.000Z</updated>
         <content type="html"><![CDATA[<h1>E. Block Sequence 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
-<p>{% raw %}<br>
-本题要求找到使给定序列 $a$ 成为“美丽序列”所需的最小删除次数。一个美丽序列由一系列“块</p>
+<p>本题要求找到使给定序列 $a$ 成为“美丽序列”所需的最小删除次数。一个美丽序列由一系列“块”构成，每个块以其</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Block Sequence"" target="_blank">https://shouw.blog/posts/"CF题解——E. Block Sequence"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -208,14 +199,13 @@ $$<br>
         <published>2025-12-04T09:09:27.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——F. Final Boss]]></title>
+        <title type="html"><![CDATA[CF题解——Final Boss]]></title>
         <id>https://shouw.blog/posts/"CF题解——F. Final Boss"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——F. Final Boss&quot;"/>
         <updated>2025-12-02T10:27:47.000Z</updated>
         <content type="html"><![CDATA[<h1>F. Final Boss 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
-<p>{% raw %}<br>
-本题要求找到击败生命值为 $H$ 的 Boss 所需的<strong>最少回合数</strong> $R$。我们有 $N$ 种</p>
+<p>本题要求找到击败生命值为 $H$ 的 Boss 所需的<strong>最少回合数</strong> $R$。我们有 $N$ 种攻击，第 $i$</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——F. Final Boss"" target="_blank">https://shouw.blog/posts/"CF题解——F. Final Boss"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -230,8 +220,7 @@ $$<br>
         <link href="https://shouw.blog/posts/&quot;内网穿透简单教程&quot;"/>
         <updated>2025-12-01T14:11:29.000Z</updated>
         <content type="html"><![CDATA[<h1>使用 Docker 部署 frp 实现内网穿透</h1>
-<p>{% raw %}<br>
-frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助你将处于内网或防火墙后的设备（如个人电脑、树</p>
+<p>frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助你将处于内网或防火墙后的设备（如个人电脑、树莓派等）暴露给</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"内网穿透简单教程"" target="_blank">https://shouw.blog/posts/"内网穿透简单教程"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -241,14 +230,13 @@ frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助�
         <published>2025-12-01T14:11:29.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——C. Beautiful Sequence]]></title>
+        <title type="html"><![CDATA[CF题解——Beautiful Sequence]]></title>
         <id>https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——C. Beautiful Sequence&quot;"/>
         <updated>2025-12-01T10:30:52.000Z</updated>
         <content type="html"><![CDATA[<h1>C. Beautiful Sequence 解题思路</h1>
 <h2>摘要与问题转化</h2>
-<p>{% raw %}<br>
-本题要求在一个仅包含数字 $ 1, 2, 3$ 的序列中，计算“完美子序列”的数量。一个完美子</p>
+<p>本题要求在一个仅包含数字 $ 1, 2, 3$ 的序列中，计算“完美子序列”的数量。一个完美子序列定义为形如</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"" target="_blank">https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -258,31 +246,13 @@ frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助�
         <published>2025-12-01T10:30:52.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——C. The Ancient Wizards' Capes]]></title>
-        <id>https://shouw.blog/posts/"CF题解——C. The Ancient Wizards' Capes"</id>
-        <link href="https://shouw.blog/posts/&quot;CF题解——C. The Ancient Wizards' Capes&quot;"/>
-        <updated>2025-11-30T15:07:50.000Z</updated>
-        <content type="html"><![CDATA[<h1>C. The Ancient Wizards' Capes 解题思路</h1>
-<h2>核心问题分析与数学转化</h2>
-<p>{% raw %}<br>
-本题的本质是一个关于<b>相邻巫师斗篷朝向</b>的逻辑递推问题。我</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. The Ancient Wizards' Capes"" target="_blank">https://shouw.blog/posts/"CF题解——C. The Ancient Wizards' Capes"</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>shouw</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-11-30T15:07:50.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CF题解——E. Power of Points]]></title>
+        <title type="html"><![CDATA[CF题解——Power of Points]]></title>
         <id>https://shouw.blog/posts/"CF题解——E. Power of Points"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——E. Power of Points&quot;"/>
         <updated>2025-11-29T21:17:20.000Z</updated>
         <content type="html"><![CDATA[<h1>E. Power of Points 解题思路</h1>
 <h2>核心问题分析与数学转化</h2>
-<p>{% raw %}<br>
-本题要求对于给定的点集 $X = {x_1, x_2, \dots, x_n}$，对集合</p>
+<p>本题要求对于给定的点集 $X = {x_1, x_2, \dots, x_n}$，对集合中每一个 $s \</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Power of Points"" target="_blank">https://shouw.blog/posts/"CF题解——E. Power of Points"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
@@ -292,7 +262,7 @@ frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助�
         <published>2025-11-29T21:17:20.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[CF题解——C. Trip to the Olympiad]]></title>
+        <title type="html"><![CDATA[CF题解——Trip to the Olympiad]]></title>
         <id>https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——C. Trip to the Olympiad&quot;"/>
         <updated>2025-11-15T18:44:45.000Z</updated>

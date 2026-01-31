@@ -14,7 +14,7 @@
             "id": "https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"",
             "content_html": "<h1>C. Restricted Sorting 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目给定一个数组 $a$，并定义了一种交换操作：只有当 $|a_i - a_j| \\ge k$ 时，才能交换 $a</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——C. Restricted Sorting\"",
-            "title": "CF题解——C. Restricted Sorting",
+            "title": "CF题解——Restricted Sorting",
             "date_modified": "2026-01-30T09:11:09.000Z",
             "date_published": "2026-01-30T09:11:09.000Z",
             "author": {
@@ -24,9 +24,9 @@
         },
         {
             "id": "https://shouw.blog/posts/\"CF题解——D. Boris and His\"",
-            "content_html": "<ul>\n<li>编程</li>\n<li>算法竞赛</li>\n<li>题解</li>\n<li>贪心</li>\n<li>数据结构</li>\n</ul>\n<hr>\n<h1>D. Boris and His Amazing Haircut 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>本题要求判断是否可以通</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——D. Boris and His\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——D. Boris and His\"</a> 阅读全文。</p>",
+            "content_html": "<h1>D. Boris and His Amazing Haircut 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>本题要求判断是否可以通过给定数量和规格的剃刀，将初始发型高度数组 $A$ 修剪为目标发型高度</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——D. Boris and His\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——D. Boris and His\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——D. Boris and His\"",
-            "title": "CF题解——D. Boris and His Amazing Haircut",
+            "title": "CF题解——Boris and His Amazing Haircut",
             "date_modified": "2026-01-10T17:25:59.000Z",
             "date_published": "2026-01-10T17:25:59.000Z",
             "author": {
@@ -50,7 +50,7 @@
             "id": "https://shouw.blog/posts/\"CF题解——E. Data Structures Fan\"",
             "content_html": "<h1>E. Data Structures Fan 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目给定一个数组 $a$ 和一个二进制字符串 $s$。<br>\n我们需要处理两种操作：</p>\n<ol>\n<li><strong>区间反转：</strong> 给定</li>\n</ol>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Data Structures Fan\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Data Structures Fan\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——E. Data Structures Fan\"",
-            "title": "CF题解——E. Data Structures Fan",
+            "title": "CF题解——Data Structures Fan",
             "date_modified": "2025-12-29T16:12:42.000Z",
             "date_published": "2025-12-29T16:12:42.000Z",
             "author": {
@@ -60,9 +60,9 @@
         },
         {
             "id": "https://shouw.blog/posts/\"CF题解——D. Shohag Loves GCD\"",
-            "content_html": "<h1>D. Shohag Loves GCD 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目要求我们构造一个字典序最大的数组 $a$，使得对于任意 $1 \\le i &lt; j \\le n$，满足：<br>\n{% ra</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——D. Shohag Loves GCD\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——D. Shohag Loves GCD\"</a> 阅读全文。</p>",
+            "content_html": "<h1>D. Shohag Loves GCD 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目要求我们构造一个字典序最大的数组 $a$，使得对于任意 $1 \\le i &lt; j \\le n$，满足：</p>\n<p>$$<br>\na</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——D. Shohag Loves GCD\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——D. Shohag Loves GCD\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——D. Shohag Loves GCD\"",
-            "title": "CF题解——D. Shohag Loves GCD",
+            "title": "CF题解——Shohag Loves GCD",
             "date_modified": "2025-12-29T14:36:41.000Z",
             "date_published": "2025-12-29T14:36:41.000Z",
             "author": {
@@ -72,9 +72,9 @@
         },
         {
             "id": "https://shouw.blog/posts/\"CF题解——C. Serval and The Formula\"",
-            "content_html": "<h1>C. Serval and The Formula 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>本题要求找到一个非负整数 $k$，使得：</p>\n<p>{% raw %}<br>\n$$<br>\n(x+k) + (y+k)</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. Serval and The Formula\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. Serval and The Formula\"</a> 阅读全文。</p>",
+            "content_html": "<h1>C. Serval and The Formula 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>本题要求找到一个非负整数 $k$，使得：</p>\n<p>$$<br>\n(x+k) + (y+k) = (x+k</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. Serval and The Formula\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. Serval and The Formula\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——C. Serval and The Formula\"",
-            "title": "CF题解——C. Serval and The Formula",
+            "title": "CF题解——Serval and The Formula",
             "date_modified": "2025-12-26T15:41:22.000Z",
             "date_published": "2025-12-26T15:41:22.000Z",
             "author": {
@@ -86,7 +86,7 @@
             "id": "https://shouw.blog/posts/\"CF题解——E. Graph Composition\"",
             "content_html": "<h1>E. Graph Composition 解题思路</h1>\n<h2>核心问题分析与转化</h2>\n<p>这道题的目标是让图 $F$ 的连通性变得和图 $G$ 完全一样。所谓“连通性一样”，意思就是：如果在图 $G$</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Graph Composition\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Graph Composition\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——E. Graph Composition\"",
-            "title": "CF题解——E. Graph Composition",
+            "title": "CF题解——Graph Composition",
             "date_modified": "2025-12-18T17:03:21.000Z",
             "date_published": "2025-12-18T17:03:21.000Z",
             "author": {
@@ -98,7 +98,7 @@
             "id": "https://shouw.blog/posts/\"CF题解——D. Fibonacci Paths\"",
             "content_html": "<h1>D. Fibonacci Paths 详细解题思路</h1>\n<h2>核心问题与数学性质</h2>\n<p>本题要求找出有向图中所有长度 $k \\ge 2$ 的简单路径 $v_0 \\to v_1 \\to \\dots \\t</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——D. Fibonacci Paths\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——D. Fibonacci Paths\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——D. Fibonacci Paths\"",
-            "title": "CF题解——D. Fibonacci Paths",
+            "title": "CF题解——Fibonacci Paths",
             "date_modified": "2025-12-15T08:21:21.000Z",
             "date_published": "2025-12-15T08:21:21.000Z",
             "author": {
@@ -110,7 +110,7 @@
             "id": "https://shouw.blog/posts/\"CF题解——G. Garage\"",
             "content_html": "<h1>G. Garage 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>根据题意，<strong>合适的数 $x$</strong> 必须能被表示为 $b^2 - a^2$，其中 $a$ 和 $b$ 是正整数 ($a, b \\</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——G. Garage\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——G. Garage\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——G. Garage\"",
-            "title": "CF题解——G. Garage",
+            "title": "CF题解——Garage",
             "date_modified": "2025-12-08T10:34:22.000Z",
             "date_published": "2025-12-08T10:34:22.000Z",
             "author": {
@@ -122,7 +122,7 @@
             "id": "https://shouw.blog/posts/\"CF题解——H. Beppa and SwerChat\"",
             "content_html": "<h1>H. Beppa and SwerChat 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>本题要求计算在 9:00 和 22:00 之间，<strong>至少上线过一次</strong>的其他成员的<strong>最少人数</strong>。</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——H. Beppa and SwerChat\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——H. Beppa and SwerChat\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——H. Beppa and SwerChat\"",
-            "title": "CF题解——H. Beppa and SwerChat",
+            "title": "CF题解——Beppa and SwerChat",
             "date_modified": "2025-12-05T14:12:51.000Z",
             "date_published": "2025-12-05T14:12:51.000Z",
             "author": {
@@ -132,9 +132,9 @@
         },
         {
             "id": "https://shouw.blog/posts/\"CF题解——E. Block Sequence\"",
-            "content_html": "<h1>E. Block Sequence 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>{% raw %}<br>\n本题要求找到使给定序列 $a$ 成为“美丽序列”所需的最小删除次数。一个美丽序列由一系列“块</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Block Sequence\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Block Sequence\"</a> 阅读全文。</p>",
+            "content_html": "<h1>E. Block Sequence 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>本题要求找到使给定序列 $a$ 成为“美丽序列”所需的最小删除次数。一个美丽序列由一系列“块”构成，每个块以其</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Block Sequence\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Block Sequence\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——E. Block Sequence\"",
-            "title": "CF题解——E. Block Sequence",
+            "title": "CF题解——Block Sequence",
             "date_modified": "2025-12-04T09:09:27.000Z",
             "date_published": "2025-12-04T09:09:27.000Z",
             "author": {
@@ -144,9 +144,9 @@
         },
         {
             "id": "https://shouw.blog/posts/\"CF题解——F. Final Boss\"",
-            "content_html": "<h1>F. Final Boss 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>{% raw %}<br>\n本题要求找到击败生命值为 $H$ 的 Boss 所需的<strong>最少回合数</strong> $R$。我们有 $N$ 种</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——F. Final Boss\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——F. Final Boss\"</a> 阅读全文。</p>",
+            "content_html": "<h1>F. Final Boss 解题思路</h1>\n<h3>核心问题分析与数学转化</h3>\n<p>本题要求找到击败生命值为 $H$ 的 Boss 所需的<strong>最少回合数</strong> $R$。我们有 $N$ 种攻击，第 $i$</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——F. Final Boss\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——F. Final Boss\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——F. Final Boss\"",
-            "title": "CF题解——F. Final Boss",
+            "title": "CF题解——Final Boss",
             "date_modified": "2025-12-02T10:27:47.000Z",
             "date_published": "2025-12-02T10:27:47.000Z",
             "author": {
@@ -156,7 +156,7 @@
         },
         {
             "id": "https://shouw.blog/posts/\"内网穿透简单教程\"",
-            "content_html": "<h1>使用 Docker 部署 frp 实现内网穿透</h1>\n<p>{% raw %}<br>\nfrp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助你将处于内网或防火墙后的设备（如个人电脑、树</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"内网穿透简单教程\"\" target=\"_blank\">https://shouw.blog/posts/\"内网穿透简单教程\"</a> 阅读全文。</p>",
+            "content_html": "<h1>使用 Docker 部署 frp 实现内网穿透</h1>\n<p>frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助你将处于内网或防火墙后的设备（如个人电脑、树莓派等）暴露给</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"内网穿透简单教程\"\" target=\"_blank\">https://shouw.blog/posts/\"内网穿透简单教程\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"内网穿透简单教程\"",
             "title": "内网穿透简单教程",
             "date_modified": "2025-12-01T14:11:29.000Z",
@@ -168,9 +168,9 @@
         },
         {
             "id": "https://shouw.blog/posts/\"CF题解——C. Beautiful Sequence\"",
-            "content_html": "<h1>C. Beautiful Sequence 解题思路</h1>\n<h2>摘要与问题转化</h2>\n<p>{% raw %}<br>\n本题要求在一个仅包含数字 $ 1, 2, 3$ 的序列中，计算“完美子序列”的数量。一个完美子</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. Beautiful Sequence\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. Beautiful Sequence\"</a> 阅读全文。</p>",
+            "content_html": "<h1>C. Beautiful Sequence 解题思路</h1>\n<h2>摘要与问题转化</h2>\n<p>本题要求在一个仅包含数字 $ 1, 2, 3$ 的序列中，计算“完美子序列”的数量。一个完美子序列定义为形如</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. Beautiful Sequence\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. Beautiful Sequence\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——C. Beautiful Sequence\"",
-            "title": "CF题解——C. Beautiful Sequence",
+            "title": "CF题解——Beautiful Sequence",
             "date_modified": "2025-12-01T10:30:52.000Z",
             "date_published": "2025-12-01T10:30:52.000Z",
             "author": {
@@ -179,22 +179,10 @@
             }
         },
         {
-            "id": "https://shouw.blog/posts/\"CF题解——C. The Ancient Wizards' Capes\"",
-            "content_html": "<h1>C. The Ancient Wizards' Capes 解题思路</h1>\n<h2>核心问题分析与数学转化</h2>\n<p>{% raw %}<br>\n本题的本质是一个关于<b>相邻巫师斗篷朝向</b>的逻辑递推问题。我</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. The Ancient Wizards' Capes\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. The Ancient Wizards' Capes\"</a> 阅读全文。</p>",
-            "url": "https://shouw.blog/posts/\"CF题解——C. The Ancient Wizards' Capes\"",
-            "title": "CF题解——C. The Ancient Wizards' Capes",
-            "date_modified": "2025-11-30T15:07:50.000Z",
-            "date_published": "2025-11-30T15:07:50.000Z",
-            "author": {
-                "name": "shouw",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
             "id": "https://shouw.blog/posts/\"CF题解——E. Power of Points\"",
-            "content_html": "<h1>E. Power of Points 解题思路</h1>\n<h2>核心问题分析与数学转化</h2>\n<p>{% raw %}<br>\n本题要求对于给定的点集 $X = {x_1, x_2, \\dots, x_n}$，对集合</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Power of Points\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Power of Points\"</a> 阅读全文。</p>",
+            "content_html": "<h1>E. Power of Points 解题思路</h1>\n<h2>核心问题分析与数学转化</h2>\n<p>本题要求对于给定的点集 $X = {x_1, x_2, \\dots, x_n}$，对集合中每一个 $s \\</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Power of Points\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Power of Points\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——E. Power of Points\"",
-            "title": "CF题解——E. Power of Points",
+            "title": "CF题解——Power of Points",
             "date_modified": "2025-11-29T21:17:20.000Z",
             "date_published": "2025-11-29T21:17:20.000Z",
             "author": {
@@ -206,7 +194,7 @@
             "id": "https://shouw.blog/posts/\"CF题解——C. Trip to the Olympiad\"",
             "content_html": "<h2>C. Trip to the Olympiad 解题思路</h2>\n<h3>核心目标与异或性质分析</h3>\n<p>本题要求在给定范围 $[L, R]$ 内，找到三个互不相同的数字 $a, b, c$，使得目标和</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——C. Trip to the Olympiad\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——C. Trip to the Olympiad\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——C. Trip to the Olympiad\"",
-            "title": "CF题解——C. Trip to the Olympiad",
+            "title": "CF题解——Trip to the Olympiad",
             "date_modified": "2025-11-15T18:44:45.000Z",
             "date_published": "2025-11-15T18:44:45.000Z",
             "author": {
