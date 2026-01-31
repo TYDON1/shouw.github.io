@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: '一个用于记录成长历程的blog',
   author: {
     name: 'shouw',
-    avatar: 'https://shouw.blog/public/avatar.jpg',
+    avatar: 'https://shouw.blog/avatar.jpg',
   },
   description: '欢迎来到我的个人blog',
   social: [
@@ -19,7 +19,7 @@ export default defineSiteConfig({
     },
     {
       name: 'QQ',
-      link: 'https://shouw.blog/public/QQ.png',
+      link: 'https://shouw.blog/QQ.png',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
@@ -53,13 +53,13 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://shouw.blog/public/ZFB.jpg',
+        url: 'https://shouw.blog/ZFB.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: '微信支付',
-        url: 'https://shouw.blog/public/WX.jpg',
+        url: 'https://shouw.blog/WX.jpg',
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
