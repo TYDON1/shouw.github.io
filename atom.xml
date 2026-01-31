@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://valaxy.site/</id>
-    <title>Valaxy Theme Yun</title>
-    <updated>2026-01-31T07:37:53.700Z</updated>
+    <id>https://shouw.blog/</id>
+    <title>shouwのblog</title>
+    <updated>2026-01-31T07:51:45.949Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
-        <name>云游君</name>
+        <name>shouw</name>
         <email>i@valaxy.site</email>
         <uri>https://valaxy.site</uri>
     </author>
-    <link rel="alternate" href="https://valaxy.site/"/>
-    <link rel="self" href="https://valaxy.site/atom.xml"/>
-    <subtitle>Valaxy Theme Yun Preview.</subtitle>
+    <link rel="alternate" href="https://shouw.blog/"/>
+    <link rel="self" href="https://shouw.blog/atom.xml"/>
+    <subtitle>欢迎来到我的个人blog</subtitle>
     <logo>https://valaxy.site/valaxy-logo.png</logo>
-    <icon>https://valaxy.site/favicon.svg</icon>
-    <rights>CC BY-NC-SA 4.0 2026 © 云游君</rights>
+    <icon>https://shouw.blog/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
     <entry>
         <title type="html"><![CDATA[Hello, Valaxy!]]></title>
-        <id>https://valaxy.site/posts/hello-valaxy</id>
-        <link href="https://valaxy.site/posts/hello-valaxy"/>
+        <id>https://shouw.blog/posts/hello-valaxy</id>
+        <link href="https://shouw.blog/posts/hello-valaxy"/>
         <updated>2022-04-01T00:00:00.000Z</updated>
         <content type="html"><![CDATA[<h2>Valaxy</h2>
 <p>Next Generation Static Blog Framework.</p>
 <p>Write your first post!</p>
 <h2>Usage</h2>
 <p>Modify `valaxy</p>
-<br/><p>访问 <a href="https://valaxy.site/posts/hello-valaxy" target="_blank">https://valaxy.site/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
+<br/><p>访问 <a href="https://shouw.blog/posts/hello-valaxy" target="_blank">https://shouw.blog/posts/hello-valaxy</a> 阅读全文。</p>]]></content>
         <author>
-            <name>云游君</name>
+            <name>shouw</name>
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
