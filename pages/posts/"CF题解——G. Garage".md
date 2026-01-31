@@ -1,6 +1,6 @@
 ---
 title: "CF题解——G. Garage"
-date: 2025-12-08 10:34:22
+date: "2025-12-08 10:34:22"
 author: shouw
 katex: true
 email: shouw707@gmail.com

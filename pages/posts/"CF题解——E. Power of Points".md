@@ -1,6 +1,6 @@
 ---
 title: "CF题解——E. Power of Points"
-date: 2025-11-29 21:17:20
+date: "2025-11-29 21:17:20"
 author: shouw
 katex: true
 email: shouw707@gmail.com

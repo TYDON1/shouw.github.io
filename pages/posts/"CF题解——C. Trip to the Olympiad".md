@@ -1,6 +1,6 @@
 ---
 title: "CF题解——C. Trip to the Olympiad"
-date: 2025-11-15 18:44:45
+date: "2025-11-15 18:44:45"
 author: shouw
 katex: true
 email: shouw707@gmail.com

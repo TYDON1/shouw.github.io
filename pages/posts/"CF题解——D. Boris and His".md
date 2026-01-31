@@ -1,6 +1,6 @@
 ---
 title: "CF题解——D. Boris and His Amazing Haircut"
-date: 2026-01-10 17:25:59`
+date: "2026-01-10 17:25:59"
 author: shouw
 katex: true
 email: shouw707@gmail.com

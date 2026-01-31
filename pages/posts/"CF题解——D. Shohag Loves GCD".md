@@ -1,6 +1,6 @@
 ---
 title: "CF题解——D. Shohag Loves GCD"
-date: 2025-12-29 14:36:41
+date: "2025-12-29 14:36:41"
 author: shouw
 katex: true
 email: shouw707@gmail.com

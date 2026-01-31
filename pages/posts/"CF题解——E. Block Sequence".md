@@ -1,6 +1,6 @@
 ---
 title: "CF题解——E. Block Sequence"
-date: 2025-12-04 09:09:27
+date: "2025-12-04 09:09:27"
 katex: true
 email: shouw707@gmail.com
 readmore: true

@@ -1,6 +1,6 @@
 ---
 title: "CF题解——E. Graph Composition"
-date: 2025-12-18 17:03:21
+date: "2025-12-18 17:03:21"
 katex: true
 email: shouw707@gmail.com
 readmore: true

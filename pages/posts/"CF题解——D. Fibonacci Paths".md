@@ -1,6 +1,6 @@
 ---
 title: "CF题解——D. Fibonacci Paths"
-date: 2025-12-15 08:21:21
+date: "2025-12-15 08:21:21"
 katex: true
 email: shouw707@gmail.com
 readmore: true

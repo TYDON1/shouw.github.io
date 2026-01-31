@@ -1,6 +1,6 @@
 ---
 title: "CF题解——C. Restricted Sorting"
-date: 2026-01-30 09:11:09
+date: "2026-01-30 09:11:09"
 author: shouw
 katex: true
 email: KijinSeija@shouw.blog

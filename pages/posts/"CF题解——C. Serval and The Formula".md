@@ -1,6 +1,6 @@
 ---
 title: "CF题解——C. Serval and The Formula"
-date: 2025-12-26 15:41:22
+date: "2025-12-26 15:41:22"
 author: shouw
 katex: true
 email: shouw707@gmail.com

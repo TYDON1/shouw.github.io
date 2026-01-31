@@ -1,6 +1,6 @@
 ---
 title: "CF题解——F. Final Boss"
-date: 2025-12-02 10:27:47
+date: "2025-12-02 10:27:47"
 author: shouw
 katex: true
 email: shouw707@gmail.com

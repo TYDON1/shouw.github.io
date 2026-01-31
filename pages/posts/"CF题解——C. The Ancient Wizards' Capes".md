@@ -1,6 +1,6 @@
 ---
 title: "CF题解——C. The Ancient Wizards' Capes"
-date: 2025-11-30 15:07:50
+date: "2025-11-30 15:07:50"
 author: shouw
 katex: true
 email: shouw707@gmail.com

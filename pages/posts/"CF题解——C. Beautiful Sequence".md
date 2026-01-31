@@ -1,6 +1,6 @@
 ---
 title: "CF题解——C. Beautiful Sequence"
-date: 2025-12-01 10:30:52
+date: "2025-12-01 10:30:52"
 author: shouw
 katex: true
 email: shouw707@gmail.com

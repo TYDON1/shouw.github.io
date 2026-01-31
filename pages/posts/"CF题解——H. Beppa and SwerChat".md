@@ -1,6 +1,6 @@
 ---
 title: "CF题解——H. Beppa and SwerChat"
-date: 2025-12-05 14:12:51
+date: "2025-12-05 14:12:51"
 author: shouw
 katex: true
 email: shouw707@gmail.com
