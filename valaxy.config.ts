@@ -18,7 +18,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: 'shouwのblog',
+      title: ['shouw', 'の', 'blog'],
     },
 
     pages: [
