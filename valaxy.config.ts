@@ -16,6 +16,11 @@ export default defineValaxyConfig<UserThemeConfig>({
   theme: 'yun',
 
   themeConfig: {
+  bg_image: {
+    enable: true,
+    url: 'https://shouw.blog/bg.png',
+    opacity: 0.8,
+  },
     banner: {
       enable: true,
       title: ['shouw', 'の', 'blog'],
