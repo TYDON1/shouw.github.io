@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Sat, 31 Jan 2026 08:33:20 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 09:11:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,16 +15,269 @@
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[Hello, Valaxy!]]></title>
-            <link>https://shouw.blog/posts/hello-valaxy</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/hello-valaxy</guid>
-            <pubDate>Fri, 01 Apr 2022 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>Valaxy</h2>
-<p>Next Generation Static Blog Framework.</p>
-<p>Write your first post!</p>
-<h2>Usage</h2>
-<p>Modify `valaxy</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/hello-valaxy" target="_blank">https://shouw.blog/posts/hello-valaxy</a> 阅读全文。</p>]]></content:encoded>
+            <title><![CDATA[CF题解——C. Restricted Sorting]]></title>
+            <link>https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</guid>
+            <pubDate>Fri, 30 Jan 2026 09:11:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>C. Restricted Sorting 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目给定一个数组 $a$，并定义了一种交换操作：只有当 $|a_i - a_j| \ge k$ 时，才能交换 $a</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Restricted Sorting"" target="_blank">https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——D. Boris and His Amazing Haircut]]></title>
+            <link>https://shouw.blog/posts/"CF题解——D. Boris and His"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Boris and His"</guid>
+            <pubDate>Sat, 10 Jan 2026 17:25:59 GMT</pubDate>
+            <content:encoded><![CDATA[<ul>
+<li>编程</li>
+<li>算法竞赛</li>
+<li>题解</li>
+<li>贪心</li>
+<li>数据结构</li>
+</ul>
+<hr>
+<h1>D. Boris and His Amazing Haircut 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>本题要求判断是否可以通</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Boris and His"" target="_blank">https://shouw.blog/posts/"CF题解——D. Boris and His"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[保持进程后台运行的实现方式]]></title>
+            <link>https://shouw.blog/posts/"保持进程后台运行的实现方式"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"保持进程后台运行的实现方式"</guid>
+            <pubDate>Tue, 30 Dec 2025 10:54:55 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>保持进程后台运行的实现方式</h1>
+<p>在 Linux 服务器上进行开发或运维时，我们经常面临一个问题：当你通过 SSH 远程连接服务器并运行一个耗时较长的任务（比如编译大型项目、训练深度学习模型、传输大</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"保持进程后台运行的实现方式"" target="_blank">https://shouw.blog/posts/"保持进程后台运行的实现方式"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——E. Data Structures Fan]]></title>
+            <link>https://shouw.blog/posts/"CF题解——E. Data Structures Fan"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Data Structures Fan"</guid>
+            <pubDate>Mon, 29 Dec 2025 16:12:42 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Data Structures Fan 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目给定一个数组 $a$ 和一个二进制字符串 $s$。<br>
+我们需要处理两种操作：</p>
+<ol>
+<li><strong>区间反转：</strong> 给定</li>
+</ol>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Data Structures Fan"" target="_blank">https://shouw.blog/posts/"CF题解——E. Data Structures Fan"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——D. Shohag Loves GCD]]></title>
+            <link>https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</guid>
+            <pubDate>Mon, 29 Dec 2025 14:36:41 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Shohag Loves GCD 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目要求我们构造一个字典序最大的数组 $a$，使得对于任意 $1 \le i &lt; j \le n$，满足：<br>
+{% ra</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"" target="_blank">https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——C. Serval and The Formula]]></title>
+            <link>https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</guid>
+            <pubDate>Fri, 26 Dec 2025 15:41:22 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>C. Serval and The Formula 解题思路</h1>
+<h3>核心问题分析与数学转化</h3>
+<p>本题要求找到一个非负整数 $k$，使得：</p>
+<p>{% raw %}<br>
+$$<br>
+(x+k) + (y+k)</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Serval and The Formula"" target="_blank">https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——E. Graph Composition]]></title>
+            <link>https://shouw.blog/posts/"CF题解——E. Graph Composition"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Graph Composition"</guid>
+            <pubDate>Thu, 18 Dec 2025 17:03:21 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Graph Composition 解题思路</h1>
+<h2>核心问题分析与转化</h2>
+<p>这道题的目标是让图 $F$ 的连通性变得和图 $G$ 完全一样。所谓“连通性一样”，意思就是：如果在图 $G$</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Graph Composition"" target="_blank">https://shouw.blog/posts/"CF题解——E. Graph Composition"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——D. Fibonacci Paths]]></title>
+            <link>https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"</guid>
+            <pubDate>Mon, 15 Dec 2025 08:21:21 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Fibonacci Paths 详细解题思路</h1>
+<h2>核心问题与数学性质</h2>
+<p>本题要求找出有向图中所有长度 $k \ge 2$ 的简单路径 $v_0 \to v_1 \to \dots \t</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"" target="_blank">https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——G. Garage]]></title>
+            <link>https://shouw.blog/posts/"CF题解——G. Garage"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——G. Garage"</guid>
+            <pubDate>Mon, 08 Dec 2025 10:34:22 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>G. Garage 解题思路</h1>
+<h3>核心问题分析与数学转化</h3>
+<p>根据题意，<strong>合适的数 $x$</strong> 必须能被表示为 $b^2 - a^2$，其中 $a$ 和 $b$ 是正整数 ($a, b \</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——G. Garage"" target="_blank">https://shouw.blog/posts/"CF题解——G. Garage"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——H. Beppa and SwerChat]]></title>
+            <link>https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"</guid>
+            <pubDate>Fri, 05 Dec 2025 14:12:51 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>H. Beppa and SwerChat 解题思路</h1>
+<h3>核心问题分析与数学转化</h3>
+<p>本题要求计算在 9:00 和 22:00 之间，<strong>至少上线过一次</strong>的其他成员的<strong>最少人数</strong>。</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"" target="_blank">https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——E. Block Sequence]]></title>
+            <link>https://shouw.blog/posts/"CF题解——E. Block Sequence"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Block Sequence"</guid>
+            <pubDate>Thu, 04 Dec 2025 09:09:27 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Block Sequence 解题思路</h1>
+<h3>核心问题分析与数学转化</h3>
+<p>{% raw %}<br>
+本题要求找到使给定序列 $a$ 成为“美丽序列”所需的最小删除次数。一个美丽序列由一系列“块</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Block Sequence"" target="_blank">https://shouw.blog/posts/"CF题解——E. Block Sequence"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——F. Final Boss]]></title>
+            <link>https://shouw.blog/posts/"CF题解——F. Final Boss"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——F. Final Boss"</guid>
+            <pubDate>Tue, 02 Dec 2025 10:27:47 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. Final Boss 解题思路</h1>
+<h3>核心问题分析与数学转化</h3>
+<p>{% raw %}<br>
+本题要求找到击败生命值为 $H$ 的 Boss 所需的<strong>最少回合数</strong> $R$。我们有 $N$ 种</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——F. Final Boss"" target="_blank">https://shouw.blog/posts/"CF题解——F. Final Boss"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[内网穿透简单教程]]></title>
+            <link>https://shouw.blog/posts/"内网穿透简单教程"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"内网穿透简单教程"</guid>
+            <pubDate>Mon, 01 Dec 2025 14:11:29 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>使用 Docker 部署 frp 实现内网穿透</h1>
+<p>{% raw %}<br>
+frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助你将处于内网或防火墙后的设备（如个人电脑、树</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"内网穿透简单教程"" target="_blank">https://shouw.blog/posts/"内网穿透简单教程"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——C. Beautiful Sequence]]></title>
+            <link>https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</guid>
+            <pubDate>Mon, 01 Dec 2025 10:30:52 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>C. Beautiful Sequence 解题思路</h1>
+<h2>摘要与问题转化</h2>
+<p>{% raw %}<br>
+本题要求在一个仅包含数字 $ 1, 2, 3$ 的序列中，计算“完美子序列”的数量。一个完美子</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"" target="_blank">https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——C. The Ancient Wizards' Capes]]></title>
+            <link>https://shouw.blog/posts/"CF题解——C. The Ancient Wizards' Capes"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. The Ancient Wizards' Capes"</guid>
+            <pubDate>Sun, 30 Nov 2025 15:07:50 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>C. The Ancient Wizards' Capes 解题思路</h1>
+<h2>核心问题分析与数学转化</h2>
+<p>{% raw %}<br>
+本题的本质是一个关于<b>相邻巫师斗篷朝向</b>的逻辑递推问题。我</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. The Ancient Wizards' Capes"" target="_blank">https://shouw.blog/posts/"CF题解——C. The Ancient Wizards' Capes"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——E. Power of Points]]></title>
+            <link>https://shouw.blog/posts/"CF题解——E. Power of Points"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Power of Points"</guid>
+            <pubDate>Sat, 29 Nov 2025 21:17:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Power of Points 解题思路</h1>
+<h2>核心问题分析与数学转化</h2>
+<p>{% raw %}<br>
+本题要求对于给定的点集 $X = {x_1, x_2, \dots, x_n}$，对集合</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Power of Points"" target="_blank">https://shouw.blog/posts/"CF题解——E. Power of Points"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——C. Trip to the Olympiad]]></title>
+            <link>https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"</guid>
+            <pubDate>Sat, 15 Nov 2025 18:44:45 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>C. Trip to the Olympiad 解题思路</h2>
+<h3>核心目标与异或性质分析</h3>
+<p>本题要求在给定范围 $[L, R]$ 内，找到三个互不相同的数字 $a, b, c$，使得目标和</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"" target="_blank">https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[“如何连接IPv6的服务器”]]></title>
+            <link>https://shouw.blog/posts/“如何连接IPv6的服务器”</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“如何连接IPv6的服务器”</guid>
+            <pubDate>Mon, 13 Oct 2025 20:45:17 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>如何通过 FinalShell 连接纯 IPv6 服务器？</h1>
+<p>要连接只支持 IPv6 地址的服务器，核心前提是<strong>你本地的电脑或网络设备必须具备 IPv6 访问能力</strong>。下面提供两种最常见的解决</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“如何连接IPv6的服务器”" target="_blank">https://shouw.blog/posts/“如何连接IPv6的服务器”</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[“一些对于算法题的个人见解”]]></title>
+            <link>https://shouw.blog/posts/“一些对于算法题的个人见解”</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“一些对于算法题的个人见解”</guid>
+            <pubDate>Mon, 13 Oct 2025 20:31:22 GMT</pubDate>
+            <content:encoded><![CDATA[<p>大学的时间真的很自由，而且特别充裕，所以我下定决心要找点真正有意义的事情来做，比如，<strong>学算法，然后参加比赛。</strong></p>
+<p>这个想法其实从高中就开始在脑子里转了。虽然因为各种原因，我高中只读了一年半，但我</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“一些对于算法题的个人见解”" target="_blank">https://shouw.blog/posts/“一些对于算法题的个人见解”</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[“对于防御DDoS的一些思考”]]></title>
+            <link>https://shouw.blog/posts/“对于防御DDoS的一些思考”</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“对于防御DDoS的一些思考”</guid>
+            <pubDate>Mon, 13 Oct 2025 20:17:46 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>DDoS攻击防御策略：利用Cloudflare Zero Trust Tunnel</h2>
+<p>随着网络技术的日益发达，DDoS（Distributed Denial of Service，分布式拒绝服</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“对于防御DDoS的一些思考”" target="_blank">https://shouw.blog/posts/“对于防御DDoS的一些思考”</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[“解决clang无法使用万能头文件”]]></title>
+            <link>https://shouw.blog/posts/“解决clang无法使用万能头文件”</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“解决clang无法使用万能头文件”</guid>
+            <pubDate>Mon, 13 Oct 2025 07:45:04 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>解决clang无法使用万能头文件</h2>
+<p>在 macOS 系统上进行 C++ 编程时，系统自带的编译环境是 <strong>Clang</strong>，它默认并不支持非标准的万能头文件 <code>&lt;bits/stdc++.h&gt;</code>。</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“解决clang无法使用万能头文件”" target="_blank">https://shouw.blog/posts/“解决clang无法使用万能头文件”</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[“关于Docker的一些个人理解与实践”]]></title>
+            <link>https://shouw.blog/posts/“关于Docker的一些个人理解”</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“关于Docker的一些个人理解”</guid>
+            <pubDate>Mon, 13 Oct 2025 07:25:07 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>关于Docker的一些个人理解与实践</h2>
+<p>最近由于在自己下载一些GitHub上面的项目尝试运行，为了防止出现安装了一大堆环境而互相冲突，或者依赖版本不兼容的情况，我使用了<strong>Docker</strong>。D</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“关于Docker的一些个人理解”" target="_blank">https://shouw.blog/posts/“关于Docker的一些个人理解”</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[“我的第一篇个人博客”]]></title>
+            <link>https://shouw.blog/posts/“我的第一篇个人博客”</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“我的第一篇个人博客”</guid>
+            <pubDate>Sun, 12 Oct 2025 20:55:17 GMT</pubDate>
+            <content:encoded><![CDATA[<p>欢迎来到我的个人博客，这是我第一次尝试使用 Hexo 搭建博客（毕竟成本真的很低，不出意外的话应该会一直坚持下去吧）</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“我的第一篇个人博客”" target="_blank">https://shouw.blog/posts/“我的第一篇个人博客”</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
     </channel>
