@@ -48,7 +48,7 @@ export default defineSiteConfig({
   },
 
   sponsor: {
-    enable: true,
+    enable: false,
     title: '如果我的内容对你有帮助的话可以赞助我一杯咖啡',
     methods: [
       {
