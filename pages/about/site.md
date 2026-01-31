@@ -2,6 +2,4 @@
 title: 关于站点
 ---
 
-Valaxy + valaxy-theme-yun Demo Site
-
-- Default Theme: [valaxy-theme-yun](https://github.com/YunYouJun/valaxy/blob/main/packages/valaxy-theme-yun/)
+欢迎来的我的个人博客，我会在这里记录一下我的ACM训练记录还有自己平时遇到的一些有意思的问题的解决方案
