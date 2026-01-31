@@ -1,19 +1,16 @@
 ---
-title: "CF题解——D. Boris and His Amazing Haircut"
+title: "CF题解——Boris and His Amazing Haircut"
 date: "2026-01-10 17:25:59"
 author: shouw
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
----
-
-- 编程
-- 算法竞赛
-- 题解
-- 贪心
-- 数据结构
-
+ - 编程
+ - 算法竞赛
+ - 题解
+ - 贪心
+ - 数据结构
 ---
 
 # D. Boris and His Amazing Haircut 解题思路
@@ -54,7 +51,7 @@ tags:
 3. 遍历结束后，`set` 中剩余的所有元素也代表完成了一次修剪，将其加入 `need` 计数。
 4. 最后对比 `need` 和拥有的剃刀 `c`，若任意规格的需求量大于拥有量，输出 "NO"，否则 "YES"。
 
-### C++ 代码实现
+### CPP 代码实现
 
 代码中使用 `std::set` 自动排序的特性，配合 `lower_bound` 方便地找到小于 $B_i$ 的元素进行移除。
 

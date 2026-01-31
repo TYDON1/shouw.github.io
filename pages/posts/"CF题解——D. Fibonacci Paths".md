@@ -1,8 +1,8 @@
 ---
-title: "CF题解——D. Fibonacci Paths"
+title: "CF题解——Fibonacci Paths"
 date: "2025-12-15 08:21:21"
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -20,13 +20,13 @@ tags:
 
 ### 广义斐波那契定义
 
-{% raw %}
+
 
 $$
 x_i = x_{i-2} + x_{i-1} \quad \text{for } i \ge 2
 $$
 
-{% endraw %}
+
 
 ### 关键性质：隐式拓扑序
 

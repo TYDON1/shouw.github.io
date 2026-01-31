@@ -1,9 +1,9 @@
 ---
-title: "CF题解——C. Serval and The Formula"
+title: "CF题解——Serval and The Formula"
 date: "2025-12-26 15:41:22"
 author: shouw
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -18,19 +18,19 @@ tags:
 
 本题要求找到一个非负整数 $k$，使得：
 
-{% raw %}
+  
 $$
 (x+k) + (y+k) = (x+k) \oplus (y+k)
 $$
-{% endraw %}
+ 
 
 *   **位运算性质：** 对于任意非负整数 $a, b$，都有 $a+b = (a \oplus b) + 2(a \mathbin{\&} b)$。
 *   **条件转化：** 题目中的等式 $(x+k) + (y+k) = (x+k) \oplus (y+k)$ 等价于 $2((x+k) \mathbin{\&} (y+k)) = 0$。即：
-    {% raw %}
+      
     $$
     (x+k) \mathbin{\&} (y+k) = 0
     $$
-    {% endraw %}
+     
     这意味着 $x+k$ 和 $y+k$ 在二进制表示下，**没有任何一位同时为 1**。
 
 ### 1. 变量代换与简化
@@ -40,11 +40,11 @@ $$
 设差值 $D = y - x$。
 
 我们的目标转化为找到一个 $A$（且 $A \ge x$），使得：
-{% raw %}
+  
 $$
 A \mathbin{\&} (A + D) = 0
 $$
-{% endraw %}
+ 
 最后求出 $k = A - x$。
 
 **特殊情况：**

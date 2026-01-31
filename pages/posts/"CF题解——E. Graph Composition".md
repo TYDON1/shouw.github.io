@@ -1,8 +1,8 @@
 ---
-title: "CF题解——E. Graph Composition"
+title: "CF题解——Graph Composition"
 date: "2025-12-18 17:03:21"
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -45,27 +45,27 @@ tags:
 
 因为 $F$ 的连通分量必须合并到和 $G$ 一样，而合并 $k$ 个块最少需要 $k-1$ 条边，所以：
 
-{% raw %}
+
 
 $$
 \text{加边数} = \sum (\text{该 G 分量下的 F 碎片数} - 1) = C_F - C_G
 $$
 
-{% endraw %}
+
 
 ### 2. 最终操作数公式
 
-{% raw %}
+
 
 $$
 \text{Total Operations} = \text{删边数} + (C_F - C_G)
 $$
 
-{% endraw %}
+
 
 ---
 
-## C++ 代码实现
+## CPP 代码实现
 
 ```cpp
 #include <bits/stdc++.h>

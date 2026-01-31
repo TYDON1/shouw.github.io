@@ -1,9 +1,9 @@
 ---
-title: "CF题解——E. Power of Points"
+title: "CF题解——Power of Points"
 date: "2025-11-29 21:17:20"
 author: shouw
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -16,41 +16,41 @@ tags:
 
 ## 核心问题分析与数学转化
 
-{% raw %}
+
 本题要求对于给定的点集 $X = \{x_1, x_2, \dots, x_n\}$，对集合中每一个 $s \in X$，计算总功率和 $\sum_{p=1}^{10^9} f_p$。其中 $f_p$ 定义为与点 $p$ 相交的线段 $[s, x_i]$ 的数量。
-{% endraw %}
+
 
 ### 1. 功率和与线段长度的关系
 
 一个关键的观察是，一个线段 $[a, b]$ (不妨设 $a \le b$) 覆盖的整数点数量（即对总功率和 $\sum f_p$ 的贡献）恰好是其**长度** $b - a + 1$。
 
-{% raw %}
+
 线段 $[s, x_i]$ 的长度为：
 
 $$
 \text{Length}([s, x_i]) = |\max(s, x_i) - \min(s, x_i)| + 1 = |s - x_i| + 1
 $$
 
-{% endraw %}
-{% raw %}
+
+
 因此，总功率和 $\sum_{p=1}^{10^9} f_p$ 实际上等于所有 $n$ 条线段长度之和：
 
 $$
 \text{Total Power}(s) = \sum_{i=1}^{n} \text{Length}([s, x_i]) = \sum_{i=1}^{n} (|s - x_i| + 1)
 $$
 
-{% endraw %}
+
 总和可以简化为：
-{% raw %}
+
 
 $$
 \text{Total Power}(s) = n + \sum_{i=1}^{n} |s - x_i|
 $$
 
-{% endraw %}
-{% raw %}
+
+
 我们的核心任务，便转化成了对每一个 $s \in X$，高效计算 $\sum_{i=1}^{n} |s - x_i|$。
-{% endraw %}
+
 
 ### 2. 离散化与结果缓存
 
@@ -65,56 +65,56 @@ $$
 
 为了实现 $O(N \log N)$ 的时间复杂度（主要耗费在排序上），我们使用**差分**（Differential）思想。
 
-{% raw %}
+
 设 $S(s) = \sum_{j=1}^{n} |s - x_j|$。我们对排序后的去重点 $s_{i}$ 和 $s_{i+1}$ 进行分析，差值 $\Delta = s_{i+1} - s_i > 0$。通过已知的 $S_{curr}$ 来快速计算相邻点 $S_{next}$。
-{% endraw %}
+
 
 ### 递推公式的建立
 
-{% raw %}
+
 当 $s$ 从 $s_i$ 变化到 $s_{i+1}$ 时，每个 $x_j$ 对总和的贡献变化量 $\Delta_j$ 为：
 
 $$
 \Delta_j = |s_{i+1} - x_j| - |s_i - x_j|
 $$
 
-{% endraw %}
 
-1. {% raw %}对于 $x_j \le s_i$ (左侧)：
+
+1. 对于 $x_j \le s_i$ (左侧)：
     
     $$
     \Delta_j = (s_{i+1} - x_j) - (s_i - x_j) = s_{i+1} - s_i = \Delta
     $$
     
-    (贡献增加 $\Delta$){% endraw %}
-2. {% raw %}对于 $x_j > s_{i+1}$ (右侧)：
+    (贡献增加 $\Delta$)
+2. 对于 $x_j > s_{i+1}$ (右侧)：
     
     $$
     \Delta_j = (x_j - s_{i+1}) - (x_j - s_i) = s_i - s_{i+1} = -\Delta
     $$
     
-    (贡献减少 $\Delta$){% endraw %}
+    (贡献减少 $\Delta$)
 
 **递推关系：**
-{% raw %}
+
 
 $$
 S(s_{i+1}) = S(s_i) + \sum_{j=1}^{n} \Delta_j
 $$
 
-{% endraw %}
-{% raw %}
+
+
 设 $L$ 为 $x_j \le s_i$ 的点数，$R$ 为 $x_j > s_{i+1}$ 的点数。总和变化量 $\text{Diff}$ 为：
 
 $$
 \text{Diff} = L \cdot \Delta - R \cdot \Delta = (L - R) \cdot (s_{i+1} - s_i)
 $$
 
-{% endraw %}
+
 
 ### 3. 计算第一个点 $s_0$ 的初始值
 
-{% raw %}
+
 对于排序后的第一个点 $s_0 = data[0]$，所有 $x_j \ge s_0$，因此 $|s_0 - x_j| = x_j - s_0$。
 
 $$
@@ -127,11 +127,11 @@ $$
 S_0 = n + \left(\sum_{j=1}^{n} x_j\right) - n \cdot s_0
 $$
 
-{% endraw %}
+
 
 ---
 
-## C++ 代码实现
+## CPP 代码实现
 
 ```cpp
 #include <bits/stdc++.h>

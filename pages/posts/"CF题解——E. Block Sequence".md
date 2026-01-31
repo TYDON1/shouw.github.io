@@ -1,8 +1,8 @@
 ---
-title: "CF题解——E. Block Sequence"
+title: "CF题解——Block Sequence"
 date: "2025-12-04 09:09:27"
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -15,23 +15,23 @@ tags:
 
 ### 核心问题分析与数学转化
 
-{% raw %}
+
 本题要求找到使给定序列 $a$ 成为“美丽序列”所需的最小删除次数。一个美丽序列由一系列“块”构成，每个块以其<b>长度</b>开头，后跟该长度的元素。例如，$[L, e_1, e_2, \dots, e_L]$。
-{% endraw %}
+
 
 我们的目标是最大化保留下来的美丽子序列的长度 $\text{MaxLength}$。**最小删除次数** $\text{MinDeletions}$ 与最大保留长度的关系为：
 
-{% raw %}
+
 
 $$
 \text{MinDeletions} = N - \text{MaxLength}
 $$
 
-{% endraw %}
 
-{% raw %}
+
+
 其中 $N$ 是原始序列的长度。因此，问题转化为：<b>计算原序列 $a$ 中最长的美丽子序列的长度。</b>
-{% endraw %}
+
 
 ### 2. 动态规划状态设计
 
@@ -44,7 +44,7 @@ $$
 
 我们定义 $\text{dp}[i]$ 为：
 
-> {% raw %}<b>$\text{dp}[i]$：</b> 在原始序列中，从索引 <b>$i$</b> 到 $N-1$ 的后缀中，能够构建出的最长美丽子序列的长度。{% endraw %}
+> <b>$\text{dp}[i]$：</b> 在原始序列中，从索引 <b>$i$</b> 到 $N-1$ 的后缀中，能够构建出的最长美丽子序列的长度。
 
 #### 状态转移的机制分析
 
@@ -52,13 +52,13 @@ $$
 
 1. **跳过 $a_i$：**
    如果 $a_i$ 不作为任何块的开头（即被删除），则 $\text{dp}[i]$ 至少等于 $\text{dp}[i+1]$：
-   {% raw %}
+   
    
    $$
    \text{dp}[i] \ge \text{dp}[i+1]
    $$
    
-   {% endraw %}
+   
 2. **以 $a_i$ 为长度 $L$ 构成块：**
    设 $L = a_i$。这个块包含 $a_i$ 本身和接下来的 $L$ 个元素。
    
@@ -66,35 +66,35 @@ $$
    * **块的总长度：** $L + 1$。
    * **下一个块的起始索引：** $j = i + L + 1$。
    
-   **合法性检查：** {% raw %}只有当整个块 $a_i, a_{i+1}, \dots, a_{i+L}$ 不越界时，这种选择才合法。即 $i + L < N$。{% endraw %}
+   **合法性检查：** 只有当整个块 $a_i, a_{i+1}, \dots, a_{i+L}$ 不越界时，这种选择才合法。即 $i + L < N$。
    
    如果合法，则新的子序列长度为当前块的长度，加上从 $j$ 开始的最长美丽子序列长度 $\text{dp}[j]$：
-   {% raw %}
+   
    
    $$
    \text{LengthJump} = (L + 1) + \text{dp}[i + L + 1]
    $$
    
-   {% endraw %}
+   
    
    **最终转移：** $\text{dp}[i]$ 是两种选择（跳过 $a_i$ 或以 $a_i$ 构成新块）中的最大值：
-   {% raw %}
+   
    
    $$
    \text{dp}[i] = \max \left( \text{dp}[i+1], \quad (a_i + 1) + \text{dp}[i + a_i + 1] \right)
    $$
    
-   {% endraw %}
+   
    其中，若 $i + a_i \ge N$，则第二个选项不参与 $\max$ 运算。
 
 #### 边界条件
 
-* {% raw %}
+* 
   $\text{dp}[N]$ 到 $\text{dp}[N+6]$：由于索引 $i+L+1$ 可能超出 $N$，我们将 $\text{dp}$ 数组扩展到 $N+7$，并将 $\text{dp}[N] = 0$ 作为基本情况（空后缀的长度为 $0$）。
-  {% endraw %}
+  
 * **最终答案：** $\text{MinDeletions} = N - \text{dp}[0]$。
 
-### C++ 代码实现
+### CPP 代码实现
 
 代码中采用了从后向前的线性 DP 求解，时间复杂度为 $O(N)$。
 

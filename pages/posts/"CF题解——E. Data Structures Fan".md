@@ -1,9 +1,9 @@
 ---
-title: "CF题解——E. Data Structures Fan"
+title: "CF题解——Data Structures Fan"
 date: "2025-12-29 16:12:42"
 author: shouw
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -57,14 +57,14 @@ tags:
 
 **结论：**
 当执行区间 $[l, r]$ 反转时：
-{% raw %}
+
 $$
 X_0 \leftarrow X_0 \oplus RangeXor(l, r)
 $$
 $$
 X_1 \leftarrow X_1 \oplus RangeXor(l, r)
 $$
-{% endraw %}
+
 
 ### 3. 前缀异或和数组
 
@@ -72,11 +72,11 @@ $$
 $P_i = a_1 \oplus a_2 \oplus \dots \oplus a_i$。
 
 则：
-{% raw %}
+
 $$
 RangeXor(l, r) = P_r \oplus P_{l-1}
 $$
-{% endraw %}
+
 
 ### 4. C++ 代码实现细节
 

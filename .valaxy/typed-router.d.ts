@@ -93,9 +93,156 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/hello-valaxy': RouteRecordInfo<
-      '/posts/hello-valaxy',
-      '/posts/hello-valaxy',
+    '/posts/"保持进程后台运行的实现方式"': RouteRecordInfo<
+      '/posts/"保持进程后台运行的实现方式"',
+      '/posts/%22%E4%BF%9D%E6%8C%81%E8%BF%9B%E7%A8%8B%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"内网穿透简单教程"': RouteRecordInfo<
+      '/posts/"内网穿透简单教程"',
+      '/posts/%22%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——C. Beautiful Sequence"': RouteRecordInfo<
+      '/posts/"CF题解——C. Beautiful Sequence"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Beautiful%20Sequence%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——C. Restricted Sorting"': RouteRecordInfo<
+      '/posts/"CF题解——C. Restricted Sorting"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Restricted%20Sorting%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——C. Serval and The Formula"': RouteRecordInfo<
+      '/posts/"CF题解——C. Serval and The Formula"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Serval%20and%20The%20Formula%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——C. Trip to the Olympiad"': RouteRecordInfo<
+      '/posts/"CF题解——C. Trip to the Olympiad"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Trip%20to%20the%20Olympiad%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——D. Boris and His"': RouteRecordInfo<
+      '/posts/"CF题解——D. Boris and His"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Boris%20and%20His%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——D. Fibonacci Paths"': RouteRecordInfo<
+      '/posts/"CF题解——D. Fibonacci Paths"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Fibonacci%20Paths%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——D. Shohag Loves GCD"': RouteRecordInfo<
+      '/posts/"CF题解——D. Shohag Loves GCD"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Shohag%20Loves%20GCD%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——E. Block Sequence"': RouteRecordInfo<
+      '/posts/"CF题解——E. Block Sequence"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Block%20Sequence%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——E. Data Structures Fan"': RouteRecordInfo<
+      '/posts/"CF题解——E. Data Structures Fan"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Data%20Structures%20Fan%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——E. Graph Composition"': RouteRecordInfo<
+      '/posts/"CF题解——E. Graph Composition"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Graph%20Composition%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——E. Power of Points"': RouteRecordInfo<
+      '/posts/"CF题解——E. Power of Points"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Power%20of%20Points%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——F. Final Boss"': RouteRecordInfo<
+      '/posts/"CF题解——F. Final Boss"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94F/%20Final%20Boss%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——G. Garage"': RouteRecordInfo<
+      '/posts/"CF题解——G. Garage"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94G/%20Garage%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——H. Beppa and SwerChat"': RouteRecordInfo<
+      '/posts/"CF题解——H. Beppa and SwerChat"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94H/%20Beppa%20and%20SwerChat%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/“一些对于算法题的个人见解”': RouteRecordInfo<
+      '/posts/“一些对于算法题的个人见解”',
+      '/posts/%E2%80%9C%E4%B8%80%E4%BA%9B%E5%AF%B9%E4%BA%8E%E7%AE%97%E6%B3%95%E9%A2%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3%E2%80%9D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/“关于Docker的一些个人理解”': RouteRecordInfo<
+      '/posts/“关于Docker的一些个人理解”',
+      '/posts/%E2%80%9C%E5%85%B3%E4%BA%8EDocker%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%AA%E4%BA%BA%E7%90%86%E8%A7%A3%E2%80%9D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/“如何连接IPv6的服务器”': RouteRecordInfo<
+      '/posts/“如何连接IPv6的服务器”',
+      '/posts/%E2%80%9C%E5%A6%82%E4%BD%95%E8%BF%9E%E6%8E%A5IPv6%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E2%80%9D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/“对于防御DDoS的一些思考”': RouteRecordInfo<
+      '/posts/“对于防御DDoS的一些思考”',
+      '/posts/%E2%80%9C%E5%AF%B9%E4%BA%8E%E9%98%B2%E5%BE%A1DDoS%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83%E2%80%9D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/“我的第一篇个人博客”': RouteRecordInfo<
+      '/posts/“我的第一篇个人博客”',
+      '/posts/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E2%80%9D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/“解决clang无法使用万能头文件”': RouteRecordInfo<
+      '/posts/“解决clang无法使用万能头文件”',
+      '/posts/%E2%80%9C%E8%A7%A3%E5%86%B3clang%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%87%E8%83%BD%E5%A4%B4%E6%96%87%E4%BB%B6%E2%80%9D',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -180,9 +327,135 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'pages/posts/hello-valaxy.md': {
+    'pages/posts/"保持进程后台运行的实现方式".md': {
       routes:
-        | '/posts/hello-valaxy'
+        | '/posts/"保持进程后台运行的实现方式"'
+      views:
+        | never
+    }
+    'pages/posts/"内网穿透简单教程".md': {
+      routes:
+        | '/posts/"内网穿透简单教程"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——C. Beautiful Sequence".md': {
+      routes:
+        | '/posts/"CF题解——C. Beautiful Sequence"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——C. Restricted Sorting".md': {
+      routes:
+        | '/posts/"CF题解——C. Restricted Sorting"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——C. Serval and The Formula".md': {
+      routes:
+        | '/posts/"CF题解——C. Serval and The Formula"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——C. Trip to the Olympiad".md': {
+      routes:
+        | '/posts/"CF题解——C. Trip to the Olympiad"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——D. Boris and His".md': {
+      routes:
+        | '/posts/"CF题解——D. Boris and His"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——D. Fibonacci Paths".md': {
+      routes:
+        | '/posts/"CF题解——D. Fibonacci Paths"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——D. Shohag Loves GCD".md': {
+      routes:
+        | '/posts/"CF题解——D. Shohag Loves GCD"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——E. Block Sequence".md': {
+      routes:
+        | '/posts/"CF题解——E. Block Sequence"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——E. Data Structures Fan".md': {
+      routes:
+        | '/posts/"CF题解——E. Data Structures Fan"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——E. Graph Composition".md': {
+      routes:
+        | '/posts/"CF题解——E. Graph Composition"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——E. Power of Points".md': {
+      routes:
+        | '/posts/"CF题解——E. Power of Points"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——F. Final Boss".md': {
+      routes:
+        | '/posts/"CF题解——F. Final Boss"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——G. Garage".md': {
+      routes:
+        | '/posts/"CF题解——G. Garage"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——H. Beppa and SwerChat".md': {
+      routes:
+        | '/posts/"CF题解——H. Beppa and SwerChat"'
+      views:
+        | never
+    }
+    'pages/posts/“一些对于算法题的个人见解”.md': {
+      routes:
+        | '/posts/“一些对于算法题的个人见解”'
+      views:
+        | never
+    }
+    'pages/posts/“关于Docker的一些个人理解”.md': {
+      routes:
+        | '/posts/“关于Docker的一些个人理解”'
+      views:
+        | never
+    }
+    'pages/posts/“如何连接IPv6的服务器”.md': {
+      routes:
+        | '/posts/“如何连接IPv6的服务器”'
+      views:
+        | never
+    }
+    'pages/posts/“对于防御DDoS的一些思考”.md': {
+      routes:
+        | '/posts/“对于防御DDoS的一些思考”'
+      views:
+        | never
+    }
+    'pages/posts/“我的第一篇个人博客”.md': {
+      routes:
+        | '/posts/“我的第一篇个人博客”'
+      views:
+        | never
+    }
+    'pages/posts/“解决clang无法使用万能头文件”.md': {
+      routes:
+        | '/posts/“解决clang无法使用万能头文件”'
       views:
         | never
     }

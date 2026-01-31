@@ -1,9 +1,9 @@
 ---
-title: "CF题解——H. Beppa and SwerChat"
+title: "CF题解——Beppa and SwerChat"
 date: "2025-12-05 14:12:51"
 author: shouw
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -25,17 +25,17 @@ tags:
 
 因此，**最少上线过的人数** $\text{MinOnline}$ 对应于 **最多没有上线的人数** $\text{MaxOffline}$：
 
-{% raw %}
+
 
 $$
 \text{MinOnline} = N - \text{MaxOffline}
 $$
 
-{% endraw %}
 
-{% raw %}
+
+
 我们的目标转化为：<b>从 $A$ 和 $B$ 中找到能够保持相对顺序的最长公共子序列，这个子序列代表了 $\text{MaxOffline}$ 的长度。</b>
-{% endraw %}
+
 
 ### 1. 相对顺序的转换与简化
 
@@ -56,22 +56,22 @@ $$
 
 ### 2. 动态规划思路 (等效于线性扫描)
 
-{% raw %}
+
 在 $B'$ 中，我们要找一个最长的后缀子序列 $B'_{i}, B'_{i+1}, \dots, B'_{N-1}$，满足 $B'_j < B'_{j+1}$。
-{% endraw %}
+
 我们从 $B'_{N-2}$ 的倒数第二个元素开始向前扫描：
 
-* **初始化：** {% raw %}最长连续递增后缀长度 $\text{Length} = 1$ (包含 $B'_{N-1}$ 本身)。{% endraw %}
-* **递推：** {% raw %}当我们遍历到索引 $i$ 时，如果 $B'_i < B'_{i+1}$，说明当前成员 $B'_i$ 比后面的 $B'_{i+1}$ 在 9:00 时排名靠前，且在 22:00 时也排在 $B'_{i+1}$ 前面。这保持了相对顺序， $\text{Length} \leftarrow \text{Length} + 1$。{% endraw %}
-* **中断：** {% raw %}如果 $B'_i \ge B'_{i+1}$，则相对顺序发生变化，说明 $B'_i$ 或之前的某个成员一定上线过。我们在此中断，得到最大长度 $\text{MaxOffline} = \text{Length}$。{% endraw %}
+* **初始化：** 最长连续递增后缀长度 $\text{Length} = 1$ (包含 $B'_{N-1}$ 本身)。
+* **递推：** 当我们遍历到索引 $i$ 时，如果 $B'_i < B'_{i+1}$，说明当前成员 $B'_i$ 比后面的 $B'_{i+1}$ 在 9:00 时排名靠前，且在 22:00 时也排在 $B'_{i+1}$ 前面。这保持了相对顺序， $\text{Length} \leftarrow \text{Length} + 1$。
+* **中断：** 如果 $B'_i \ge B'_{i+1}$，则相对顺序发生变化，说明 $B'_i$ 或之前的某个成员一定上线过。我们在此中断，得到最大长度 $\text{MaxOffline} = \text{Length}$。
 
 <br>
 <b>最终答案：</b>
-{% raw %}
-$\text{MinOnline} = N - \text{Length}$。
-{% endraw %}
 
-### C++ 代码实现
+$\text{MinOnline} = N - \text{Length}$。
+
+
+### CPP 代码实现
 
 代码中，我们首先使用 `map` 将 $A$ 列表的 ID 映射到其排名（1到N），然后用这些排名构建 $B'$ 列表，最后通过线性扫描计算最长连续递增后缀的长度。
 

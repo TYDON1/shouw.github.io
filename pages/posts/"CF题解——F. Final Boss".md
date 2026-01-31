@@ -1,9 +1,9 @@
 ---
-title: "CF题解——F. Final Boss"
+title: "CF题解——Final Boss"
 date: "2025-12-02 10:27:47"
 author: shouw
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -16,45 +16,45 @@ tags:
 
 ### 核心问题分析与数学转化
 
-{% raw %}
+
 本题要求找到击败生命值为 $H$ 的 Boss 所需的**最少回合数** $R$。我们有 $N$ 种攻击，第 $i$ 种攻击伤害为 $a_i$，冷却时间为 $c_i$。在回合 $R$ 时，该攻击能够被使用的次数 $K_i$ 决定了其贡献的总伤害。
-{% endraw %}
+
 
 ### 1. 攻击次数与回合数的关系
 
 一个关键的观察是，第 $i$ 种攻击在回合 $1, 1+c_i, 1+2c_i, \dots$ 时可以使用。在给定回合数 $R$ 时，其使用次数 $K_i$ 的计算公式如下：
 
-{% raw %}
+
 该攻击在 $R$ 回合内能被使用的次数 $K_i$ 为：
 
 $$
 K_i = \left\lfloor \frac{R - 1}{c_i} \right\rfloor + 1
 $$
 
-{% endraw %}
 
-{% raw %}
+
+
 因此，在 $R$ 个回合内，总共对 Boss 造成的伤害 $\text{TotalDamage}(R)$ 为所有攻击贡献的累加和：
 
 $$
 \text{TotalDamage}(R) = \sum_{i=1}^{N} a_i \cdot K_i = \sum_{i=1}^{N} a_i \cdot \left( \left\lfloor \frac{R - 1}{c_i} \right\rfloor + 1 \right)
 $$
 
-{% endraw %}
-{% raw %}
+
+
 我们的核心任务，便转化成了找到满足 $\text{TotalDamage}(R) \ge H$ 的最小正整数回合数 $R$。
-{% endraw %}
+
 
 ### 2. 单调性与二分查找优化
 
-{% raw %}
+
 由于 $a_i$ 均为正数，回合数 $R$ 越大， $\text{TotalDamage}(R)$ 必定是**单调递增**的（非递减）。
-{% endraw %}
+
 
 * Boss 血量 $H$ 和攻击参数 $a_i, c_i$ 最大值约为 $2 \times 10^5$。
-* {% raw %}
+* 
   答案 $R$ 的范围可能非常大，根据示例和 $H \cdot c_{\max}$ 的上界估算， $R$ 接近 $4 \times 10^{10}$ 或更高。线性查找 $R$ 是不可行的。
-  {% endraw %}
+  
 
 这种单调性使得我们可以利用**二分查找**来寻找满足条件的最小 $R$，将 $O(R \cdot N)$ 的时间复杂度降低至 $O(N \cdot \log R_{\max})$。
 
@@ -64,15 +64,15 @@ $$
 
 ### 递推公式的建立 (Check 函数)
 
-{% raw %}
+
 我们定义 $\text{check}(R)$ 函数来计算 $R$ 回合内的总伤害并与 $H$ 比较。
-{% endraw %}
+
 
 1. **查找范围：** $R \in [\text{Start}, \text{End}]$。我们将 $\text{Start}=1$，并设定一个足够大的安全上界 $\text{End} = 2 \times 10^{14}$，确保包含所有可能的答案。
-2. **溢出防护：** {% raw %}由于总伤害 $\text{TotalDamage}(R)$ 可能超过 $ 64$ 位整数 (`long long`) 的上限 ($ 9 \times 10^{18}$)，在 `count_damage` 函数内部，必须对乘法 $a_i \cdot K_i$ 和累加 $\sum \text{Damage}_i$ 进行溢出检查。如果发生溢出，则表明伤害已达到极大值，足以击败 Boss。{% endraw %}
+2. **溢出防护：** 由于总伤害 $\text{TotalDamage}(R)$ 可能超过 $ 64$ 位整数 (`long long`) 的上限 ($ 9 \times 10^{18}$)，在 `count_damage` 函数内部，必须对乘法 $a_i \cdot K_i$ 和累加 $\sum \text{Damage}_i$ 进行溢出检查。如果发生溢出，则表明伤害已达到极大值，足以击败 Boss。
 
 **核心递推关系：**
-{% raw %}
+
 设 $R_{mid}$ 为二分查找的中间值。
 
 $$
@@ -80,9 +80,9 @@ $$
 $$
 
 如果 $\text{TotalDamage}(R_{mid}) \ge H$，则答案可能为 $R_{mid}$ 或更小；否则，答案在 $[R_{mid}+1, \text{End}]$ 区间。
-{% endraw %}
 
-### C++ 代码实现
+
+### CPP 代码实现
 
 代码中使用了 `SAFE_LARGE_DAMAGE` 常量作为溢出标记，并使用标准二分查找模板寻找满足条件的左边界（最小值）。
 

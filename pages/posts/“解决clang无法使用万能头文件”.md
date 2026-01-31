@@ -2,7 +2,7 @@
 title: “解决clang无法使用万能头文件”
 date: "2025-10-13 07:45:04"
 author: shouw
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 技术

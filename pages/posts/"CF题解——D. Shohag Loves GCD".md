@@ -1,9 +1,9 @@
 ---
-title: "CF题解——D. Shohag Loves GCD"
+title: "CF题解——Shohag Loves GCD"
 date: "2025-12-29 14:36:41"
 author: shouw
 katex: true
-email: shouw707@gmail.com
+email: KijinSeija@shouw.blog
 readmore: true
 tags:
   - 编程
@@ -18,11 +18,11 @@ tags:
 ### 核心问题分析
 
 题目要求我们构造一个字典序最大的数组 $a$，使得对于任意 $1 \le i < j \le n$，满足：
-{% raw %}
+
 $$
 a_{\gcd(i, j)} \neq \gcd(a_i, a_j)
 $$
-{% endraw %}
+
 且所有 $a_i$ 都必须来自给定的集合 $S$。
 
 ### 1. 条件转化与数学推导
@@ -30,11 +30,11 @@ $$
 我们先考察最特殊的整除情况。
 假设 $i \mid j$（即 $i$ 是 $j$ 的因数），那么 $\gcd(i, j) = i$。
 此时题目条件转化为：
-{% raw %}
+
 $$
 a_i \neq \gcd(a_i, a_j)
 $$
-{% endraw %}
+
 因为 $\gcd(a_i, a_j)$ 一定是 $a_i$ 的约数，要使得它不等于 $a_i$，唯一的办法就是 $\gcd(a_i, a_j) \neq a_i$。这意味着 **$a_i$ 不能整除 $a_j$**。
 
 **推论：**
@@ -79,10 +79,10 @@ $$
 
 **判断：**
 
-{% raw %}
+
 因为 $a_g$ 严格大于 $a_i$ 和 $a_j$，所以 $a_g$ 必然严格大于 $\gcd(a_i, a_j)$（因为 $\gcd(x, y) \le \min(x, y)$）。
 所以 $a_{\gcd(i, j)} \neq \gcd(a_i, a_j)$ 恒成立。
-{% endraw %}
+
 
 **无解判定：**
 如果算出的最大深度 $\max(depth)$ 超过了集合 $S$ 的大小 $m$，说明我们没有足够的数来区分这么长的整除链，此时输出 -1。
@@ -94,7 +94,7 @@ $$
 *   对于每个 $i$，更新其倍数 $j$：$depth[j] = \max(depth[j], depth[i] + 1)$。
 *   这种递推保证了 $depth[j]$ 正确记录了最长链。
 
-### C++ 代码实现
+### CPP 代码实现
 
 使用每个数字的深度去寻找它当前所能填入的最大数字。
 
