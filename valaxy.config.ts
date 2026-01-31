@@ -17,7 +17,7 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: '云游君的小站',
+      title: 'shouwのblog',
     },
 
     pages: [
@@ -26,19 +26,13 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: '/links/',
         icon: 'i-ri-genderless-line',
         color: 'dodgerblue',
-      },
-      {
-        name: '喜欢的女孩子',
-        url: '/girls/',
-        icon: 'i-ri-women-line',
-        color: 'hotpink',
-      },
+      }
     ],
 
     footer: {
-      since: 2016,
+      since: 2025,
       beian: {
-        enable: true,
+        enable: false,
         icp: '苏ICP备17038157号',
       },
     },

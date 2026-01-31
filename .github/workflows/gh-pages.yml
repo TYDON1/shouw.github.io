@@ -14,7 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
@@ -30,3 +31,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          # 必须加上这一行，强制绑定域名
+          cname: shouw.blog
+          # 加上这行防止 GitHub 用 Jekyll 逻辑解析
+          nojekyll: true
