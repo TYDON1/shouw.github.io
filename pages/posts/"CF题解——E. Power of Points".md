@@ -3,6 +3,8 @@ title: "CF题解——Power of Points"
 date: "2025-11-29 21:17:20"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

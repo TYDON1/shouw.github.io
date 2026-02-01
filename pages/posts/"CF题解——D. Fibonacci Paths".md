@@ -2,6 +2,8 @@
 title: "CF题解——Fibonacci Paths"
 date: "2025-12-15 08:21:21"
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

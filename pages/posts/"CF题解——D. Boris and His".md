@@ -3,6 +3,8 @@ title: "CF题解——Boris and His Amazing Haircut"
 date: "2026-01-10 17:25:59"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

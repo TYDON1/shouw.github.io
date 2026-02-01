@@ -2,6 +2,8 @@
 title: "CF题解——Block Sequence"
 date: "2025-12-04 09:09:27"
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

@@ -3,6 +3,8 @@ title: "CF题解——Serval and The Formula"
 date: "2025-12-26 15:41:22"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

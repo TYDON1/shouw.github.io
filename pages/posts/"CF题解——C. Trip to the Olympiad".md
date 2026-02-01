@@ -3,6 +3,8 @@ title: "CF题解——Trip to the Olympiad"
 date: "2025-11-15 18:44:45"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

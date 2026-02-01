@@ -3,6 +3,8 @@ title: "CF题解——Restricted Sorting"
 date: "2026-01-30 09:11:09"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

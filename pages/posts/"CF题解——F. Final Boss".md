@@ -3,6 +3,8 @@ title: "CF题解——Final Boss"
 date: "2025-12-02 10:27:47"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

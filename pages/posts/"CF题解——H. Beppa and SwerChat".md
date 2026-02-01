@@ -3,6 +3,8 @@ title: "CF题解——Beppa and SwerChat"
 date: "2025-12-05 14:12:51"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

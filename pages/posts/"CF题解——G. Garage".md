@@ -3,6 +3,8 @@ title: "CF题解——Garage"
 date: "2025-12-08 10:34:22"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

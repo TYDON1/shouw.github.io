@@ -3,6 +3,8 @@ title: "CF题解——Max GEQ Sum"
 date: "2026-01-31 14:10:22"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

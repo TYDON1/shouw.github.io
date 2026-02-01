@@ -3,6 +3,8 @@ title: "CF题解——Beautiful Sequence"
 date: "2025-12-01 10:30:52"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

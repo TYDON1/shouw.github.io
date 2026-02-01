@@ -2,6 +2,8 @@
 title: “对于防御DDoS的一些思考”
 date: "2025-10-13 20:17:46"
 author: shouw
+categories:
+  - 编程
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

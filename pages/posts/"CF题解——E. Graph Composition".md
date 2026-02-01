@@ -2,6 +2,8 @@
 title: "CF题解——Graph Composition"
 date: "2025-12-18 17:03:21"
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

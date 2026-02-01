@@ -3,6 +3,8 @@ title: "CF题解——Data Structures Fan"
 date: "2025-12-29 16:12:42"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

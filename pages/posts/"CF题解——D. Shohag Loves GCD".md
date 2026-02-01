@@ -3,6 +3,8 @@ title: "CF题解——Shohag Loves GCD"
 date: "2025-12-29 14:36:41"
 author: shouw
 katex: true
+categories:
+  - 算法竞赛相关
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

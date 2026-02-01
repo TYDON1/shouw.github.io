@@ -1,6 +1,8 @@
 ---
 title: “如何连接IPv6的服务器”
 date: "2025-10-13 20:45:17"
+categories:
+  - 编程
 email: KijinSeija@shouw.blog
 readmore: true
 tags:

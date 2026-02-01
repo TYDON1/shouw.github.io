@@ -2,6 +2,8 @@
 title: “关于Docker的一些个人理解与实践”
 date: "2025-10-13 07:25:07"
 author: shouw
+categories:
+  - 编程
 email: KijinSeija@shouw.blog
 readmore: true
 tags:
