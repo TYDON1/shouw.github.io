@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-02-01T06:14:50.998Z</updated>
+    <updated>2026-02-01T06:25:03.057Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,25 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[并查集模版]]></title>
+        <id>https://shouw.blog/posts/"Tarjan模版"</id>
+        <link href="https://shouw.blog/posts/&quot;Tarjan模版&quot;"/>
+        <updated>2026-02-01T14:23:35.000Z</updated>
+        <content type="html"><![CDATA[<h2>Tarjan模版</h2>
+<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
+#define int long long
+#define endl '\n'
+
+using namespa</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"Tarjan模版"" target="_blank">https://shouw.blog/posts/"Tarjan模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-01T14:23:35.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[线段树模版]]></title>
         <id>https://shouw.blog/posts/"线段树模版"</id>
@@ -33,6 +52,25 @@ using namespace </code></pre>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2026-02-01T13:49:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[并查集模版]]></title>
+        <id>https://shouw.blog/posts/"并查集模版"</id>
+        <link href="https://shouw.blog/posts/&quot;并查集模版&quot;"/>
+        <updated>2026-02-01T12:18:07.000Z</updated>
+        <content type="html"><![CDATA[<h2>并查集模版</h2>
+<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
+#define int long long
+#define endl '\n'
+
+using namespace </code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"并查集模版"" target="_blank">https://shouw.blog/posts/"并查集模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-01T12:18:07.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Max GEQ Sum]]></title>
