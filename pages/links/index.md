@@ -4,7 +4,7 @@ links:
   - blog: Arkito's Blog
     name: Arkito  
     url: https://blog.arkitosekai.net/
-    avatar: https://shouw.blog/Arkito.png/
+    avatar: https://shouw.blog/Arkito.png
 random: true
 ---
 
