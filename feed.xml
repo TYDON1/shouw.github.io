@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Sun, 01 Feb 2026 06:25:03 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Feb 2026 06:30:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,7 +15,22 @@
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[并查集模版]]></title>
+            <title><![CDATA[Kruskal模版]]></title>
+            <link>https://shouw.blog/posts/"Kruskal模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"Kruskal模版"</guid>
+            <pubDate>Sun, 01 Feb 2026 14:27:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Kruskal模版</h2>
+<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
+#define int long long
+
+using namespace std;
+
+struct N</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"Kruskal模版"" target="_blank">https://shouw.blog/posts/"Kruskal模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[Tarjan模版]]></title>
             <link>https://shouw.blog/posts/"Tarjan模版"</link>
             <guid isPermaLink="false">https://shouw.blog/posts/"Tarjan模版"</guid>
             <pubDate>Sun, 01 Feb 2026 14:23:35 GMT</pubDate>
