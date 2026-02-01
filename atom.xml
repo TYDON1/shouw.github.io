@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-01-31T11:37:58.080Z</updated>
+    <updated>2026-02-01T05:52:28.740Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -384,5 +384,43 @@ a</p>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2025-10-12T20:55:17.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[线段树模版]]></title>
+        <id>https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"_副本</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——C. Beautiful Sequence&quot;_副本"/>
+        <updated>2025-02-01T13:49:13.000Z</updated>
+        <content type="html"><![CDATA[<h2>线段树模版</h2>
+<pre><code>#include &lt;bits/stdc++.h&gt;
+#define int long long
+#define endl &quot;\n&quot;
+
+using namespace std</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"_副本" target="_blank">https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"_副本</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-02-01T13:49:13.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[线段树模版]]></title>
+        <id>https://shouw.blog/posts/"线段树模版"</id>
+        <link href="https://shouw.blog/posts/&quot;线段树模版&quot;"/>
+        <updated>2025-02-01T13:49:13.000Z</updated>
+        <content type="html"><![CDATA[<h2>线段树模版</h2>
+<pre><code>#include &lt;bits/stdc++.h&gt;
+#define int long long
+#define endl &quot;\n&quot;
+
+using namespace std</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"线段树模版"" target="_blank">https://shouw.blog/posts/"线段树模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-02-01T13:49:13.000Z</published>
     </entry>
 </feed>
