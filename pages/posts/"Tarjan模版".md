@@ -1,5 +1,5 @@
 ---
-title: "并查集模版"
+title: "Tarjan模版"
 date: "2026-02-01 14:23:35"
 author: shouw
 katex: true
