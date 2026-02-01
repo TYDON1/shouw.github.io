@@ -12,7 +12,7 @@ tags:
   - 算法竞赛
   - 题解
   - 并查集
-  - 二分答案
+  - 二分查找
 ---
 
 # C. Restricted Sorting 解题思路
