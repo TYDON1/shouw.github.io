@@ -5,6 +5,7 @@ links:
     name: Arkito  
     url: https://blog.arkitosekai.net/
     avatar: https://shouw.blog/Arkito.png
+    desc: 兴趣驱使
 random: true
 ---
 
