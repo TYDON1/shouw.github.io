@@ -14,24 +14,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: latest
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          cache: 'pnpm'
 
       - name: Install Dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Build Site
-        run: npm run build
+        run: pnpm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # 必须加上这一行，强制绑定域名
           cname: shouw.blog
-          # 加上这行防止 GitHub 用 Jekyll 逻辑解析
           nojekyll: true
