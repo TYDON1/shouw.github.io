@@ -107,6 +107,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"并查集模版"': RouteRecordInfo<
+      '/posts/"并查集模版"',
+      '/posts/%22%E5%B9%B6%E6%9F%A5%E9%9B%86%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"线段树模版"': RouteRecordInfo<
+      '/posts/"线段树模版"',
+      '/posts/%22%E7%BA%BF%E6%AE%B5%E6%A0%91%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"CF题解——C. Beautiful Sequence"': RouteRecordInfo<
       '/posts/"CF题解——C. Beautiful Sequence"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Beautiful%20Sequence%22',
@@ -145,6 +159,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/"CF题解——D. Fibonacci Paths"': RouteRecordInfo<
       '/posts/"CF题解——D. Fibonacci Paths"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Fibonacci%20Paths%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——D. Max GEQ Sum"': RouteRecordInfo<
+      '/posts/"CF题解——D. Max GEQ Sum"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Max%20GEQ%20Sum%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -201,6 +222,20 @@ declare module 'vue-router/auto-routes' {
     '/posts/"CF题解——H. Beppa and SwerChat"': RouteRecordInfo<
       '/posts/"CF题解——H. Beppa and SwerChat"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94H/%20Beppa%20and%20SwerChat%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"Kruskal模版"': RouteRecordInfo<
+      '/posts/"Kruskal模版"',
+      '/posts/%22Kruskal%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"Tarjan模版"': RouteRecordInfo<
+      '/posts/"Tarjan模版"',
+      '/posts/%22Tarjan%E6%A8%A1%E7%89%88%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -267,13 +302,13 @@ declare module 'vue-router/auto-routes' {
    * @internal
    */
   export interface _RouteFileInfoMap {
-    'node_modules/valaxy-theme-yun/pages/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.13_vue@3.5.22_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/index.vue': {
       routes:
         | '/'
       views:
         | never
     }
-    'node_modules/valaxy/client/pages/[...path].vue': {
+    'node_modules/.pnpm/valaxy@0.26.13_@babel+parser@7.29.0_@nuxt+kit@3.21.0_@types+markdown-it@14.1.2_@types+n_eaa417078ef2db47c6978bd07f94aa88/node_modules/valaxy/client/pages/[...path].vue': {
       routes:
         | '/[...path]'
       views:
@@ -315,13 +350,13 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
-    'node_modules/valaxy-theme-yun/pages/page/[page].vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.13_vue@3.5.22_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/page/[page].vue': {
       routes:
         | '/page/[page]'
       views:
         | never
     }
-    'node_modules/valaxy-theme-yun/pages/posts/index.vue': {
+    'node_modules/.pnpm/valaxy-theme-yun@0.26.13_vue@3.5.22_typescript@5.9.3_/node_modules/valaxy-theme-yun/pages/posts/index.vue': {
       routes:
         | '/posts/'
       views:
@@ -336,6 +371,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/"内网穿透简单教程".md': {
       routes:
         | '/posts/"内网穿透简单教程"'
+      views:
+        | never
+    }
+    'pages/posts/"并查集模版".md': {
+      routes:
+        | '/posts/"并查集模版"'
+      views:
+        | never
+    }
+    'pages/posts/"线段树模版".md': {
+      routes:
+        | '/posts/"线段树模版"'
       views:
         | never
     }
@@ -372,6 +419,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/"CF题解——D. Fibonacci Paths".md': {
       routes:
         | '/posts/"CF题解——D. Fibonacci Paths"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——D. Max GEQ Sum".md': {
+      routes:
+        | '/posts/"CF题解——D. Max GEQ Sum"'
       views:
         | never
     }
@@ -420,6 +473,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/"CF题解——H. Beppa and SwerChat".md': {
       routes:
         | '/posts/"CF题解——H. Beppa and SwerChat"'
+      views:
+        | never
+    }
+    'pages/posts/"Kruskal模版".md': {
+      routes:
+        | '/posts/"Kruskal模版"'
+      views:
+        | never
+    }
+    'pages/posts/"Tarjan模版".md': {
+      routes:
+        | '/posts/"Tarjan模版"'
       views:
         | never
     }
