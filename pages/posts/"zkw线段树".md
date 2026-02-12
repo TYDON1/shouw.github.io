@@ -13,7 +13,7 @@ tags:
   - 模版
 ---
 
-## 并查集模版
+## zkw线段树模版
 
 ```cpp
 #include <bits/stdc++.h>
@@ -23,7 +23,7 @@ tags:
 using namespace std;
 
 struct ZkwTree {
-	
+
     int n, h;
     vector<int> st, tg, sz;
 
