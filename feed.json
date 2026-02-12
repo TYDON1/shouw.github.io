@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"zkw线段树\"",
+            "content_html": "<h2>并查集模版</h2>\n<pre><code class=\"language-cpp\">#include &lt;bits/stdc++.h&gt;\n#define int long long\n#define endl &quot;\\n&quot;\n\nusing namespace </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"zkw线段树\"\" target=\"_blank\">https://shouw.blog/posts/\"zkw线段树\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"zkw线段树\"",
+            "title": "zkw线段树模版",
+            "date_modified": "2026-02-12T14:56:12.000Z",
+            "date_published": "2026-02-12T14:56:12.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"Kruskal模版\"",
             "content_html": "<h2>Kruskal模版</h2>\n<pre><code class=\"language-cpp\">#include &lt;bits/stdc++.h&gt;\n#define int long long\n\nusing namespace std;\n\nstruct N</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"Kruskal模版\"\" target=\"_blank\">https://shouw.blog/posts/\"Kruskal模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"Kruskal模版\"",
