@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Thu, 12 Feb 2026 06:58:17 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Feb 2026 07:04:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -19,12 +19,12 @@
             <link>https://shouw.blog/posts/"zkw线段树"</link>
             <guid isPermaLink="false">https://shouw.blog/posts/"zkw线段树"</guid>
             <pubDate>Thu, 12 Feb 2026 14:56:12 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>并查集模版</h2>
+            <content:encoded><![CDATA[<h2>zkw线段树模版</h2>
 <pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
 #define int long long
 #define endl &quot;\n&quot;
 
-using namespace </code></pre>
+using namespa</code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"zkw线段树"" target="_blank">https://shouw.blog/posts/"zkw线段树"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>

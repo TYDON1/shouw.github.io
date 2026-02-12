@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-02-12T06:58:17.950Z</updated>
+    <updated>2026-02-12T07:04:37.048Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -20,12 +20,12 @@
         <id>https://shouw.blog/posts/"zkw线段树"</id>
         <link href="https://shouw.blog/posts/&quot;zkw线段树&quot;"/>
         <updated>2026-02-12T14:56:12.000Z</updated>
-        <content type="html"><![CDATA[<h2>并查集模版</h2>
+        <content type="html"><![CDATA[<h2>zkw线段树模版</h2>
 <pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
 #define int long long
 #define endl &quot;\n&quot;
 
-using namespace </code></pre>
+using namespa</code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"zkw线段树"" target="_blank">https://shouw.blog/posts/"zkw线段树"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
