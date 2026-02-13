@@ -6,7 +6,6 @@ links:
     url: https://blog.arkitosekai.net/
     avatar: https://shouw.blog/Arkito.png
     desc: 兴趣驱使
-links:
   - blog: lynptl's Blog
     name: lynptl  
     url: https://lynptl.github.io/
