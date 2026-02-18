@@ -4,7 +4,7 @@ export default defineSiteConfig({
   url: 'https://shouw.blog/',
   lang: 'zh-CN',
   title: 'shouwのblog',
-  subtitle: '一个用于记录成长历程的blog',
+  subtitle: 'the daybreak will never come again',
   author: {
     name: 'shouw',
     avatar: 'https://shouw.blog/avatar.jpg',
