@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/Atc的DP专训",
+            "content_html": "<h2>Atc的DP专训</h2>\n<h3>A</h3>\n<pre><code class=\"language-cpp\">// A - Frog 1\n\n#include &lt;bits/stdc++.h&gt;\n#define int long long\n#define end</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/Atc的DP专训\" target=\"_blank\">https://shouw.blog/posts/Atc的DP专训</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/Atc的DP专训",
+            "title": "Atc的DP专训",
+            "date_modified": "2026-03-02T14:45:14.000Z",
+            "date_published": "2026-03-02T14:45:14.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"zkw线段树\"",
             "content_html": "<h2>zkw线段树模版</h2>\n<pre><code class=\"language-cpp\">#include &lt;bits/stdc++.h&gt;\n#define int long long\n#define endl &quot;\\n&quot;\n\nusing namespa</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"zkw线段树\"\" target=\"_blank\">https://shouw.blog/posts/\"zkw线段树\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"zkw线段树\"",
