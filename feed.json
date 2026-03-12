@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/关于DP的一些解题技巧",
+            "content_html": "<p>之前在博客里分享了一些自己写算法题时的通用习惯，比如“先搭骨架”和“模块化原则”。经过这段时间在大学里更系统地刷题和打比赛，我想专门来聊聊算法竞赛里绝对绕不开、也常常让初学者（包括曾经的我）痛不欲生</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/关于DP的一些解题技巧\" target=\"_blank\">https://shouw.blog/posts/关于DP的一些解题技巧</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/关于DP的一些解题技巧",
+            "title": "关于DP的一些解题技巧",
+            "date_modified": "2026-03-12T14:02:09.000Z",
+            "date_published": "2026-03-12T14:02:09.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"CF题解——E1. Eliminating Balls With Merging (Easy Version)\"",
             "content_html": "<h1>E1. Eliminating Balls With Merging (Easy Version) 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>本题的 Easy Version 中，$x = n$，这意</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E1. Eliminating Balls With Merging (Easy Version)\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E1. Eliminating Balls With Merging (Easy Version)\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——E1. Eliminating Balls With Merging (Easy Version)\"",

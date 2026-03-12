@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Thu, 12 Mar 2026 05:51:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 12 Mar 2026 06:04:42 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,15 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[关于DP的一些解题技巧]]></title>
+            <link>https://shouw.blog/posts/关于DP的一些解题技巧</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/关于DP的一些解题技巧</guid>
+            <pubDate>Thu, 12 Mar 2026 14:02:09 GMT</pubDate>
+            <content:encoded><![CDATA[<p>之前在博客里分享了一些自己写算法题时的通用习惯，比如“先搭骨架”和“模块化原则”。经过这段时间在大学里更系统地刷题和打比赛，我想专门来聊聊算法竞赛里绝对绕不开、也常常让初学者（包括曾经的我）痛不欲生</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/关于DP的一些解题技巧" target="_blank">https://shouw.blog/posts/关于DP的一些解题技巧</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Eliminating Balls With Merging (Easy Version)]]></title>
             <link>https://shouw.blog/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"</link>
