@@ -1,5 +1,5 @@
 ---
-title: "E1. Eliminating Balls With Merging (Easy Version)"
+title: "CF题解——Eliminating Balls With Merging (Easy Version)"
 date: "2026-03-12 13:40:01"
 author: shouw
 katex: true
