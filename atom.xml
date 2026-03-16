@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-03-12T06:08:27.873Z</updated>
+    <updated>2026-03-16T06:25:51.950Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,22 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[CF题解——Small GCD]]></title>
+        <id>https://shouw.blog/posts/"CF题解——C. Serval and The Formula"_副本</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——C. Serval and The Formula&quot;_副本"/>
+        <updated>2026-03-16T14:24:28.000Z</updated>
+        <content type="html"><![CDATA[<h1>D. Small GCD 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意看起来有些绕：在数组中任选三个数 $a_i, a_j, a_k$，按大小排个序后，取出**较小的两个数求 GCD（最大公约数）*</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Serval and The Formula"_副本" target="_blank">https://shouw.blog/posts/"CF题解——C. Serval and The Formula"_副本</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-03-16T14:24:28.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于DP的一些解题技巧]]></title>
         <id>https://shouw.blog/posts/关于DP的一些解题技巧</id>
