@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"CF题解——E. Merging Towers\"",
+            "content_html": "<h1>E. Merging Towers 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>初看这道题，各种“汉诺塔”式的圆盘来回移动，还要维护从大到小的顺序，似乎非常头疼。题目要求我们求出将所有圆盘合并成**唯一</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Merging Towers\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Merging Towers\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——E. Merging Towers\"",
+            "title": "CF题解——Merging Towers",
+            "date_modified": "2026-03-23T16:16:25.000Z",
+            "date_published": "2026-03-23T16:16:25.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"CF题解——Small GCD\"",
             "content_html": "<h1>D. Small GCD 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意看起来有些绕：在数组中任选三个数 $a_i, a_j, a_k$，按大小排个序后，取出**较小的两个数求 GCD（最大公约数）*</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Small GCD\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Small GCD\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——Small GCD\"",

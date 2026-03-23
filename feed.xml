@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 16 Mar 2026 06:28:39 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 23 Mar 2026 08:18:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,17 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CF题解——Merging Towers]]></title>
+            <link>https://shouw.blog/posts/"CF题解——E. Merging Towers"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Merging Towers"</guid>
+            <pubDate>Mon, 23 Mar 2026 16:16:25 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Merging Towers 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>初看这道题，各种“汉诺塔”式的圆盘来回移动，还要维护从大到小的顺序，似乎非常头疼。题目要求我们求出将所有圆盘合并成**唯一</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Merging Towers"" target="_blank">https://shouw.blog/posts/"CF题解——E. Merging Towers"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Small GCD]]></title>
             <link>https://shouw.blog/posts/"CF题解——Small GCD"</link>
