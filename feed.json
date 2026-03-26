@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"",
+            "content_html": "<h1>D2. Max Sum OR (Hard Version) 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的要求是：给定一个连续的整数数组 $b = [l, l+1, \\dots, r]$，我们需要构</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"",
+            "title": "CF题解——Max Sum OR (Hard Version)",
+            "date_modified": "2026-03-26T17:08:09.000Z",
+            "date_published": "2026-03-26T17:08:09.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"CF题解——E. Merging Towers\"",
             "content_html": "<h1>E. Merging Towers 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>初看这道题，各种“汉诺塔”式的圆盘来回移动，还要维护从大到小的顺序，似乎非常头疼。题目要求我们求出将所有圆盘合并成**唯一</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Merging Towers\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Merging Towers\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——E. Merging Towers\"",
