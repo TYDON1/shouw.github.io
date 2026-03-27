@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Fri, 27 Mar 2026 10:55:28 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Mar 2026 11:02:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,7 +15,7 @@
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[CF题解——F. Sheriff's Defense]]></title>
+            <title><![CDATA[CF题解——Sheriff's Defense]]></title>
             <link>https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</link>
             <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</guid>
             <pubDate>Fri, 27 Mar 2026 18:51:10 GMT</pubDate>

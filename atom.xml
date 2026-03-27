@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-03-27T10:55:28.611Z</updated>
+    <updated>2026-03-27T11:02:44.594Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -16,7 +16,7 @@
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
     <entry>
-        <title type="html"><![CDATA[CF题解——F. Sheriff's Defense]]></title>
+        <title type="html"><![CDATA[CF题解——Sheriff's Defense]]></title>
         <id>https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——F. SheriffsDefense&quot;"/>
         <updated>2026-03-27T18:51:10.000Z</updated>
