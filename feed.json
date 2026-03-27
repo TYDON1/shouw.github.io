@@ -11,9 +11,33 @@
     },
     "items": [
         {
-            "id": "https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"",
-            "content_html": "<h1>D2. Max Sum OR (Hard Version) 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的要求是：给定一个连续的整数数组 $b = [l, l+1, \\dots, r]$，我们需要构</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"</a> 阅读全文。</p>",
-            "url": "https://shouw.blog/posts/\"CF题解——Max Sum OR (Hard Version)\"",
+            "id": "https://shouw.blog/posts/\"CF题解——E. Calendar Ambiguity\"",
+            "content_html": "<h1>E. Calendar Ambiguity 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>大家遇到这种跟日期、星期几相关的题目，第一反应可能是头皮发麻。题目中说：一个外星历法，一年有 $m$ 个月，每个月</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——E. Calendar Ambiguity\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——E. Calendar Ambiguity\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——E. Calendar Ambiguity\"",
+            "title": "CF题解——Calendar Ambiguity",
+            "date_modified": "2026-03-27T18:24:46.000Z",
+            "date_published": "2026-03-27T18:24:46.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"CF题解——F. Sheriff's Defense",
+            "content_html": "<h1>F. Sheriff's Defense 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的背景很有意思：在由营地（节点）和相连小路（边）构成的一棵树上，我们可以选择“强化”一部分营地。<br>\n规则是：如果你</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——F. Sheriff's Defense\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——F. Sheriff's Defense</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——F. Sheriff's Defense",
+            "title": "CF题解——Sheriff's Defense",
+            "date_modified": "2026-03-27T18:20:08.000Z",
+            "date_published": "2026-03-27T18:20:08.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"CF题解——D2 .Max Sum OR (Hard Version)\"",
+            "content_html": "<h1>D2. Max Sum OR (Hard Version) 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的要求是：给定一个连续的整数数组 $b = [l, l+1, \\dots, r]$，我们需要构</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——D2 .Max Sum OR (Hard Version)\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——D2 .Max Sum OR (Hard Version)\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——D2 .Max Sum OR (Hard Version)\"",
             "title": "CF题解——Max Sum OR (Hard Version)",
             "date_modified": "2026-03-26T17:08:09.000Z",
             "date_published": "2026-03-26T17:08:09.000Z",
