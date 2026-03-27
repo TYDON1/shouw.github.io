@@ -1,6 +1,6 @@
 ---
-title: "CF题解——Sheriff's Defense"
-date: "2026-03-27 18:20:08"
+title: "CF题解——F. Sheriff's Defense"
+date: "2026-03-27 18:51:10"
 author: shouw
 katex: true
 categories:
@@ -56,6 +56,8 @@ tags:
   $$ dp[u].b += vals[u] $$
 
 ### CPP 代码实现
+
+下面是代码实现，严格遵循了模块化原则，将 DP 转移逻辑完美封装在了一次 DFS 遍历中。
 
 ```cpp
 // F. Sheriff's Defense

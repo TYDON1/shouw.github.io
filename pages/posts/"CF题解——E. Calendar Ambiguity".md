@@ -27,17 +27,17 @@ tags:
 
 首先，怎么算某一天是这一年的第几天？
 对于“第 $M$ 个月的第 $D$ 天”，因为前面有 $M-1$ 个完整的月（每个月 $d$ 天），再加上当月的 $D-1$ 天，所以距离这一年第一天的天数差是：
-$$ \text{Days} = (M - 1)d + D - 1 $$
+$$\text{Days} = (M - 1)d + D - 1$$
 
 题目要求“第 $y$ 个月的第 $x$ 天”和“第 $x$ 个月的第 $y$ 天”星期相同。这就意味着，**这两天距离第一天的天数之差，必须是一周天数 $w$ 的整数倍**。
 我们把上面的公式代入并相减：
 
-$$ [ (y-1)d + x - 1 ] - [ (x-1)d + y - 1 ] \equiv 0 \pmod w $$、
+$$[ (y-1)d + x - 1 ] - [ (x-1)d + y - 1 ] \equiv 0 \pmod w$$
 
 把式子展开并合并同类项：
-$$ yd - d + x - xd + d - y \equiv 0 \pmod w $$
-$$ (y - x)d - (y - x) \equiv 0 \pmod w $$
-**$$ (y - x)(d - 1) \equiv 0 \pmod w $$**
+$$yd - d + x - xd + d - y \equiv 0 \pmod w$$
+$$(y - x)d - (y - x) \equiv 0 \pmod w$$
+**$$(y - x)(d - 1) \equiv 0 \pmod w$$**
 
 你看！原本绕来绕去的文字，瞬间变成了一个极其清爽的同余式！
 
@@ -47,7 +47,7 @@ $$ (y - x)d - (y - x) \equiv 0 \pmod w $$
 既然 $(d - 1)$ 里面本身就可能自带了 $w$ 的一些因子（即它们的最大公约数 $\gcd(d-1, w)$），那么 $(y - x)$ 只需要“补齐” $w$ 剩下的那部分因子就可以了。
 
 因此，$(y - x)$ 必须是下面这个数字的整数倍：
-$$ \text{step} = \frac{w}{\gcd(d-1, w)} $$
+$$\text{step} = \frac{w}{\gcd(d-1, w)}$$
 我们把这个必须的差值称为“步长” $step$。也就是说，$y - x = k \times step \ (k \ge 1)$。
 
 ### 3. 边界确定与等差数列求和
@@ -68,7 +68,7 @@ $$ \text{step} = \frac{w}{\gcd(d-1, w)} $$
 其中，最大的倍数 $k = \lfloor \frac{n - 1}{step} \rfloor$。
 
 将上面所有的对数加起来：
-$$ \sum_{i=1}^{k} (n - i \times step) = k \times n - step \times \frac{k(k+1)}{2} $$
+$$\sum_{i=1}^{k} (n - i \times step) = k \times n - step \times \frac{k(k+1)}{2}$$
 
 直接套用等差数列求和公式！算法的时间复杂度从原本可能的 $O(N)$ 甚至 $O(N^2)$，瞬间降维打击到了 **$O(1)$**（求 $\gcd$ 的对数时间几乎可以忽略）。这才是算法最迷人的地方！
 

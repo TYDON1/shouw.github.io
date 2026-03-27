@@ -177,9 +177,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"CF题解——D2 .Max Sum OR (Hard Version)"': RouteRecordInfo<
+      '/posts/"CF题解——D2 .Max Sum OR (Hard Version)"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D2%20/Max%20Sum%20OR%20(Hard%20Version)%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"CF题解——E. Block Sequence"': RouteRecordInfo<
       '/posts/"CF题解——E. Block Sequence"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Block%20Sequence%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——E. Calendar Ambiguity"': RouteRecordInfo<
+      '/posts/"CF题解——E. Calendar Ambiguity"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Calendar%20Ambiguity%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -198,6 +212,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"CF题解——E. Merging Towers"': RouteRecordInfo<
+      '/posts/"CF题解——E. Merging Towers"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Merging%20Towers%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"CF题解——E. Power of Points"': RouteRecordInfo<
       '/posts/"CF题解——E. Power of Points"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Power%20of%20Points%22',
@@ -205,9 +226,23 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"': RouteRecordInfo<
+      '/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E1/%20Eliminating%20Balls%20With%20Merging%20(Easy%20Version)%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"CF题解——F. Final Boss"': RouteRecordInfo<
       '/posts/"CF题解——F. Final Boss"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94F/%20Final%20Boss%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——F. SheriffsDefense"': RouteRecordInfo<
+      '/posts/"CF题解——F. SheriffsDefense"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94F/%20SheriffsDefense%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -226,6 +261,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"CF题解——Small GCD"': RouteRecordInfo<
+      '/posts/"CF题解——Small GCD"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Small%20GCD%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"Kruskal模版"': RouteRecordInfo<
       '/posts/"Kruskal模版"',
       '/posts/%22Kruskal%E6%A8%A1%E7%89%88%22',
@@ -236,6 +278,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/"Tarjan模版"': RouteRecordInfo<
       '/posts/"Tarjan模版"',
       '/posts/%22Tarjan%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"zkw线段树"': RouteRecordInfo<
+      '/posts/"zkw线段树"',
+      '/posts/%22zkw%E7%BA%BF%E6%AE%B5%E6%A0%91%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -278,6 +327,20 @@ declare module 'vue-router/auto-routes' {
     '/posts/“解决clang无法使用万能头文件”': RouteRecordInfo<
       '/posts/“解决clang无法使用万能头文件”',
       '/posts/%E2%80%9C%E8%A7%A3%E5%86%B3clang%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%87%E8%83%BD%E5%A4%B4%E6%96%87%E4%BB%B6%E2%80%9D',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/关于DP的一些解题技巧': RouteRecordInfo<
+      '/posts/关于DP的一些解题技巧',
+      '/posts/%E5%85%B3%E4%BA%8EDP%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%A3%E9%A2%98%E6%8A%80%E5%B7%A7',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/Atc的DP专训': RouteRecordInfo<
+      '/posts/Atc的DP专训',
+      '/posts/Atc%E7%9A%84DP%E4%B8%93%E8%AE%AD',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -434,9 +497,21 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/"CF题解——D2 .Max Sum OR (Hard Version)".md': {
+      routes:
+        | '/posts/"CF题解——D2 .Max Sum OR (Hard Version)"'
+      views:
+        | never
+    }
     'pages/posts/"CF题解——E. Block Sequence".md': {
       routes:
         | '/posts/"CF题解——E. Block Sequence"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——E. Calendar Ambiguity".md': {
+      routes:
+        | '/posts/"CF题解——E. Calendar Ambiguity"'
       views:
         | never
     }
@@ -452,15 +527,33 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/"CF题解——E. Merging Towers".md': {
+      routes:
+        | '/posts/"CF题解——E. Merging Towers"'
+      views:
+        | never
+    }
     'pages/posts/"CF题解——E. Power of Points".md': {
       routes:
         | '/posts/"CF题解——E. Power of Points"'
       views:
         | never
     }
+    'pages/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)".md': {
+      routes:
+        | '/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"'
+      views:
+        | never
+    }
     'pages/posts/"CF题解——F. Final Boss".md': {
       routes:
         | '/posts/"CF题解——F. Final Boss"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——F. SheriffsDefense".md': {
+      routes:
+        | '/posts/"CF题解——F. SheriffsDefense"'
       views:
         | never
     }
@@ -476,6 +569,12 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/"CF题解——Small GCD".md': {
+      routes:
+        | '/posts/"CF题解——Small GCD"'
+      views:
+        | never
+    }
     'pages/posts/"Kruskal模版".md': {
       routes:
         | '/posts/"Kruskal模版"'
@@ -485,6 +584,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/"Tarjan模版".md': {
       routes:
         | '/posts/"Tarjan模版"'
+      views:
+        | never
+    }
+    'pages/posts/"zkw线段树".md': {
+      routes:
+        | '/posts/"zkw线段树"'
       views:
         | never
     }
@@ -521,6 +626,18 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/“解决clang无法使用万能头文件”.md': {
       routes:
         | '/posts/“解决clang无法使用万能头文件”'
+      views:
+        | never
+    }
+    'pages/posts/关于DP的一些解题技巧.md': {
+      routes:
+        | '/posts/关于DP的一些解题技巧'
+      views:
+        | never
+    }
+    'pages/posts/Atc的DP专训.md': {
+      routes:
+        | '/posts/Atc的DP专训'
       views:
         | never
     }
