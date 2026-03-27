@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-03-27T10:29:25.080Z</updated>
+    <updated>2026-03-27T10:55:28.611Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,23 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[CF题解——F. Sheriff's Defense]]></title>
+        <id>https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——F. SheriffsDefense&quot;"/>
+        <updated>2026-03-27T18:51:10.000Z</updated>
+        <content type="html"><![CDATA[<h1>F. Sheriff's Defense 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的背景很有意思：在由营地（节点）和相连小路（边）构成的一棵树上，我们可以选择“强化”一部分营地。<br>
+规则是：如果你</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——F. SheriffsDefense"" target="_blank">https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-03-27T18:51:10.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Calendar Ambiguity]]></title>
         <id>https://shouw.blog/posts/"CF题解——E. Calendar Ambiguity"</id>
@@ -30,23 +47,6 @@
             <uri>https://valaxy.site</uri>
         </author>
         <published>2026-03-27T18:24:46.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CF题解——Sheriff's Defense]]></title>
-        <id>https://shouw.blog/posts/"CF题解——F. Sheriff's Defense</id>
-        <link href="https://shouw.blog/posts/&quot;CF题解——F. Sheriff's Defense"/>
-        <updated>2026-03-27T18:20:08.000Z</updated>
-        <content type="html"><![CDATA[<h1>F. Sheriff's Defense 解题思路</h1>
-<h3>核心问题分析</h3>
-<p>题目的背景很有意思：在由营地（节点）和相连小路（边）构成的一棵树上，我们可以选择“强化”一部分营地。<br>
-规则是：如果你</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——F. Sheriff's Defense" target="_blank">https://shouw.blog/posts/"CF题解——F. Sheriff's Defense</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>shouw</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2026-03-27T18:20:08.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Max Sum OR (Hard Version)]]></title>
