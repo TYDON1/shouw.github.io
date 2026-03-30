@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Fri, 27 Mar 2026 11:02:44 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Mar 2026 05:05:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,34 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[组合数模版]]></title>
+            <link>https://shouw.blog/posts/"组合数模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"组合数模版"</guid>
+            <pubDate>Mon, 30 Mar 2026 13:04:21 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct Comb {
+
+    int n, MOD;
+    vector&lt;int&gt; fact, inv;
+
+
+    int qpow(int a, int b) {
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"组合数模版"" target="_blank">https://shouw.blog/posts/"组合数模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[哈希模版]]></title>
+            <link>https://shouw.blog/posts/"哈希模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"哈希模版"</guid>
+            <pubDate>Mon, 30 Mar 2026 12:53:41 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct DoubleHash {
+    static const int M1 = 1e9 + 7, M2 = 1e9 + 9;
+    static int b1, b2;
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"哈希模版"" target="_blank">https://shouw.blog/posts/"哈希模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Sheriff's Defense]]></title>
             <link>https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</link>
