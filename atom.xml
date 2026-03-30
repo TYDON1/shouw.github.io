@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-03-30T05:08:05.322Z</updated>
+    <updated>2026-03-30T07:48:15.108Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,25 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[SAM模版]]></title>
+        <id>https://shouw.blog/posts/"SAM模版"</id>
+        <link href="https://shouw.blog/posts/&quot;SAM模版&quot;"/>
+        <updated>2026-03-30T15:46:18.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">struct SAM {
+    struct State {
+
+        int len, link;
+        int next[26];
+        int co</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"SAM模版"" target="_blank">https://shouw.blog/posts/"SAM模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-03-30T15:46:18.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[组合数模版]]></title>
         <id>https://shouw.blog/posts/"组合数模版"</id>
