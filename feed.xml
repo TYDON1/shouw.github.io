@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 30 Mar 2026 05:05:33 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 30 Mar 2026 05:08:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -23,7 +23,6 @@
 
     int n, MOD;
     vector&lt;int&gt; fact, inv;
-
 
     int qpow(int a, int b) {
 </code></pre>

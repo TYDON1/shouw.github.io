@@ -12,7 +12,7 @@
     "items": [
         {
             "id": "https://shouw.blog/posts/\"组合数模版\"",
-            "content_html": "<pre><code class=\"language-cpp\">struct Comb {\n\n    int n, MOD;\n    vector&lt;int&gt; fact, inv;\n\n\n    int qpow(int a, int b) {\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"组合数模版\"\" target=\"_blank\">https://shouw.blog/posts/\"组合数模版\"</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">struct Comb {\n\n    int n, MOD;\n    vector&lt;int&gt; fact, inv;\n\n    int qpow(int a, int b) {\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"组合数模版\"\" target=\"_blank\">https://shouw.blog/posts/\"组合数模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"组合数模版\"",
             "title": "组合数模版",
             "date_modified": "2026-03-30T13:04:21.000Z",

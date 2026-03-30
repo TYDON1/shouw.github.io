@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-03-30T05:05:33.332Z</updated>
+    <updated>2026-03-30T05:08:05.322Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -24,7 +24,6 @@
 
     int n, MOD;
     vector&lt;int&gt; fact, inv;
-
 
     int qpow(int a, int b) {
 </code></pre>
