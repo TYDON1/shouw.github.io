@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"矩阵快速幂模版\"",
+            "content_html": "<pre><code class=\"language-cpp\">struct Matrix {\n\n    int r, c;\n    vector&lt;vector&lt;int&gt;&gt; m;\n\n    Matrix(int _r = 2, int _c = 2</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"矩阵快速幂模版\"\" target=\"_blank\">https://shouw.blog/posts/\"矩阵快速幂模版\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"矩阵快速幂模版\"",
+            "title": "矩阵快速幂模版",
+            "date_modified": "2026-03-31T15:50:10.000Z",
+            "date_published": "2026-03-31T15:50:10.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"AC自动机模版\"",
             "content_html": "<pre><code class=\"language-cpp\">struct AC {\n    struct Node {\n        int next[26];\n        int fail;\n        int count;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"AC自动机模版\"\" target=\"_blank\">https://shouw.blog/posts/\"AC自动机模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"AC自动机模版\"",

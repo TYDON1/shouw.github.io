@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 30 Mar 2026 08:18:49 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Mar 2026 07:52:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,20 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[矩阵快速幂模版]]></title>
+            <link>https://shouw.blog/posts/"矩阵快速幂模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"矩阵快速幂模版"</guid>
+            <pubDate>Tue, 31 Mar 2026 15:50:10 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct Matrix {
+
+    int r, c;
+    vector&lt;vector&lt;int&gt;&gt; m;
+
+    Matrix(int _r = 2, int _c = 2</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"矩阵快速幂模版"" target="_blank">https://shouw.blog/posts/"矩阵快速幂模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[AC自动机模版]]></title>
             <link>https://shouw.blog/posts/"AC自动机模版"</link>
