@@ -107,6 +107,13 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"哈希模版"': RouteRecordInfo<
+      '/posts/"哈希模版"',
+      '/posts/%22%E5%93%88%E5%B8%8C%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"并查集模版"': RouteRecordInfo<
       '/posts/"并查集模版"',
       '/posts/%22%E5%B9%B6%E6%9F%A5%E9%9B%86%E6%A8%A1%E7%89%88%22',
@@ -114,9 +121,30 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"矩阵快速幂模版"': RouteRecordInfo<
+      '/posts/"矩阵快速幂模版"',
+      '/posts/%22%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"线段树模版"': RouteRecordInfo<
       '/posts/"线段树模版"',
       '/posts/%22%E7%BA%BF%E6%AE%B5%E6%A0%91%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"组合数模版"': RouteRecordInfo<
+      '/posts/"组合数模版"',
+      '/posts/%22%E7%BB%84%E5%90%88%E6%95%B0%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"AC自动机模版"': RouteRecordInfo<
+      '/posts/"AC自动机模版"',
+      '/posts/%22AC%E8%87%AA%E5%8A%A8%E6%9C%BA%E6%A8%A1%E7%89%88%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -145,6 +173,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/"CF题解——C. Trip to the Olympiad"': RouteRecordInfo<
       '/posts/"CF题解——C. Trip to the Olympiad"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Trip%20to%20the%20Olympiad%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——Canal Crossing"': RouteRecordInfo<
+      '/posts/"CF题解——Canal Crossing"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Canal%20Crossing%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -261,6 +296,20 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
+    '/posts/"CF题解——Juggling Keys"': RouteRecordInfo<
+      '/posts/"CF题解——Juggling Keys"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Juggling%20Keys%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"CF题解——Legacy"': RouteRecordInfo<
+      '/posts/"CF题解——Legacy"',
+      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Legacy%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
     '/posts/"CF题解——Small GCD"': RouteRecordInfo<
       '/posts/"CF题解——Small GCD"',
       '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Small%20GCD%22',
@@ -271,6 +320,13 @@ declare module 'vue-router/auto-routes' {
     '/posts/"Kruskal模版"': RouteRecordInfo<
       '/posts/"Kruskal模版"',
       '/posts/%22Kruskal%E6%A8%A1%E7%89%88%22',
+      Record<never, never>,
+      Record<never, never>,
+      | never
+    >,
+    '/posts/"SAM模版"': RouteRecordInfo<
+      '/posts/"SAM模版"',
+      '/posts/%22SAM%E6%A8%A1%E7%89%88%22',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -437,15 +493,39 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/"哈希模版".md': {
+      routes:
+        | '/posts/"哈希模版"'
+      views:
+        | never
+    }
     'pages/posts/"并查集模版".md': {
       routes:
         | '/posts/"并查集模版"'
       views:
         | never
     }
+    'pages/posts/"矩阵快速幂模版".md': {
+      routes:
+        | '/posts/"矩阵快速幂模版"'
+      views:
+        | never
+    }
     'pages/posts/"线段树模版".md': {
       routes:
         | '/posts/"线段树模版"'
+      views:
+        | never
+    }
+    'pages/posts/"组合数模版".md': {
+      routes:
+        | '/posts/"组合数模版"'
+      views:
+        | never
+    }
+    'pages/posts/"AC自动机模版".md': {
+      routes:
+        | '/posts/"AC自动机模版"'
       views:
         | never
     }
@@ -470,6 +550,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/"CF题解——C. Trip to the Olympiad".md': {
       routes:
         | '/posts/"CF题解——C. Trip to the Olympiad"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——Canal Crossing".md': {
+      routes:
+        | '/posts/"CF题解——Canal Crossing"'
       views:
         | never
     }
@@ -569,6 +655,18 @@ declare module 'vue-router/auto-routes' {
       views:
         | never
     }
+    'pages/posts/"CF题解——Juggling Keys".md': {
+      routes:
+        | '/posts/"CF题解——Juggling Keys"'
+      views:
+        | never
+    }
+    'pages/posts/"CF题解——Legacy".md': {
+      routes:
+        | '/posts/"CF题解——Legacy"'
+      views:
+        | never
+    }
     'pages/posts/"CF题解——Small GCD".md': {
       routes:
         | '/posts/"CF题解——Small GCD"'
@@ -578,6 +676,12 @@ declare module 'vue-router/auto-routes' {
     'pages/posts/"Kruskal模版".md': {
       routes:
         | '/posts/"Kruskal模版"'
+      views:
+        | never
+    }
+    'pages/posts/"SAM模版".md': {
+      routes:
+        | '/posts/"SAM模版"'
       views:
         | never
     }
