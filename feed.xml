@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Tue, 31 Mar 2026 07:52:48 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Apr 2026 10:41:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,40 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CF题解——Legacy (线段树优化建图经典)]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Legacy"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Legacy"</guid>
+            <pubDate>Sun, 05 Apr 2026 18:57:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>B. Legacy 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的背景非常有意思，Rick 要在一个包含 $n$ 个星球的宇宙中旅行。除了常规的两个星球之间的单向传送门（点到点），题目还提供了另外两</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Legacy"" target="_blank">https://shouw.blog/posts/"CF题解——Legacy"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Juggling Keys]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Juggling Keys"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Juggling Keys"</guid>
+            <pubDate>Sun, 05 Apr 2026 18:46:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>J. Juggling Keys 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>这道题的背景非常贴近生活：一群人合租，但是钥匙不够。大家各自有出门和回家的计划。如果回家时家里有人，按门铃就行；如果回家时家</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Juggling Keys"" target="_blank">https://shouw.blog/posts/"CF题解——Juggling Keys"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Canal Crossing]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Canal Crossing"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Canal Crossing"</guid>
+            <pubDate>Sun, 05 Apr 2026 18:36:10 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>C. Canal Crossing 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的背景非常有画面感：在威尼斯旅游，有 $n$ 个地点。地点之间由“街道”和“桥梁”连接。<br>
+我们要规划一条旅游路线，要求</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Canal Crossing"" target="_blank">https://shouw.blog/posts/"CF题解——Canal Crossing"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[矩阵快速幂模版]]></title>
             <link>https://shouw.blog/posts/"矩阵快速幂模版"</link>
