@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-05T10:41:25.130Z</updated>
+    <updated>2026-04-05T10:43:31.143Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -16,7 +16,7 @@
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
     <entry>
-        <title type="html"><![CDATA[CF题解——Legacy (线段树优化建图经典)]]></title>
+        <title type="html"><![CDATA[CF题解——Legacy]]></title>
         <id>https://shouw.blog/posts/"CF题解——Legacy"</id>
         <link href="https://shouw.blog/posts/&quot;CF题解——Legacy&quot;"/>
         <updated>2026-04-05T18:57:30.000Z</updated>
