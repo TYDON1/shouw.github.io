@@ -1,5 +1,5 @@
 ---
-title: "CF题解——Legacy (线段树优化建图经典)"
+title: "CF题解——Legacy"
 date: "2026-04-05 18:57:30"
 author: shouw
 katex: true
