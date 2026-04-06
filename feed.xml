@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 06 Apr 2026 12:25:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Apr 2026 12:32:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,17 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CF题解——Tufurama]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Tufurama"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Tufurama"</guid>
+            <pubDate>Mon, 06 Apr 2026 20:30:19 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Tufurama 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目包装了一个很长且容易绕晕的故事：电视连续剧有 $n$ 季，第 $i$ 季有 $a_i$ 集。如果我们要搜“第 $x$ 季第 $y$</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Tufurama"" target="_blank">https://shouw.blog/posts/"CF题解——Tufurama"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[可持久化线段树模版]]></title>
             <link>https://shouw.blog/posts/"可持久化线段树模版"</link>
