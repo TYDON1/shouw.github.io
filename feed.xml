@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Sun, 05 Apr 2026 10:46:26 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 06 Apr 2026 12:25:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,19 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[可持久化线段树模版]]></title>
+            <link>https://shouw.blog/posts/"可持久化线段树模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"可持久化线段树模版"</guid>
+            <pubDate>Mon, 06 Apr 2026 18:39:23 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>可持久化线段树模版</h2>
+<pre><code class="language-cpp">struct PST {
+    struct Node {
+        int count;      // 区间内元素的个数
+        lon</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"可持久化线段树模版"" target="_blank">https://shouw.blog/posts/"可持久化线段树模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Legacy]]></title>
             <link>https://shouw.blog/posts/"CF题解——Legacy"</link>
@@ -257,11 +270,10 @@ using namespa</code></pre>
             <guid isPermaLink="false">https://shouw.blog/posts/"线段树模版"</guid>
             <pubDate>Sun, 01 Feb 2026 13:49:13 GMT</pubDate>
             <content:encoded><![CDATA[<h2>线段树模版</h2>
-<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
-#define int long long
-#define endl &quot;\n&quot;
-
-using namespace </code></pre>
+<pre><code class="language-cpp">struct SGT {
+    struct Node {
+        int mx;   // 区间最大值
+        int id;   // 最大值</code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"线段树模版"" target="_blank">https://shouw.blog/posts/"线段树模版"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>

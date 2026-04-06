@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-05T10:46:26.618Z</updated>
+    <updated>2026-04-06T12:25:55.611Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,24 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[可持久化线段树模版]]></title>
+        <id>https://shouw.blog/posts/"可持久化线段树模版"</id>
+        <link href="https://shouw.blog/posts/&quot;可持久化线段树模版&quot;"/>
+        <updated>2026-04-06T18:39:23.000Z</updated>
+        <content type="html"><![CDATA[<h2>可持久化线段树模版</h2>
+<pre><code class="language-cpp">struct PST {
+    struct Node {
+        int count;      // 区间内元素的个数
+        lon</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"可持久化线段树模版"" target="_blank">https://shouw.blog/posts/"可持久化线段树模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-06T18:39:23.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Legacy]]></title>
         <id>https://shouw.blog/posts/"CF题解——Legacy"</id>
@@ -353,11 +371,10 @@ using namespa</code></pre>
         <link href="https://shouw.blog/posts/&quot;线段树模版&quot;"/>
         <updated>2026-02-01T13:49:13.000Z</updated>
         <content type="html"><![CDATA[<h2>线段树模版</h2>
-<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
-#define int long long
-#define endl &quot;\n&quot;
-
-using namespace </code></pre>
+<pre><code class="language-cpp">struct SGT {
+    struct Node {
+        int mx;   // 区间最大值
+        int id;   // 最大值</code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"线段树模版"" target="_blank">https://shouw.blog/posts/"线段树模版"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
