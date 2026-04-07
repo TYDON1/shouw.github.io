@@ -23,6 +23,18 @@
             }
         },
         {
+            "id": "https://shouw.blog/posts/\"CF题解——Tufurama\"_副本",
+            "content_html": "<h1>E. Tufurama 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目包装了一个很长且容易绕晕的故事：电视连续剧有 $n$ 季，第 $i$ 季有 $a_i$ 集。如果我们要搜“第 $x$ 季第 $y$</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Tufurama\"_副本\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Tufurama\"_副本</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——Tufurama\"_副本",
+            "title": "CF题解——Tufurama",
+            "date_modified": "2026-04-06T20:30:19.000Z",
+            "date_published": "2026-04-06T20:30:19.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"可持久化线段树模版\"",
             "content_html": "<h2>可持久化线段树模版</h2>\n<pre><code class=\"language-cpp\">struct PST {\n    struct Node {\n        int count;      // 区间内元素的个数\n        lon</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"可持久化线段树模版\"\" target=\"_blank\">https://shouw.blog/posts/\"可持久化线段树模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"可持久化线段树模版\"",
@@ -252,7 +264,7 @@
         },
         {
             "id": "https://shouw.blog/posts/\"Tarjan模版\"",
-            "content_html": "<h2>Tarjan模版</h2>\n<pre><code class=\"language-cpp\">#include &lt;bits/stdc++.h&gt;\n#define int long long\n#define endl '\\n'\n\nusing namespa</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"Tarjan模版\"\" target=\"_blank\">https://shouw.blog/posts/\"Tarjan模版\"</a> 阅读全文。</p>",
+            "content_html": "<h2>Tarjan模版</h2>\n<pre><code class=\"language-cpp\">struct TarjanSCC {\n    int n;                  // 节点总数\n    int step_count;     </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"Tarjan模版\"\" target=\"_blank\">https://shouw.blog/posts/\"Tarjan模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"Tarjan模版\"",
             "title": "Tarjan模版",
             "date_modified": "2026-02-01T14:23:35.000Z",

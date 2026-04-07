@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 06 Apr 2026 12:32:07 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Apr 2026 07:44:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -23,6 +23,17 @@
 <h3>核心问题分析</h3>
 <p>题目包装了一个很长且容易绕晕的故事：电视连续剧有 $n$ 季，第 $i$ 季有 $a_i$ 集。如果我们要搜“第 $x$ 季第 $y$</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Tufurama"" target="_blank">https://shouw.blog/posts/"CF题解——Tufurama"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Tufurama]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Tufurama"_副本</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Tufurama"_副本</guid>
+            <pubDate>Mon, 06 Apr 2026 20:30:19 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Tufurama 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目包装了一个很长且容易绕晕的故事：电视连续剧有 $n$ 季，第 $i$ 季有 $a_i$ 集。如果我们要搜“第 $x$ 季第 $y$</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Tufurama"_副本" target="_blank">https://shouw.blog/posts/"CF题解——Tufurama"_副本</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
@@ -267,11 +278,9 @@ struct N</code></pre>
             <guid isPermaLink="false">https://shouw.blog/posts/"Tarjan模版"</guid>
             <pubDate>Sun, 01 Feb 2026 14:23:35 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Tarjan模版</h2>
-<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
-#define int long long
-#define endl '\n'
-
-using namespa</code></pre>
+<pre><code class="language-cpp">struct TarjanSCC {
+    int n;                  // 节点总数
+    int step_count;     </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"Tarjan模版"" target="_blank">https://shouw.blog/posts/"Tarjan模版"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
