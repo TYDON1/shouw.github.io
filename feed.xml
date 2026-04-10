@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Tue, 07 Apr 2026 07:44:02 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 06:30:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,16 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[关于C++的类内存泄漏相关]]></title>
+            <link>https://shouw.blog/posts/“关于Docker的一些个人理解”_副本</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“关于Docker的一些个人理解”_副本</guid>
+            <pubDate>Fri, 10 Apr 2026 14:28:09 GMT</pubDate>
+            <content:encoded><![CDATA[<p>最近在打多测（<code>while(t--)</code>）的图论和树形 DP 题时，我踩了一个极其折磨人的坑。</p>
+<p>明明我的时间复杂度算得死死的绝对没问题，但提交上去总是莫名其妙地 **MLE（Memory Limit</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“关于Docker的一些个人理解”_副本" target="_blank">https://shouw.blog/posts/“关于Docker的一些个人理解”_副本</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Tufurama]]></title>
             <link>https://shouw.blog/posts/"CF题解——Tufurama"</link>
