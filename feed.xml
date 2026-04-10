@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Fri, 10 Apr 2026 06:30:21 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Apr 2026 06:39:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,13 +15,48 @@
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[CF题解——Rearrange Brackets]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Rearrange Brackets"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Rearrange Brackets"</guid>
+            <pubDate>Sat, 11 Apr 2026 18:23:17 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Rearrange Brackets 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>初看这道题，简直是一个嵌套了双层逻辑的“套娃”问题：<br>
+第一层：给定一个合法的括号序列，每次删去相邻的 <code>()</code> 会</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Rearrange Brackets"" target="_blank">https://shouw.blog/posts/"CF题解——Rearrange Brackets"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Not a Nim Problem]]></title>
+            <link>https://shouw.blog/posts/“CF题解——Not a Nim Problem”</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/“CF题解——Not a Nim Problem”</guid>
+            <pubDate>Sat, 11 Apr 2026 17:42:26 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Not a Nim Problem 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>看到题目名字“不是一个 Nim 游戏”，但实际上这题就是一个披着数论外衣的 <strong>Nim 游戏变种</strong>。</p>
+<p>规则是：从</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/“CF题解——Not a Nim Problem”" target="_blank">https://shouw.blog/posts/“CF题解——Not a Nim Problem”</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Inversion Pairs]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Inversion Pairs"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Inversion Pairs"</guid>
+            <pubDate>Fri, 10 Apr 2026 14:37:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. Inversion Pairs 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常直白：给定一个只包含 <code>0</code>, <code>1</code>, <code>?</code> 的字符串。你需要把所有的 <code>?</code> 替换成 <code>0</code> 或 <code>1</code>，</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Inversion Pairs"" target="_blank">https://shouw.blog/posts/"CF题解——Inversion Pairs"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
             <title><![CDATA[关于C++的类内存泄漏相关]]></title>
-            <link>https://shouw.blog/posts/“关于Docker的一些个人理解”_副本</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“关于Docker的一些个人理解”_副本</guid>
+            <link>https://shouw.blog/posts/"关于C++的类内存泄漏相关"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"关于C++的类内存泄漏相关"</guid>
             <pubDate>Fri, 10 Apr 2026 14:28:09 GMT</pubDate>
             <content:encoded><![CDATA[<p>最近在打多测（<code>while(t--)</code>）的图论和树形 DP 题时，我踩了一个极其折磨人的坑。</p>
 <p>明明我的时间复杂度算得死死的绝对没问题，但提交上去总是莫名其妙地 **MLE（Memory Limit</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“关于Docker的一些个人理解”_副本" target="_blank">https://shouw.blog/posts/“关于Docker的一些个人理解”_副本</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/"关于C++的类内存泄漏相关"" target="_blank">https://shouw.blog/posts/"关于C++的类内存泄漏相关"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
@@ -33,17 +68,6 @@
 <h3>核心问题分析</h3>
 <p>题目包装了一个很长且容易绕晕的故事：电视连续剧有 $n$ 季，第 $i$ 季有 $a_i$ 集。如果我们要搜“第 $x$ 季第 $y$</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Tufurama"" target="_blank">https://shouw.blog/posts/"CF题解——Tufurama"</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (shouw)</author>
-        </item>
-        <item>
-            <title><![CDATA[CF题解——Tufurama]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Tufurama"_副本</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Tufurama"_副本</guid>
-            <pubDate>Mon, 06 Apr 2026 20:30:19 GMT</pubDate>
-            <content:encoded><![CDATA[<h1>E. Tufurama 解题思路</h1>
-<h3>核心问题分析</h3>
-<p>题目包装了一个很长且容易绕晕的故事：电视连续剧有 $n$ 季，第 $i$ 季有 $a_i$ 集。如果我们要搜“第 $x$ 季第 $y$</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Tufurama"_副本" target="_blank">https://shouw.blog/posts/"CF题解——Tufurama"_副本</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
