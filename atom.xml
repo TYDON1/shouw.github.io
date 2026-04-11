@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-11T16:04:36.875Z</updated>
+    <updated>2026-04-11T20:48:18.246Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -39,7 +39,7 @@
         <updated>2026-04-11T18:46:18.000Z</updated>
         <content type="html"><![CDATA[<h1>E. She knows... 解题思路</h1>
 <h3>核心问题分析</h3>
-<p>题目的要求是：在一个 $n \times m$ 的网格中，部分格子已经被涂成了黑色（1）或白色（0）。我们需要把剩下所有绿色的</p>
+<p>题目的要求是：在一个 $n \times m$ 的网格中，部分格子已经被涂成了黑色（1）或白色（0）。我们需要把剩下所有绿色</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——She knows..."" target="_blank">https://shouw.blog/posts/"CF题解——She knows..."</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
