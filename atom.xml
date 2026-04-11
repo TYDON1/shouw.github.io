@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-10T06:39:59.262Z</updated>
+    <updated>2026-04-11T16:04:36.875Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,39 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[CF题解——Jewels Building]]></title>
+        <id>https://shouw.blog/posts/"J. Jewels Building"</id>
+        <link href="https://shouw.blog/posts/&quot;J. Jewels Building&quot;"/>
+        <updated>2026-04-11T23:57:03.000Z</updated>
+        <content type="html"><![CDATA[<h1>J. Jewels Building 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>这是一道非常有趣的“炼金”游戏题。我们有一排初始能量的水晶数组 $A$，目标是把它融合成指定能量的数组 $B$。<br>
+融合规</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"J. Jewels Building"" target="_blank">https://shouw.blog/posts/"J. Jewels Building"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-11T23:57:03.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CF题解——She knows...]]></title>
+        <id>https://shouw.blog/posts/"CF题解——She knows..."</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——She knows...&quot;"/>
+        <updated>2026-04-11T18:46:18.000Z</updated>
+        <content type="html"><![CDATA[<h1>E. She knows... 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的要求是：在一个 $n \times m$ 的网格中，部分格子已经被涂成了黑色（1）或白色（0）。我们需要把剩下所有绿色的</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——She knows..."" target="_blank">https://shouw.blog/posts/"CF题解——She knows..."</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-11T18:46:18.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Rearrange Brackets]]></title>
         <id>https://shouw.blog/posts/"CF题解——Rearrange Brackets"</id>
@@ -515,6 +548,23 @@ using namespace </code></pre>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2026-01-30T09:11:09.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CF题解——Git Gud]]></title>
+        <id>https://shouw.blog/posts/"CF题解——Git Gud"</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——Git Gud&quot;"/>
+        <updated>2026-01-27T09:30:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>G. Git Gud 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的设定非常像一个肉鸽（Roguelike）游戏的升级机制：<br>
+你的初始技能是 $[1, n]$ 中的一个未知数。你每次可以接一个难度为</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Git Gud"" target="_blank">https://shouw.blog/posts/"CF题解——Git Gud"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-01-27T09:30:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Boris and His Amazing Haircut]]></title>

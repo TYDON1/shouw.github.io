@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"J. Jewels Building\"",
+            "content_html": "<h1>J. Jewels Building 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>这是一道非常有趣的“炼金”游戏题。我们有一排初始能量的水晶数组 $A$，目标是把它融合成指定能量的数组 $B$。<br>\n融合规</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"J. Jewels Building\"\" target=\"_blank\">https://shouw.blog/posts/\"J. Jewels Building\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"J. Jewels Building\"",
+            "title": "CF题解——Jewels Building",
+            "date_modified": "2026-04-11T23:57:03.000Z",
+            "date_published": "2026-04-11T23:57:03.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"CF题解——She knows...\"",
+            "content_html": "<h1>E. She knows... 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的要求是：在一个 $n \\times m$ 的网格中，部分格子已经被涂成了黑色（1）或白色（0）。我们需要把剩下所有绿色的</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——She knows...\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——She knows...\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——She knows...\"",
+            "title": "CF题解——She knows...",
+            "date_modified": "2026-04-11T18:46:18.000Z",
+            "date_published": "2026-04-11T18:46:18.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"CF题解——Rearrange Brackets\"",
             "content_html": "<h1>E. Rearrange Brackets 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>初看这道题，简直是一个嵌套了双层逻辑的“套娃”问题：<br>\n第一层：给定一个合法的括号序列，每次删去相邻的 <code>()</code> 会</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Rearrange Brackets\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Rearrange Brackets\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——Rearrange Brackets\"",
@@ -353,6 +377,18 @@
             "title": "CF题解——Restricted Sorting",
             "date_modified": "2026-01-30T09:11:09.000Z",
             "date_published": "2026-01-30T09:11:09.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"CF题解——Git Gud\"",
+            "content_html": "<h1>G. Git Gud 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的设定非常像一个肉鸽（Roguelike）游戏的升级机制：<br>\n你的初始技能是 $[1, n]$ 中的一个未知数。你每次可以接一个难度为</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Git Gud\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Git Gud\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——Git Gud\"",
+            "title": "CF题解——Git Gud",
+            "date_modified": "2026-01-27T09:30:00.000Z",
+            "date_published": "2026-01-27T09:30:00.000Z",
             "author": {
                 "name": "shouw",
                 "url": "https://valaxy.site"

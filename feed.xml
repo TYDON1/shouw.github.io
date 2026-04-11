@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Fri, 10 Apr 2026 06:39:59 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 11 Apr 2026 16:04:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,29 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CF题解——Jewels Building]]></title>
+            <link>https://shouw.blog/posts/"J. Jewels Building"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"J. Jewels Building"</guid>
+            <pubDate>Sat, 11 Apr 2026 23:57:03 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>J. Jewels Building 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>这是一道非常有趣的“炼金”游戏题。我们有一排初始能量的水晶数组 $A$，目标是把它融合成指定能量的数组 $B$。<br>
+融合规</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"J. Jewels Building"" target="_blank">https://shouw.blog/posts/"J. Jewels Building"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——She knows...]]></title>
+            <link>https://shouw.blog/posts/"CF题解——She knows..."</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——She knows..."</guid>
+            <pubDate>Sat, 11 Apr 2026 18:46:18 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. She knows... 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的要求是：在一个 $n \times m$ 的网格中，部分格子已经被涂成了黑色（1）或白色（0）。我们需要把剩下所有绿色的</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——She knows..."" target="_blank">https://shouw.blog/posts/"CF题解——She knows..."</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Rearrange Brackets]]></title>
             <link>https://shouw.blog/posts/"CF题解——Rearrange Brackets"</link>
@@ -368,6 +391,18 @@ using namespace </code></pre>
 <h3>核心问题分析</h3>
 <p>题目给定一个数组 $a$，并定义了一种交换操作：只有当 $|a_i - a_j| \ge k$ 时，才能交换 $a</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Restricted Sorting"" target="_blank">https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Git Gud]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Git Gud"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Git Gud"</guid>
+            <pubDate>Tue, 27 Jan 2026 09:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>G. Git Gud 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的设定非常像一个肉鸽（Roguelike）游戏的升级机制：<br>
+你的初始技能是 $[1, n]$ 中的一个未知数。你每次可以接一个难度为</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Git Gud"" target="_blank">https://shouw.blog/posts/"CF题解——Git Gud"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
