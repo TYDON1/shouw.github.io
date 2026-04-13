@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-12T14:07:12.083Z</updated>
+    <updated>2026-04-13T10:37:07.230Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,23 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[千万级稠密图下的多色点对最短路优化方案]]></title>
+        <id>https://shouw.blog/posts/"多色点对最短路优化方案"</id>
+        <link href="https://shouw.blog/posts/&quot;多色点对最短路优化方案&quot;"/>
+        <updated>2026-04-13T18:22:18.000Z</updated>
+        <content type="html"><![CDATA[<h1>千万级稠密图下的多色点对最短路优化方案</h1>
+<h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>
+<h3>一、 序言：一次意料之外的“降维打击”</h3>
+<p>前两天在处</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"多色点对最短路优化方案"" target="_blank">https://shouw.blog/posts/"多色点对最短路优化方案"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-13T18:22:18.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Jewels Building]]></title>
         <id>https://shouw.blog/posts/"J. Jewels Building"</id>
