@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 13 Apr 2026 10:37:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 13 Apr 2026 10:42:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -21,8 +21,8 @@
             <pubDate>Mon, 13 Apr 2026 18:22:18 GMT</pubDate>
             <content:encoded><![CDATA[<h1>千万级稠密图下的多色点对最短路优化方案</h1>
 <h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>
-<h3>一、 序言：一次意料之外的“降维打击”</h3>
-<p>前两天在处</p>
+<h3>一、 算法原理：二进制分组与最短路引擎</h3>
+<p>为了让博客</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/"多色点对最短路优化方案"" target="_blank">https://shouw.blog/posts/"多色点对最短路优化方案"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>

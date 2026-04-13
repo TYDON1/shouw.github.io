@@ -12,7 +12,7 @@
     "items": [
         {
             "id": "https://shouw.blog/posts/\"多色点对最短路优化方案\"",
-            "content_html": "<h1>千万级稠密图下的多色点对最短路优化方案</h1>\n<h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>\n<h3>一、 序言：一次意料之外的“降维打击”</h3>\n<p>前两天在处</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"多色点对最短路优化方案\"\" target=\"_blank\">https://shouw.blog/posts/\"多色点对最短路优化方案\"</a> 阅读全文。</p>",
+            "content_html": "<h1>千万级稠密图下的多色点对最短路优化方案</h1>\n<h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>\n<h3>一、 算法原理：二进制分组与最短路引擎</h3>\n<p>为了让博客</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"多色点对最短路优化方案\"\" target=\"_blank\">https://shouw.blog/posts/\"多色点对最短路优化方案\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"多色点对最短路优化方案\"",
             "title": "千万级稠密图下的多色点对最短路优化方案",
             "date_modified": "2026-04-13T18:22:18.000Z",
