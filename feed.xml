@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Tue, 14 Apr 2026 03:53:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2026 05:39:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -29,7 +29,7 @@ struct ST {
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
-            <title><![CDATA[Dinic表模版]]></title>
+            <title><![CDATA[Dinic模版]]></title>
             <link>https://shouw.blog/posts/"DInic模版"</link>
             <guid isPermaLink="false">https://shouw.blog/posts/"DInic模版"</guid>
             <pubDate>Tue, 14 Apr 2026 11:51:18 GMT</pubDate>
@@ -40,6 +40,19 @@ struct ST {
         int to;
 </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"DInic模版"" target="_blank">https://shouw.blog/posts/"DInic模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[MCMF模版]]></title>
+            <link>https://shouw.blog/posts/"MCMF模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"MCMF模版"</guid>
+            <pubDate>Tue, 14 Apr 2026 11:51:18 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct MCMF {
+    const int INF = 1e9;
+    struct Edge {
+        int to, cap, cost, rev;
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"MCMF模版"" target="_blank">https://shouw.blog/posts/"MCMF模版"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>

@@ -26,7 +26,19 @@
             "id": "https://shouw.blog/posts/\"DInic模版\"",
             "content_html": "<pre><code class=\"language-cpp\">struct Dinic {\n    const int INF = 1e9; // int 范围内的无穷大\n\n    struct Edge {\n        int to;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"DInic模版\"\" target=\"_blank\">https://shouw.blog/posts/\"DInic模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"DInic模版\"",
-            "title": "Dinic表模版",
+            "title": "Dinic模版",
+            "date_modified": "2026-04-14T11:51:18.000Z",
+            "date_published": "2026-04-14T11:51:18.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"MCMF模版\"",
+            "content_html": "<pre><code class=\"language-cpp\">struct MCMF {\n    const int INF = 1e9;\n    struct Edge {\n        int to, cap, cost, rev;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"MCMF模版\"\" target=\"_blank\">https://shouw.blog/posts/\"MCMF模版\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"MCMF模版\"",
+            "title": "MCMF模版",
             "date_modified": "2026-04-14T11:51:18.000Z",
             "date_published": "2026-04-14T11:51:18.000Z",
             "author": {

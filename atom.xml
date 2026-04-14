@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-14T03:53:16.445Z</updated>
+    <updated>2026-04-14T05:39:37.661Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -35,7 +35,7 @@ struct ST {
         <published>2026-04-14T13:50:27.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Dinic表模版]]></title>
+        <title type="html"><![CDATA[Dinic模版]]></title>
         <id>https://shouw.blog/posts/"DInic模版"</id>
         <link href="https://shouw.blog/posts/&quot;DInic模版&quot;"/>
         <updated>2026-04-14T11:51:18.000Z</updated>
@@ -46,6 +46,24 @@ struct ST {
         int to;
 </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"DInic模版"" target="_blank">https://shouw.blog/posts/"DInic模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-14T11:51:18.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MCMF模版]]></title>
+        <id>https://shouw.blog/posts/"MCMF模版"</id>
+        <link href="https://shouw.blog/posts/&quot;MCMF模版&quot;"/>
+        <updated>2026-04-14T11:51:18.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">struct MCMF {
+    const int INF = 1e9;
+    struct Edge {
+        int to, cap, cost, rev;
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"MCMF模版"" target="_blank">https://shouw.blog/posts/"MCMF模版"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
             <email>i@valaxy.site</email>
