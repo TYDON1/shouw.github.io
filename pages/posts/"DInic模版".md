@@ -1,5 +1,5 @@
 ---
-title: "Dinic表模版"
+title: "Dinic模版"
 date: "2026-04-14 11:51:18"
 author: shouw
 katex: true
