@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-14T05:39:37.661Z</updated>
+    <updated>2026-04-14T07:16:07.231Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,25 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[CF题解——Petya and Graph]]></title>
+        <id>https://shouw.blog/posts/"CF题解——Petya and Graph"</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——Petya and Graph&quot;"/>
+        <updated>2026-04-14T15:08:51.000Z</updated>
+        <content type="html"><![CDATA[<h1>G. Petya and Graph 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的要求很直白：在给定的图中挑出一个子图（选一些点和一些边）。</p>
+<ul>
+<li><strong>收益（正权）</strong>：选中一条边，就能获得它的</li>
+</ul>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Petya and Graph"" target="_blank">https://shouw.blog/posts/"CF题解——Petya and Graph"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-14T15:08:51.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ST表模版]]></title>
         <id>https://shouw.blog/posts/"ST表模版"</id>

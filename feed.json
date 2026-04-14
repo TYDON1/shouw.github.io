@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"CF题解——Petya and Graph\"",
+            "content_html": "<h1>G. Petya and Graph 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的要求很直白：在给定的图中挑出一个子图（选一些点和一些边）。</p>\n<ul>\n<li><strong>收益（正权）</strong>：选中一条边，就能获得它的</li>\n</ul>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Petya and Graph\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Petya and Graph\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——Petya and Graph\"",
+            "title": "CF题解——Petya and Graph",
+            "date_modified": "2026-04-14T15:08:51.000Z",
+            "date_published": "2026-04-14T15:08:51.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"ST表模版\"",
             "content_html": "<pre><code class=\"language-cpp\">template &lt;typename T&gt;\nstruct ST {\n    int n;\n    int max_log;\n    vector&lt;vector&lt;T&gt;&gt; st;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"ST表模版\"\" target=\"_blank\">https://shouw.blog/posts/\"ST表模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"ST表模版\"",
