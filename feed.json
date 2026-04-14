@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"ST表模版\"",
+            "content_html": "<pre><code class=\"language-cpp\">template &lt;typename T&gt;\nstruct ST {\n    int n;\n    int max_log;\n    vector&lt;vector&lt;T&gt;&gt; st;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"ST表模版\"\" target=\"_blank\">https://shouw.blog/posts/\"ST表模版\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"ST表模版\"",
+            "title": "ST表模版",
+            "date_modified": "2026-04-14T13:50:27.000Z",
+            "date_published": "2026-04-14T13:50:27.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"DInic模版\"",
+            "content_html": "<pre><code class=\"language-cpp\">struct Dinic {\n    const int INF = 1e9; // int 范围内的无穷大\n\n    struct Edge {\n        int to;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"DInic模版\"\" target=\"_blank\">https://shouw.blog/posts/\"DInic模版\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"DInic模版\"",
+            "title": "Dinic表模版",
+            "date_modified": "2026-04-14T11:51:18.000Z",
+            "date_published": "2026-04-14T11:51:18.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"多色点对最短路优化方案\"",
             "content_html": "<h1>千万级稠密图下的多色点对最短路优化方案</h1>\n<h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>\n<h3>一、 算法原理：二进制分组与最短路引擎</h3>\n<p>为了让博客</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"多色点对最短路优化方案\"\" target=\"_blank\">https://shouw.blog/posts/\"多色点对最短路优化方案\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"多色点对最短路优化方案\"",

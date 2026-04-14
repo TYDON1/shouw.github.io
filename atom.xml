@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-13T10:49:51.944Z</updated>
+    <updated>2026-04-14T03:53:16.445Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,44 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[ST表模版]]></title>
+        <id>https://shouw.blog/posts/"ST表模版"</id>
+        <link href="https://shouw.blog/posts/&quot;ST表模版&quot;"/>
+        <updated>2026-04-14T13:50:27.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">template &lt;typename T&gt;
+struct ST {
+    int n;
+    int max_log;
+    vector&lt;vector&lt;T&gt;&gt; st;
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"ST表模版"" target="_blank">https://shouw.blog/posts/"ST表模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-14T13:50:27.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dinic表模版]]></title>
+        <id>https://shouw.blog/posts/"DInic模版"</id>
+        <link href="https://shouw.blog/posts/&quot;DInic模版&quot;"/>
+        <updated>2026-04-14T11:51:18.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">struct Dinic {
+    const int INF = 1e9; // int 范围内的无穷大
+
+    struct Edge {
+        int to;
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"DInic模版"" target="_blank">https://shouw.blog/posts/"DInic模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-14T11:51:18.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[千万级稠密图下的多色点对最短路优化方案]]></title>
         <id>https://shouw.blog/posts/"多色点对最短路优化方案"</id>

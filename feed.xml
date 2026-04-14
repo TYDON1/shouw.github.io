@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 13 Apr 2026 10:49:51 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Apr 2026 03:53:16 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,34 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[ST表模版]]></title>
+            <link>https://shouw.blog/posts/"ST表模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"ST表模版"</guid>
+            <pubDate>Tue, 14 Apr 2026 13:50:27 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">template &lt;typename T&gt;
+struct ST {
+    int n;
+    int max_log;
+    vector&lt;vector&lt;T&gt;&gt; st;
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"ST表模版"" target="_blank">https://shouw.blog/posts/"ST表模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[Dinic表模版]]></title>
+            <link>https://shouw.blog/posts/"DInic模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"DInic模版"</guid>
+            <pubDate>Tue, 14 Apr 2026 11:51:18 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct Dinic {
+    const int INF = 1e9; // int 范围内的无穷大
+
+    struct Edge {
+        int to;
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"DInic模版"" target="_blank">https://shouw.blog/posts/"DInic模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[千万级稠密图下的多色点对最短路优化方案]]></title>
             <link>https://shouw.blog/posts/"多色点对最短路优化方案"</link>
