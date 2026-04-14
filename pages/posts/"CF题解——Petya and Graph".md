@@ -1,6 +1,6 @@
 ---
-title: "CF题解——Petya and Graph (最大权闭合子图经典模型)"
-date: "2026-04-314 15:08:51"
+title: "CF题解——Petya and Graph"
+date: "2026-04-14 15:08:51"
 author: shouw
 katex: true
 categories:
