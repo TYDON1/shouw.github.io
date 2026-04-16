@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Tue, 14 Apr 2026 07:19:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Apr 2026 08:00:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,17 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[DoubleHashMap模版]]></title>
+            <link>https://shouw.blog/posts/DoubleHashMap模版</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/DoubleHashMap模版</guid>
+            <pubDate>Thu, 16 Apr 2026 15:57:17 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">template &lt;typename K1, typename K2&gt;
+struct DoubleHashPair {
+    static const uint64_t M1 = 1</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/DoubleHashMap模版" target="_blank">https://shouw.blog/posts/DoubleHashMap模版</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Petya and Graph]]></title>
             <link>https://shouw.blog/posts/"CF题解——Petya and Graph"</link>
