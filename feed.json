@@ -11,9 +11,33 @@
     },
     "items": [
         {
-            "id": "https://shouw.blog/posts/DoubleHashMap模版",
-            "content_html": "<pre><code class=\"language-cpp\">template &lt;typename K1, typename K2&gt;\nstruct DoubleHashPair {\n    static const uint64_t M1 = 1</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/DoubleHashMap模版\" target=\"_blank\">https://shouw.blog/posts/DoubleHashMap模版</a> 阅读全文。</p>",
-            "url": "https://shouw.blog/posts/DoubleHashMap模版",
+            "id": "https://shouw.blog/posts/\"线性基模版\"",
+            "content_html": "<pre><code class=\"language-cpp\">struct LinearBasis {\n    static const int MAX_L = 30; // int 范围内最高位到 30 (2^30)\n    int p[MAX</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"线性基模版\"\" target=\"_blank\">https://shouw.blog/posts/\"线性基模版\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"线性基模版\"",
+            "title": "线性基模版",
+            "date_modified": "2026-04-20T16:18:09.000Z",
+            "date_published": "2026-04-20T16:18:09.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"HopcroftKarp模版\"",
+            "content_html": "<pre><code class=\"language-cpp\">struct HopcroftKarp {\n    const int INF = 1e9;\n\n    int n, m; // n: 左部点数, m: 右部点数\n    vector</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"HopcroftKarp模版\"\" target=\"_blank\">https://shouw.blog/posts/\"HopcroftKarp模版\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"HopcroftKarp模版\"",
+            "title": "HopcroftKarp模版",
+            "date_modified": "2026-04-20T15:51:19.000Z",
+            "date_published": "2026-04-20T15:51:19.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"DoubleHashMap模版\"",
+            "content_html": "<pre><code class=\"language-cpp\">template &lt;typename K1, typename K2&gt;\nstruct DoubleHashPair {\n    static const uint64_t M1 = 1</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"DoubleHashMap模版\"\" target=\"_blank\">https://shouw.blog/posts/\"DoubleHashMap模版\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"DoubleHashMap模版\"",
             "title": "DoubleHashMap模版",
             "date_modified": "2026-04-16T15:57:17.000Z",
             "date_published": "2026-04-16T15:57:17.000Z",
