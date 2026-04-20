@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-20T07:57:47.896Z</updated>
+    <updated>2026-04-20T08:15:20.207Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -15,6 +15,42 @@
     <logo>https://shouw.blog/avatar.jpg</logo>
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
+    <entry>
+        <title type="html"><![CDATA[Manacher模版]]></title>
+        <id>https://shouw.blog/posts/"Manacher模版"</id>
+        <link href="https://shouw.blog/posts/&quot;Manacher模版&quot;"/>
+        <updated>2026-04-20T16:57:16.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">struct Manacher {
+    string t;
+    vector&lt;int&gt; d; // d[i] 表示以 i 为中心的回文半径（包含 i 本身）
+
+    Mana</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"Manacher模版"" target="_blank">https://shouw.blog/posts/"Manacher模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-20T16:57:16.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[莫队模版]]></title>
+        <id>https://shouw.blog/posts/"莫队模版"</id>
+        <link href="https://shouw.blog/posts/&quot;莫队模版&quot;"/>
+        <updated>2026-04-20T16:32:27.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">struct MoSolver {
+    struct Query {
+        int l, r, id, block;
+        // 奇偶优化排序
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"莫队模版"" target="_blank">https://shouw.blog/posts/"莫队模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-20T16:32:27.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[线性基模版]]></title>
         <id>https://shouw.blog/posts/"线性基模版"</id>
@@ -30,6 +66,25 @@
             <uri>https://valaxy.site</uri>
         </author>
         <published>2026-04-20T16:18:09.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KMP模版]]></title>
+        <id>https://shouw.blog/posts/"KMP模版"</id>
+        <link href="https://shouw.blog/posts/&quot;KMP模版&quot;"/>
+        <updated>2026-04-20T16:16:26.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-cpp">struct KMP {
+    string p;
+    vector&lt;int&gt; nxt;
+
+    // 构造函数：传入模式串 P 并预处理出 nxt 数组
+    KMP(st</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"KMP模版"" target="_blank">https://shouw.blog/posts/"KMP模版"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-04-20T16:16:26.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[HopcroftKarp模版]]></title>
@@ -622,17 +677,17 @@ struct N</code></pre>
         <published>2026-02-01T13:49:13.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[并查集模版]]></title>
-        <id>https://shouw.blog/posts/"并查集模版"</id>
-        <link href="https://shouw.blog/posts/&quot;并查集模版&quot;"/>
+        <title type="html"><![CDATA[可撤销并查集模版]]></title>
+        <id>https://shouw.blog/posts/"可撤销并查集模版"</id>
+        <link href="https://shouw.blog/posts/&quot;可撤销并查集模版&quot;"/>
         <updated>2026-02-01T12:18:07.000Z</updated>
         <content type="html"><![CDATA[<h2>并查集模版</h2>
-<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
-#define int long long
-#define endl '\n'
-
-using namespace </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"并查集模版"" target="_blank">https://shouw.blog/posts/"并查集模版"</a> 阅读全文。</p>]]></content>
+<pre><code class="language-cpp">struct RollbackDSU {
+    vector&lt;int&gt; parent;
+    vector&lt;int&gt; sz;
+    
+    struct H</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"可撤销并查集模版"" target="_blank">https://shouw.blog/posts/"可撤销并查集模版"</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
             <email>i@valaxy.site</email>

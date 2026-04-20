@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 20 Apr 2026 07:57:47 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 20 Apr 2026 08:15:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,6 +15,32 @@
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[Manacher模版]]></title>
+            <link>https://shouw.blog/posts/"Manacher模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"Manacher模版"</guid>
+            <pubDate>Mon, 20 Apr 2026 16:57:16 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct Manacher {
+    string t;
+    vector&lt;int&gt; d; // d[i] 表示以 i 为中心的回文半径（包含 i 本身）
+
+    Mana</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"Manacher模版"" target="_blank">https://shouw.blog/posts/"Manacher模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[莫队模版]]></title>
+            <link>https://shouw.blog/posts/"莫队模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"莫队模版"</guid>
+            <pubDate>Mon, 20 Apr 2026 16:32:27 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct MoSolver {
+    struct Query {
+        int l, r, id, block;
+        // 奇偶优化排序
+</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"莫队模版"" target="_blank">https://shouw.blog/posts/"莫队模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
             <title><![CDATA[线性基模版]]></title>
             <link>https://shouw.blog/posts/"线性基模版"</link>
             <guid isPermaLink="false">https://shouw.blog/posts/"线性基模版"</guid>
@@ -23,6 +49,20 @@
     static const int MAX_L = 30; // int 范围内最高位到 30 (2^30)
     int p[MAX</code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"线性基模版"" target="_blank">https://shouw.blog/posts/"线性基模版"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[KMP模版]]></title>
+            <link>https://shouw.blog/posts/"KMP模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"KMP模版"</guid>
+            <pubDate>Mon, 20 Apr 2026 16:16:26 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct KMP {
+    string p;
+    vector&lt;int&gt; nxt;
+
+    // 构造函数：传入模式串 P 并预处理出 nxt 数组
+    KMP(st</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"KMP模版"" target="_blank">https://shouw.blog/posts/"KMP模版"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
@@ -446,17 +486,17 @@ struct N</code></pre>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
-            <title><![CDATA[并查集模版]]></title>
-            <link>https://shouw.blog/posts/"并查集模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"并查集模版"</guid>
+            <title><![CDATA[可撤销并查集模版]]></title>
+            <link>https://shouw.blog/posts/"可撤销并查集模版"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"可撤销并查集模版"</guid>
             <pubDate>Sun, 01 Feb 2026 12:18:07 GMT</pubDate>
             <content:encoded><![CDATA[<h2>并查集模版</h2>
-<pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
-#define int long long
-#define endl '\n'
-
-using namespace </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"并查集模版"" target="_blank">https://shouw.blog/posts/"并查集模版"</a> 阅读全文。</p>]]></content:encoded>
+<pre><code class="language-cpp">struct RollbackDSU {
+    vector&lt;int&gt; parent;
+    vector&lt;int&gt; sz;
+    
+    struct H</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/"可撤销并查集模版"" target="_blank">https://shouw.blog/posts/"可撤销并查集模版"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
