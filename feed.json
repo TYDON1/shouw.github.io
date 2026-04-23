@@ -11,6 +11,30 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/树上两点最值模版",
+            "content_html": "<pre><code class=\"language-cpp\">struct TreePathQuery {\n    int n, LOG;\n    vector&lt;int&gt; dep;\n    vector&lt;vector&lt;int&gt;&gt; fa, max_</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/树上两点最值模版\" target=\"_blank\">https://shouw.blog/posts/树上两点最值模版</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/树上两点最值模版",
+            "title": "树上两点最值模版",
+            "date_modified": "2026-04-23T22:17:27.000Z",
+            "date_published": "2026-04-23T22:17:27.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"CF题解——Lucky Country\"",
+            "content_html": "<h1>E. Lucky Country 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的故事很有趣：一个国家由很多岛屿组成，有路相连的岛屿构成一个“区域”。我们要在这个国家里找一个“幸运区域”（岛屿数量的十</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Lucky Country\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Lucky Country\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——Lucky Country\"",
+            "title": "CF题解——Lucky Country",
+            "date_modified": "2026-04-23T21:17:20.000Z",
+            "date_published": "2026-04-23T21:17:20.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"Manacher模版\"",
             "content_html": "<pre><code class=\"language-cpp\">struct Manacher {\n    string t;\n    vector&lt;int&gt; d; // d[i] 表示以 i 为中心的回文半径（包含 i 本身）\n\n    Mana</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"Manacher模版\"\" target=\"_blank\">https://shouw.blog/posts/\"Manacher模版\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"Manacher模版\"",

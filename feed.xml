@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 20 Apr 2026 08:15:20 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Apr 2026 15:00:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,29 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[树上两点最值模版]]></title>
+            <link>https://shouw.blog/posts/树上两点最值模版</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/树上两点最值模版</guid>
+            <pubDate>Thu, 23 Apr 2026 22:17:27 GMT</pubDate>
+            <content:encoded><![CDATA[<pre><code class="language-cpp">struct TreePathQuery {
+    int n, LOG;
+    vector&lt;int&gt; dep;
+    vector&lt;vector&lt;int&gt;&gt; fa, max_</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/树上两点最值模版" target="_blank">https://shouw.blog/posts/树上两点最值模版</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Lucky Country]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Lucky Country"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Lucky Country"</guid>
+            <pubDate>Thu, 23 Apr 2026 21:17:20 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Lucky Country 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的故事很有趣：一个国家由很多岛屿组成，有路相连的岛屿构成一个“区域”。我们要在这个国家里找一个“幸运区域”（岛屿数量的十</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Lucky Country"" target="_blank">https://shouw.blog/posts/"CF题解——Lucky Country"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[Manacher模版]]></title>
             <link>https://shouw.blog/posts/"Manacher模版"</link>
