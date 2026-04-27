@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/1",
+            "content_html": "<h1>F. Destroy it! 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目的背景是一个卡牌游戏（Slay the Spire 杀戮尖塔的既视感）。<br>\n战斗分为 $n$ 个回合，每个回合你会拿到若干张牌</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/1\" target=\"_blank\">https://shouw.blog/posts/1</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/1",
+            "title": "CF题解——Destroy it! ",
+            "date_modified": "2026-04-27T17:55:01.000Z",
+            "date_published": "2026-04-27T17:55:01.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/树上两点最值模版",
             "content_html": "<pre><code class=\"language-cpp\">struct TreePathQuery {\n    int n, LOG;\n    vector&lt;int&gt; dep;\n    vector&lt;vector&lt;int&gt;&gt; fa, max_</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/树上两点最值模版\" target=\"_blank\">https://shouw.blog/posts/树上两点最值模版</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/树上两点最值模版",
