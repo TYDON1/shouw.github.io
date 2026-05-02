@@ -1,6 +1,6 @@
 ---
 title: "CF题解——Ceil Divisions"
-date: "2026-02-04 11:30:00"
+date: "2026-05-02 22:31:25"
 author: shouw
 katex: true
 categories:
@@ -175,3 +175,4 @@ signed main() {
         solve();
     }
 }
+```
