@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-04-27T09:58:12.191Z</updated>
+    <updated>2026-05-02T13:04:59.069Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -16,15 +16,52 @@
     <icon>https://shouw.blog/favicon.svg</icon>
     <rights>CC BY-NC-SA 4.0 2026 © shouw</rights>
     <entry>
+        <title type="html"><![CDATA[CF题解——Make It Increasing]]></title>
+        <id>https://shouw.blog/posts/"CF题解——Make It Increasing"</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——Make It Increasing&quot;"/>
+        <updated>2026-05-02T20:21:38.000Z</updated>
+        <content type="html"><![CDATA[<h1>E. Make It Increasing 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目要求我们对一个数组 $A$ 进行修改，使得它变成<strong>严格递增</strong>的。<br>
+规则是：每次可以把某个数字修改成任意整数</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Make It Increasing"" target="_blank">https://shouw.blog/posts/"CF题解——Make It Increasing"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-05-02T20:21:38.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CF题解——Shortest Path Queries]]></title>
+        <id>https://shouw.blog/posts/"CF题解——Shortest Path Queries"</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——Shortest Path Queries&quot;"/>
+        <updated>2026-05-02T14:16:21.000Z</updated>
+        <content type="html"><![CDATA[<h1>G. Shortest Path Queries 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的要求是：维护一个带权无向连通图，支持以下三种操作：</p>
+<ol>
+<li>添加一条权重为 $d$ 的边。</li>
+<li>删除一</li>
+</ol>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Shortest Path Queries"" target="_blank">https://shouw.blog/posts/"CF题解——Shortest Path Queries"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-05-02T14:16:21.000Z</published>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CF题解——Destroy it! ]]></title>
-        <id>https://shouw.blog/posts/1</id>
-        <link href="https://shouw.blog/posts/1"/>
+        <id>https://shouw.blog/posts/"CF题解——Destroy it! "</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——Destroy it! &quot;"/>
         <updated>2026-04-27T17:55:01.000Z</updated>
         <content type="html"><![CDATA[<h1>F. Destroy it! 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的背景是一个卡牌游戏（Slay the Spire 杀戮尖塔的既视感）。<br>
 战斗分为 $n$ 个回合，每个回合你会拿到若干张牌</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/1" target="_blank">https://shouw.blog/posts/1</a> 阅读全文。</p>]]></content>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Destroy it! "" target="_blank">https://shouw.blog/posts/"CF题解——Destroy it! "</a> 阅读全文。</p>]]></content>
         <author>
             <name>shouw</name>
             <email>i@valaxy.site</email>
@@ -670,6 +707,22 @@ using namespa</code></pre>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2026-02-12T14:56:12.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CF题解——Ceil Divisions]]></title>
+        <id>https://shouw.blog/posts/"CF题解——Ceil Divisions"</id>
+        <link href="https://shouw.blog/posts/&quot;CF题解——Ceil Divisions&quot;"/>
+        <updated>2026-02-04T11:30:00.000Z</updated>
+        <content type="html"><![CDATA[<h1>D. Ceil Divisions 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常简单明了：有一个长度为 $n$ 的数组，初始值为 $1, 2, \dots, n$。每次操作你可以选两个位置 $x</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Ceil Divisions"" target="_blank">https://shouw.blog/posts/"CF题解——Ceil Divisions"</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>shouw</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2026-02-04T11:30:00.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Kruskal模版]]></title>

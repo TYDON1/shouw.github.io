@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 27 Apr 2026 09:58:12 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 13:04:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -15,15 +15,42 @@
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
+            <title><![CDATA[CF题解——Make It Increasing]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Make It Increasing"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Make It Increasing"</guid>
+            <pubDate>Sat, 02 May 2026 20:21:38 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Make It Increasing 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目要求我们对一个数组 $A$ 进行修改，使得它变成<strong>严格递增</strong>的。<br>
+规则是：每次可以把某个数字修改成任意整数</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Make It Increasing"" target="_blank">https://shouw.blog/posts/"CF题解——Make It Increasing"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Shortest Path Queries]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Shortest Path Queries"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Shortest Path Queries"</guid>
+            <pubDate>Sat, 02 May 2026 14:16:21 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>G. Shortest Path Queries 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目的要求是：维护一个带权无向连通图，支持以下三种操作：</p>
+<ol>
+<li>添加一条权重为 $d$ 的边。</li>
+<li>删除一</li>
+</ol>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Shortest Path Queries"" target="_blank">https://shouw.blog/posts/"CF题解——Shortest Path Queries"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
             <title><![CDATA[CF题解——Destroy it! ]]></title>
-            <link>https://shouw.blog/posts/1</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/1</guid>
+            <link>https://shouw.blog/posts/"CF题解——Destroy it! "</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Destroy it! "</guid>
             <pubDate>Mon, 27 Apr 2026 17:55:01 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Destroy it! 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的背景是一个卡牌游戏（Slay the Spire 杀戮尖塔的既视感）。<br>
 战斗分为 $n$ 个回合，每个回合你会拿到若干张牌</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/1" target="_blank">https://shouw.blog/posts/1</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Destroy it! "" target="_blank">https://shouw.blog/posts/"CF题解——Destroy it! "</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
@@ -478,6 +505,17 @@ struct ST {
 
 using namespa</code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"zkw线段树"" target="_blank">https://shouw.blog/posts/"zkw线段树"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Ceil Divisions]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Ceil Divisions"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Ceil Divisions"</guid>
+            <pubDate>Wed, 04 Feb 2026 11:30:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Ceil Divisions 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常简单明了：有一个长度为 $n$ 的数组，初始值为 $1, 2, \dots, n$。每次操作你可以选两个位置 $x</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Ceil Divisions"" target="_blank">https://shouw.blog/posts/"CF题解——Ceil Divisions"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
