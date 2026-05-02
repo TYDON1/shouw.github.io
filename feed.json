@@ -11,6 +11,18 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/\"CF题解——Ceil Divisions\"",
+            "content_html": "<h1>D. Ceil Divisions 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意非常简单明了：有一个长度为 $n$ 的数组，初始值为 $1, 2, \\dots, n$。每次操作你可以选两个位置 $x</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Ceil Divisions\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Ceil Divisions\"</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——Ceil Divisions\"",
+            "title": "CF题解——Ceil Divisions",
+            "date_modified": "2026-05-02T22:31:25.000Z",
+            "date_published": "2026-05-02T22:31:25.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/\"CF题解——Make It Increasing\"",
             "content_html": "<h1>E. Make It Increasing 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目要求我们对一个数组 $A$ 进行修改，使得它变成<strong>严格递增</strong>的。<br>\n规则是：每次可以把某个数字修改成任意整数</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Make It Increasing\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Make It Increasing\"</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/\"CF题解——Make It Increasing\"",
@@ -29,6 +41,18 @@
             "title": "CF题解——Shortest Path Queries",
             "date_modified": "2026-05-02T14:16:21.000Z",
             "date_published": "2026-05-02T14:16:21.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/\"CF题解——Ceil Divisions\"_副本",
+            "content_html": "<h1>F. MST Unification 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题目要求我们在一个无向连通图中，通过<strong>增加某些边的权重（每次加 1）</strong>，使得这幅图的<strong>最小生成树（MST）唯一</strong></p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Ceil Divisions\"_副本\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Ceil Divisions\"_副本</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/\"CF题解——Ceil Divisions\"_副本",
+            "title": "CF题解——MST Unification",
+            "date_modified": "2026-05-01T21:31:09.000Z",
+            "date_published": "2026-05-01T21:31:09.000Z",
             "author": {
                 "name": "shouw",
                 "url": "https://valaxy.site"
@@ -485,18 +509,6 @@
             "title": "zkw线段树模版",
             "date_modified": "2026-02-12T14:56:12.000Z",
             "date_published": "2026-02-12T14:56:12.000Z",
-            "author": {
-                "name": "shouw",
-                "url": "https://valaxy.site"
-            }
-        },
-        {
-            "id": "https://shouw.blog/posts/\"CF题解——Ceil Divisions\"",
-            "content_html": "<h1>D. Ceil Divisions 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意非常简单明了：有一个长度为 $n$ 的数组，初始值为 $1, 2, \\dots, n$。每次操作你可以选两个位置 $x</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/\"CF题解——Ceil Divisions\"\" target=\"_blank\">https://shouw.blog/posts/\"CF题解——Ceil Divisions\"</a> 阅读全文。</p>",
-            "url": "https://shouw.blog/posts/\"CF题解——Ceil Divisions\"",
-            "title": "CF题解——Ceil Divisions",
-            "date_modified": "2026-02-04T11:30:00.000Z",
-            "date_published": "2026-02-04T11:30:00.000Z",
             "author": {
                 "name": "shouw",
                 "url": "https://valaxy.site"

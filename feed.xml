@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Sat, 02 May 2026 13:04:59 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 13:11:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,17 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CF题解——Ceil Divisions]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Ceil Divisions"</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Ceil Divisions"</guid>
+            <pubDate>Sat, 02 May 2026 22:31:25 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Ceil Divisions 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常简单明了：有一个长度为 $n$ 的数组，初始值为 $1, 2, \dots, n$。每次操作你可以选两个位置 $x</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Ceil Divisions"" target="_blank">https://shouw.blog/posts/"CF题解——Ceil Divisions"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[CF题解——Make It Increasing]]></title>
             <link>https://shouw.blog/posts/"CF题解——Make It Increasing"</link>
@@ -39,6 +50,17 @@
 <li>删除一</li>
 </ol>
 <br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Shortest Path Queries"" target="_blank">https://shouw.blog/posts/"CF题解——Shortest Path Queries"</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——MST Unification]]></title>
+            <link>https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本</guid>
+            <pubDate>Fri, 01 May 2026 21:31:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. MST Unification 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目要求我们在一个无向连通图中，通过<strong>增加某些边的权重（每次加 1）</strong>，使得这幅图的<strong>最小生成树（MST）唯一</strong></p>
+<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本" target="_blank">https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
@@ -505,17 +527,6 @@ struct ST {
 
 using namespa</code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/"zkw线段树"" target="_blank">https://shouw.blog/posts/"zkw线段树"</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (shouw)</author>
-        </item>
-        <item>
-            <title><![CDATA[CF题解——Ceil Divisions]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Ceil Divisions"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Ceil Divisions"</guid>
-            <pubDate>Wed, 04 Feb 2026 11:30:00 GMT</pubDate>
-            <content:encoded><![CDATA[<h1>D. Ceil Divisions 解题思路</h1>
-<h3>核心问题分析</h3>
-<p>题意非常简单明了：有一个长度为 $n$ 的数组，初始值为 $1, 2, \dots, n$。每次操作你可以选两个位置 $x</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Ceil Divisions"" target="_blank">https://shouw.blog/posts/"CF题解——Ceil Divisions"</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
