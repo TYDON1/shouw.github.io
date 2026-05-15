@@ -16,9 +16,6 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9 # 👈 强行锁死在 v9 版本，彻底解决 node:sqlite 报错
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
