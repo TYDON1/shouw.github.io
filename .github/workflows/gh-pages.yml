@@ -27,6 +27,8 @@ jobs:
 
       - name: Build Site
         run: pnpm run build
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192 # 👈 文章增多+大量 KaTeX 渲染会撑爆默认堆，导致 OOM(exit 134)
 
       - name: Verify build output # 👈 防止 SSG 渲染失败仍退出 0 时，用残缺 dist 覆盖线上站点
         run: |
