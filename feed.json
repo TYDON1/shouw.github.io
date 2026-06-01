@@ -287,9 +287,9 @@
             }
         },
         {
-            "id": "https://shouw.blog/posts/CF题解——Shortest Path Problem?",
-            "content_html": "<h1>G. Shortest Path Problem? 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>给一张带权无向连通图，一条路径的“长度”不是边权之和，而是这条路径上所有边权的<strong>按位异或</strong>。注意题目特</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/CF题解——Shortest Path Problem?\" target=\"_blank\">https://shouw.blog/posts/CF题解——Shortest Path Problem?</a> 阅读全文。</p>",
-            "url": "https://shouw.blog/posts/CF题解——Shortest Path Problem?",
+            "id": "https://shouw.blog/posts/CF题解——Shortest Path Problem",
+            "content_html": "<h1>G. Shortest Path Problem? 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>给一张带权无向连通图，一条路径的“长度”不是边权之和，而是这条路径上所有边权的<strong>按位异或</strong>。注意题目特</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/CF题解——Shortest Path Problem\" target=\"_blank\">https://shouw.blog/posts/CF题解——Shortest Path Problem</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/CF题解——Shortest Path Problem",
             "title": "CF题解——Shortest Path Problem?",
             "date_modified": "2026-05-10T21:42:11.000Z",
             "date_published": "2026-05-10T21:42:11.000Z",

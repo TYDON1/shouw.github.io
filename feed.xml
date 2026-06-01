@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Mon, 01 Jun 2026 18:17:29 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2026 18:45:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -271,13 +271,13 @@
         </item>
         <item>
             <title><![CDATA[CF题解——Shortest Path Problem?]]></title>
-            <link>https://shouw.blog/posts/CF题解——Shortest Path Problem?</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Shortest Path Problem?</guid>
+            <link>https://shouw.blog/posts/CF题解——Shortest Path Problem</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Shortest Path Problem</guid>
             <pubDate>Sun, 10 May 2026 21:42:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>G. Shortest Path Problem? 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>给一张带权无向连通图，一条路径的“长度”不是边权之和，而是这条路径上所有边权的<strong>按位异或</strong>。注意题目特</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Shortest Path Problem?" target="_blank">https://shouw.blog/posts/CF题解——Shortest Path Problem?</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Shortest Path Problem" target="_blank">https://shouw.blog/posts/CF题解——Shortest Path Problem</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
