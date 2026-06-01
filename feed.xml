@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Fri, 15 May 2026 17:18:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2026 18:17:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,306 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[CF题解——Max Median]]></title>
+            <link>https://shouw.blog/posts/CF题解——Max Median</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Max Median</guid>
+            <pubDate>Tue, 02 Jun 2026 21:37:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Max Median 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意很短：给定一个长度为 $n$ 的数组 $a$，在所有<strong>长度至少为 $k$</strong> 的连续子数组里，找出<strong>中位数最大</strong>的那个，</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Max Median" target="_blank">https://shouw.blog/posts/CF题解——Max Median</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Xor Tree]]></title>
+            <link>https://shouw.blog/posts/CF题解——Xor Tree</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Xor Tree</guid>
+            <pubDate>Mon, 01 Jun 2026 20:43:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>C. Xor Tree 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题目给了我们一个有点绕的&quot;good 序列&quot;定义，先把它翻译成人话。</p>
+<p>对一个<strong>两两不同</strong>的非负整数序列 $(b_1, \dots,</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Xor Tree" target="_blank">https://shouw.blog/posts/CF题解——Xor Tree</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Binary Median]]></title>
+            <link>https://shouw.blog/posts/CF题解——Binary Median</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Binary Median</guid>
+            <pubDate>Sun, 31 May 2026 22:37:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>H. Binary Median 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意其实特别清爽：长度为 $m$ 的二进制串一共有 $2^m$ 个，按字典序排列。注意到——**长度固定为 $m$ 的二进制</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Binary Median" target="_blank">https://shouw.blog/posts/CF题解——Binary Median</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Present]]></title>
+            <link>https://shouw.blog/posts/CF题解——Present</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Present</guid>
+            <pubDate>Sat, 30 May 2026 21:42:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>B. Present 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意干净得不能再干净：给你一个长度为 $n$ 的数组 $a$，让你求<strong>所有两两之和的异或</strong></p>
+<p>$$ \bigoplus_{1 \le</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Present" target="_blank">https://shouw.blog/posts/CF题解——Present</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Array Shrinking]]></title>
+            <link>https://shouw.blog/posts/CF题解——Array Shrinking</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Array Shrinking</guid>
+            <pubDate>Fri, 29 May 2026 21:42:16 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Array Shrinking 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常清爽：给一个数组 $a_1, a_2, \dots, a_n$，你可以反复做这样一件事——找到<strong>相邻且相等</strong></p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Array Shrinking" target="_blank">https://shouw.blog/posts/CF题解——Array Shrinking</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Coloring Edges]]></title>
+            <link>https://shouw.blog/posts/CF题解——Coloring Edges</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Coloring Edges</guid>
+            <pubDate>Thu, 28 May 2026 20:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Coloring Edges 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>给一张 $n$ 个点、$m$ 条边的<strong>有向图</strong>（没有自环、没有重边）。我们要给每条边染上一种颜色，染色方案叫“好的”当</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Coloring Edges" target="_blank">https://shouw.blog/posts/CF题解——Coloring Edges</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Remainder Problem]]></title>
+            <link>https://shouw.blog/posts/CF题解——Remainder Problem</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Remainder Problem</guid>
+            <pubDate>Wed, 27 May 2026 22:41:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. Remainder Problem 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常干净利落：我们有一个长度 $500000$ 的数组 $a$，下标从 $1$ 到 $500000$，初始全是</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Remainder Problem" target="_blank">https://shouw.blog/posts/CF题解——Remainder Problem</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——OpenStreetMap]]></title>
+            <link>https://shouw.blog/posts/CF题解——OpenStreetMap</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——OpenStreetMap</guid>
+            <pubDate>Tue, 26 May 2026 21:42:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. OpenStreetMap 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意翻译成人话非常直白：给一张 $n \times m$ 的高度矩阵 $h$，再给定一个固定大小 $a \times b$</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——OpenStreetMap" target="_blank">https://shouw.blog/posts/CF题解——OpenStreetMap</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Tree Painting]]></title>
+            <link>https://shouw.blog/posts/CF题解——Tree Painting</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Tree Painting</guid>
+            <pubDate>Mon, 25 May 2026 20:42:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Tree Painting 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>给我们一棵 $n$ 个点的树，一开始全是白色。第一步任选一个点染黑；之后每一步，只能选一个<strong>与某个黑点相邻的白点</strong>把它染</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Tree Painting" target="_blank">https://shouw.blog/posts/CF题解——Tree Painting</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Shovels Shop]]></title>
+            <link>https://shouw.blog/posts/CF题解——Shovels Shop</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Shovels Shop</guid>
+            <pubDate>Sun, 24 May 2026 21:42:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. Shovels Shop 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意其实就是个“凑单薅羊毛”的故事：商店里有 $n$ 把铲子，第 $i$ 把价格 $a_i$。Misha 必须**恰好买 $k</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Shovels Shop" target="_blank">https://shouw.blog/posts/CF题解——Shovels Shop</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Frog Jumping]]></title>
+            <link>https://shouw.blog/posts/CF题解——Frog Jumping</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Frog Jumping</guid>
+            <pubDate>Sat, 23 May 2026 22:41:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Frog Jumping 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>一只青蛙站在数轴的 $0$ 点，手里攥着两个正整数 $a$ 和 $b$。在位置 $k$，它可以跳到 $k+a$，也可以跳到 $</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Frog Jumping" target="_blank">https://shouw.blog/posts/CF题解——Frog Jumping</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Check Transcription]]></title>
+            <link>https://shouw.blog/posts/CF题解——Check Transcription</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Check Transcription</guid>
+            <pubDate>Fri, 22 May 2026 20:47:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Check Transcription 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常浪漫：几十年前一台射电望远镜往外太空发了一段 01 串 $s$，最近收到了一段疑似外星人的回信 $t$（</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Check Transcription" target="_blank">https://shouw.blog/posts/CF题解——Check Transcription</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——We Need More Bosses]]></title>
+            <link>https://shouw.blog/posts/CF题解——We Need More Bosses</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——We Need More Bosses</guid>
+            <pubDate>Thu, 21 May 2026 21:42:18 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. We Need More Bosses 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>你的朋友在做游戏：$n$ 个地点、$m$ 条双向通道，整张图<strong>连通</strong>（任意两点互达）。游戏起点 $s$、终点</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——We Need More Bosses" target="_blank">https://shouw.blog/posts/CF题解——We Need More Bosses</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Pathwalks]]></title>
+            <link>https://shouw.blog/posts/CF题解——Pathwalks</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Pathwalks</guid>
+            <pubDate>Wed, 20 May 2026 22:37:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. Pathwalks 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意翻译成人话：给一张有向图，$n$ 个点、$m$ 条带权边（注意可以有重边、自环，图还可能不连通）。我们要挑出一条路径（点可以重复</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Pathwalks" target="_blank">https://shouw.blog/posts/CF题解——Pathwalks</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Round Subset]]></title>
+            <link>https://shouw.blog/posts/CF题解——Round Subset</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Round Subset</guid>
+            <pubDate>Tue, 19 May 2026 20:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Round Subset 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意很短：给你 $n$ 个数，要求<strong>恰好挑出 $k$ 个</strong>，让它们乘积末尾的 $0$ 的个数（题面里叫 roundness</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Round Subset" target="_blank">https://shouw.blog/posts/CF题解——Round Subset</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Minimum spanning tree for each edge]]></title>
+            <link>https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge</guid>
+            <pubDate>Mon, 18 May 2026 20:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Minimum spanning tree for each edge 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>给一张 $n$ 个点、$m$ 条边的带权无向连通图（无自环、无重边）。对**每一</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge" target="_blank">https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——A and B and Lecture Rooms]]></title>
+            <link>https://shouw.blog/posts/CF题解——A and B and Lecture Rooms</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——A and B and Lecture Rooms</guid>
+            <pubDate>Sun, 17 May 2026 22:31:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. A and B and Lecture Rooms 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题面包装得很文艺：一所大学是棵 $n$ 个点、$n-1$ 条边的树。每天 A 在房间 $x$ 出题、</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——A and B and Lecture Rooms" target="_blank">https://shouw.blog/posts/CF题解——A and B and Lecture Rooms</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Maximum Value]]></title>
+            <link>https://shouw.blog/posts/CF题解——Maximum Value</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Maximum Value</guid>
+            <pubDate>Sat, 16 May 2026 21:42:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>B. Maximum Value 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意干净得不能再干净：给一个长度为 $n$ 的序列 $a$，要从里面挑两个数 $a_i, a_j$（下标可以相同），在满足</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Maximum Value" target="_blank">https://shouw.blog/posts/CF题解——Maximum Value</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Ant colony]]></title>
+            <link>https://shouw.blog/posts/CF题解——Ant colony</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Ant colony</guid>
+            <pubDate>Fri, 15 May 2026 20:43:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. Ant colony 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题面包了一层「饥饿游戏」的故事皮，咱们先把它剥干净。一排 $n$ 只蚂蚁，第 $i$ 只力量为 $s_i$。每次询问给一段区间 $</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Ant colony" target="_blank">https://shouw.blog/posts/CF题解——Ant colony</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——XOR and Favorite Number]]></title>
+            <link>https://shouw.blog/posts/CF题解——XOR and Favorite Number</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——XOR and Favorite Number</guid>
+            <pubDate>Thu, 14 May 2026 22:37:09 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. XOR and Favorite Number 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意很直白：给一个长度为 $n$ 的数组 $a$，以及 Bob 的幸运数 $k$。每个询问给定区间 $[</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——XOR and Favorite Number" target="_blank">https://shouw.blog/posts/CF题解——XOR and Favorite Number</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Powerful array]]></title>
+            <link>https://shouw.blog/posts/CF题解——Powerful array</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Powerful array</guid>
+            <pubDate>Wed, 13 May 2026 20:47:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Powerful array 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常直白：给定一个长度为 $n$ 的正整数数组 $a_1, a_2, \dots, a_n$。对任意一个子区间 $[l</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Powerful array" target="_blank">https://shouw.blog/posts/CF题解——Powerful array</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Distance to Different]]></title>
+            <link>https://shouw.blog/posts/CF题解——Distance to Different</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Distance to Different</guid>
+            <pubDate>Tue, 12 May 2026 22:37:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Distance to Different 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意翻译成人话：有一个长度为 $n$ 的数组 $a$，每个元素取值在 $1\sim k$ 之间，并且 $1\</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Distance to Different" target="_blank">https://shouw.blog/posts/CF题解——Distance to Different</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Dogeforces]]></title>
+            <link>https://shouw.blog/posts/CF题解——Dogeforces</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Dogeforces</guid>
+            <pubDate>Mon, 11 May 2026 20:42:10 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>D. Dogeforces 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>Dogeforces 公司有 $k$ 个员工，组织结构是一棵树：除底层员工外，每个上司<strong>至少有 $2$ 个直接下属</strong>；除老板外</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Dogeforces" target="_blank">https://shouw.blog/posts/CF题解——Dogeforces</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Shortest Path Problem?]]></title>
+            <link>https://shouw.blog/posts/CF题解——Shortest Path Problem?</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Shortest Path Problem?</guid>
+            <pubDate>Sun, 10 May 2026 21:42:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>G. Shortest Path Problem? 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>给一张带权无向连通图，一条路径的“长度”不是边权之和，而是这条路径上所有边权的<strong>按位异或</strong>。注意题目特</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Shortest Path Problem?" target="_blank">https://shouw.blog/posts/CF题解——Shortest Path Problem?</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Minimum Path]]></title>
+            <link>https://shouw.blog/posts/CF题解——Minimum Path</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Minimum Path</guid>
+            <pubDate>Sat, 09 May 2026 22:05:37 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Minimum Path 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>给一张带权无向连通图，定义一条经过 $k$ 条边 $e_1, \dots, e_k$ 的路径的权值为</p>
+<p>$$ \sum_{i=</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Minimum Path" target="_blank">https://shouw.blog/posts/CF题解——Minimum Path</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——One Occurrence]]></title>
+            <link>https://shouw.blog/posts/CF题解——One Occurrence</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——One Occurrence</guid>
+            <pubDate>Fri, 08 May 2026 20:42:11 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>F. One Occurrence 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意非常直白：给定长度为 $n$ 的数组，$q$ 次询问，每次问 $[l, r]$ 这段子数组里，**随便找一个恰好只出现</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——One Occurrence" target="_blank">https://shouw.blog/posts/CF题解——One Occurrence</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CF题解——Two Editorials]]></title>
+            <link>https://shouw.blog/posts/CF题解——Two Editorials</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Two Editorials</guid>
+            <pubDate>Thu, 07 May 2026 21:18:43 GMT</pubDate>
+            <content:encoded><![CDATA[<h1>E. Two Editorials 解题思路</h1>
+<h3>核心问题分析</h3>
+<p>题意拆开来其实很干净：有 $n$ 道题、$m$ 个观众。两位作者各自要讲<strong>一段长度恰好为 $k$ 的连续区间</strong>（两人独</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Two Editorials" target="_blank">https://shouw.blog/posts/CF题解——Two Editorials</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[TarjanEBCC模版]]></title>
             <link>https://shouw.blog/posts/"TarjanEBCC模版"</link>
@@ -69,13 +369,13 @@ struct TarjanEBCC {
         </item>
         <item>
             <title><![CDATA[CF题解——MST Unification]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本</guid>
+            <link>https://shouw.blog/posts/CF题解——MST Unification</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——MST Unification</guid>
             <pubDate>Fri, 01 May 2026 21:31:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. MST Unification 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目要求我们在一个无向连通图中，通过<strong>增加某些边的权重（每次加 1）</strong>，使得这幅图的<strong>最小生成树（MST）唯一</strong></p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本" target="_blank">https://shouw.blog/posts/"CF题解——Ceil Divisions"_副本</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——MST Unification" target="_blank">https://shouw.blog/posts/CF题解——MST Unification</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
