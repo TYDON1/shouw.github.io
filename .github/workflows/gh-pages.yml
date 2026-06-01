@@ -28,6 +28,10 @@ jobs:
       - name: Build Site
         run: pnpm run build
 
+      - name: Verify build output # 👈 防止 SSG 渲染失败仍退出 0 时，用残缺 dist 覆盖线上站点
+        run: |
+          test -f dist/index.html || { echo "::error::dist/index.html 缺失，构建未产出 HTML，终止部署"; exit 1; }
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
