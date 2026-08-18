@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Tue, 18 Aug 2026 09:25:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Aug 2026 15:38:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -16,308 +16,308 @@
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[CF题解——Max Median]]></title>
-            <link>https://shouw.blog/posts/CF题解——Max Median</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Max Median</guid>
+            <link>https://shouw.blog/posts/cf-max-median</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-max-median</guid>
             <pubDate>Tue, 02 Jun 2026 21:37:12 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Max Median 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意很短：给定一个长度为 $n$ 的数组 $a$，在所有<strong>长度至少为 $k$</strong> 的连续子数组里，找出<strong>中位数最大</strong>的那个，</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Max Median" target="_blank">https://shouw.blog/posts/CF题解——Max Median</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-max-median" target="_blank">https://shouw.blog/posts/cf-max-median</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Xor Tree]]></title>
-            <link>https://shouw.blog/posts/CF题解——Xor Tree</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Xor Tree</guid>
+            <link>https://shouw.blog/posts/cf-xor-tree</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-xor-tree</guid>
             <pubDate>Mon, 01 Jun 2026 20:43:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>C. Xor Tree 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目给了我们一个有点绕的&quot;good 序列&quot;定义，先把它翻译成人话。</p>
 <p>对一个<strong>两两不同</strong>的非负整数序列 $(b_1, \dots,</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Xor Tree" target="_blank">https://shouw.blog/posts/CF题解——Xor Tree</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-xor-tree" target="_blank">https://shouw.blog/posts/cf-xor-tree</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Binary Median]]></title>
-            <link>https://shouw.blog/posts/CF题解——Binary Median</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Binary Median</guid>
+            <link>https://shouw.blog/posts/cf-binary-median</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-binary-median</guid>
             <pubDate>Sun, 31 May 2026 22:37:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>H. Binary Median 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意其实特别清爽：长度为 $m$ 的二进制串一共有 $2^m$ 个，按字典序排列。注意到——**长度固定为 $m$ 的二进制</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Binary Median" target="_blank">https://shouw.blog/posts/CF题解——Binary Median</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-binary-median" target="_blank">https://shouw.blog/posts/cf-binary-median</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Present]]></title>
-            <link>https://shouw.blog/posts/CF题解——Present</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Present</guid>
+            <link>https://shouw.blog/posts/cf-present</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-present</guid>
             <pubDate>Sat, 30 May 2026 21:42:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>B. Present 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意干净得不能再干净：给你一个长度为 $n$ 的数组 $a$，让你求<strong>所有两两之和的异或</strong></p>
 <p>$$ \bigoplus_{1 \le</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Present" target="_blank">https://shouw.blog/posts/CF题解——Present</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-present" target="_blank">https://shouw.blog/posts/cf-present</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Array Shrinking]]></title>
-            <link>https://shouw.blog/posts/CF题解——Array Shrinking</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Array Shrinking</guid>
+            <link>https://shouw.blog/posts/cf-array-shrinking</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-array-shrinking</guid>
             <pubDate>Fri, 29 May 2026 21:42:16 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Array Shrinking 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意非常清爽：给一个数组 $a_1, a_2, \dots, a_n$，你可以反复做这样一件事——找到<strong>相邻且相等</strong></p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Array Shrinking" target="_blank">https://shouw.blog/posts/CF题解——Array Shrinking</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-array-shrinking" target="_blank">https://shouw.blog/posts/cf-array-shrinking</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Coloring Edges]]></title>
-            <link>https://shouw.blog/posts/CF题解——Coloring Edges</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Coloring Edges</guid>
+            <link>https://shouw.blog/posts/cf-coloring-edges</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-coloring-edges</guid>
             <pubDate>Thu, 28 May 2026 20:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Coloring Edges 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>给一张 $n$ 个点、$m$ 条边的<strong>有向图</strong>（没有自环、没有重边）。我们要给每条边染上一种颜色，染色方案叫“好的”当</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Coloring Edges" target="_blank">https://shouw.blog/posts/CF题解——Coloring Edges</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-coloring-edges" target="_blank">https://shouw.blog/posts/cf-coloring-edges</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Remainder Problem]]></title>
-            <link>https://shouw.blog/posts/CF题解——Remainder Problem</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Remainder Problem</guid>
+            <link>https://shouw.blog/posts/cf-remainder-problem</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-remainder-problem</guid>
             <pubDate>Wed, 27 May 2026 22:41:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Remainder Problem 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意非常干净利落：我们有一个长度 $500000$ 的数组 $a$，下标从 $1$ 到 $500000$，初始全是</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Remainder Problem" target="_blank">https://shouw.blog/posts/CF题解——Remainder Problem</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-remainder-problem" target="_blank">https://shouw.blog/posts/cf-remainder-problem</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——OpenStreetMap]]></title>
-            <link>https://shouw.blog/posts/CF题解——OpenStreetMap</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——OpenStreetMap</guid>
+            <link>https://shouw.blog/posts/cf-openstreetmap</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-openstreetmap</guid>
             <pubDate>Tue, 26 May 2026 21:42:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. OpenStreetMap 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意翻译成人话非常直白：给一张 $n \times m$ 的高度矩阵 $h$，再给定一个固定大小 $a \times b$</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——OpenStreetMap" target="_blank">https://shouw.blog/posts/CF题解——OpenStreetMap</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-openstreetmap" target="_blank">https://shouw.blog/posts/cf-openstreetmap</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Tree Painting]]></title>
-            <link>https://shouw.blog/posts/CF题解——Tree Painting</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Tree Painting</guid>
+            <link>https://shouw.blog/posts/cf-tree-painting</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-tree-painting</guid>
             <pubDate>Mon, 25 May 2026 20:42:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Tree Painting 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>给我们一棵 $n$ 个点的树，一开始全是白色。第一步任选一个点染黑；之后每一步，只能选一个<strong>与某个黑点相邻的白点</strong>把它染</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Tree Painting" target="_blank">https://shouw.blog/posts/CF题解——Tree Painting</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-tree-painting" target="_blank">https://shouw.blog/posts/cf-tree-painting</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Shovels Shop]]></title>
-            <link>https://shouw.blog/posts/CF题解——Shovels Shop</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Shovels Shop</guid>
+            <link>https://shouw.blog/posts/cf-shovels-shop</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-shovels-shop</guid>
             <pubDate>Sun, 24 May 2026 21:42:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Shovels Shop 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意其实就是个“凑单薅羊毛”的故事：商店里有 $n$ 把铲子，第 $i$ 把价格 $a_i$。Misha 必须**恰好买 $k</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Shovels Shop" target="_blank">https://shouw.blog/posts/CF题解——Shovels Shop</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-shovels-shop" target="_blank">https://shouw.blog/posts/cf-shovels-shop</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Frog Jumping]]></title>
-            <link>https://shouw.blog/posts/CF题解——Frog Jumping</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Frog Jumping</guid>
+            <link>https://shouw.blog/posts/cf-frog-jumping</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-frog-jumping</guid>
             <pubDate>Sat, 23 May 2026 22:41:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Frog Jumping 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>一只青蛙站在数轴的 $0$ 点，手里攥着两个正整数 $a$ 和 $b$。在位置 $k$，它可以跳到 $k+a$，也可以跳到 $</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Frog Jumping" target="_blank">https://shouw.blog/posts/CF题解——Frog Jumping</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-frog-jumping" target="_blank">https://shouw.blog/posts/cf-frog-jumping</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Check Transcription]]></title>
-            <link>https://shouw.blog/posts/CF题解——Check Transcription</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Check Transcription</guid>
+            <link>https://shouw.blog/posts/cf-check-transcription</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-check-transcription</guid>
             <pubDate>Fri, 22 May 2026 20:47:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Check Transcription 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意非常浪漫：几十年前一台射电望远镜往外太空发了一段 01 串 $s$，最近收到了一段疑似外星人的回信 $t$（</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Check Transcription" target="_blank">https://shouw.blog/posts/CF题解——Check Transcription</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-check-transcription" target="_blank">https://shouw.blog/posts/cf-check-transcription</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——We Need More Bosses]]></title>
-            <link>https://shouw.blog/posts/CF题解——We Need More Bosses</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——We Need More Bosses</guid>
+            <link>https://shouw.blog/posts/cf-we-need-more-bosses</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-we-need-more-bosses</guid>
             <pubDate>Thu, 21 May 2026 21:42:18 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. We Need More Bosses 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>你的朋友在做游戏：$n$ 个地点、$m$ 条双向通道，整张图<strong>连通</strong>（任意两点互达）。游戏起点 $s$、终点</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——We Need More Bosses" target="_blank">https://shouw.blog/posts/CF题解——We Need More Bosses</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-we-need-more-bosses" target="_blank">https://shouw.blog/posts/cf-we-need-more-bosses</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Pathwalks]]></title>
-            <link>https://shouw.blog/posts/CF题解——Pathwalks</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Pathwalks</guid>
+            <link>https://shouw.blog/posts/cf-pathwalks</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-pathwalks</guid>
             <pubDate>Wed, 20 May 2026 22:37:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Pathwalks 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意翻译成人话：给一张有向图，$n$ 个点、$m$ 条带权边（注意可以有重边、自环，图还可能不连通）。我们要挑出一条路径（点可以重复</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Pathwalks" target="_blank">https://shouw.blog/posts/CF题解——Pathwalks</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-pathwalks" target="_blank">https://shouw.blog/posts/cf-pathwalks</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Round Subset]]></title>
-            <link>https://shouw.blog/posts/CF题解——Round Subset</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Round Subset</guid>
+            <link>https://shouw.blog/posts/cf-round-subset</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-round-subset</guid>
             <pubDate>Tue, 19 May 2026 20:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Round Subset 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意很短：给你 $n$ 个数，要求<strong>恰好挑出 $k$ 个</strong>，让它们乘积末尾的 $0$ 的个数（题面里叫 roundness</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Round Subset" target="_blank">https://shouw.blog/posts/CF题解——Round Subset</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-round-subset" target="_blank">https://shouw.blog/posts/cf-round-subset</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Minimum spanning tree for each edge]]></title>
-            <link>https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge</guid>
+            <link>https://shouw.blog/posts/cf-minimum-spanning-tree-for-each-edge</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-minimum-spanning-tree-for-each-edge</guid>
             <pubDate>Mon, 18 May 2026 20:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Minimum spanning tree for each edge 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>给一张 $n$ 个点、$m$ 条边的带权无向连通图（无自环、无重边）。对**每一</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge" target="_blank">https://shouw.blog/posts/CF题解——Minimum spanning tree for each edge</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-minimum-spanning-tree-for-each-edge" target="_blank">https://shouw.blog/posts/cf-minimum-spanning-tree-for-each-edge</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——A and B and Lecture Rooms]]></title>
-            <link>https://shouw.blog/posts/CF题解——A and B and Lecture Rooms</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——A and B and Lecture Rooms</guid>
+            <link>https://shouw.blog/posts/cf-a-and-b-and-lecture-rooms</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-a-and-b-and-lecture-rooms</guid>
             <pubDate>Sun, 17 May 2026 22:31:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. A and B and Lecture Rooms 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题面包装得很文艺：一所大学是棵 $n$ 个点、$n-1$ 条边的树。每天 A 在房间 $x$ 出题、</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——A and B and Lecture Rooms" target="_blank">https://shouw.blog/posts/CF题解——A and B and Lecture Rooms</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-a-and-b-and-lecture-rooms" target="_blank">https://shouw.blog/posts/cf-a-and-b-and-lecture-rooms</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Maximum Value]]></title>
-            <link>https://shouw.blog/posts/CF题解——Maximum Value</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Maximum Value</guid>
+            <link>https://shouw.blog/posts/cf-maximum-value</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-maximum-value</guid>
             <pubDate>Sat, 16 May 2026 21:42:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>B. Maximum Value 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意干净得不能再干净：给一个长度为 $n$ 的序列 $a$，要从里面挑两个数 $a_i, a_j$（下标可以相同），在满足</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Maximum Value" target="_blank">https://shouw.blog/posts/CF题解——Maximum Value</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-maximum-value" target="_blank">https://shouw.blog/posts/cf-maximum-value</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Ant colony]]></title>
-            <link>https://shouw.blog/posts/CF题解——Ant colony</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Ant colony</guid>
+            <link>https://shouw.blog/posts/cf-ant-colony</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-ant-colony</guid>
             <pubDate>Fri, 15 May 2026 20:43:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Ant colony 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题面包了一层「饥饿游戏」的故事皮，咱们先把它剥干净。一排 $n$ 只蚂蚁，第 $i$ 只力量为 $s_i$。每次询问给一段区间 $</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Ant colony" target="_blank">https://shouw.blog/posts/CF题解——Ant colony</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-ant-colony" target="_blank">https://shouw.blog/posts/cf-ant-colony</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——XOR and Favorite Number]]></title>
-            <link>https://shouw.blog/posts/CF题解——XOR and Favorite Number</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——XOR and Favorite Number</guid>
+            <link>https://shouw.blog/posts/cf-xor-and-favorite-number</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-xor-and-favorite-number</guid>
             <pubDate>Thu, 14 May 2026 22:37:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. XOR and Favorite Number 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意很直白：给一个长度为 $n$ 的数组 $a$，以及 Bob 的幸运数 $k$。每个询问给定区间 $[</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——XOR and Favorite Number" target="_blank">https://shouw.blog/posts/CF题解——XOR and Favorite Number</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-xor-and-favorite-number" target="_blank">https://shouw.blog/posts/cf-xor-and-favorite-number</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Powerful array]]></title>
-            <link>https://shouw.blog/posts/CF题解——Powerful array</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Powerful array</guid>
+            <link>https://shouw.blog/posts/cf-powerful-array</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-powerful-array</guid>
             <pubDate>Wed, 13 May 2026 20:47:12 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Powerful array 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意非常直白：给定一个长度为 $n$ 的正整数数组 $a_1, a_2, \dots, a_n$。对任意一个子区间 $[l</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Powerful array" target="_blank">https://shouw.blog/posts/CF题解——Powerful array</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-powerful-array" target="_blank">https://shouw.blog/posts/cf-powerful-array</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Distance to Different]]></title>
-            <link>https://shouw.blog/posts/CF题解——Distance to Different</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Distance to Different</guid>
+            <link>https://shouw.blog/posts/cf-distance-to-different</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-distance-to-different</guid>
             <pubDate>Tue, 12 May 2026 22:37:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Distance to Different 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意翻译成人话：有一个长度为 $n$ 的数组 $a$，每个元素取值在 $1\sim k$ 之间，并且 $1\</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Distance to Different" target="_blank">https://shouw.blog/posts/CF题解——Distance to Different</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-distance-to-different" target="_blank">https://shouw.blog/posts/cf-distance-to-different</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Dogeforces]]></title>
-            <link>https://shouw.blog/posts/CF题解——Dogeforces</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Dogeforces</guid>
+            <link>https://shouw.blog/posts/cf-dogeforces</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-dogeforces</guid>
             <pubDate>Mon, 11 May 2026 20:42:10 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Dogeforces 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>Dogeforces 公司有 $k$ 个员工，组织结构是一棵树：除底层员工外，每个上司<strong>至少有 $2$ 个直接下属</strong>；除老板外</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Dogeforces" target="_blank">https://shouw.blog/posts/CF题解——Dogeforces</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-dogeforces" target="_blank">https://shouw.blog/posts/cf-dogeforces</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Shortest Path Problem?]]></title>
-            <link>https://shouw.blog/posts/CF题解——Shortest Path Problem</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Shortest Path Problem</guid>
+            <link>https://shouw.blog/posts/cf-shortest-path-problem</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-shortest-path-problem</guid>
             <pubDate>Sun, 10 May 2026 21:42:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>G. Shortest Path Problem? 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>给一张带权无向连通图，一条路径的“长度”不是边权之和，而是这条路径上所有边权的<strong>按位异或</strong>。注意题目特</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Shortest Path Problem" target="_blank">https://shouw.blog/posts/CF题解——Shortest Path Problem</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-shortest-path-problem" target="_blank">https://shouw.blog/posts/cf-shortest-path-problem</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Minimum Path]]></title>
-            <link>https://shouw.blog/posts/CF题解——Minimum Path</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Minimum Path</guid>
+            <link>https://shouw.blog/posts/cf-minimum-path</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-minimum-path</guid>
             <pubDate>Sat, 09 May 2026 22:05:37 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Minimum Path 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>给一张带权无向连通图，定义一条经过 $k$ 条边 $e_1, \dots, e_k$ 的路径的权值为</p>
 <p>$$ \sum_{i=</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Minimum Path" target="_blank">https://shouw.blog/posts/CF题解——Minimum Path</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-minimum-path" target="_blank">https://shouw.blog/posts/cf-minimum-path</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——One Occurrence]]></title>
-            <link>https://shouw.blog/posts/CF题解——One Occurrence</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——One Occurrence</guid>
+            <link>https://shouw.blog/posts/cf-one-occurrence</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-one-occurrence</guid>
             <pubDate>Fri, 08 May 2026 20:42:11 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. One Occurrence 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意非常直白：给定长度为 $n$ 的数组，$q$ 次询问，每次问 $[l, r]$ 这段子数组里，**随便找一个恰好只出现</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——One Occurrence" target="_blank">https://shouw.blog/posts/CF题解——One Occurrence</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-one-occurrence" target="_blank">https://shouw.blog/posts/cf-one-occurrence</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Two Editorials]]></title>
-            <link>https://shouw.blog/posts/CF题解——Two Editorials</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——Two Editorials</guid>
+            <link>https://shouw.blog/posts/cf-two-editorials</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-two-editorials</guid>
             <pubDate>Thu, 07 May 2026 21:18:43 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Two Editorials 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意拆开来其实很干净：有 $n$ 道题、$m$ 个观众。两位作者各自要讲<strong>一段长度恰好为 $k$ 的连续区间</strong>（两人独</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——Two Editorials" target="_blank">https://shouw.blog/posts/CF题解——Two Editorials</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-two-editorials" target="_blank">https://shouw.blog/posts/cf-two-editorials</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[TarjanEBCC模版]]></title>
-            <link>https://shouw.blog/posts/"TarjanEBCC模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"TarjanEBCC模版"</guid>
+            <link>https://shouw.blog/posts/tarjan-ebcc-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/tarjan-ebcc-template</guid>
             <pubDate>Wed, 06 May 2026 13:21:41 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct Edge {
     int to;
@@ -326,36 +326,36 @@
 
 struct TarjanEBCC {
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"TarjanEBCC模版"" target="_blank">https://shouw.blog/posts/"TarjanEBCC模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/tarjan-ebcc-template" target="_blank">https://shouw.blog/posts/tarjan-ebcc-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Ceil Divisions]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Ceil Divisions"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Ceil Divisions"</guid>
+            <link>https://shouw.blog/posts/cf-ceil-divisions</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-ceil-divisions</guid>
             <pubDate>Sat, 02 May 2026 22:31:25 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Ceil Divisions 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意非常简单明了：有一个长度为 $n$ 的数组，初始值为 $1, 2, \dots, n$。每次操作你可以选两个位置 $x</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Ceil Divisions"" target="_blank">https://shouw.blog/posts/"CF题解——Ceil Divisions"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-ceil-divisions" target="_blank">https://shouw.blog/posts/cf-ceil-divisions</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Make It Increasing]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Make It Increasing"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Make It Increasing"</guid>
+            <link>https://shouw.blog/posts/cf-make-it-increasing</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-make-it-increasing</guid>
             <pubDate>Sat, 02 May 2026 20:21:38 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Make It Increasing 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目要求我们对一个数组 $A$ 进行修改，使得它变成<strong>严格递增</strong>的。<br>
 规则是：每次可以把某个数字修改成任意整数</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Make It Increasing"" target="_blank">https://shouw.blog/posts/"CF题解——Make It Increasing"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-make-it-increasing" target="_blank">https://shouw.blog/posts/cf-make-it-increasing</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Shortest Path Queries]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Shortest Path Queries"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Shortest Path Queries"</guid>
+            <link>https://shouw.blog/posts/cf-shortest-path-queries</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-shortest-path-queries</guid>
             <pubDate>Sat, 02 May 2026 14:16:21 GMT</pubDate>
             <content:encoded><![CDATA[<h1>G. Shortest Path Queries 解题思路</h1>
 <h3>核心问题分析</h3>
@@ -364,96 +364,96 @@ struct TarjanEBCC {
 <li>添加一条权重为 $d$ 的边。</li>
 <li>删除一</li>
 </ol>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Shortest Path Queries"" target="_blank">https://shouw.blog/posts/"CF题解——Shortest Path Queries"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-shortest-path-queries" target="_blank">https://shouw.blog/posts/cf-shortest-path-queries</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——MST Unification]]></title>
-            <link>https://shouw.blog/posts/CF题解——MST Unification</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/CF题解——MST Unification</guid>
+            <link>https://shouw.blog/posts/cf-mst-unification</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-mst-unification</guid>
             <pubDate>Fri, 01 May 2026 21:31:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. MST Unification 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目要求我们在一个无向连通图中，通过<strong>增加某些边的权重（每次加 1）</strong>，使得这幅图的<strong>最小生成树（MST）唯一</strong></p>
-<br/><p>访问 <a href="https://shouw.blog/posts/CF题解——MST Unification" target="_blank">https://shouw.blog/posts/CF题解——MST Unification</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-mst-unification" target="_blank">https://shouw.blog/posts/cf-mst-unification</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Destroy it! ]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Destroy it! "</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Destroy it! "</guid>
+            <link>https://shouw.blog/posts/cf-destroy-it</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-destroy-it</guid>
             <pubDate>Mon, 27 Apr 2026 17:55:01 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Destroy it! 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的背景是一个卡牌游戏（Slay the Spire 杀戮尖塔的既视感）。<br>
 战斗分为 $n$ 个回合，每个回合你会拿到若干张牌</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Destroy it! "" target="_blank">https://shouw.blog/posts/"CF题解——Destroy it! "</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-destroy-it" target="_blank">https://shouw.blog/posts/cf-destroy-it</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[树上两点最值模版]]></title>
-            <link>https://shouw.blog/posts/树上两点最值模版</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/树上两点最值模版</guid>
+            <link>https://shouw.blog/posts/tree-path-extreme-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/tree-path-extreme-template</guid>
             <pubDate>Thu, 23 Apr 2026 22:17:27 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct TreePathQuery {
     int n, LOG;
     vector&lt;int&gt; dep;
     vector&lt;vector&lt;int&gt;&gt; fa, max_</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/树上两点最值模版" target="_blank">https://shouw.blog/posts/树上两点最值模版</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/tree-path-extreme-template" target="_blank">https://shouw.blog/posts/tree-path-extreme-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Lucky Country]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Lucky Country"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Lucky Country"</guid>
+            <link>https://shouw.blog/posts/cf-lucky-country</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-lucky-country</guid>
             <pubDate>Thu, 23 Apr 2026 21:17:20 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Lucky Country 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的故事很有趣：一个国家由很多岛屿组成，有路相连的岛屿构成一个“区域”。我们要在这个国家里找一个“幸运区域”（岛屿数量的十</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Lucky Country"" target="_blank">https://shouw.blog/posts/"CF题解——Lucky Country"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-lucky-country" target="_blank">https://shouw.blog/posts/cf-lucky-country</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[Manacher模版]]></title>
-            <link>https://shouw.blog/posts/"Manacher模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"Manacher模版"</guid>
+            <link>https://shouw.blog/posts/manacher-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/manacher-template</guid>
             <pubDate>Mon, 20 Apr 2026 16:57:16 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct Manacher {
     string t;
     vector&lt;int&gt; d; // d[i] 表示以 i 为中心的回文半径（包含 i 本身）
 
     Mana</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"Manacher模版"" target="_blank">https://shouw.blog/posts/"Manacher模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/manacher-template" target="_blank">https://shouw.blog/posts/manacher-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[莫队模版]]></title>
-            <link>https://shouw.blog/posts/"莫队模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"莫队模版"</guid>
+            <link>https://shouw.blog/posts/mo-algorithm-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/mo-algorithm-template</guid>
             <pubDate>Mon, 20 Apr 2026 16:32:27 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct MoSolver {
     struct Query {
         int l, r, id, block;
         // 奇偶优化排序
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"莫队模版"" target="_blank">https://shouw.blog/posts/"莫队模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/mo-algorithm-template" target="_blank">https://shouw.blog/posts/mo-algorithm-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[线性基模版]]></title>
-            <link>https://shouw.blog/posts/"线性基模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"线性基模版"</guid>
+            <link>https://shouw.blog/posts/linear-basis-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/linear-basis-template</guid>
             <pubDate>Mon, 20 Apr 2026 16:18:09 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct LinearBasis {
     static const int MAX_L = 30; // int 范围内最高位到 30 (2^30)
     int p[MAX</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"线性基模版"" target="_blank">https://shouw.blog/posts/"线性基模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/linear-basis-template" target="_blank">https://shouw.blog/posts/linear-basis-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[KMP模版]]></title>
-            <link>https://shouw.blog/posts/"KMP模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"KMP模版"</guid>
+            <link>https://shouw.blog/posts/kmp-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/kmp-template</guid>
             <pubDate>Mon, 20 Apr 2026 16:16:26 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct KMP {
     string p;
@@ -461,37 +461,37 @@ struct TarjanEBCC {
 
     // 构造函数：传入模式串 P 并预处理出 nxt 数组
     KMP(st</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"KMP模版"" target="_blank">https://shouw.blog/posts/"KMP模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/kmp-template" target="_blank">https://shouw.blog/posts/kmp-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[HopcroftKarp模版]]></title>
-            <link>https://shouw.blog/posts/"HopcroftKarp模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"HopcroftKarp模版"</guid>
+            <link>https://shouw.blog/posts/hopcroft-karp-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/hopcroft-karp-template</guid>
             <pubDate>Mon, 20 Apr 2026 15:51:19 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct HopcroftKarp {
     const int INF = 1e9;
 
     int n, m; // n: 左部点数, m: 右部点数
     vector</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"HopcroftKarp模版"" target="_blank">https://shouw.blog/posts/"HopcroftKarp模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/hopcroft-karp-template" target="_blank">https://shouw.blog/posts/hopcroft-karp-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[DoubleHashMap模版]]></title>
-            <link>https://shouw.blog/posts/"DoubleHashMap模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"DoubleHashMap模版"</guid>
+            <link>https://shouw.blog/posts/double-hash-map-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/double-hash-map-template</guid>
             <pubDate>Thu, 16 Apr 2026 15:57:17 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">template &lt;typename K1, typename K2&gt;
 struct DoubleHashPair {
     static const uint64_t M1 = 1</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"DoubleHashMap模版"" target="_blank">https://shouw.blog/posts/"DoubleHashMap模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/double-hash-map-template" target="_blank">https://shouw.blog/posts/double-hash-map-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Petya and Graph]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Petya and Graph"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Petya and Graph"</guid>
+            <link>https://shouw.blog/posts/cf-petya-and-graph</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-petya-and-graph</guid>
             <pubDate>Tue, 14 Apr 2026 15:08:51 GMT</pubDate>
             <content:encoded><![CDATA[<h1>G. Petya and Graph 解题思路</h1>
 <h3>核心问题分析</h3>
@@ -499,13 +499,13 @@ struct DoubleHashPair {
 <ul>
 <li><strong>收益（正权）</strong>：选中一条边，就能获得它的</li>
 </ul>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Petya and Graph"" target="_blank">https://shouw.blog/posts/"CF题解——Petya and Graph"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-petya-and-graph" target="_blank">https://shouw.blog/posts/cf-petya-and-graph</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[ST表模版]]></title>
-            <link>https://shouw.blog/posts/"ST表模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"ST表模版"</guid>
+            <link>https://shouw.blog/posts/sparse-table-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/sparse-table-template</guid>
             <pubDate>Tue, 14 Apr 2026 13:50:27 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">template &lt;typename T&gt;
 struct ST {
@@ -513,13 +513,13 @@ struct ST {
     int max_log;
     vector&lt;vector&lt;T&gt;&gt; st;
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"ST表模版"" target="_blank">https://shouw.blog/posts/"ST表模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/sparse-table-template" target="_blank">https://shouw.blog/posts/sparse-table-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[Dinic模版]]></title>
-            <link>https://shouw.blog/posts/"DInic模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"DInic模版"</guid>
+            <link>https://shouw.blog/posts/dinic-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/dinic-template</guid>
             <pubDate>Tue, 14 Apr 2026 11:51:18 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct Dinic {
     const int INF = 1e9; // int 范围内的无穷大
@@ -527,153 +527,153 @@ struct ST {
     struct Edge {
         int to;
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"DInic模版"" target="_blank">https://shouw.blog/posts/"DInic模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/dinic-template" target="_blank">https://shouw.blog/posts/dinic-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[MCMF模版]]></title>
-            <link>https://shouw.blog/posts/"MCMF模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"MCMF模版"</guid>
+            <link>https://shouw.blog/posts/mcmf-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/mcmf-template</guid>
             <pubDate>Tue, 14 Apr 2026 11:51:18 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct MCMF {
     const int INF = 1e9;
     struct Edge {
         int to, cap, cost, rev;
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"MCMF模版"" target="_blank">https://shouw.blog/posts/"MCMF模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/mcmf-template" target="_blank">https://shouw.blog/posts/mcmf-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[千万级稠密图下的多色点对最短路优化方案]]></title>
-            <link>https://shouw.blog/posts/"多色点对最短路优化方案"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"多色点对最短路优化方案"</guid>
+            <link>https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</guid>
             <pubDate>Mon, 13 Apr 2026 18:22:18 GMT</pubDate>
             <content:encoded><![CDATA[<h1>千万级稠密图下的多色点对最短路优化方案</h1>
 <h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>
 <h3>一、 算法原理：二进制分组与最短路引擎</h3>
 <p>为了让博客</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"多色点对最短路优化方案"" target="_blank">https://shouw.blog/posts/"多色点对最短路优化方案"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/multi-color-pair-shortest-path-optimization" target="_blank">https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Jewels Building]]></title>
-            <link>https://shouw.blog/posts/"J. Jewels Building"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"J. Jewels Building"</guid>
+            <link>https://shouw.blog/posts/cf-jewels-building</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-jewels-building</guid>
             <pubDate>Sat, 11 Apr 2026 23:57:03 GMT</pubDate>
             <content:encoded><![CDATA[<h1>J. Jewels Building 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>这是一道非常有趣的“炼金”游戏题。我们有一排初始能量的水晶数组 $A$，目标是把它融合成指定能量的数组 $B$。<br>
 融合规</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"J. Jewels Building"" target="_blank">https://shouw.blog/posts/"J. Jewels Building"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-jewels-building" target="_blank">https://shouw.blog/posts/cf-jewels-building</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Rearrange Brackets]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Rearrange Brackets"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Rearrange Brackets"</guid>
+            <link>https://shouw.blog/posts/cf-rearrange-brackets</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-rearrange-brackets</guid>
             <pubDate>Sat, 11 Apr 2026 18:23:17 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Rearrange Brackets 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>初看这道题，简直是一个嵌套了双层逻辑的“套娃”问题：<br>
 第一层：给定一个合法的括号序列，每次删去相邻的 <code>()</code> 会</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Rearrange Brackets"" target="_blank">https://shouw.blog/posts/"CF题解——Rearrange Brackets"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-rearrange-brackets" target="_blank">https://shouw.blog/posts/cf-rearrange-brackets</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Not a Nim Problem]]></title>
-            <link>https://shouw.blog/posts/“CF题解——Not a Nim Problem”</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“CF题解——Not a Nim Problem”</guid>
+            <link>https://shouw.blog/posts/cf-not-a-nim-problem</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-not-a-nim-problem</guid>
             <pubDate>Sat, 11 Apr 2026 17:42:26 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Not a Nim Problem 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>看到题目名字“不是一个 Nim 游戏”，但实际上这题就是一个披着数论外衣的 <strong>Nim 游戏变种</strong>。</p>
 <p>规则是：从</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“CF题解——Not a Nim Problem”" target="_blank">https://shouw.blog/posts/“CF题解——Not a Nim Problem”</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-not-a-nim-problem" target="_blank">https://shouw.blog/posts/cf-not-a-nim-problem</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Inversion Pairs]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Inversion Pairs"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Inversion Pairs"</guid>
+            <link>https://shouw.blog/posts/cf-inversion-pairs</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-inversion-pairs</guid>
             <pubDate>Fri, 10 Apr 2026 14:37:20 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Inversion Pairs 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意非常直白：给定一个只包含 <code>0</code>, <code>1</code>, <code>?</code> 的字符串。你需要把所有的 <code>?</code> 替换成 <code>0</code> 或 <code>1</code>，</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Inversion Pairs"" target="_blank">https://shouw.blog/posts/"CF题解——Inversion Pairs"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-inversion-pairs" target="_blank">https://shouw.blog/posts/cf-inversion-pairs</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[关于C++的类内存泄漏相关]]></title>
-            <link>https://shouw.blog/posts/"关于C++的类内存泄漏相关"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"关于C++的类内存泄漏相关"</guid>
+            <link>https://shouw.blog/posts/cpp-class-memory-leak</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cpp-class-memory-leak</guid>
             <pubDate>Fri, 10 Apr 2026 14:28:09 GMT</pubDate>
             <content:encoded><![CDATA[<p>最近在打多测（<code>while(t--)</code>）的图论和树形 DP 题时，我踩了一个极其折磨人的坑。</p>
 <p>明明我的时间复杂度算得死死的绝对没问题，但提交上去总是莫名其妙地 **MLE（Memory Limit</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"关于C++的类内存泄漏相关"" target="_blank">https://shouw.blog/posts/"关于C++的类内存泄漏相关"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cpp-class-memory-leak" target="_blank">https://shouw.blog/posts/cpp-class-memory-leak</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Tufurama]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Tufurama"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Tufurama"</guid>
+            <link>https://shouw.blog/posts/cf-tufurama</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-tufurama</guid>
             <pubDate>Mon, 06 Apr 2026 20:30:19 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Tufurama 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目包装了一个很长且容易绕晕的故事：电视连续剧有 $n$ 季，第 $i$ 季有 $a_i$ 集。如果我们要搜“第 $x$ 季第 $y$</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Tufurama"" target="_blank">https://shouw.blog/posts/"CF题解——Tufurama"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-tufurama" target="_blank">https://shouw.blog/posts/cf-tufurama</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[可持久化线段树模版]]></title>
-            <link>https://shouw.blog/posts/"可持久化线段树模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"可持久化线段树模版"</guid>
+            <link>https://shouw.blog/posts/persistent-segment-tree-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/persistent-segment-tree-template</guid>
             <pubDate>Mon, 06 Apr 2026 18:39:23 GMT</pubDate>
             <content:encoded><![CDATA[<h2>可持久化线段树模版</h2>
 <pre><code class="language-cpp">struct PST {
     struct Node {
         int count;      // 区间内元素的个数
         lon</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"可持久化线段树模版"" target="_blank">https://shouw.blog/posts/"可持久化线段树模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/persistent-segment-tree-template" target="_blank">https://shouw.blog/posts/persistent-segment-tree-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Legacy]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Legacy"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Legacy"</guid>
+            <link>https://shouw.blog/posts/cf-legacy</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-legacy</guid>
             <pubDate>Sun, 05 Apr 2026 18:57:30 GMT</pubDate>
             <content:encoded><![CDATA[<h1>B. Legacy 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的背景非常有意思，Rick 要在一个包含 $n$ 个星球的宇宙中旅行。除了常规的两个星球之间的单向传送门（点到点），题目还提供了另外两</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Legacy"" target="_blank">https://shouw.blog/posts/"CF题解——Legacy"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-legacy" target="_blank">https://shouw.blog/posts/cf-legacy</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Juggling Keys]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Juggling Keys"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Juggling Keys"</guid>
+            <link>https://shouw.blog/posts/cf-juggling-keys</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-juggling-keys</guid>
             <pubDate>Sun, 05 Apr 2026 18:46:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>J. Juggling Keys 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>这道题的背景非常贴近生活：一群人合租，但是钥匙不够。大家各自有出门和回家的计划。如果回家时家里有人，按门铃就行；如果回家时家</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Juggling Keys"" target="_blank">https://shouw.blog/posts/"CF题解——Juggling Keys"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-juggling-keys" target="_blank">https://shouw.blog/posts/cf-juggling-keys</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Canal Crossing]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Canal Crossing"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Canal Crossing"</guid>
+            <link>https://shouw.blog/posts/cf-canal-crossing</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-canal-crossing</guid>
             <pubDate>Sun, 05 Apr 2026 18:36:10 GMT</pubDate>
             <content:encoded><![CDATA[<h1>C. Canal Crossing 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的背景非常有画面感：在威尼斯旅游，有 $n$ 个地点。地点之间由“街道”和“桥梁”连接。<br>
 我们要规划一条旅游路线，要求</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Canal Crossing"" target="_blank">https://shouw.blog/posts/"CF题解——Canal Crossing"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-canal-crossing" target="_blank">https://shouw.blog/posts/cf-canal-crossing</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[矩阵快速幂模版]]></title>
-            <link>https://shouw.blog/posts/"矩阵快速幂模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"矩阵快速幂模版"</guid>
+            <link>https://shouw.blog/posts/matrix-exponentiation-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/matrix-exponentiation-template</guid>
             <pubDate>Tue, 31 Mar 2026 15:50:10 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct Matrix {
 
@@ -681,13 +681,13 @@ struct ST {
     vector&lt;vector&lt;int&gt;&gt; m;
 
     Matrix(int _r = 2, int _c = 2</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"矩阵快速幂模版"" target="_blank">https://shouw.blog/posts/"矩阵快速幂模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/matrix-exponentiation-template" target="_blank">https://shouw.blog/posts/matrix-exponentiation-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[AC自动机模版]]></title>
-            <link>https://shouw.blog/posts/"AC自动机模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"AC自动机模版"</guid>
+            <link>https://shouw.blog/posts/ac-automaton-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/ac-automaton-template</guid>
             <pubDate>Mon, 30 Mar 2026 18:17:12 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct AC {
     struct Node {
@@ -695,13 +695,13 @@ struct ST {
         int fail;
         int count;
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"AC自动机模版"" target="_blank">https://shouw.blog/posts/"AC自动机模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/ac-automaton-template" target="_blank">https://shouw.blog/posts/ac-automaton-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[SAM模版]]></title>
-            <link>https://shouw.blog/posts/"SAM模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"SAM模版"</guid>
+            <link>https://shouw.blog/posts/sam-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/sam-template</guid>
             <pubDate>Mon, 30 Mar 2026 15:46:18 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct SAM {
     struct State {
@@ -709,13 +709,13 @@ struct ST {
         int len, link;
         int next[26];
         int co</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"SAM模版"" target="_blank">https://shouw.blog/posts/"SAM模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/sam-template" target="_blank">https://shouw.blog/posts/sam-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[组合数模版]]></title>
-            <link>https://shouw.blog/posts/"组合数模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"组合数模版"</guid>
+            <link>https://shouw.blog/posts/binomial-coefficient-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/binomial-coefficient-template</guid>
             <pubDate>Mon, 30 Mar 2026 13:04:21 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct Comb {
 
@@ -724,101 +724,101 @@ struct ST {
 
     int qpow(int a, int b) {
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"组合数模版"" target="_blank">https://shouw.blog/posts/"组合数模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/binomial-coefficient-template" target="_blank">https://shouw.blog/posts/binomial-coefficient-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[哈希模版]]></title>
-            <link>https://shouw.blog/posts/"哈希模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"哈希模版"</guid>
+            <link>https://shouw.blog/posts/hash-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/hash-template</guid>
             <pubDate>Mon, 30 Mar 2026 12:53:41 GMT</pubDate>
             <content:encoded><![CDATA[<pre><code class="language-cpp">struct DoubleHash {
     static const int M1 = 1e9 + 7, M2 = 1e9 + 9;
     static int b1, b2;
 </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"哈希模版"" target="_blank">https://shouw.blog/posts/"哈希模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/hash-template" target="_blank">https://shouw.blog/posts/hash-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Sheriff's Defense]]></title>
-            <link>https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</guid>
+            <link>https://shouw.blog/posts/cf-sheriffs-defense</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-sheriffs-defense</guid>
             <pubDate>Fri, 27 Mar 2026 18:51:10 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Sheriff's Defense 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的背景很有意思：在由营地（节点）和相连小路（边）构成的一棵树上，我们可以选择“强化”一部分营地。<br>
 规则是：如果你</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——F. SheriffsDefense"" target="_blank">https://shouw.blog/posts/"CF题解——F. SheriffsDefense"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-sheriffs-defense" target="_blank">https://shouw.blog/posts/cf-sheriffs-defense</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Calendar Ambiguity]]></title>
-            <link>https://shouw.blog/posts/"CF题解——E. Calendar Ambiguity"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Calendar Ambiguity"</guid>
+            <link>https://shouw.blog/posts/cf-calendar-ambiguity</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-calendar-ambiguity</guid>
             <pubDate>Fri, 27 Mar 2026 18:24:46 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Calendar Ambiguity 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>大家遇到这种跟日期、星期几相关的题目，第一反应可能是头皮发麻。题目中说：一个外星历法，一年有 $m$ 个月，每个月</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Calendar Ambiguity"" target="_blank">https://shouw.blog/posts/"CF题解——E. Calendar Ambiguity"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-calendar-ambiguity" target="_blank">https://shouw.blog/posts/cf-calendar-ambiguity</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Max Sum OR (Hard Version)]]></title>
-            <link>https://shouw.blog/posts/"CF题解——D2 .Max Sum OR (Hard Version)"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D2 .Max Sum OR (Hard Version)"</guid>
+            <link>https://shouw.blog/posts/cf-max-sum-or-hard-version</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-max-sum-or-hard-version</guid>
             <pubDate>Thu, 26 Mar 2026 17:08:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D2. Max Sum OR (Hard Version) 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的要求是：给定一个连续的整数数组 $b = [l, l+1, \dots, r]$，我们需要构</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D2 .Max Sum OR (Hard Version)"" target="_blank">https://shouw.blog/posts/"CF题解——D2 .Max Sum OR (Hard Version)"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-max-sum-or-hard-version" target="_blank">https://shouw.blog/posts/cf-max-sum-or-hard-version</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Merging Towers]]></title>
-            <link>https://shouw.blog/posts/"CF题解——E. Merging Towers"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Merging Towers"</guid>
+            <link>https://shouw.blog/posts/cf-merging-towers</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-merging-towers</guid>
             <pubDate>Mon, 23 Mar 2026 16:16:25 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Merging Towers 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>初看这道题，各种“汉诺塔”式的圆盘来回移动，还要维护从大到小的顺序，似乎非常头疼。题目要求我们求出将所有圆盘合并成**唯一</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Merging Towers"" target="_blank">https://shouw.blog/posts/"CF题解——E. Merging Towers"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-merging-towers" target="_blank">https://shouw.blog/posts/cf-merging-towers</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Small GCD]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Small GCD"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Small GCD"</guid>
+            <link>https://shouw.blog/posts/cf-small-gcd</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-small-gcd</guid>
             <pubDate>Mon, 16 Mar 2026 14:24:28 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Small GCD 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题意看起来有些绕：在数组中任选三个数 $a_i, a_j, a_k$，按大小排个序后，取出**较小的两个数求 GCD（最大公约数）*</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Small GCD"" target="_blank">https://shouw.blog/posts/"CF题解——Small GCD"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-small-gcd" target="_blank">https://shouw.blog/posts/cf-small-gcd</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[关于DP的一些解题技巧]]></title>
-            <link>https://shouw.blog/posts/关于DP的一些解题技巧</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/关于DP的一些解题技巧</guid>
+            <link>https://shouw.blog/posts/dp-problem-solving-tips</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/dp-problem-solving-tips</guid>
             <pubDate>Thu, 12 Mar 2026 14:02:09 GMT</pubDate>
             <content:encoded><![CDATA[<p>之前在博客里分享了一些自己写算法题时的通用习惯，比如“先搭骨架”和“模块化原则”。经过这段时间在大学里更系统地刷题和打比赛，我想专门来聊聊算法竞赛里绝对绕不开、也常常让初学者（包括曾经的我）痛不欲生</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/关于DP的一些解题技巧" target="_blank">https://shouw.blog/posts/关于DP的一些解题技巧</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/dp-problem-solving-tips" target="_blank">https://shouw.blog/posts/dp-problem-solving-tips</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Eliminating Balls With Merging (Easy Version)]]></title>
-            <link>https://shouw.blog/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"</guid>
+            <link>https://shouw.blog/posts/cf-eliminating-balls-with-merging-easy-version</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-eliminating-balls-with-merging-easy-version</guid>
             <pubDate>Thu, 12 Mar 2026 13:40:01 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E1. Eliminating Balls With Merging (Easy Version) 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>本题的 Easy Version 中，$x = n$，这意</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"" target="_blank">https://shouw.blog/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-eliminating-balls-with-merging-easy-version" target="_blank">https://shouw.blog/posts/cf-eliminating-balls-with-merging-easy-version</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[Atc的DP专训]]></title>
-            <link>https://shouw.blog/posts/Atc的DP专训</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/Atc的DP专训</guid>
+            <link>https://shouw.blog/posts/atcoder-dp-training</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/atcoder-dp-training</guid>
             <pubDate>Mon, 02 Mar 2026 14:45:14 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Atc的DP专训</h2>
 <h3>A</h3>
@@ -827,13 +827,13 @@ struct ST {
 #include &lt;bits/stdc++.h&gt;
 #define int long long 
 #define en</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/Atc的DP专训" target="_blank">https://shouw.blog/posts/Atc的DP专训</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/atcoder-dp-training" target="_blank">https://shouw.blog/posts/atcoder-dp-training</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[zkw线段树模版]]></title>
-            <link>https://shouw.blog/posts/"zkw线段树"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"zkw线段树"</guid>
+            <link>https://shouw.blog/posts/zkw-segment-tree-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/zkw-segment-tree-template</guid>
             <pubDate>Thu, 12 Feb 2026 14:56:12 GMT</pubDate>
             <content:encoded><![CDATA[<h2>zkw线段树模版</h2>
 <pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
@@ -841,13 +841,13 @@ struct ST {
 #define endl &quot;\n&quot;
 
 using namespa</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"zkw线段树"" target="_blank">https://shouw.blog/posts/"zkw线段树"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/zkw-segment-tree-template" target="_blank">https://shouw.blog/posts/zkw-segment-tree-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[Kruskal模版]]></title>
-            <link>https://shouw.blog/posts/"Kruskal模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"Kruskal模版"</guid>
+            <link>https://shouw.blog/posts/kruskal-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/kruskal-template</guid>
             <pubDate>Sun, 01 Feb 2026 14:27:20 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Kruskal模版</h2>
 <pre><code class="language-cpp">#include &lt;bits/stdc++.h&gt;
@@ -856,38 +856,38 @@ using namespa</code></pre>
 using namespace std;
 
 struct N</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"Kruskal模版"" target="_blank">https://shouw.blog/posts/"Kruskal模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/kruskal-template" target="_blank">https://shouw.blog/posts/kruskal-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[Tarjan模版]]></title>
-            <link>https://shouw.blog/posts/"Tarjan模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"Tarjan模版"</guid>
+            <link>https://shouw.blog/posts/tarjan-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/tarjan-template</guid>
             <pubDate>Sun, 01 Feb 2026 14:23:35 GMT</pubDate>
             <content:encoded><![CDATA[<h2>Tarjan模版</h2>
 <pre><code class="language-cpp">struct TarjanSCC {
     int n;                  // 节点总数
     int step_count;     </code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"Tarjan模版"" target="_blank">https://shouw.blog/posts/"Tarjan模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/tarjan-template" target="_blank">https://shouw.blog/posts/tarjan-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[线段树模版]]></title>
-            <link>https://shouw.blog/posts/"线段树模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"线段树模版"</guid>
+            <link>https://shouw.blog/posts/segment-tree-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/segment-tree-template</guid>
             <pubDate>Sun, 01 Feb 2026 13:49:13 GMT</pubDate>
             <content:encoded><![CDATA[<h2>线段树模版</h2>
 <pre><code class="language-cpp">struct SGT {
     struct Node {
         int mx;   // 区间最大值
         int id;   // 最大值</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"线段树模版"" target="_blank">https://shouw.blog/posts/"线段树模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/segment-tree-template" target="_blank">https://shouw.blog/posts/segment-tree-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[可撤销并查集模版]]></title>
-            <link>https://shouw.blog/posts/"可撤销并查集模版"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"可撤销并查集模版"</guid>
+            <link>https://shouw.blog/posts/rollback-dsu-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/rollback-dsu-template</guid>
             <pubDate>Sun, 01 Feb 2026 12:18:07 GMT</pubDate>
             <content:encoded><![CDATA[<h2>并查集模版</h2>
 <pre><code class="language-cpp">struct RollbackDSU {
@@ -895,13 +895,13 @@ struct N</code></pre>
     vector&lt;int&gt; sz;
     
     struct H</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/"可撤销并查集模版"" target="_blank">https://shouw.blog/posts/"可撤销并查集模版"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/rollback-dsu-template" target="_blank">https://shouw.blog/posts/rollback-dsu-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Max GEQ Sum]]></title>
-            <link>https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"</guid>
+            <link>https://shouw.blog/posts/cf-max-geq-sum</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-max-geq-sum</guid>
             <pubDate>Sat, 31 Jan 2026 14:10:22 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Max GEQ Sum 解题思路</h1>
 <h3>核心问题分析</h3>
@@ -909,57 +909,57 @@ struct N</code></pre>
 即：</p>
 <p>$$<br>
 \max(a_</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"" target="_blank">https://shouw.blog/posts/"CF题解——D. Max GEQ Sum"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-max-geq-sum" target="_blank">https://shouw.blog/posts/cf-max-geq-sum</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Restricted Sorting]]></title>
-            <link>https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</guid>
+            <link>https://shouw.blog/posts/cf-restricted-sorting</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-restricted-sorting</guid>
             <pubDate>Fri, 30 Jan 2026 09:11:09 GMT</pubDate>
             <content:encoded><![CDATA[<h1>C. Restricted Sorting 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目给定一个数组 $a$，并定义了一种交换操作：只有当 $|a_i - a_j| \ge k$ 时，才能交换 $a</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Restricted Sorting"" target="_blank">https://shouw.blog/posts/"CF题解——C. Restricted Sorting"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-restricted-sorting" target="_blank">https://shouw.blog/posts/cf-restricted-sorting</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Git Gud]]></title>
-            <link>https://shouw.blog/posts/"CF题解——Git Gud"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——Git Gud"</guid>
+            <link>https://shouw.blog/posts/cf-git-gud</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-git-gud</guid>
             <pubDate>Tue, 27 Jan 2026 09:30:00 GMT</pubDate>
             <content:encoded><![CDATA[<h1>G. Git Gud 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目的设定非常像一个肉鸽（Roguelike）游戏的升级机制：<br>
 你的初始技能是 $[1, n]$ 中的一个未知数。你每次可以接一个难度为</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——Git Gud"" target="_blank">https://shouw.blog/posts/"CF题解——Git Gud"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-git-gud" target="_blank">https://shouw.blog/posts/cf-git-gud</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Boris and His Amazing Haircut]]></title>
-            <link>https://shouw.blog/posts/"CF题解——D. Boris and His"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Boris and His"</guid>
+            <link>https://shouw.blog/posts/cf-boris-and-his-amazing-haircut</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-boris-and-his-amazing-haircut</guid>
             <pubDate>Sat, 10 Jan 2026 17:25:59 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Boris and His Amazing Haircut 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>本题要求判断是否可以通过给定数量和规格的剃刀，将初始发型高度数组 $A$ 修剪为目标发型高度</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Boris and His"" target="_blank">https://shouw.blog/posts/"CF题解——D. Boris and His"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-boris-and-his-amazing-haircut" target="_blank">https://shouw.blog/posts/cf-boris-and-his-amazing-haircut</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[保持进程后台运行的实现方式]]></title>
-            <link>https://shouw.blog/posts/"保持进程后台运行的实现方式"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"保持进程后台运行的实现方式"</guid>
+            <link>https://shouw.blog/posts/keep-process-running-in-background</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/keep-process-running-in-background</guid>
             <pubDate>Tue, 30 Dec 2025 10:54:55 GMT</pubDate>
             <content:encoded><![CDATA[<h1>保持进程后台运行的实现方式</h1>
 <p>在 Linux 服务器上进行开发或运维时，我们经常面临一个问题：当你通过 SSH 远程连接服务器并运行一个耗时较长的任务（比如编译大型项目、训练深度学习模型、传输大</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"保持进程后台运行的实现方式"" target="_blank">https://shouw.blog/posts/"保持进程后台运行的实现方式"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/keep-process-running-in-background" target="_blank">https://shouw.blog/posts/keep-process-running-in-background</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Data Structures Fan]]></title>
-            <link>https://shouw.blog/posts/"CF题解——E. Data Structures Fan"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Data Structures Fan"</guid>
+            <link>https://shouw.blog/posts/cf-data-structures-fan</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-data-structures-fan</guid>
             <pubDate>Mon, 29 Dec 2025 16:12:42 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Data Structures Fan 解题思路</h1>
 <h3>核心问题分析</h3>
@@ -968,201 +968,201 @@ struct N</code></pre>
 <ol>
 <li><strong>区间反转：</strong> 给定</li>
 </ol>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Data Structures Fan"" target="_blank">https://shouw.blog/posts/"CF题解——E. Data Structures Fan"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-data-structures-fan" target="_blank">https://shouw.blog/posts/cf-data-structures-fan</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Shohag Loves GCD]]></title>
-            <link>https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</guid>
+            <link>https://shouw.blog/posts/cf-shohag-loves-gcd</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-shohag-loves-gcd</guid>
             <pubDate>Mon, 29 Dec 2025 14:36:41 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Shohag Loves GCD 解题思路</h1>
 <h3>核心问题分析</h3>
 <p>题目要求我们构造一个字典序最大的数组 $a$，使得对于任意 $1 \le i &lt; j \le n$，满足：</p>
 <p>$$<br>
 a</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"" target="_blank">https://shouw.blog/posts/"CF题解——D. Shohag Loves GCD"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-shohag-loves-gcd" target="_blank">https://shouw.blog/posts/cf-shohag-loves-gcd</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Serval and The Formula]]></title>
-            <link>https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</guid>
+            <link>https://shouw.blog/posts/cf-serval-and-the-formula</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-serval-and-the-formula</guid>
             <pubDate>Fri, 26 Dec 2025 15:41:22 GMT</pubDate>
             <content:encoded><![CDATA[<h1>C. Serval and The Formula 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
 <p>本题要求找到一个非负整数 $k$，使得：</p>
 <p>$$<br>
 (x+k) + (y+k) = (x+k</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Serval and The Formula"" target="_blank">https://shouw.blog/posts/"CF题解——C. Serval and The Formula"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-serval-and-the-formula" target="_blank">https://shouw.blog/posts/cf-serval-and-the-formula</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Graph Composition]]></title>
-            <link>https://shouw.blog/posts/"CF题解——E. Graph Composition"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Graph Composition"</guid>
+            <link>https://shouw.blog/posts/cf-graph-composition</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-graph-composition</guid>
             <pubDate>Thu, 18 Dec 2025 17:03:21 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Graph Composition 解题思路</h1>
 <h2>核心问题分析与转化</h2>
 <p>这道题的目标是让图 $F$ 的连通性变得和图 $G$ 完全一样。所谓“连通性一样”，意思就是：如果在图 $G$</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Graph Composition"" target="_blank">https://shouw.blog/posts/"CF题解——E. Graph Composition"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-graph-composition" target="_blank">https://shouw.blog/posts/cf-graph-composition</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Fibonacci Paths]]></title>
-            <link>https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"</guid>
+            <link>https://shouw.blog/posts/cf-fibonacci-paths</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-fibonacci-paths</guid>
             <pubDate>Mon, 15 Dec 2025 08:21:21 GMT</pubDate>
             <content:encoded><![CDATA[<h1>D. Fibonacci Paths 详细解题思路</h1>
 <h2>核心问题与数学性质</h2>
 <p>本题要求找出有向图中所有长度 $k \ge 2$ 的简单路径 $v_0 \to v_1 \to \dots \t</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"" target="_blank">https://shouw.blog/posts/"CF题解——D. Fibonacci Paths"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-fibonacci-paths" target="_blank">https://shouw.blog/posts/cf-fibonacci-paths</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Garage]]></title>
-            <link>https://shouw.blog/posts/"CF题解——G. Garage"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——G. Garage"</guid>
+            <link>https://shouw.blog/posts/cf-garage</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-garage</guid>
             <pubDate>Mon, 08 Dec 2025 10:34:22 GMT</pubDate>
             <content:encoded><![CDATA[<h1>G. Garage 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
 <p>根据题意，<strong>合适的数 $x$</strong> 必须能被表示为 $b^2 - a^2$，其中 $a$ 和 $b$ 是正整数 ($a, b \</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——G. Garage"" target="_blank">https://shouw.blog/posts/"CF题解——G. Garage"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-garage" target="_blank">https://shouw.blog/posts/cf-garage</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Beppa and SwerChat]]></title>
-            <link>https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"</guid>
+            <link>https://shouw.blog/posts/cf-beppa-and-swerchat</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-beppa-and-swerchat</guid>
             <pubDate>Fri, 05 Dec 2025 14:12:51 GMT</pubDate>
             <content:encoded><![CDATA[<h1>H. Beppa and SwerChat 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
 <p>本题要求计算在 9:00 和 22:00 之间，<strong>至少上线过一次</strong>的其他成员的<strong>最少人数</strong>。</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"" target="_blank">https://shouw.blog/posts/"CF题解——H. Beppa and SwerChat"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-beppa-and-swerchat" target="_blank">https://shouw.blog/posts/cf-beppa-and-swerchat</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Block Sequence]]></title>
-            <link>https://shouw.blog/posts/"CF题解——E. Block Sequence"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Block Sequence"</guid>
+            <link>https://shouw.blog/posts/cf-block-sequence</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-block-sequence</guid>
             <pubDate>Thu, 04 Dec 2025 09:09:27 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Block Sequence 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
 <p>本题要求找到使给定序列 $a$ 成为“美丽序列”所需的最小删除次数。一个美丽序列由一系列“块”构成，每个块以其</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Block Sequence"" target="_blank">https://shouw.blog/posts/"CF题解——E. Block Sequence"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-block-sequence" target="_blank">https://shouw.blog/posts/cf-block-sequence</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Final Boss]]></title>
-            <link>https://shouw.blog/posts/"CF题解——F. Final Boss"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——F. Final Boss"</guid>
+            <link>https://shouw.blog/posts/cf-final-boss</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-final-boss</guid>
             <pubDate>Tue, 02 Dec 2025 10:27:47 GMT</pubDate>
             <content:encoded><![CDATA[<h1>F. Final Boss 解题思路</h1>
 <h3>核心问题分析与数学转化</h3>
 <p>本题要求找到击败生命值为 $H$ 的 Boss 所需的<strong>最少回合数</strong> $R$。我们有 $N$ 种攻击，第 $i$</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——F. Final Boss"" target="_blank">https://shouw.blog/posts/"CF题解——F. Final Boss"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-final-boss" target="_blank">https://shouw.blog/posts/cf-final-boss</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[内网穿透简单教程]]></title>
-            <link>https://shouw.blog/posts/"内网穿透简单教程"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"内网穿透简单教程"</guid>
+            <link>https://shouw.blog/posts/nat-traversal-tutorial</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/nat-traversal-tutorial</guid>
             <pubDate>Mon, 01 Dec 2025 14:11:29 GMT</pubDate>
             <content:encoded><![CDATA[<h1>使用 Docker 部署 frp 实现内网穿透</h1>
 <p>frp（Fast Reverse Proxy）是一个高性能的反向代理应用，可帮助你将处于内网或防火墙后的设备（如个人电脑、树莓派等）暴露给</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"内网穿透简单教程"" target="_blank">https://shouw.blog/posts/"内网穿透简单教程"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/nat-traversal-tutorial" target="_blank">https://shouw.blog/posts/nat-traversal-tutorial</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Beautiful Sequence]]></title>
-            <link>https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</guid>
+            <link>https://shouw.blog/posts/cf-beautiful-sequence</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-beautiful-sequence</guid>
             <pubDate>Mon, 01 Dec 2025 10:30:52 GMT</pubDate>
             <content:encoded><![CDATA[<h1>C. Beautiful Sequence 解题思路</h1>
 <h2>摘要与问题转化</h2>
 <p>本题要求在一个仅包含数字 $ 1, 2, 3$ 的序列中，计算“完美子序列”的数量。一个完美子序列定义为形如</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"" target="_blank">https://shouw.blog/posts/"CF题解——C. Beautiful Sequence"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-beautiful-sequence" target="_blank">https://shouw.blog/posts/cf-beautiful-sequence</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Power of Points]]></title>
-            <link>https://shouw.blog/posts/"CF题解——E. Power of Points"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——E. Power of Points"</guid>
+            <link>https://shouw.blog/posts/cf-power-of-points</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-power-of-points</guid>
             <pubDate>Sat, 29 Nov 2025 21:17:20 GMT</pubDate>
             <content:encoded><![CDATA[<h1>E. Power of Points 解题思路</h1>
 <h2>核心问题分析与数学转化</h2>
 <p>本题要求对于给定的点集 $X = {x_1, x_2, \dots, x_n}$，对集合中每一个 $s \</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——E. Power of Points"" target="_blank">https://shouw.blog/posts/"CF题解——E. Power of Points"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-power-of-points" target="_blank">https://shouw.blog/posts/cf-power-of-points</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[CF题解——Trip to the Olympiad]]></title>
-            <link>https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"</guid>
+            <link>https://shouw.blog/posts/cf-trip-to-the-olympiad</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cf-trip-to-the-olympiad</guid>
             <pubDate>Sat, 15 Nov 2025 18:44:45 GMT</pubDate>
             <content:encoded><![CDATA[<h2>C. Trip to the Olympiad 解题思路</h2>
 <h3>核心目标与异或性质分析</h3>
 <p>本题要求在给定范围 $[L, R]$ 内，找到三个互不相同的数字 $a, b, c$，使得目标和</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"" target="_blank">https://shouw.blog/posts/"CF题解——C. Trip to the Olympiad"</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/cf-trip-to-the-olympiad" target="_blank">https://shouw.blog/posts/cf-trip-to-the-olympiad</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[“如何连接IPv6的服务器”]]></title>
-            <link>https://shouw.blog/posts/“如何连接IPv6的服务器”</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“如何连接IPv6的服务器”</guid>
+            <link>https://shouw.blog/posts/connect-ipv6-server</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/connect-ipv6-server</guid>
             <pubDate>Mon, 13 Oct 2025 20:45:17 GMT</pubDate>
             <content:encoded><![CDATA[<h1>如何通过 FinalShell 连接纯 IPv6 服务器？</h1>
 <p>要连接只支持 IPv6 地址的服务器，核心前提是<strong>你本地的电脑或网络设备必须具备 IPv6 访问能力</strong>。下面提供两种最常见的解决</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“如何连接IPv6的服务器”" target="_blank">https://shouw.blog/posts/“如何连接IPv6的服务器”</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/connect-ipv6-server" target="_blank">https://shouw.blog/posts/connect-ipv6-server</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[“一些对于算法题的个人见解”]]></title>
-            <link>https://shouw.blog/posts/“一些对于算法题的个人见解”</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“一些对于算法题的个人见解”</guid>
+            <link>https://shouw.blog/posts/algorithm-problem-solving-notes</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/algorithm-problem-solving-notes</guid>
             <pubDate>Mon, 13 Oct 2025 20:31:22 GMT</pubDate>
             <content:encoded><![CDATA[<p>大学的时间真的很自由，而且特别充裕，所以我下定决心要找点真正有意义的事情来做，比如，<strong>学算法，然后参加比赛。</strong></p>
 <p>这个想法其实从高中就开始在脑子里转了。虽然因为各种原因，我高中只读了一年半，但我</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“一些对于算法题的个人见解”" target="_blank">https://shouw.blog/posts/“一些对于算法题的个人见解”</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/algorithm-problem-solving-notes" target="_blank">https://shouw.blog/posts/algorithm-problem-solving-notes</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[“对于防御DDoS的一些思考”]]></title>
-            <link>https://shouw.blog/posts/“对于防御DDoS的一些思考”</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“对于防御DDoS的一些思考”</guid>
+            <link>https://shouw.blog/posts/ddos-defense-thoughts</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/ddos-defense-thoughts</guid>
             <pubDate>Mon, 13 Oct 2025 20:17:46 GMT</pubDate>
             <content:encoded><![CDATA[<h2>DDoS攻击防御策略：利用Cloudflare Zero Trust Tunnel</h2>
 <p>随着网络技术的日益发达，DDoS（Distributed Denial of Service，分布式拒绝服</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“对于防御DDoS的一些思考”" target="_blank">https://shouw.blog/posts/“对于防御DDoS的一些思考”</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/ddos-defense-thoughts" target="_blank">https://shouw.blog/posts/ddos-defense-thoughts</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[“解决clang无法使用万能头文件”]]></title>
-            <link>https://shouw.blog/posts/“解决clang无法使用万能头文件”</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“解决clang无法使用万能头文件”</guid>
+            <link>https://shouw.blog/posts/clang-bits-stdcxx-fix</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/clang-bits-stdcxx-fix</guid>
             <pubDate>Mon, 13 Oct 2025 07:45:04 GMT</pubDate>
             <content:encoded><![CDATA[<h2>解决clang无法使用万能头文件</h2>
 <p>在 macOS 系统上进行 C++ 编程时，系统自带的编译环境是 <strong>Clang</strong>，它默认并不支持非标准的万能头文件 <code>&lt;bits/stdc++.h&gt;</code>。</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“解决clang无法使用万能头文件”" target="_blank">https://shouw.blog/posts/“解决clang无法使用万能头文件”</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/clang-bits-stdcxx-fix" target="_blank">https://shouw.blog/posts/clang-bits-stdcxx-fix</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[“关于Docker的一些个人理解与实践”]]></title>
-            <link>https://shouw.blog/posts/“关于Docker的一些个人理解”</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“关于Docker的一些个人理解”</guid>
+            <link>https://shouw.blog/posts/docker-notes</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/docker-notes</guid>
             <pubDate>Mon, 13 Oct 2025 07:25:07 GMT</pubDate>
             <content:encoded><![CDATA[<h2>关于Docker的一些个人理解与实践</h2>
 <p>最近由于在自己下载一些GitHub上面的项目尝试运行，为了防止出现安装了一大堆环境而互相冲突，或者依赖版本不兼容的情况，我使用了<strong>Docker</strong>。D</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“关于Docker的一些个人理解”" target="_blank">https://shouw.blog/posts/“关于Docker的一些个人理解”</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/docker-notes" target="_blank">https://shouw.blog/posts/docker-notes</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
             <title><![CDATA[“我的第一篇个人博客”]]></title>
-            <link>https://shouw.blog/posts/“我的第一篇个人博客”</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/“我的第一篇个人博客”</guid>
+            <link>https://shouw.blog/posts/first-blog-post</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/first-blog-post</guid>
             <pubDate>Sun, 12 Oct 2025 20:55:17 GMT</pubDate>
             <content:encoded><![CDATA[<p>欢迎来到我的个人博客，这是我第一次尝试使用 Hexo 搭建博客（毕竟成本真的很低，不出意外的话应该会一直坚持下去吧）</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/“我的第一篇个人博客”" target="_blank">https://shouw.blog/posts/“我的第一篇个人博客”</a> 阅读全文。</p>]]></content:encoded>
+<br/><p>访问 <a href="https://shouw.blog/posts/first-blog-post" target="_blank">https://shouw.blog/posts/first-blog-post</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
     </channel>

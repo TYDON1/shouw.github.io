@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html  lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'zh-CN';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.hKuEWgSE.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.hePW80VL.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CqWQspqG.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.VplbSj-S.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.BcfqooTJ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.Ds-6csIR.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.DrY1RKQy.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/@vueuse/motion.wRJMmUR1.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.Bow8MYtq.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Dew4DlVv.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DAw_9nPA.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.Bow8MYtq.js">
+<link rel="preload" href="/assets/none.DLM1AMsD.jpg" as="image">
+<link rel="preload" href="/assets/bg-img.kXdNMxcF.jpg" as="image">
+<link rel="preload" href="/assets/sidebar-bg-img.mp54gEws.webp" as="image">
+<link rel="modulepreload" crossorigin href="/assets/algorithm-problem-solving-notes.BzV35DzU.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>“一些对于算法题的个人见解” - shouwのblog</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap">
+<meta property="og:locale:alternate" content="en">
+<meta name="description" content="欢迎来到我的个人blog">
+<meta property="og:description" content="欢迎来到我的个人blog">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:site_name" content="shouwのblog">
+<meta property="og:title" content="“一些对于算法题的个人见解”">
+<meta property="og:image" content="/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shouw.blog/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.0.0-rc.6">
+<meta name="theme-color" content="#fff">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!--[--><!----><!----><div class="yun-page-header-gradient" style="--gradient-from:161 196 253;--gradient-to:194 233 251;"></div><!----><!----><!----><canvas class="fireworks"></canvas><!--[--><div class="yun-bg"></div><!--]--><div class="yun-page-loading" absolute left-0 right-0 bottom-0 top-0 flex justify="center" items-center z-10 bg="$va-c-bg" data-v-078c80e2><div class="spinner" data-v-078c80e2></div></div><a href="#" class="back-to-top yun-icon-btn bg-$va-c-bg-soft shadow-md"><div class="size-8" i-ri-arrow-up-s-line></div><svg class="progress-circle-container" viewBox="0 0 100 100"><circle stroke-dasharray="301.59289474462014 301.59289474462014" stroke-dashoffset="301.59289474462014" stroke="currentColor" stroke-width="2" stroke-linecap="round" class="progress-circle" cx="50" cy="50" r="48" fill="none"></circle></svg></a><!-- TODO --><!-- <YunDock /> --><!--]--><!--[--><!--]--><!----><!--]--><!--[--><div flex="~" class="w-full m-auto justify-center items-start gap-4 mt-12 md:mt-24"><!--[--><!----><main class="yun-main lt-md:w-full" flex="~ center"><!--[--><div class="content w-full md:w-3xl lg:w-2xl xl:w-2xl 2xl:w-4xl" flex="~ col grow" p="lt-md:0"><div class="yun-card flex-center rounded-2 relative" flex="col" min-h="100px" bg="$va-c-bg-light" m="0" style=""><!----><!----><!--[--><div class="mt-8 mb-4"><!--[--><header class="post-header"><h1 p="2" text="2xl center" font="serif black" style="color:" class="post-title flex-center"><!----><span inline-flex class="leading-none">“一些对于算法题的个人见解”</span></h1></header><!--]--></div><!--[--><!--[--><!--[--><!--[--><!----><!----><!----><div flex="~ center" text="sm" class="flex-col gap-2! post-meta gap-4"><div class="post-time flex items-center gap-4"><span class="posted-time inline-flex-center gap-1" title="发表于2025-10-13 20:31:22"><div class="inline-block" i-ri-calendar-line></div><time class="op-80">2025-10-13</time></span><!----></div><!--[--><!--]--><div class="inline-flex-center gap-4"><!----><!----></div></div><!--]--><div class="inline-flex mt-2" text="sm" py="1"><a href="/categories?category=%E6%9D%82%E8%B0%88" class="transition post-category inline-flex-center text-xs border-$va-c-divider" px-2 h="7" border rounded-full hover="bg-blue-500 text-white"><div m="x-1" inline-flex i-ri-folder-2-line></div><span>杂谈</span></a><span mx="2"></span><div class="post-tags inline-flex" items="center" gap="1" flex="wrap 1" justify="end"><!--[--><a href="/tags/?tag=%E6%8A%80%E6%9C%AF" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>技术</span></a><a href="/tags/?tag=%E7%BC%96%E7%A8%8B" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>编程</span></a><a href="/tags/?tag=%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>算法竞赛</span></a><a href="/tags/?tag=%E6%8A%80%E5%B7%A7" class="transition post-tag inline-flex-center text-xs border-$va-c-divider" px-2 h="7" rounded-full border hover="bg-blue-500 text-white"><span>技巧</span></a><!--]--></div></div><!--]--><!--]--><!--]--><div p="x-4 b-8" class="sm:px-6 lg:px-12 xl:px-16" w="full"><!--[--><!--]--><!--[--><!-- <Transition appear> --><article class="markdown-body"><!--[--><!----><blockquote class="yun-time-warning" op="80">本文最后更新于 10 个月前，文中所描述的信息可能已发生改变。</blockquote><!--[--><!--]--><!--[--><p>大学的时间真的很自由，而且特别充裕，所以我下定决心要找点真正有意义的事情来做，比如，<strong>学算法，然后参加比赛。</strong></p><p>这个想法其实从高中就开始在脑子里转了。虽然因为各种原因，我高中只读了一年半，但我心里的那份遗憾和不甘一直都在。现在既然有了大学这个平台，我终于可以尝试一下了。</p><p>而在开始学习和刷题的过程中，我也总结出了一些自己觉得挺实用的“小窍门”和心得体会：</p><h3 id="_1-编码习惯-先搭骨架-再填细节" tabindex="-1">1. 编码习惯：先搭骨架，再填细节 <a class="header-anchor" href="#_1-编码习惯-先搭骨架-再填细节" aria-label="Permalink to &quot;1. 编码习惯：先搭骨架，再填细节&quot;">​</a></h3><p>我发现，写算法题最怕的就是思路混乱。为了避免混乱，我认为以下几点最好可以做到：</p><ul><li><strong>框架先行：</strong> 拿到题，我不会急着开始敲代码。我会先写一个<strong>大框架</strong>，把输入和输出的基本结构定下来。</li><li><strong>注释和函数名打头阵：</strong> 接着，我会写上清晰的注释，并把需要用到的<strong>核心函数名</strong>和<strong>参数</strong>先写好。</li><li><strong>只写思路：</strong> 最关键的是，我暂时不会写详细的实现代码，而是直接在函数旁边写上我的<strong>解题思路</strong>。</li></ul><p>这样做的好处是，能帮我先把整个流程梳理一遍，心里有数，比一上来就陷入细节要高效得多。</p><h3 id="_2-模块化原则-功能切块-避免-一步错步步错" tabindex="-1">2. 模块化原则：功能切块，避免“一步错步步错” <a class="header-anchor" href="#_2-模块化原则-功能切块-避免-一步错步步错" aria-label="Permalink to &quot;2. 模块化原则：功能切块，避免“一步错步步错”&quot;">​</a></h3><p>另一个我习惯是<strong>模块化</strong>。</p><ul><li><strong>功能独立：</strong> 我会确保每一个独立的功能点（比如数据读取、核心计算、结果格式化）都单独写一个函数或者声明去实现。</li><li><strong>防止连坐：</strong> 这样做最大的好处就是<strong>容错率高</strong>。如果代码的某个部分出了问题，比如某个复杂逻辑写错了，我只需要去修改和调试对应的那个函数就行，不会波及到其他已经写好的、没问题的代码。</li><li><strong>提高维护性：</strong> 要不然，如果所有代码都挤在一起，某个地方一出 Bug，可能所有代码都要跟着修改和检查，那样消耗的时间和精力就太大了，感觉有点得不偿失。</li></ul><h3 id="_3-效率考量-实用至上-不为优化而优化" tabindex="-1">3. 效率考量：实用至上，不为优化而优化 <a class="header-anchor" href="#_3-效率考量-实用至上-不为优化而优化" aria-label="Permalink to &quot;3. 效率考量：实用至上，不为优化而优化&quot;">​</a></h3><p>关于算法效率追求：</p><ul><li><strong>看收益比：</strong> 我认为，在写题的时候没必要太追求极致的效率。比如，一个算法已经是 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(N)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="mclose">)</span></span></span></span>（线性时间复杂度）了，为了把它优化到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mi>log</mi><mo>⁡</mo><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(N \log N)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">lo<span style="margin-right:0.0139em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="mclose">)</span></span></span></span>，我可能需要花费很多的时间去推导和重构代码。</li><li><strong>时间更宝贵：</strong> 这种情况下，优化带来的性能提升往往并不明显，但消耗的时间成本却很高，感觉就有点<strong>得不偿失</strong>了。</li></ul><p>我的原则是，把精力放在那些<strong>必须优化</strong>（比如从 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><msup><mi>N</mi><mn>2</mn></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(N^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0641em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span> 优化到 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>O</mi><mo stretchy="false">(</mo><mi>N</mi><mi>log</mi><mo>⁡</mo><mi>N</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">O(N \log N)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">O</span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mop">lo<span style="margin-right:0.0139em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.109em;">N</span><span class="mclose">)</span></span></span></span>）才能通过时限的题目上，而不是在那些细枝末节的效率上钻牛角尖。</p><!--]--><!--]--><!----><!----></article><!-- </Transition> --><!--]--><!--[--><!--[--><!--[--><!----><ul class="post-copyright" m="y-4"><li class="post-copyright-author"><strong>本文作者：</strong><span>shouw</span></li><li class="post-copyright-link"><strong>本文链接：</strong><a href="https://shouw.blog/posts/algorithm-problem-solving-notes" target="_blank" title="本文链接">https://shouw.blog/posts/algorithm-problem-solving-notes</a></li><li class="post-copyright-license"><strong>版权声明：</strong><span>本博客所有文章除特别声明外，均默认采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener" title="CC BY-NC-SA 4.0 ">CC BY-NC-SA</a> 许可协议。</span></li></ul><!--]--><!--]--><!--]--></div><!--]--><!----></div><!--[--><!--]--><!--[--><div class="post-nav"><div class="post-nav-item"><a href="/posts/connect-ipv6-server" class="post-nav-prev" title="“如何连接IPv6的服务器”"><div class="icon" i-ri-arrow-left-s-line></div><span class="title truncate" text="sm">“如何连接IPv6的服务器”</span></a></div><div class="post-nav-item"><a href="/posts/ddos-defense-thoughts" class="post-nav-next" title="“对于防御DDoS的一些思考”"><span class="title truncate" text="sm">“对于防御DDoS的一些思考”</span><div class="icon" i-ri-arrow-right-s-line></div></a></div></div><!--]--><!--[--><!--]--><!----><!--[--><!-- eslint-disable-next-line vue/no-lone-template empty --><template class="mt-4"></template><!--]--><!--[--><!--]--><!--[--><!--]--></div><!--]--></main><!--[--><button class="xl:hidden toc-btn shadow-md fixed yun-icon-btn z-20 bg-$va-c-bg-soft" opacity="75" right="4" bottom="19"><div i-ri-file-list-line></div></button><!----><aside flex="~ col" class="va-card yun-aside sticky top-0 lg:top-$yun-margin-top min-h-sm" text="center" overflow="auto"><div class="w-full" flex="~ col" pb-2 style="display:none;"><!--[--><h2 m="t-6 b-2" font="serif black">文章目录</h2><div style="display:none;" data-v-2702cec3><div class="content" data-v-2702cec3><div class="outline-title" data-v-2702cec3>本页</div><div class="outline-marker" data-v-2702cec3></div><nav aria-labelledby="doc-outline-aria-label" data-v-2702cec3><span id="doc-outline-aria-label" class="visually-hidden" data-v-2702cec3> Table of Contents for current page </span><ul class="root va-toc relative z-1 css-i18n-toc" data-v-2702cec3 data-v-440f02cf><!--[--><!--]--></ul></nav></div></div><!--]--><div class="flex-grow"></div><!----></div></aside><!--]--><!--]--></div><footer flex="~ col" class="relative yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14" bg="white dark:$va-c-bg-soft" text="center sm"><div class="yun-cloud absolute top--10 left-0 right-0"><svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" fill="var(--yun-c-cloud)"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><!----><div class="copyright flex justify-center items-center gap-2" p="1"><span> © <!--[-->2025 - <!--]--> 2026</span><a class="animate-pulse inline-flex" href="https://www.yunyoujun.cn/sponsors/" target="_blank" title="Sponsor YunYouJun"><div class="i-ri-cloud-line"></div></a><span>shouw</span></div><div class="powered" m="2"><span>由 <a href="https://github.com/YunYouJun/valaxy.git" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v1.0.0-rc.6</span> 驱动</span><span mx-1>|</span><span><span>主题</span><span mx-1>-</span><a href="https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun.git" title="valaxy-theme-yun" target="_blank">Yun</a><span class="ml-1 op-60">v0.26.13</span></span></div><!--[--><!--]--><div class="yun-footer-gradient" style="--gradient-from:161 196 253;--gradient-to:194 233 251;"></div></footer><!--]--><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"yun-app":{},"app":{"showLoading":true},"site":{},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"https://shouw.blog/#identity","@type":"Person","name":"shouw","url":"https://shouw.blog/","image":{"@id":"https://shouw.blog/#/schema/image/1"},"sameAs":["/atom.xml","https://shouw.blog/QQ.png","https://github.com/TYDON1","https://space.bilibili.com/1777771249","mailto:kijinseija@shouw.blog"]},{"@id":"https://shouw.blog/#website","@type":"WebSite","dateModified":"2025-10-13T20:31:22.000Z","datePublished":"2025-10-13T20:31:22.000Z","inLanguage":"zh-CN","name":"“一些对于算法题的个人见解”","url":"https://shouw.blog/","publisher":{"@id":"https://shouw.blog/#identity"}},{"@id":"https://shouw.blog/#webpage","@type":"WebPage","dateModified":"2025-10-13T20:31:22.000Z","datePublished":"2025-10-13T20:31:22.000Z","description":"欢迎来到我的个人blog","name":"“一些对于算法题的个人见解”","url":"https://shouw.blog/","about":{"@id":"https://shouw.blog/#identity"},"isPartOf":{"@id":"https://shouw.blog/#website"},"potentialAction":[{"@type":"ReadAction","target":["https://shouw.blog/"]}]},{"@id":"https://shouw.blog/#article","dateModified":"2025-10-13T20:31:22.000Z","datePublished":"2025-10-13T20:31:22.000Z","description":"欢迎来到我的个人blog","headline":"“一些对于算法题的个人见解”","inLanguage":"zh-CN","thumbnailUrl":"https://shouw.blog/favicon.svg","@type":["Article","BlogPosting"],"author":{"@id":"https://shouw.blog/#/schema/person/1"},"image":{"@id":"https://shouw.blog/#/schema/image/2"},"isPartOf":{"@id":"https://shouw.blog/#webpage"},"mainEntityOfPage":{"@id":"https://shouw.blog/#webpage"},"publisher":{"@id":"https://shouw.blog/#identity"}},{"@id":"https://shouw.blog/#/schema/person/1","@type":"Person","name":"shouw","url":"https://valaxy.site"},{"@id":"https://shouw.blog/#/schema/image/1","@type":"ImageObject","contentUrl":"https://shouw.blog/avatar.jpg","inLanguage":"zh-CN","url":"https://shouw.blog/avatar.jpg"},{"@id":"https://shouw.blog/#/schema/image/2","@type":"ImageObject","contentUrl":"https://shouw.blog/favicon.svg","inLanguage":"zh-CN","url":"https://shouw.blog/favicon.svg"}]}</script>
+  
+</body>
+</html>
