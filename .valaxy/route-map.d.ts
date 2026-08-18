@@ -101,688 +101,688 @@ declare module 'vue-router/auto-routes' {
       Record<never, never>,
       | never
     >,
-    '/posts/"保持进程后台运行的实现方式"': RouteRecordInfo<
-      '/posts/"保持进程后台运行的实现方式"',
-      '/posts/%22%E4%BF%9D%E6%8C%81%E8%BF%9B%E7%A8%8B%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%22',
+    '/posts/ac-automaton-template': RouteRecordInfo<
+      '/posts/ac-automaton-template',
+      '/posts/ac-automaton-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"关于C++的类内存泄漏相关"': RouteRecordInfo<
-      '/posts/"关于C++的类内存泄漏相关"',
-      '/posts/%22%E5%85%B3%E4%BA%8EC++%E7%9A%84%E7%B1%BB%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E7%9B%B8%E5%85%B3%22',
+    '/posts/algorithm-problem-solving-notes': RouteRecordInfo<
+      '/posts/algorithm-problem-solving-notes',
+      '/posts/algorithm-problem-solving-notes',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"内网穿透简单教程"': RouteRecordInfo<
-      '/posts/"内网穿透简单教程"',
-      '/posts/%22%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E7%AE%80%E5%8D%95%E6%95%99%E7%A8%8B%22',
+    '/posts/atcoder-dp-training': RouteRecordInfo<
+      '/posts/atcoder-dp-training',
+      '/posts/atcoder-dp-training',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"可持久化线段树模版"': RouteRecordInfo<
-      '/posts/"可持久化线段树模版"',
-      '/posts/%22%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E7%BA%BF%E6%AE%B5%E6%A0%91%E6%A8%A1%E7%89%88%22',
+    '/posts/binomial-coefficient-template': RouteRecordInfo<
+      '/posts/binomial-coefficient-template',
+      '/posts/binomial-coefficient-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"可撤销并查集模版"': RouteRecordInfo<
-      '/posts/"可撤销并查集模版"',
-      '/posts/%22%E5%8F%AF%E6%92%A4%E9%94%80%E5%B9%B6%E6%9F%A5%E9%9B%86%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-a-and-b-and-lecture-rooms': RouteRecordInfo<
+      '/posts/cf-a-and-b-and-lecture-rooms',
+      '/posts/cf-a-and-b-and-lecture-rooms',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"哈希模版"': RouteRecordInfo<
-      '/posts/"哈希模版"',
-      '/posts/%22%E5%93%88%E5%B8%8C%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-ant-colony': RouteRecordInfo<
+      '/posts/cf-ant-colony',
+      '/posts/cf-ant-colony',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"多色点对最短路优化方案"': RouteRecordInfo<
-      '/posts/"多色点对最短路优化方案"',
-      '/posts/%22%E5%A4%9A%E8%89%B2%E7%82%B9%E5%AF%B9%E6%9C%80%E7%9F%AD%E8%B7%AF%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88%22',
+    '/posts/cf-array-shrinking': RouteRecordInfo<
+      '/posts/cf-array-shrinking',
+      '/posts/cf-array-shrinking',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"矩阵快速幂模版"': RouteRecordInfo<
-      '/posts/"矩阵快速幂模版"',
-      '/posts/%22%E7%9F%A9%E9%98%B5%E5%BF%AB%E9%80%9F%E5%B9%82%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-beautiful-sequence': RouteRecordInfo<
+      '/posts/cf-beautiful-sequence',
+      '/posts/cf-beautiful-sequence',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"线性基模版"': RouteRecordInfo<
-      '/posts/"线性基模版"',
-      '/posts/%22%E7%BA%BF%E6%80%A7%E5%9F%BA%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-beppa-and-swerchat': RouteRecordInfo<
+      '/posts/cf-beppa-and-swerchat',
+      '/posts/cf-beppa-and-swerchat',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"线段树模版"': RouteRecordInfo<
-      '/posts/"线段树模版"',
-      '/posts/%22%E7%BA%BF%E6%AE%B5%E6%A0%91%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-binary-median': RouteRecordInfo<
+      '/posts/cf-binary-median',
+      '/posts/cf-binary-median',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"组合数模版"': RouteRecordInfo<
-      '/posts/"组合数模版"',
-      '/posts/%22%E7%BB%84%E5%90%88%E6%95%B0%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-block-sequence': RouteRecordInfo<
+      '/posts/cf-block-sequence',
+      '/posts/cf-block-sequence',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"莫队模版"': RouteRecordInfo<
-      '/posts/"莫队模版"',
-      '/posts/%22%E8%8E%AB%E9%98%9F%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-boris-and-his-amazing-haircut': RouteRecordInfo<
+      '/posts/cf-boris-and-his-amazing-haircut',
+      '/posts/cf-boris-and-his-amazing-haircut',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"AC自动机模版"': RouteRecordInfo<
-      '/posts/"AC自动机模版"',
-      '/posts/%22AC%E8%87%AA%E5%8A%A8%E6%9C%BA%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-calendar-ambiguity': RouteRecordInfo<
+      '/posts/cf-calendar-ambiguity',
+      '/posts/cf-calendar-ambiguity',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——C. Beautiful Sequence"': RouteRecordInfo<
-      '/posts/"CF题解——C. Beautiful Sequence"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Beautiful%20Sequence%22',
+    '/posts/cf-canal-crossing': RouteRecordInfo<
+      '/posts/cf-canal-crossing',
+      '/posts/cf-canal-crossing',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——C. Restricted Sorting"': RouteRecordInfo<
-      '/posts/"CF题解——C. Restricted Sorting"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Restricted%20Sorting%22',
+    '/posts/cf-ceil-divisions': RouteRecordInfo<
+      '/posts/cf-ceil-divisions',
+      '/posts/cf-ceil-divisions',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——C. Serval and The Formula"': RouteRecordInfo<
-      '/posts/"CF题解——C. Serval and The Formula"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Serval%20and%20The%20Formula%22',
+    '/posts/cf-check-transcription': RouteRecordInfo<
+      '/posts/cf-check-transcription',
+      '/posts/cf-check-transcription',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——C. Trip to the Olympiad"': RouteRecordInfo<
-      '/posts/"CF题解——C. Trip to the Olympiad"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94C/%20Trip%20to%20the%20Olympiad%22',
+    '/posts/cf-coloring-edges': RouteRecordInfo<
+      '/posts/cf-coloring-edges',
+      '/posts/cf-coloring-edges',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Canal Crossing"': RouteRecordInfo<
-      '/posts/"CF题解——Canal Crossing"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Canal%20Crossing%22',
+    '/posts/cf-data-structures-fan': RouteRecordInfo<
+      '/posts/cf-data-structures-fan',
+      '/posts/cf-data-structures-fan',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Ceil Divisions"': RouteRecordInfo<
-      '/posts/"CF题解——Ceil Divisions"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Ceil%20Divisions%22',
+    '/posts/cf-destroy-it': RouteRecordInfo<
+      '/posts/cf-destroy-it',
+      '/posts/cf-destroy-it',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——D. Boris and His"': RouteRecordInfo<
-      '/posts/"CF题解——D. Boris and His"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Boris%20and%20His%22',
+    '/posts/cf-distance-to-different': RouteRecordInfo<
+      '/posts/cf-distance-to-different',
+      '/posts/cf-distance-to-different',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——D. Fibonacci Paths"': RouteRecordInfo<
-      '/posts/"CF题解——D. Fibonacci Paths"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Fibonacci%20Paths%22',
+    '/posts/cf-dogeforces': RouteRecordInfo<
+      '/posts/cf-dogeforces',
+      '/posts/cf-dogeforces',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——D. Max GEQ Sum"': RouteRecordInfo<
-      '/posts/"CF题解——D. Max GEQ Sum"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Max%20GEQ%20Sum%22',
+    '/posts/cf-eliminating-balls-with-merging-easy-version': RouteRecordInfo<
+      '/posts/cf-eliminating-balls-with-merging-easy-version',
+      '/posts/cf-eliminating-balls-with-merging-easy-version',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——D. Shohag Loves GCD"': RouteRecordInfo<
-      '/posts/"CF题解——D. Shohag Loves GCD"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D/%20Shohag%20Loves%20GCD%22',
+    '/posts/cf-fibonacci-paths': RouteRecordInfo<
+      '/posts/cf-fibonacci-paths',
+      '/posts/cf-fibonacci-paths',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——D2 .Max Sum OR (Hard Version)"': RouteRecordInfo<
-      '/posts/"CF题解——D2 .Max Sum OR (Hard Version)"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94D2%20/Max%20Sum%20OR%20(Hard%20Version)%22',
+    '/posts/cf-final-boss': RouteRecordInfo<
+      '/posts/cf-final-boss',
+      '/posts/cf-final-boss',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Destroy it! "': RouteRecordInfo<
-      '/posts/"CF题解——Destroy it! "',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Destroy%20it!%20%22',
+    '/posts/cf-frog-jumping': RouteRecordInfo<
+      '/posts/cf-frog-jumping',
+      '/posts/cf-frog-jumping',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——E. Block Sequence"': RouteRecordInfo<
-      '/posts/"CF题解——E. Block Sequence"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Block%20Sequence%22',
+    '/posts/cf-garage': RouteRecordInfo<
+      '/posts/cf-garage',
+      '/posts/cf-garage',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——E. Calendar Ambiguity"': RouteRecordInfo<
-      '/posts/"CF题解——E. Calendar Ambiguity"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Calendar%20Ambiguity%22',
+    '/posts/cf-git-gud': RouteRecordInfo<
+      '/posts/cf-git-gud',
+      '/posts/cf-git-gud',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——E. Data Structures Fan"': RouteRecordInfo<
-      '/posts/"CF题解——E. Data Structures Fan"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Data%20Structures%20Fan%22',
+    '/posts/cf-graph-composition': RouteRecordInfo<
+      '/posts/cf-graph-composition',
+      '/posts/cf-graph-composition',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——E. Graph Composition"': RouteRecordInfo<
-      '/posts/"CF题解——E. Graph Composition"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Graph%20Composition%22',
+    '/posts/cf-inversion-pairs': RouteRecordInfo<
+      '/posts/cf-inversion-pairs',
+      '/posts/cf-inversion-pairs',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——E. Merging Towers"': RouteRecordInfo<
-      '/posts/"CF题解——E. Merging Towers"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Merging%20Towers%22',
+    '/posts/cf-jewels-building': RouteRecordInfo<
+      '/posts/cf-jewels-building',
+      '/posts/cf-jewels-building',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——E. Power of Points"': RouteRecordInfo<
-      '/posts/"CF题解——E. Power of Points"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E/%20Power%20of%20Points%22',
+    '/posts/cf-juggling-keys': RouteRecordInfo<
+      '/posts/cf-juggling-keys',
+      '/posts/cf-juggling-keys',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"': RouteRecordInfo<
-      '/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94E1/%20Eliminating%20Balls%20With%20Merging%20(Easy%20Version)%22',
+    '/posts/cf-legacy': RouteRecordInfo<
+      '/posts/cf-legacy',
+      '/posts/cf-legacy',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——F. Final Boss"': RouteRecordInfo<
-      '/posts/"CF题解——F. Final Boss"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94F/%20Final%20Boss%22',
+    '/posts/cf-lucky-country': RouteRecordInfo<
+      '/posts/cf-lucky-country',
+      '/posts/cf-lucky-country',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——F. SheriffsDefense"': RouteRecordInfo<
-      '/posts/"CF题解——F. SheriffsDefense"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94F/%20SheriffsDefense%22',
+    '/posts/cf-make-it-increasing': RouteRecordInfo<
+      '/posts/cf-make-it-increasing',
+      '/posts/cf-make-it-increasing',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——G. Garage"': RouteRecordInfo<
-      '/posts/"CF题解——G. Garage"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94G/%20Garage%22',
+    '/posts/cf-max-geq-sum': RouteRecordInfo<
+      '/posts/cf-max-geq-sum',
+      '/posts/cf-max-geq-sum',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Git Gud"': RouteRecordInfo<
-      '/posts/"CF题解——Git Gud"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Git%20Gud%22',
+    '/posts/cf-max-median': RouteRecordInfo<
+      '/posts/cf-max-median',
+      '/posts/cf-max-median',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——H. Beppa and SwerChat"': RouteRecordInfo<
-      '/posts/"CF题解——H. Beppa and SwerChat"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94H/%20Beppa%20and%20SwerChat%22',
+    '/posts/cf-max-sum-or-hard-version': RouteRecordInfo<
+      '/posts/cf-max-sum-or-hard-version',
+      '/posts/cf-max-sum-or-hard-version',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Inversion Pairs"': RouteRecordInfo<
-      '/posts/"CF题解——Inversion Pairs"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Inversion%20Pairs%22',
+    '/posts/cf-maximum-value': RouteRecordInfo<
+      '/posts/cf-maximum-value',
+      '/posts/cf-maximum-value',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Juggling Keys"': RouteRecordInfo<
-      '/posts/"CF题解——Juggling Keys"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Juggling%20Keys%22',
+    '/posts/cf-merging-towers': RouteRecordInfo<
+      '/posts/cf-merging-towers',
+      '/posts/cf-merging-towers',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Legacy"': RouteRecordInfo<
-      '/posts/"CF题解——Legacy"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Legacy%22',
+    '/posts/cf-minimum-path': RouteRecordInfo<
+      '/posts/cf-minimum-path',
+      '/posts/cf-minimum-path',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Lucky Country"': RouteRecordInfo<
-      '/posts/"CF题解——Lucky Country"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Lucky%20Country%22',
+    '/posts/cf-minimum-spanning-tree-for-each-edge': RouteRecordInfo<
+      '/posts/cf-minimum-spanning-tree-for-each-edge',
+      '/posts/cf-minimum-spanning-tree-for-each-edge',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Make It Increasing"': RouteRecordInfo<
-      '/posts/"CF题解——Make It Increasing"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Make%20It%20Increasing%22',
+    '/posts/cf-mst-unification': RouteRecordInfo<
+      '/posts/cf-mst-unification',
+      '/posts/cf-mst-unification',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Petya and Graph"': RouteRecordInfo<
-      '/posts/"CF题解——Petya and Graph"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Petya%20and%20Graph%22',
+    '/posts/cf-not-a-nim-problem': RouteRecordInfo<
+      '/posts/cf-not-a-nim-problem',
+      '/posts/cf-not-a-nim-problem',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Rearrange Brackets"': RouteRecordInfo<
-      '/posts/"CF题解——Rearrange Brackets"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Rearrange%20Brackets%22',
+    '/posts/cf-one-occurrence': RouteRecordInfo<
+      '/posts/cf-one-occurrence',
+      '/posts/cf-one-occurrence',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Shortest Path Queries"': RouteRecordInfo<
-      '/posts/"CF题解——Shortest Path Queries"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Shortest%20Path%20Queries%22',
+    '/posts/cf-openstreetmap': RouteRecordInfo<
+      '/posts/cf-openstreetmap',
+      '/posts/cf-openstreetmap',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Small GCD"': RouteRecordInfo<
-      '/posts/"CF题解——Small GCD"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Small%20GCD%22',
+    '/posts/cf-pathwalks': RouteRecordInfo<
+      '/posts/cf-pathwalks',
+      '/posts/cf-pathwalks',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"CF题解——Tufurama"': RouteRecordInfo<
-      '/posts/"CF题解——Tufurama"',
-      '/posts/%22CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Tufurama%22',
+    '/posts/cf-petya-and-graph': RouteRecordInfo<
+      '/posts/cf-petya-and-graph',
+      '/posts/cf-petya-and-graph',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"DInic模版"': RouteRecordInfo<
-      '/posts/"DInic模版"',
-      '/posts/%22DInic%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-power-of-points': RouteRecordInfo<
+      '/posts/cf-power-of-points',
+      '/posts/cf-power-of-points',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"DoubleHashMap模版"': RouteRecordInfo<
-      '/posts/"DoubleHashMap模版"',
-      '/posts/%22DoubleHashMap%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-powerful-array': RouteRecordInfo<
+      '/posts/cf-powerful-array',
+      '/posts/cf-powerful-array',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"HopcroftKarp模版"': RouteRecordInfo<
-      '/posts/"HopcroftKarp模版"',
-      '/posts/%22HopcroftKarp%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-present': RouteRecordInfo<
+      '/posts/cf-present',
+      '/posts/cf-present',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"J. Jewels Building"': RouteRecordInfo<
-      '/posts/"J. Jewels Building"',
-      '/posts/%22J/%20Jewels%20Building%22',
+    '/posts/cf-rearrange-brackets': RouteRecordInfo<
+      '/posts/cf-rearrange-brackets',
+      '/posts/cf-rearrange-brackets',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"KMP模版"': RouteRecordInfo<
-      '/posts/"KMP模版"',
-      '/posts/%22KMP%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-remainder-problem': RouteRecordInfo<
+      '/posts/cf-remainder-problem',
+      '/posts/cf-remainder-problem',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"Kruskal模版"': RouteRecordInfo<
-      '/posts/"Kruskal模版"',
-      '/posts/%22Kruskal%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-restricted-sorting': RouteRecordInfo<
+      '/posts/cf-restricted-sorting',
+      '/posts/cf-restricted-sorting',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"Manacher模版"': RouteRecordInfo<
-      '/posts/"Manacher模版"',
-      '/posts/%22Manacher%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-round-subset': RouteRecordInfo<
+      '/posts/cf-round-subset',
+      '/posts/cf-round-subset',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"MCMF模版"': RouteRecordInfo<
-      '/posts/"MCMF模版"',
-      '/posts/%22MCMF%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-serval-and-the-formula': RouteRecordInfo<
+      '/posts/cf-serval-and-the-formula',
+      '/posts/cf-serval-and-the-formula',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"SAM模版"': RouteRecordInfo<
-      '/posts/"SAM模版"',
-      '/posts/%22SAM%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-sheriffs-defense': RouteRecordInfo<
+      '/posts/cf-sheriffs-defense',
+      '/posts/cf-sheriffs-defense',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"ST表模版"': RouteRecordInfo<
-      '/posts/"ST表模版"',
-      '/posts/%22ST%E8%A1%A8%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-shohag-loves-gcd': RouteRecordInfo<
+      '/posts/cf-shohag-loves-gcd',
+      '/posts/cf-shohag-loves-gcd',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"Tarjan模版"': RouteRecordInfo<
-      '/posts/"Tarjan模版"',
-      '/posts/%22Tarjan%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-shortest-path-problem': RouteRecordInfo<
+      '/posts/cf-shortest-path-problem',
+      '/posts/cf-shortest-path-problem',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"TarjanEBCC模版"': RouteRecordInfo<
-      '/posts/"TarjanEBCC模版"',
-      '/posts/%22TarjanEBCC%E6%A8%A1%E7%89%88%22',
+    '/posts/cf-shortest-path-queries': RouteRecordInfo<
+      '/posts/cf-shortest-path-queries',
+      '/posts/cf-shortest-path-queries',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/"zkw线段树"': RouteRecordInfo<
-      '/posts/"zkw线段树"',
-      '/posts/%22zkw%E7%BA%BF%E6%AE%B5%E6%A0%91%22',
+    '/posts/cf-shovels-shop': RouteRecordInfo<
+      '/posts/cf-shovels-shop',
+      '/posts/cf-shovels-shop',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/“一些对于算法题的个人见解”': RouteRecordInfo<
-      '/posts/“一些对于算法题的个人见解”',
-      '/posts/%E2%80%9C%E4%B8%80%E4%BA%9B%E5%AF%B9%E4%BA%8E%E7%AE%97%E6%B3%95%E9%A2%98%E7%9A%84%E4%B8%AA%E4%BA%BA%E8%A7%81%E8%A7%A3%E2%80%9D',
+    '/posts/cf-small-gcd': RouteRecordInfo<
+      '/posts/cf-small-gcd',
+      '/posts/cf-small-gcd',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/“关于Docker的一些个人理解”': RouteRecordInfo<
-      '/posts/“关于Docker的一些个人理解”',
-      '/posts/%E2%80%9C%E5%85%B3%E4%BA%8EDocker%E7%9A%84%E4%B8%80%E4%BA%9B%E4%B8%AA%E4%BA%BA%E7%90%86%E8%A7%A3%E2%80%9D',
+    '/posts/cf-tree-painting': RouteRecordInfo<
+      '/posts/cf-tree-painting',
+      '/posts/cf-tree-painting',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/“如何连接IPv6的服务器”': RouteRecordInfo<
-      '/posts/“如何连接IPv6的服务器”',
-      '/posts/%E2%80%9C%E5%A6%82%E4%BD%95%E8%BF%9E%E6%8E%A5IPv6%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E2%80%9D',
+    '/posts/cf-trip-to-the-olympiad': RouteRecordInfo<
+      '/posts/cf-trip-to-the-olympiad',
+      '/posts/cf-trip-to-the-olympiad',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/“对于防御DDoS的一些思考”': RouteRecordInfo<
-      '/posts/“对于防御DDoS的一些思考”',
-      '/posts/%E2%80%9C%E5%AF%B9%E4%BA%8E%E9%98%B2%E5%BE%A1DDoS%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83%E2%80%9D',
+    '/posts/cf-tufurama': RouteRecordInfo<
+      '/posts/cf-tufurama',
+      '/posts/cf-tufurama',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/“我的第一篇个人博客”': RouteRecordInfo<
-      '/posts/“我的第一篇个人博客”',
-      '/posts/%E2%80%9C%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E2%80%9D',
+    '/posts/cf-two-editorials': RouteRecordInfo<
+      '/posts/cf-two-editorials',
+      '/posts/cf-two-editorials',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/“解决clang无法使用万能头文件”': RouteRecordInfo<
-      '/posts/“解决clang无法使用万能头文件”',
-      '/posts/%E2%80%9C%E8%A7%A3%E5%86%B3clang%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%87%E8%83%BD%E5%A4%B4%E6%96%87%E4%BB%B6%E2%80%9D',
+    '/posts/cf-we-need-more-bosses': RouteRecordInfo<
+      '/posts/cf-we-need-more-bosses',
+      '/posts/cf-we-need-more-bosses',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/“CF题解——Not a Nim Problem”': RouteRecordInfo<
-      '/posts/“CF题解——Not a Nim Problem”',
-      '/posts/%E2%80%9CCF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Not%20a%20Nim%20Problem%E2%80%9D',
+    '/posts/cf-xor-and-favorite-number': RouteRecordInfo<
+      '/posts/cf-xor-and-favorite-number',
+      '/posts/cf-xor-and-favorite-number',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/关于DP的一些解题技巧': RouteRecordInfo<
-      '/posts/关于DP的一些解题技巧',
-      '/posts/%E5%85%B3%E4%BA%8EDP%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%A3%E9%A2%98%E6%8A%80%E5%B7%A7',
+    '/posts/cf-xor-tree': RouteRecordInfo<
+      '/posts/cf-xor-tree',
+      '/posts/cf-xor-tree',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/树上两点最值模版': RouteRecordInfo<
-      '/posts/树上两点最值模版',
-      '/posts/%E6%A0%91%E4%B8%8A%E4%B8%A4%E7%82%B9%E6%9C%80%E5%80%BC%E6%A8%A1%E7%89%88',
+    '/posts/clang-bits-stdcxx-fix': RouteRecordInfo<
+      '/posts/clang-bits-stdcxx-fix',
+      '/posts/clang-bits-stdcxx-fix',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/Atc的DP专训': RouteRecordInfo<
-      '/posts/Atc的DP专训',
-      '/posts/Atc%E7%9A%84DP%E4%B8%93%E8%AE%AD',
+    '/posts/connect-ipv6-server': RouteRecordInfo<
+      '/posts/connect-ipv6-server',
+      '/posts/connect-ipv6-server',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——A and B and Lecture Rooms': RouteRecordInfo<
-      '/posts/CF题解——A and B and Lecture Rooms',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94A%20and%20B%20and%20Lecture%20Rooms',
+    '/posts/cpp-class-memory-leak': RouteRecordInfo<
+      '/posts/cpp-class-memory-leak',
+      '/posts/cpp-class-memory-leak',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Ant colony': RouteRecordInfo<
-      '/posts/CF题解——Ant colony',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Ant%20colony',
+    '/posts/ddos-defense-thoughts': RouteRecordInfo<
+      '/posts/ddos-defense-thoughts',
+      '/posts/ddos-defense-thoughts',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Array Shrinking': RouteRecordInfo<
-      '/posts/CF题解——Array Shrinking',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Array%20Shrinking',
+    '/posts/dinic-template': RouteRecordInfo<
+      '/posts/dinic-template',
+      '/posts/dinic-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Binary Median': RouteRecordInfo<
-      '/posts/CF题解——Binary Median',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Binary%20Median',
+    '/posts/docker-notes': RouteRecordInfo<
+      '/posts/docker-notes',
+      '/posts/docker-notes',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Check Transcription': RouteRecordInfo<
-      '/posts/CF题解——Check Transcription',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Check%20Transcription',
+    '/posts/double-hash-map-template': RouteRecordInfo<
+      '/posts/double-hash-map-template',
+      '/posts/double-hash-map-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Coloring Edges': RouteRecordInfo<
-      '/posts/CF题解——Coloring Edges',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Coloring%20Edges',
+    '/posts/dp-problem-solving-tips': RouteRecordInfo<
+      '/posts/dp-problem-solving-tips',
+      '/posts/dp-problem-solving-tips',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Distance to Different': RouteRecordInfo<
-      '/posts/CF题解——Distance to Different',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Distance%20to%20Different',
+    '/posts/first-blog-post': RouteRecordInfo<
+      '/posts/first-blog-post',
+      '/posts/first-blog-post',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Dogeforces': RouteRecordInfo<
-      '/posts/CF题解——Dogeforces',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Dogeforces',
+    '/posts/hash-template': RouteRecordInfo<
+      '/posts/hash-template',
+      '/posts/hash-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Frog Jumping': RouteRecordInfo<
-      '/posts/CF题解——Frog Jumping',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Frog%20Jumping',
+    '/posts/hopcroft-karp-template': RouteRecordInfo<
+      '/posts/hopcroft-karp-template',
+      '/posts/hopcroft-karp-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Max Median': RouteRecordInfo<
-      '/posts/CF题解——Max Median',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Max%20Median',
+    '/posts/keep-process-running-in-background': RouteRecordInfo<
+      '/posts/keep-process-running-in-background',
+      '/posts/keep-process-running-in-background',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Maximum Value': RouteRecordInfo<
-      '/posts/CF题解——Maximum Value',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Maximum%20Value',
+    '/posts/kmp-template': RouteRecordInfo<
+      '/posts/kmp-template',
+      '/posts/kmp-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Minimum Path': RouteRecordInfo<
-      '/posts/CF题解——Minimum Path',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Minimum%20Path',
+    '/posts/kruskal-template': RouteRecordInfo<
+      '/posts/kruskal-template',
+      '/posts/kruskal-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Minimum spanning tree for each edge': RouteRecordInfo<
-      '/posts/CF题解——Minimum spanning tree for each edge',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Minimum%20spanning%20tree%20for%20each%20edge',
+    '/posts/linear-basis-template': RouteRecordInfo<
+      '/posts/linear-basis-template',
+      '/posts/linear-basis-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——MST Unification': RouteRecordInfo<
-      '/posts/CF题解——MST Unification',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94MST%20Unification',
+    '/posts/manacher-template': RouteRecordInfo<
+      '/posts/manacher-template',
+      '/posts/manacher-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——One Occurrence': RouteRecordInfo<
-      '/posts/CF题解——One Occurrence',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94One%20Occurrence',
+    '/posts/matrix-exponentiation-template': RouteRecordInfo<
+      '/posts/matrix-exponentiation-template',
+      '/posts/matrix-exponentiation-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——OpenStreetMap': RouteRecordInfo<
-      '/posts/CF题解——OpenStreetMap',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94OpenStreetMap',
+    '/posts/mcmf-template': RouteRecordInfo<
+      '/posts/mcmf-template',
+      '/posts/mcmf-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Pathwalks': RouteRecordInfo<
-      '/posts/CF题解——Pathwalks',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Pathwalks',
+    '/posts/mo-algorithm-template': RouteRecordInfo<
+      '/posts/mo-algorithm-template',
+      '/posts/mo-algorithm-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Powerful array': RouteRecordInfo<
-      '/posts/CF题解——Powerful array',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Powerful%20array',
+    '/posts/multi-color-pair-shortest-path-optimization': RouteRecordInfo<
+      '/posts/multi-color-pair-shortest-path-optimization',
+      '/posts/multi-color-pair-shortest-path-optimization',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Present': RouteRecordInfo<
-      '/posts/CF题解——Present',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Present',
+    '/posts/nat-traversal-tutorial': RouteRecordInfo<
+      '/posts/nat-traversal-tutorial',
+      '/posts/nat-traversal-tutorial',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Remainder Problem': RouteRecordInfo<
-      '/posts/CF题解——Remainder Problem',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Remainder%20Problem',
+    '/posts/persistent-segment-tree-template': RouteRecordInfo<
+      '/posts/persistent-segment-tree-template',
+      '/posts/persistent-segment-tree-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Round Subset': RouteRecordInfo<
-      '/posts/CF题解——Round Subset',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Round%20Subset',
+    '/posts/rollback-dsu-template': RouteRecordInfo<
+      '/posts/rollback-dsu-template',
+      '/posts/rollback-dsu-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Shortest Path Problem': RouteRecordInfo<
-      '/posts/CF题解——Shortest Path Problem',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Shortest%20Path%20Problem',
+    '/posts/sam-template': RouteRecordInfo<
+      '/posts/sam-template',
+      '/posts/sam-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Shovels Shop': RouteRecordInfo<
-      '/posts/CF题解——Shovels Shop',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Shovels%20Shop',
+    '/posts/segment-tree-template': RouteRecordInfo<
+      '/posts/segment-tree-template',
+      '/posts/segment-tree-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Tree Painting': RouteRecordInfo<
-      '/posts/CF题解——Tree Painting',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Tree%20Painting',
+    '/posts/sparse-table-template': RouteRecordInfo<
+      '/posts/sparse-table-template',
+      '/posts/sparse-table-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Two Editorials': RouteRecordInfo<
-      '/posts/CF题解——Two Editorials',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Two%20Editorials',
+    '/posts/tarjan-ebcc-template': RouteRecordInfo<
+      '/posts/tarjan-ebcc-template',
+      '/posts/tarjan-ebcc-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——We Need More Bosses': RouteRecordInfo<
-      '/posts/CF题解——We Need More Bosses',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94We%20Need%20More%20Bosses',
+    '/posts/tarjan-template': RouteRecordInfo<
+      '/posts/tarjan-template',
+      '/posts/tarjan-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——XOR and Favorite Number': RouteRecordInfo<
-      '/posts/CF题解——XOR and Favorite Number',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94XOR%20and%20Favorite%20Number',
+    '/posts/tree-path-extreme-template': RouteRecordInfo<
+      '/posts/tree-path-extreme-template',
+      '/posts/tree-path-extreme-template',
       Record<never, never>,
       Record<never, never>,
       | never
     >,
-    '/posts/CF题解——Xor Tree': RouteRecordInfo<
-      '/posts/CF题解——Xor Tree',
-      '/posts/CF%E9%A2%98%E8%A7%A3%E2%80%94%E2%80%94Xor%20Tree',
+    '/posts/zkw-segment-tree-template': RouteRecordInfo<
+      '/posts/zkw-segment-tree-template',
+      '/posts/zkw-segment-tree-template',
       Record<never, never>,
       Record<never, never>,
       | never
@@ -887,785 +887,785 @@ declare module 'vue-router/auto-routes' {
       pathParamNames:
         | never
     }
-    'pages/posts/"保持进程后台运行的实现方式".md': {
+    'pages/posts/ac-automaton-template.md': {
       routes:
-        | '/posts/"保持进程后台运行的实现方式"'
+        | '/posts/ac-automaton-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"关于C++的类内存泄漏相关".md': {
+    'pages/posts/algorithm-problem-solving-notes.md': {
       routes:
-        | '/posts/"关于C++的类内存泄漏相关"'
+        | '/posts/algorithm-problem-solving-notes'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"内网穿透简单教程".md': {
+    'pages/posts/atcoder-dp-training.md': {
       routes:
-        | '/posts/"内网穿透简单教程"'
+        | '/posts/atcoder-dp-training'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"可持久化线段树模版".md': {
+    'pages/posts/binomial-coefficient-template.md': {
       routes:
-        | '/posts/"可持久化线段树模版"'
+        | '/posts/binomial-coefficient-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"可撤销并查集模版".md': {
+    'pages/posts/cf-a-and-b-and-lecture-rooms.md': {
       routes:
-        | '/posts/"可撤销并查集模版"'
+        | '/posts/cf-a-and-b-and-lecture-rooms'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"哈希模版".md': {
+    'pages/posts/cf-ant-colony.md': {
       routes:
-        | '/posts/"哈希模版"'
+        | '/posts/cf-ant-colony'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"多色点对最短路优化方案".md': {
+    'pages/posts/cf-array-shrinking.md': {
       routes:
-        | '/posts/"多色点对最短路优化方案"'
+        | '/posts/cf-array-shrinking'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"矩阵快速幂模版".md': {
+    'pages/posts/cf-beautiful-sequence.md': {
       routes:
-        | '/posts/"矩阵快速幂模版"'
+        | '/posts/cf-beautiful-sequence'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"线性基模版".md': {
+    'pages/posts/cf-beppa-and-swerchat.md': {
       routes:
-        | '/posts/"线性基模版"'
+        | '/posts/cf-beppa-and-swerchat'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"线段树模版".md': {
+    'pages/posts/cf-binary-median.md': {
       routes:
-        | '/posts/"线段树模版"'
+        | '/posts/cf-binary-median'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"组合数模版".md': {
+    'pages/posts/cf-block-sequence.md': {
       routes:
-        | '/posts/"组合数模版"'
+        | '/posts/cf-block-sequence'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"莫队模版".md': {
+    'pages/posts/cf-boris-and-his-amazing-haircut.md': {
       routes:
-        | '/posts/"莫队模版"'
+        | '/posts/cf-boris-and-his-amazing-haircut'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"AC自动机模版".md': {
+    'pages/posts/cf-calendar-ambiguity.md': {
       routes:
-        | '/posts/"AC自动机模版"'
+        | '/posts/cf-calendar-ambiguity'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——C. Beautiful Sequence".md': {
+    'pages/posts/cf-canal-crossing.md': {
       routes:
-        | '/posts/"CF题解——C. Beautiful Sequence"'
+        | '/posts/cf-canal-crossing'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——C. Restricted Sorting".md': {
+    'pages/posts/cf-ceil-divisions.md': {
       routes:
-        | '/posts/"CF题解——C. Restricted Sorting"'
+        | '/posts/cf-ceil-divisions'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——C. Serval and The Formula".md': {
+    'pages/posts/cf-check-transcription.md': {
       routes:
-        | '/posts/"CF题解——C. Serval and The Formula"'
+        | '/posts/cf-check-transcription'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——C. Trip to the Olympiad".md': {
+    'pages/posts/cf-coloring-edges.md': {
       routes:
-        | '/posts/"CF题解——C. Trip to the Olympiad"'
+        | '/posts/cf-coloring-edges'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Canal Crossing".md': {
+    'pages/posts/cf-data-structures-fan.md': {
       routes:
-        | '/posts/"CF题解——Canal Crossing"'
+        | '/posts/cf-data-structures-fan'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Ceil Divisions".md': {
+    'pages/posts/cf-destroy-it.md': {
       routes:
-        | '/posts/"CF题解——Ceil Divisions"'
+        | '/posts/cf-destroy-it'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——D. Boris and His".md': {
+    'pages/posts/cf-distance-to-different.md': {
       routes:
-        | '/posts/"CF题解——D. Boris and His"'
+        | '/posts/cf-distance-to-different'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——D. Fibonacci Paths".md': {
+    'pages/posts/cf-dogeforces.md': {
       routes:
-        | '/posts/"CF题解——D. Fibonacci Paths"'
+        | '/posts/cf-dogeforces'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——D. Max GEQ Sum".md': {
+    'pages/posts/cf-eliminating-balls-with-merging-easy-version.md': {
       routes:
-        | '/posts/"CF题解——D. Max GEQ Sum"'
+        | '/posts/cf-eliminating-balls-with-merging-easy-version'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——D. Shohag Loves GCD".md': {
+    'pages/posts/cf-fibonacci-paths.md': {
       routes:
-        | '/posts/"CF题解——D. Shohag Loves GCD"'
+        | '/posts/cf-fibonacci-paths'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——D2 .Max Sum OR (Hard Version)".md': {
+    'pages/posts/cf-final-boss.md': {
       routes:
-        | '/posts/"CF题解——D2 .Max Sum OR (Hard Version)"'
+        | '/posts/cf-final-boss'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Destroy it! ".md': {
+    'pages/posts/cf-frog-jumping.md': {
       routes:
-        | '/posts/"CF题解——Destroy it! "'
+        | '/posts/cf-frog-jumping'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——E. Block Sequence".md': {
+    'pages/posts/cf-garage.md': {
       routes:
-        | '/posts/"CF题解——E. Block Sequence"'
+        | '/posts/cf-garage'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——E. Calendar Ambiguity".md': {
+    'pages/posts/cf-git-gud.md': {
       routes:
-        | '/posts/"CF题解——E. Calendar Ambiguity"'
+        | '/posts/cf-git-gud'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——E. Data Structures Fan".md': {
+    'pages/posts/cf-graph-composition.md': {
       routes:
-        | '/posts/"CF题解——E. Data Structures Fan"'
+        | '/posts/cf-graph-composition'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——E. Graph Composition".md': {
+    'pages/posts/cf-inversion-pairs.md': {
       routes:
-        | '/posts/"CF题解——E. Graph Composition"'
+        | '/posts/cf-inversion-pairs'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——E. Merging Towers".md': {
+    'pages/posts/cf-jewels-building.md': {
       routes:
-        | '/posts/"CF题解——E. Merging Towers"'
+        | '/posts/cf-jewels-building'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——E. Power of Points".md': {
+    'pages/posts/cf-juggling-keys.md': {
       routes:
-        | '/posts/"CF题解——E. Power of Points"'
+        | '/posts/cf-juggling-keys'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)".md': {
+    'pages/posts/cf-legacy.md': {
       routes:
-        | '/posts/"CF题解——E1. Eliminating Balls With Merging (Easy Version)"'
+        | '/posts/cf-legacy'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——F. Final Boss".md': {
+    'pages/posts/cf-lucky-country.md': {
       routes:
-        | '/posts/"CF题解——F. Final Boss"'
+        | '/posts/cf-lucky-country'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——F. SheriffsDefense".md': {
+    'pages/posts/cf-make-it-increasing.md': {
       routes:
-        | '/posts/"CF题解——F. SheriffsDefense"'
+        | '/posts/cf-make-it-increasing'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——G. Garage".md': {
+    'pages/posts/cf-max-geq-sum.md': {
       routes:
-        | '/posts/"CF题解——G. Garage"'
+        | '/posts/cf-max-geq-sum'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Git Gud".md': {
+    'pages/posts/cf-max-median.md': {
       routes:
-        | '/posts/"CF题解——Git Gud"'
+        | '/posts/cf-max-median'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——H. Beppa and SwerChat".md': {
+    'pages/posts/cf-max-sum-or-hard-version.md': {
       routes:
-        | '/posts/"CF题解——H. Beppa and SwerChat"'
+        | '/posts/cf-max-sum-or-hard-version'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Inversion Pairs".md': {
+    'pages/posts/cf-maximum-value.md': {
       routes:
-        | '/posts/"CF题解——Inversion Pairs"'
+        | '/posts/cf-maximum-value'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Juggling Keys".md': {
+    'pages/posts/cf-merging-towers.md': {
       routes:
-        | '/posts/"CF题解——Juggling Keys"'
+        | '/posts/cf-merging-towers'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Legacy".md': {
+    'pages/posts/cf-minimum-path.md': {
       routes:
-        | '/posts/"CF题解——Legacy"'
+        | '/posts/cf-minimum-path'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Lucky Country".md': {
+    'pages/posts/cf-minimum-spanning-tree-for-each-edge.md': {
       routes:
-        | '/posts/"CF题解——Lucky Country"'
+        | '/posts/cf-minimum-spanning-tree-for-each-edge'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Make It Increasing".md': {
+    'pages/posts/cf-mst-unification.md': {
       routes:
-        | '/posts/"CF题解——Make It Increasing"'
+        | '/posts/cf-mst-unification'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Petya and Graph".md': {
+    'pages/posts/cf-not-a-nim-problem.md': {
       routes:
-        | '/posts/"CF题解——Petya and Graph"'
+        | '/posts/cf-not-a-nim-problem'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Rearrange Brackets".md': {
+    'pages/posts/cf-one-occurrence.md': {
       routes:
-        | '/posts/"CF题解——Rearrange Brackets"'
+        | '/posts/cf-one-occurrence'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Shortest Path Queries".md': {
+    'pages/posts/cf-openstreetmap.md': {
       routes:
-        | '/posts/"CF题解——Shortest Path Queries"'
+        | '/posts/cf-openstreetmap'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Small GCD".md': {
+    'pages/posts/cf-pathwalks.md': {
       routes:
-        | '/posts/"CF题解——Small GCD"'
+        | '/posts/cf-pathwalks'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"CF题解——Tufurama".md': {
+    'pages/posts/cf-petya-and-graph.md': {
       routes:
-        | '/posts/"CF题解——Tufurama"'
+        | '/posts/cf-petya-and-graph'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"DInic模版".md': {
+    'pages/posts/cf-power-of-points.md': {
       routes:
-        | '/posts/"DInic模版"'
+        | '/posts/cf-power-of-points'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"DoubleHashMap模版".md': {
+    'pages/posts/cf-powerful-array.md': {
       routes:
-        | '/posts/"DoubleHashMap模版"'
+        | '/posts/cf-powerful-array'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"HopcroftKarp模版".md': {
+    'pages/posts/cf-present.md': {
       routes:
-        | '/posts/"HopcroftKarp模版"'
+        | '/posts/cf-present'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"J. Jewels Building".md': {
+    'pages/posts/cf-rearrange-brackets.md': {
       routes:
-        | '/posts/"J. Jewels Building"'
+        | '/posts/cf-rearrange-brackets'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"KMP模版".md': {
+    'pages/posts/cf-remainder-problem.md': {
       routes:
-        | '/posts/"KMP模版"'
+        | '/posts/cf-remainder-problem'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"Kruskal模版".md': {
+    'pages/posts/cf-restricted-sorting.md': {
       routes:
-        | '/posts/"Kruskal模版"'
+        | '/posts/cf-restricted-sorting'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"Manacher模版".md': {
+    'pages/posts/cf-round-subset.md': {
       routes:
-        | '/posts/"Manacher模版"'
+        | '/posts/cf-round-subset'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"MCMF模版".md': {
+    'pages/posts/cf-serval-and-the-formula.md': {
       routes:
-        | '/posts/"MCMF模版"'
+        | '/posts/cf-serval-and-the-formula'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"SAM模版".md': {
+    'pages/posts/cf-sheriffs-defense.md': {
       routes:
-        | '/posts/"SAM模版"'
+        | '/posts/cf-sheriffs-defense'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"ST表模版".md': {
+    'pages/posts/cf-shohag-loves-gcd.md': {
       routes:
-        | '/posts/"ST表模版"'
+        | '/posts/cf-shohag-loves-gcd'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"Tarjan模版".md': {
+    'pages/posts/cf-shortest-path-problem.md': {
       routes:
-        | '/posts/"Tarjan模版"'
+        | '/posts/cf-shortest-path-problem'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"TarjanEBCC模版".md': {
+    'pages/posts/cf-shortest-path-queries.md': {
       routes:
-        | '/posts/"TarjanEBCC模版"'
+        | '/posts/cf-shortest-path-queries'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/"zkw线段树".md': {
+    'pages/posts/cf-shovels-shop.md': {
       routes:
-        | '/posts/"zkw线段树"'
+        | '/posts/cf-shovels-shop'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/“一些对于算法题的个人见解”.md': {
+    'pages/posts/cf-small-gcd.md': {
       routes:
-        | '/posts/“一些对于算法题的个人见解”'
+        | '/posts/cf-small-gcd'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/“关于Docker的一些个人理解”.md': {
+    'pages/posts/cf-tree-painting.md': {
       routes:
-        | '/posts/“关于Docker的一些个人理解”'
+        | '/posts/cf-tree-painting'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/“如何连接IPv6的服务器”.md': {
+    'pages/posts/cf-trip-to-the-olympiad.md': {
       routes:
-        | '/posts/“如何连接IPv6的服务器”'
+        | '/posts/cf-trip-to-the-olympiad'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/“对于防御DDoS的一些思考”.md': {
+    'pages/posts/cf-tufurama.md': {
       routes:
-        | '/posts/“对于防御DDoS的一些思考”'
+        | '/posts/cf-tufurama'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/“我的第一篇个人博客”.md': {
+    'pages/posts/cf-two-editorials.md': {
       routes:
-        | '/posts/“我的第一篇个人博客”'
+        | '/posts/cf-two-editorials'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/“解决clang无法使用万能头文件”.md': {
+    'pages/posts/cf-we-need-more-bosses.md': {
       routes:
-        | '/posts/“解决clang无法使用万能头文件”'
+        | '/posts/cf-we-need-more-bosses'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/“CF题解——Not a Nim Problem”.md': {
+    'pages/posts/cf-xor-and-favorite-number.md': {
       routes:
-        | '/posts/“CF题解——Not a Nim Problem”'
+        | '/posts/cf-xor-and-favorite-number'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/关于DP的一些解题技巧.md': {
+    'pages/posts/cf-xor-tree.md': {
       routes:
-        | '/posts/关于DP的一些解题技巧'
+        | '/posts/cf-xor-tree'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/树上两点最值模版.md': {
+    'pages/posts/clang-bits-stdcxx-fix.md': {
       routes:
-        | '/posts/树上两点最值模版'
+        | '/posts/clang-bits-stdcxx-fix'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/Atc的DP专训.md': {
+    'pages/posts/connect-ipv6-server.md': {
       routes:
-        | '/posts/Atc的DP专训'
+        | '/posts/connect-ipv6-server'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——A and B and Lecture Rooms.md': {
+    'pages/posts/cpp-class-memory-leak.md': {
       routes:
-        | '/posts/CF题解——A and B and Lecture Rooms'
+        | '/posts/cpp-class-memory-leak'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Ant colony.md': {
+    'pages/posts/ddos-defense-thoughts.md': {
       routes:
-        | '/posts/CF题解——Ant colony'
+        | '/posts/ddos-defense-thoughts'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Array Shrinking.md': {
+    'pages/posts/dinic-template.md': {
       routes:
-        | '/posts/CF题解——Array Shrinking'
+        | '/posts/dinic-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Binary Median.md': {
+    'pages/posts/docker-notes.md': {
       routes:
-        | '/posts/CF题解——Binary Median'
+        | '/posts/docker-notes'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Check Transcription.md': {
+    'pages/posts/double-hash-map-template.md': {
       routes:
-        | '/posts/CF题解——Check Transcription'
+        | '/posts/double-hash-map-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Coloring Edges.md': {
+    'pages/posts/dp-problem-solving-tips.md': {
       routes:
-        | '/posts/CF题解——Coloring Edges'
+        | '/posts/dp-problem-solving-tips'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Distance to Different.md': {
+    'pages/posts/first-blog-post.md': {
       routes:
-        | '/posts/CF题解——Distance to Different'
+        | '/posts/first-blog-post'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Dogeforces.md': {
+    'pages/posts/hash-template.md': {
       routes:
-        | '/posts/CF题解——Dogeforces'
+        | '/posts/hash-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Frog Jumping.md': {
+    'pages/posts/hopcroft-karp-template.md': {
       routes:
-        | '/posts/CF题解——Frog Jumping'
+        | '/posts/hopcroft-karp-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Max Median.md': {
+    'pages/posts/keep-process-running-in-background.md': {
       routes:
-        | '/posts/CF题解——Max Median'
+        | '/posts/keep-process-running-in-background'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Maximum Value.md': {
+    'pages/posts/kmp-template.md': {
       routes:
-        | '/posts/CF题解——Maximum Value'
+        | '/posts/kmp-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Minimum Path.md': {
+    'pages/posts/kruskal-template.md': {
       routes:
-        | '/posts/CF题解——Minimum Path'
+        | '/posts/kruskal-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Minimum spanning tree for each edge.md': {
+    'pages/posts/linear-basis-template.md': {
       routes:
-        | '/posts/CF题解——Minimum spanning tree for each edge'
+        | '/posts/linear-basis-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——MST Unification.md': {
+    'pages/posts/manacher-template.md': {
       routes:
-        | '/posts/CF题解——MST Unification'
+        | '/posts/manacher-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——One Occurrence.md': {
+    'pages/posts/matrix-exponentiation-template.md': {
       routes:
-        | '/posts/CF题解——One Occurrence'
+        | '/posts/matrix-exponentiation-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——OpenStreetMap.md': {
+    'pages/posts/mcmf-template.md': {
       routes:
-        | '/posts/CF题解——OpenStreetMap'
+        | '/posts/mcmf-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Pathwalks.md': {
+    'pages/posts/mo-algorithm-template.md': {
       routes:
-        | '/posts/CF题解——Pathwalks'
+        | '/posts/mo-algorithm-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Powerful array.md': {
+    'pages/posts/multi-color-pair-shortest-path-optimization.md': {
       routes:
-        | '/posts/CF题解——Powerful array'
+        | '/posts/multi-color-pair-shortest-path-optimization'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Present.md': {
+    'pages/posts/nat-traversal-tutorial.md': {
       routes:
-        | '/posts/CF题解——Present'
+        | '/posts/nat-traversal-tutorial'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Remainder Problem.md': {
+    'pages/posts/persistent-segment-tree-template.md': {
       routes:
-        | '/posts/CF题解——Remainder Problem'
+        | '/posts/persistent-segment-tree-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Round Subset.md': {
+    'pages/posts/rollback-dsu-template.md': {
       routes:
-        | '/posts/CF题解——Round Subset'
+        | '/posts/rollback-dsu-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Shortest Path Problem.md': {
+    'pages/posts/sam-template.md': {
       routes:
-        | '/posts/CF题解——Shortest Path Problem'
+        | '/posts/sam-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Shovels Shop.md': {
+    'pages/posts/segment-tree-template.md': {
       routes:
-        | '/posts/CF题解——Shovels Shop'
+        | '/posts/segment-tree-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Tree Painting.md': {
+    'pages/posts/sparse-table-template.md': {
       routes:
-        | '/posts/CF题解——Tree Painting'
+        | '/posts/sparse-table-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Two Editorials.md': {
+    'pages/posts/tarjan-ebcc-template.md': {
       routes:
-        | '/posts/CF题解——Two Editorials'
+        | '/posts/tarjan-ebcc-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——We Need More Bosses.md': {
+    'pages/posts/tarjan-template.md': {
       routes:
-        | '/posts/CF题解——We Need More Bosses'
+        | '/posts/tarjan-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——XOR and Favorite Number.md': {
+    'pages/posts/tree-path-extreme-template.md': {
       routes:
-        | '/posts/CF题解——XOR and Favorite Number'
+        | '/posts/tree-path-extreme-template'
       views:
         | never
       pathParamNames:
         | never
     }
-    'pages/posts/CF题解——Xor Tree.md': {
+    'pages/posts/zkw-segment-tree-template.md': {
       routes:
-        | '/posts/CF题解——Xor Tree'
+        | '/posts/zkw-segment-tree-template'
       views:
         | never
       pathParamNames:
