@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://shouw.blog/</id>
     <title>shouwのblog</title>
-    <updated>2026-08-20T05:06:21.207Z</updated>
+    <updated>2026-08-20T05:11:38.001Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>shouw</name>
@@ -770,23 +770,6 @@ struct ST {
         <published>2026-04-14T11:51:18.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[千万级稠密图下的多色点对最短路优化方案]]></title>
-        <id>https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</id>
-        <link href="https://shouw.blog/posts/multi-color-pair-shortest-path-optimization"/>
-        <updated>2026-04-13T18:22:18.000Z</updated>
-        <content type="html"><![CDATA[<h1>千万级稠密图下的多色点对最短路优化方案</h1>
-<h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>
-<h3>一、 算法原理：二进制分组与最短路引擎</h3>
-<p>为了让博客</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/multi-color-pair-shortest-path-optimization" target="_blank">https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>shouw</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2026-04-13T18:22:18.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[CF题解——Jewels Building]]></title>
         <id>https://shouw.blog/posts/cf-jewels-building</id>
         <link href="https://shouw.blog/posts/cf-jewels-building"/>
@@ -852,21 +835,6 @@ struct ST {
             <uri>https://valaxy.site</uri>
         </author>
         <published>2026-04-10T14:37:20.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于C++的类内存泄漏相关]]></title>
-        <id>https://shouw.blog/posts/cpp-class-memory-leak</id>
-        <link href="https://shouw.blog/posts/cpp-class-memory-leak"/>
-        <updated>2026-04-10T14:28:09.000Z</updated>
-        <content type="html"><![CDATA[<p>最近在打多测（<code>while(t--)</code>）的图论和树形 DP 题时，我踩了一个极其折磨人的坑。</p>
-<p>明明我的时间复杂度算得死死的绝对没问题，但提交上去总是莫名其妙地 **MLE（Memory Limit</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/cpp-class-memory-leak" target="_blank">https://shouw.blog/posts/cpp-class-memory-leak</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>shouw</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2026-04-10T14:28:09.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[CF题解——Tufurama]]></title>
@@ -1581,21 +1549,6 @@ a</p>
             <uri>https://valaxy.site</uri>
         </author>
         <published>2025-10-13T20:45:17.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“一些对于算法题的个人见解”]]></title>
-        <id>https://shouw.blog/posts/algorithm-problem-solving-notes</id>
-        <link href="https://shouw.blog/posts/algorithm-problem-solving-notes"/>
-        <updated>2025-10-13T20:31:22.000Z</updated>
-        <content type="html"><![CDATA[<p>大学的时间真的很自由，而且特别充裕，所以我下定决心要找点真正有意义的事情来做，比如，<strong>学算法，然后参加比赛。</strong></p>
-<p>这个想法其实从高中就开始在脑子里转了。虽然因为各种原因，我高中只读了一年半，但我</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/algorithm-problem-solving-notes" target="_blank">https://shouw.blog/posts/algorithm-problem-solving-notes</a> 阅读全文。</p>]]></content>
-        <author>
-            <name>shouw</name>
-            <email>i@valaxy.site</email>
-            <uri>https://valaxy.site</uri>
-        </author>
-        <published>2025-10-13T20:31:22.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[“对于防御DDoS的一些思考”]]></title>

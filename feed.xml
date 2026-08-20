@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Thu, 20 Aug 2026 05:06:21 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 20 Aug 2026 05:11:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -544,18 +544,6 @@ struct ST {
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
-            <title><![CDATA[千万级稠密图下的多色点对最短路优化方案]]></title>
-            <link>https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</guid>
-            <pubDate>Mon, 13 Apr 2026 18:22:18 GMT</pubDate>
-            <content:encoded><![CDATA[<h1>千万级稠密图下的多色点对最短路优化方案</h1>
-<h3>——为什么 PQ-SPFA（Dijkstra 变体）在高性能架构下能实现百倍超越？</h3>
-<h3>一、 算法原理：二进制分组与最短路引擎</h3>
-<p>为了让博客</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/multi-color-pair-shortest-path-optimization" target="_blank">https://shouw.blog/posts/multi-color-pair-shortest-path-optimization</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (shouw)</author>
-        </item>
-        <item>
             <title><![CDATA[CF题解——Jewels Building]]></title>
             <link>https://shouw.blog/posts/cf-jewels-building</link>
             <guid isPermaLink="false">https://shouw.blog/posts/cf-jewels-building</guid>
@@ -600,16 +588,6 @@ struct ST {
 <h3>核心问题分析</h3>
 <p>题意非常直白：给定一个只包含 <code>0</code>, <code>1</code>, <code>?</code> 的字符串。你需要把所有的 <code>?</code> 替换成 <code>0</code> 或 <code>1</code>，</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/cf-inversion-pairs" target="_blank">https://shouw.blog/posts/cf-inversion-pairs</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (shouw)</author>
-        </item>
-        <item>
-            <title><![CDATA[关于C++的类内存泄漏相关]]></title>
-            <link>https://shouw.blog/posts/cpp-class-memory-leak</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/cpp-class-memory-leak</guid>
-            <pubDate>Fri, 10 Apr 2026 14:28:09 GMT</pubDate>
-            <content:encoded><![CDATA[<p>最近在打多测（<code>while(t--)</code>）的图论和树形 DP 题时，我踩了一个极其折磨人的坑。</p>
-<p>明明我的时间复杂度算得死死的绝对没问题，但提交上去总是莫名其妙地 **MLE（Memory Limit</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/cpp-class-memory-leak" target="_blank">https://shouw.blog/posts/cpp-class-memory-leak</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
@@ -1114,16 +1092,6 @@ a</p>
             <content:encoded><![CDATA[<h1>如何通过 FinalShell 连接纯 IPv6 服务器？</h1>
 <p>要连接只支持 IPv6 地址的服务器，核心前提是<strong>你本地的电脑或网络设备必须具备 IPv6 访问能力</strong>。下面提供两种最常见的解决</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/connect-ipv6-server" target="_blank">https://shouw.blog/posts/connect-ipv6-server</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (shouw)</author>
-        </item>
-        <item>
-            <title><![CDATA[“一些对于算法题的个人见解”]]></title>
-            <link>https://shouw.blog/posts/algorithm-problem-solving-notes</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/algorithm-problem-solving-notes</guid>
-            <pubDate>Mon, 13 Oct 2025 20:31:22 GMT</pubDate>
-            <content:encoded><![CDATA[<p>大学的时间真的很自由，而且特别充裕，所以我下定决心要找点真正有意义的事情来做，比如，<strong>学算法，然后参加比赛。</strong></p>
-<p>这个想法其实从高中就开始在脑子里转了。虽然因为各种原因，我高中只读了一年半，但我</p>
-<br/><p>访问 <a href="https://shouw.blog/posts/algorithm-problem-solving-notes" target="_blank">https://shouw.blog/posts/algorithm-problem-solving-notes</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>

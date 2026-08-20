@@ -1,1 +1,0 @@
-import{I as e}from"./theme.KURoBMPI.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};
