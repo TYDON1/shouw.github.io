@@ -7,7 +7,7 @@ title: 关于我
 友链链接
 links:
   - blog: shouw's blog
-    name: shouw
-    url: https://shouw.blog/
-    avatar: https://shouw.blog/avatar.jpg
-    desc: the daybreak will never come again.
+  - name: shouw
+  - url: https://shouw.blog/
+  - avatar: https://shouw.blog/avatar.jpg
+  - desc: the daybreak will never come again.
