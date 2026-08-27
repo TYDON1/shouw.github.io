@@ -11,6 +11,438 @@
     },
     "items": [
         {
+            "id": "https://shouw.blog/posts/pam-template",
+            "content_html": "<h2>PAM模版</h2>\n<pre><code class=\"language-cpp\">struct PAM {\n    struct State {\n        int len, fail;\n        int next[26];\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/pam-template\" target=\"_blank\">https://shouw.blog/posts/pam-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/pam-template",
+            "title": "PAM模版",
+            "date_modified": "2026-08-27T22:36:52.000Z",
+            "date_published": "2026-08-27T22:36:52.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/adaptive-simpson-template",
+            "content_html": "<h2>自适应Simpson积分模版</h2>\n<pre><code class=\"language-cpp\">struct AdaptiveSimpson {\n    function&lt;double(double)&gt; f;\n\n    AdaptiveSim</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/adaptive-simpson-template\" target=\"_blank\">https://shouw.blog/posts/adaptive-simpson-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/adaptive-simpson-template",
+            "title": "自适应Simpson积分模版",
+            "date_modified": "2026-08-27T22:29:14.000Z",
+            "date_published": "2026-08-27T22:29:14.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/matrix-tree-theorem-template",
+            "content_html": "<h2>矩阵树定理模版</h2>\n<pre><code class=\"language-cpp\">struct MatrixTree {\n    const int MOD = 1000000007;\n\n    int qpow(int a, int b) </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/matrix-tree-theorem-template\" target=\"_blank\">https://shouw.blog/posts/matrix-tree-theorem-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/matrix-tree-theorem-template",
+            "title": "矩阵树定理模版",
+            "date_modified": "2026-08-27T22:22:37.000Z",
+            "date_published": "2026-08-27T22:22:37.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/z-function-template",
+            "content_html": "<h2>Z函数模版</h2>\n<pre><code class=\"language-cpp\">struct ZFunction {\n    vector&lt;int&gt; z;\n\n    // z[i] = s 与 s 从下标 i 开始的后缀的最长公共前缀长度，z[</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/z-function-template\" target=\"_blank\">https://shouw.blog/posts/z-function-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/z-function-template",
+            "title": "Z函数模版",
+            "date_modified": "2026-08-27T22:15:53.000Z",
+            "date_published": "2026-08-27T22:15:53.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cartesian-tree-template",
+            "content_html": "<h2>笛卡尔树模版</h2>\n<pre><code class=\"language-cpp\">// 按值建小根堆笛卡尔树，中序遍历即原数组下标顺序\n// 区间 [l, r] 的最小值下标 = 笛卡尔树上 l 和 r 的 LCA，可配合 LCA 模版做 O(</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cartesian-tree-template\" target=\"_blank\">https://shouw.blog/posts/cartesian-tree-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cartesian-tree-template",
+            "title": "笛卡尔树模版",
+            "date_modified": "2026-08-27T22:09:16.000Z",
+            "date_published": "2026-08-27T22:09:16.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/li-chao-tree-template",
+            "content_html": "<h2>李超线段树模版</h2>\n<pre><code class=\"language-cpp\">struct LiChaoTree {\n    struct Line {\n        int k, b;\n        int eval(int x) </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/li-chao-tree-template\" target=\"_blank\">https://shouw.blog/posts/li-chao-tree-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/li-chao-tree-template",
+            "title": "李超线段树模版",
+            "date_modified": "2026-08-27T22:02:41.000Z",
+            "date_published": "2026-08-27T22:02:41.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/suffix-array-template",
+            "content_html": "<h2>后缀数组模版</h2>\n<pre><code class=\"language-cpp\">// O(n log^2 n) 倍增法，n 在 1e5 级别足够快；更大规模可换成基数排序做到 O(n log n)\nstruct SuffixArray {\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/suffix-array-template\" target=\"_blank\">https://shouw.blog/posts/suffix-array-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/suffix-array-template",
+            "title": "后缀数组模版",
+            "date_modified": "2026-08-27T21:55:19.000Z",
+            "date_published": "2026-08-27T21:55:19.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/long-path-decomposition-template",
+            "content_html": "<h2>长链剖分模版</h2>\n<pre><code class=\"language-cpp\">// O(n log n) 预处理，O(1) 查询 k 级祖先\nstruct LongPathDecomp {\n    int n, LOG;\n    vecto</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/long-path-decomposition-template\" target=\"_blank\">https://shouw.blog/posts/long-path-decomposition-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/long-path-decomposition-template",
+            "title": "长链剖分模版",
+            "date_modified": "2026-08-27T21:48:33.000Z",
+            "date_published": "2026-08-27T21:48:33.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/dsu-on-tree-template",
+            "content_html": "<h2>树上启发式合并模版</h2>\n<pre><code class=\"language-cpp\">// 例题：统计每个点子树内不同颜色的个数\nstruct DsuOnTree {\n    int n, timer, cur_ans;\n    vector</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/dsu-on-tree-template\" target=\"_blank\">https://shouw.blog/posts/dsu-on-tree-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/dsu-on-tree-template",
+            "title": "树上启发式合并模版",
+            "date_modified": "2026-08-27T21:40:07.000Z",
+            "date_published": "2026-08-27T21:40:07.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/centroid-decomposition-template",
+            "content_html": "<h2>点分治模版</h2>\n<pre><code class=\"language-cpp\">struct CentroidDecomp {\n    int n;\n    vector&lt;vector&lt;pair&lt;int, int&gt;&gt;&gt; adj; // {to,</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/centroid-decomposition-template\" target=\"_blank\">https://shouw.blog/posts/centroid-decomposition-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/centroid-decomposition-template",
+            "title": "点分治模版",
+            "date_modified": "2026-08-27T21:32:44.000Z",
+            "date_published": "2026-08-27T21:32:44.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/virtual-tree-template",
+            "content_html": "<h2>虚树模版</h2>\n<pre><code class=\"language-cpp\">struct VirtualTree {\n    int n, timer, LOG;\n    vector&lt;vector&lt;int&gt;&gt; adj, vadj, anc;</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/virtual-tree-template\" target=\"_blank\">https://shouw.blog/posts/virtual-tree-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/virtual-tree-template",
+            "title": "虚树模版",
+            "date_modified": "2026-08-27T21:25:18.000Z",
+            "date_published": "2026-08-27T21:25:18.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/2-sat-template",
+            "content_html": "<h2>2-SAT模版</h2>\n<pre><code class=\"language-cpp\">struct TwoSAT {\n    int n;\n    vector&lt;vector&lt;int&gt;&gt; adj, radj;\n    vector&lt;int&gt; or</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/2-sat-template\" target=\"_blank\">https://shouw.blog/posts/2-sat-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/2-sat-template",
+            "title": "2-SAT模版",
+            "date_modified": "2026-08-27T21:17:52.000Z",
+            "date_published": "2026-08-27T21:17:52.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/bsgs-template",
+            "content_html": "<h2>BSGS与扩展BSGS模版</h2>\n<pre><code class=\"language-cpp\">struct BSGS {\n    int exgcd(int a, int b, int&amp; x, int&amp; y) {\n        if (b </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/bsgs-template\" target=\"_blank\">https://shouw.blog/posts/bsgs-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/bsgs-template",
+            "title": "BSGS与扩展BSGS模版",
+            "date_modified": "2026-08-27T21:10:29.000Z",
+            "date_published": "2026-08-27T21:10:29.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/exgcd-crt-template",
+            "content_html": "<h2>exgcd与中国剩余定理模版</h2>\n<pre><code class=\"language-cpp\">struct ExGCD {\n    int exgcd(int a, int b, int&amp; x, int&amp; y) {\n        if (</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/exgcd-crt-template\" target=\"_blank\">https://shouw.blog/posts/exgcd-crt-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/exgcd-crt-template",
+            "title": "exgcd与中国剩余定理模版",
+            "date_modified": "2026-08-27T21:03:47.000Z",
+            "date_published": "2026-08-27T21:03:47.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/lct-template",
+            "content_html": "<h2>Link-Cut Tree模版</h2>\n<pre><code class=\"language-cpp\">struct LCT {\n    struct Node {\n        int ch[2], fa, val, xor_sum;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/lct-template\" target=\"_blank\">https://shouw.blog/posts/lct-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/lct-template",
+            "title": "Link-Cut Tree模版",
+            "date_modified": "2026-08-27T20:56:14.000Z",
+            "date_published": "2026-08-27T20:56:14.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/lca-binary-lifting-template",
+            "content_html": "<h2>LCA倍增模版</h2>\n<pre><code class=\"language-cpp\">struct LCA {\n    int n, LOG;\n    vector&lt;vector&lt;int&gt;&gt; adj, anc;\n    vector&lt;int&gt; d</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/lca-binary-lifting-template\" target=\"_blank\">https://shouw.blog/posts/lca-binary-lifting-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/lca-binary-lifting-template",
+            "title": "LCA倍增模版",
+            "date_modified": "2026-08-27T20:47:36.000Z",
+            "date_published": "2026-08-27T20:47:36.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/hld-template",
+            "content_html": "<h2>树链剖分模版</h2>\n<pre><code class=\"language-cpp\">struct HLD {\n    int n, timer;\n    vector&lt;vector&lt;int&gt;&gt; adj;\n    vector&lt;int&gt; par, </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/hld-template\" target=\"_blank\">https://shouw.blog/posts/hld-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/hld-template",
+            "title": "树链剖分模版",
+            "date_modified": "2026-08-27T20:41:52.000Z",
+            "date_published": "2026-08-27T20:41:52.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/fhq-treap-template",
+            "content_html": "<h2>FHQ Treap模版</h2>\n<pre><code class=\"language-cpp\">struct FHQTreap {\n    struct Node {\n        int l, r, val, pri, sz;\n    };\n\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/fhq-treap-template\" target=\"_blank\">https://shouw.blog/posts/fhq-treap-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/fhq-treap-template",
+            "title": "FHQ Treap模版",
+            "date_modified": "2026-08-27T20:34:19.000Z",
+            "date_published": "2026-08-27T20:34:19.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/miller-rabin-pollard-rho-template",
+            "content_html": "<h2>Miller-Rabin与Pollard-rho模版</h2>\n<pre><code class=\"language-cpp\">struct PrimeFactor {\n    // n 可能超出 int 的乘法范围（int 已是 64 位），用 _</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/miller-rabin-pollard-rho-template\" target=\"_blank\">https://shouw.blog/posts/miller-rabin-pollard-rho-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/miller-rabin-pollard-rho-template",
+            "title": "Miller-Rabin与Pollard-rho模版",
+            "date_modified": "2026-08-27T20:26:05.000Z",
+            "date_published": "2026-08-27T20:26:05.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/lagrange-interpolation-template",
+            "content_html": "<h2>拉格朗日插值模版</h2>\n<pre><code class=\"language-cpp\">struct Lagrange {\n    const int MOD = 1000000007;\n\n    int qpow(int a, int b) {</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/lagrange-interpolation-template\" target=\"_blank\">https://shouw.blog/posts/lagrange-interpolation-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/lagrange-interpolation-template",
+            "title": "拉格朗日插值模版",
+            "date_modified": "2026-08-27T20:18:22.000Z",
+            "date_published": "2026-08-27T20:18:22.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/polynomial-template",
+            "content_html": "<h2>多项式全家桶模版</h2>\n<pre><code class=\"language-cpp\">struct Poly {\n    const int MOD = 998244353, G = 3, GI = 332748118;\n\n    int qp</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/polynomial-template\" target=\"_blank\">https://shouw.blog/posts/polynomial-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/polynomial-template",
+            "title": "多项式全家桶模版",
+            "date_modified": "2026-08-27T20:11:47.000Z",
+            "date_published": "2026-08-27T20:11:47.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/ntt-template",
+            "content_html": "<h2>NTT模版</h2>\n<pre><code class=\"language-cpp\">struct NTT {\n    const int MOD = 998244353, G = 3, GI = 332748118;\n\n    int qpow(i</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/ntt-template\" target=\"_blank\">https://shouw.blog/posts/ntt-template</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/ntt-template",
+            "title": "NTT模版",
+            "date_modified": "2026-08-27T20:03:11.000Z",
+            "date_published": "2026-08-27T20:03:11.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-sliding-tree",
+            "content_html": "<h1>D. Sliding Tree 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：给一棵 $n$ 个点的树，定义一次 <strong>sliding 操作</strong>：</p>\n<ol>\n<li>选三个互不相同的点 $a, b, c$，要求</li>\n</ol>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-sliding-tree\" target=\"_blank\">https://shouw.blog/posts/cf-sliding-tree</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-sliding-tree",
+            "title": "CF题解——Sliding Tree",
+            "date_modified": "2026-06-17T20:44:26.000Z",
+            "date_published": "2026-06-17T20:44:26.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-excellent-arrays",
+            "content_html": "<h1>D. Excellent Arrays 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：称数组 $a_1, \\dots, a_n$ 是 <strong>good</strong> 的，如果对每个 $i$ 都有 $a_i \\ne</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-excellent-arrays\" target=\"_blank\">https://shouw.blog/posts/cf-excellent-arrays</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-excellent-arrays",
+            "title": "CF题解——Excellent Arrays",
+            "date_modified": "2026-06-16T21:34:52.000Z",
+            "date_published": "2026-06-16T21:34:52.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-tom-and-jerry",
+            "content_html": "<h1>E. Tom and Jerry 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：给一棵 $n$ 个点的树。Tom 和 Jerry 轮流操作，Tom 先手。第 $i$ 轮当前玩家选一条简单路径 $(x</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-tom-and-jerry\" target=\"_blank\">https://shouw.blog/posts/cf-tom-and-jerry</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-tom-and-jerry",
+            "title": "CF题解——Tom and Jerry",
+            "date_modified": "2026-06-15T22:12:48.000Z",
+            "date_published": "2026-06-15T22:12:48.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-game-of-the-year",
+            "content_html": "<h1>E. Game of the Year 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：有 $n$ 个 boss。给定一个参数 $k$，两个人轮流打：Monocarp 打 $k$ 次，Polycarp</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-game-of-the-year\" target=\"_blank\">https://shouw.blog/posts/cf-game-of-the-year</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-game-of-the-year",
+            "title": "CF题解——Game of the Year",
+            "date_modified": "2026-06-14T20:51:36.000Z",
+            "date_published": "2026-06-14T20:51:36.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-graph-cutting",
+            "content_html": "<h1>E. Graph Cutting 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：给定一棵 $n$ 个点的树。选三个互不相同的点 $a &lt; b &lt; c$，砍出<strong>包含这三个点的最小连通子图</strong>（也就是</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-graph-cutting\" target=\"_blank\">https://shouw.blog/posts/cf-graph-cutting</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-graph-cutting",
+            "title": "CF题解——Graph Cutting",
+            "date_modified": "2026-06-13T21:29:07.000Z",
+            "date_published": "2026-06-13T21:29:07.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-fenwick-tree",
+            "content_html": "<h1>C. Fenwick Tree 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：定义 $\\text{lowbit}(x)$ 为 $x$ 二进制最低位的值。对长度为 $n$ 的数组 $a$，定义它的**</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-fenwick-tree\" target=\"_blank\">https://shouw.blog/posts/cf-fenwick-tree</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-fenwick-tree",
+            "title": "CF题解——Fenwick Tree",
+            "date_modified": "2026-06-12T20:58:41.000Z",
+            "date_published": "2026-06-12T20:58:41.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-xor-mst",
+            "content_html": "<h1>G. Xor-MST 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意短得离谱：给定 $n$ 个数 $a_1, \\dots, a_n$，把它们看成一张<strong>完全图</strong>的 $n$ 个点，点 $i$ 与点 $</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-xor-mst\" target=\"_blank\">https://shouw.blog/posts/cf-xor-mst</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-xor-mst",
+            "title": "CF题解——Xor-MST",
+            "date_modified": "2026-06-11T22:14:53.000Z",
+            "date_published": "2026-06-11T22:14:53.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-love-hate",
+            "content_html": "<h1>D. Love-Hate 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：$n$ 个朋友，$m$ 种货币。给出一个 $n \\times m$ 的 01 矩阵，第 $i$ 行第 $j$ 列为 $1$ 表</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-love-hate\" target=\"_blank\">https://shouw.blog/posts/cf-love-hate</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-love-hate",
+            "title": "CF题解——Love-Hate",
+            "date_modified": "2026-06-10T21:36:24.000Z",
+            "date_published": "2026-06-10T21:36:24.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-remove-the-grail-tree",
+            "content_html": "<h1>H. Remove the Grail Tree 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>给一棵 $n$ 个点的树，每个点有权值 $a_v$。每次操作可以选一个点 $v$，设 $S_v$ 为 $v$</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-remove-the-grail-tree\" target=\"_blank\">https://shouw.blog/posts/cf-remove-the-grail-tree</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-remove-the-grail-tree",
+            "title": "CF题解——Remove the Grail Tree",
+            "date_modified": "2026-06-09T21:34:02.000Z",
+            "date_published": "2026-06-09T21:34:02.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-minimum-array",
+            "content_html": "<h1>C. Minimum Array 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：给定长度为 $n$ 的数组 $a$，依次对它执行 $q$ 次区间加操作——第 $k$ 次操作给定 $(l_k, r_k</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-minimum-array\" target=\"_blank\">https://shouw.blog/posts/cf-minimum-array</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-minimum-array",
+            "title": "CF题解——Minimum Array",
+            "date_modified": "2026-06-08T21:12:47.000Z",
+            "date_published": "2026-06-08T21:12:47.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-covered-points",
+            "content_html": "<h1>E. Covered Points 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：平面上给定 $n$ 条线段，端点都是整点。<strong>保证没有两条线段共线</strong>。问：一共有多少个<strong>不同的整点</strong>被至少一条</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-covered-points\" target=\"_blank\">https://shouw.blog/posts/cf-covered-points</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-covered-points",
+            "title": "CF题解——Covered Points",
+            "date_modified": "2026-06-07T22:05:19.000Z",
+            "date_published": "2026-06-07T22:05:19.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-choose-a-square",
+            "content_html": "<h1>F. Choose a Square 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：平面上有 $n$ 个点，第 $i$ 个点在 $(x_i, y_i)$，权值为 $c_i$（<strong>可以是负数</strong>）。要</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-choose-a-square\" target=\"_blank\">https://shouw.blog/posts/cf-choose-a-square</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-choose-a-square",
+            "title": "CF题解——Choose a Square",
+            "date_modified": "2026-06-06T21:47:33.000Z",
+            "date_published": "2026-06-06T21:47:33.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-swap-and-maximum-block",
+            "content_html": "<h1>E. Swap and Maximum Block 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：给定一个长度为 $2^n$ 的数组 $a$。允许的操作是：任选一个 $k$（$0 \\le k &lt; n</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-swap-and-maximum-block\" target=\"_blank\">https://shouw.blog/posts/cf-swap-and-maximum-block</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-swap-and-maximum-block",
+            "title": "CF题解——Swap and Maximum Block",
+            "date_modified": "2026-06-04T21:18:36.000Z",
+            "date_published": "2026-06-04T21:18:36.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "https://shouw.blog/posts/cf-yet-another-minimization-problem",
+            "content_html": "<h1>F. Yet Another Minimization Problem 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意：给定长度为 $n$ 的数组 $a$，定义一个子段的“代价”为该子段内**值相同的</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-yet-another-minimization-problem\" target=\"_blank\">https://shouw.blog/posts/cf-yet-another-minimization-problem</a> 阅读全文。</p>",
+            "url": "https://shouw.blog/posts/cf-yet-another-minimization-problem",
+            "title": "CF题解——Yet Another Minimization Problem",
+            "date_modified": "2026-06-03T21:34:52.000Z",
+            "date_published": "2026-06-03T21:34:52.000Z",
+            "author": {
+                "name": "shouw",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
             "id": "https://shouw.blog/posts/cf-max-median",
             "content_html": "<h1>D. Max Median 解题思路</h1>\n<h3>核心问题分析</h3>\n<p>题意很短：给定一个长度为 $n$ 的数组 $a$，在所有<strong>长度至少为 $k$</strong> 的连续子数组里，找出<strong>中位数最大</strong>的那个，</p>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/cf-max-median\" target=\"_blank\">https://shouw.blog/posts/cf-max-median</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/cf-max-median",
