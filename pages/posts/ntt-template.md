@@ -71,7 +71,7 @@ struct NTT {
     }
     vector<int> multiply(const vector<int>& A, const vector<int>& B) {
         if (A.empty() || B.empty()) return {};
-        int tot = A.size() + B.size() - 1;
+        int tot = sz(A) + sz(B) - 1;
         int sz = 1;
         while (sz < tot) sz <<= 1;
         vector<int> a = A, b = B;
