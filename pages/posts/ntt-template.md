@@ -17,11 +17,10 @@ tags:
 
 ```cpp
 struct NTT {
-    const int MOD = 998244353, G = 3, GI = 332748118;
-
+    const int MOD = 998244353;
+    const int G = 3;
     int qpow(int a, int b) {
         int res = 1;
-        a %= MOD;
         while (b > 0) {
             if (b & 1) res = res * a % MOD;
             a = a * a % MOD;
@@ -29,42 +28,60 @@ struct NTT {
         }
         return res;
     }
-
-    void transform(vector<int>& a, bool inv) {
-        int n = a.size();
-        for (int i = 1, j = 0; i < n; i++) {
-            int bit = n >> 1;
-            for (; j & bit; bit >>= 1) j ^= bit;
-            j ^= bit;
-            if (i < j) swap(a[i], a[j]);
+    vector<int> rev, rt;
+    void init(int n) {
+        if (sz(rev) == n) return;
+        rev.resize(n);
+        for (int i = 0; i < n; i++) {
+            rev[i] = (rev[i >> 1] >> 1) | ((i & 1) * (n >> 1));
         }
-        for (int len = 2; len <= n; len <<= 1) {
-            int w = qpow(inv ? GI : G, (MOD - 1) / len);
-            for (int i = 0; i < n; i += len) {
-                int wn = 1;
-                for (int j = 0; j < len / 2; j++) {
-                    int u = a[i + j], v = a[i + j + len / 2] * wn % MOD;
-                    a[i + j] = (u + v) % MOD;
-                    a[i + j + len / 2] = (u - v + MOD) % MOD;
-                    wn = wn * w % MOD;
+        if (rt.empty()) {
+            rt = {1, 1};
+        }
+        for (int k = rt.size(); k < n; k *= 2) {
+            rt.resize(k * 2);
+            int z = qpow(G, (MOD - 1) / (k * 2));
+            for (int i = k / 2; i < k; i++) {
+                rt[2 * i] = rt[i];
+                rt[2 * i + 1] = rt[i] * z % MOD;
+            }
+        }
+    }
+    void transform(vector<int>& a, bool inv) {
+        int n = sz(a);
+        init(n);
+        for (int i = 0; i < n; i++) {
+            if (i < rev[i]) swap(a[i], a[rev[i]]);
+        }
+        for (int k = 1; k < n; k *= 2) {
+            for (int i = 0; i < n; i += 2 * k) {
+                for (int j = 0; j < k; j++) {
+                    int u = a[i + j];
+                    int v = a[i + j + k] * rt[k + j] % MOD;
+                    a[i + j] = u + v >= MOD ? u + v - MOD : u + v;
+                    a[i + j + k] = u - v < 0 ? u - v + MOD : u - v;
                 }
             }
         }
         if (inv) {
-            int n_inv = qpow(n, MOD - 2);
-            for (int& x : a) x = x * n_inv % MOD;
+            reverse(a.begin() + 1, a.end());
+            int inv_n = qpow(n, MOD - 2);
+            for (int& x : a) x = x * inv_n % MOD;
         }
     }
-
-    // 返回 a、b 两个多项式的卷积（系数表示）
-    vector<int> multiply(vector<int> a, vector<int> b) {
-        int tot = a.size() + b.size() - 1, sz = 1;
+    vector<int> multiply(const vector<int>& A, const vector<int>& B) {
+        if (A.empty() || B.empty()) return {};
+        int tot = A.size() + B.size() - 1;
+        int sz = 1;
         while (sz < tot) sz <<= 1;
+        vector<int> a = A, b = B;
         a.resize(sz);
         b.resize(sz);
         transform(a, false);
         transform(b, false);
-        for (int i = 0; i < sz; i++) a[i] = a[i] * b[i] % MOD;
+        for (int i = 0; i < sz; i++) {
+            a[i] = a[i] * b[i] % MOD;
+        }
         transform(a, true);
         a.resize(tot);
         return a;
