@@ -1,1 +1,0 @@
-import{I as e}from"./theme._fx_f2WG.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};

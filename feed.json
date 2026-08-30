@@ -264,7 +264,7 @@
         },
         {
             "id": "https://shouw.blog/posts/ntt-template",
-            "content_html": "<h2>NTT模版</h2>\n<pre><code class=\"language-cpp\">struct NTT {\n    const int MOD = 998244353, G = 3, GI = 332748118;\n\n    int qpow(i</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/ntt-template\" target=\"_blank\">https://shouw.blog/posts/ntt-template</a> 阅读全文。</p>",
+            "content_html": "<h2>NTT模版</h2>\n<pre><code class=\"language-cpp\">struct NTT {\n    const int MOD = 998244353;\n    const int G = 3;\n    int qpow(int </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/ntt-template\" target=\"_blank\">https://shouw.blog/posts/ntt-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/ntt-template",
             "title": "NTT模版",
             "date_modified": "2026-08-27T20:03:11.000Z",
