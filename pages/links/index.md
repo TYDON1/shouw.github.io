@@ -26,7 +26,12 @@ links:
     url: https://arplane.art/
     avatar: https://shouw.blog/yl1.jpg
     desc: 一个做音乐的，偶尔还做点别的
-random: true
+  - name: 幻想gensou
+    blog: 幻想gensou的主页
+    url: https://www.gensou.cn/
+    avatar: https://www.gensou.cn/assets/logos.png
+    desc: 自分を世界一の美少女だと思っている人の個人ページで、日常生活やテクノロジー、知識の共有などの内容を扱っている。でもとても引きこもり気質～
+    random: false
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
