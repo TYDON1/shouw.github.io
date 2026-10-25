@@ -26,7 +26,7 @@ links:
     url: https://arplane.art/
     avatar: https://shouw.blog/yl1.jpg
     desc: 一个做音乐的，偶尔还做点别的
-    random: true
+random: true
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
