@@ -12,7 +12,7 @@
     "items": [
         {
             "id": "https://shouw.blog/posts/pam-template",
-            "content_html": "<h2>PAM模版</h2>\n<pre><code class=\"language-cpp\">struct PAM {\n    struct State {\n        int len, fail;\n        int next[26];\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/pam-template\" target=\"_blank\">https://shouw.blog/posts/pam-template</a> 阅读全文。</p>",
+            "content_html": "<h2>PAM模版</h2>\n<pre><code class=\"language-cpp\">struct PAM {\n    struct State {\n        int len, fail;\n        int next[26];\n     </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/pam-template\" target=\"_blank\">https://shouw.blog/posts/pam-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/pam-template",
             "title": "PAM模版",
             "date_modified": "2026-08-27T22:36:52.000Z",
@@ -84,7 +84,7 @@
         },
         {
             "id": "https://shouw.blog/posts/suffix-array-template",
-            "content_html": "<h2>后缀数组模版</h2>\n<pre><code class=\"language-cpp\">// O(n log^2 n) 倍增法，n 在 1e5 级别足够快；更大规模可换成基数排序做到 O(n log n)\nstruct SuffixArray {\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/suffix-array-template\" target=\"_blank\">https://shouw.blog/posts/suffix-array-template</a> 阅读全文。</p>",
+            "content_html": "<h2>后缀数组模版</h2>\n<pre><code class=\"language-cpp\">// O(n log^2 n) 倍增法，n 在 1e5 级别足够快；更大规模可换成基数排序做到 O(n log n)\nstruct SuffixArray {\n </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/suffix-array-template\" target=\"_blank\">https://shouw.blog/posts/suffix-array-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/suffix-array-template",
             "title": "后缀数组模版",
             "date_modified": "2026-08-27T21:55:19.000Z",
@@ -180,7 +180,7 @@
         },
         {
             "id": "https://shouw.blog/posts/lct-template",
-            "content_html": "<h2>Link-Cut Tree模版</h2>\n<pre><code class=\"language-cpp\">struct LCT {\n    struct Node {\n        int ch[2], fa, val, xor_sum;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/lct-template\" target=\"_blank\">https://shouw.blog/posts/lct-template</a> 阅读全文。</p>",
+            "content_html": "<h2>Link-Cut Tree模版</h2>\n<pre><code class=\"language-cpp\">struct LCT {\n    struct Node {\n        int ch[2], fa, val, xor_sum;\n    </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/lct-template\" target=\"_blank\">https://shouw.blog/posts/lct-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/lct-template",
             "title": "Link-Cut Tree模版",
             "date_modified": "2026-08-27T20:56:14.000Z",
@@ -768,7 +768,7 @@
         },
         {
             "id": "https://shouw.blog/posts/tarjan-ebcc-template",
-            "content_html": "<pre><code class=\"language-cpp\">struct Edge {\n    int to;\n    int id; // 边的编号，非常重要，用于防止走回头路和记录桥\n};\n\nstruct TarjanEBCC {\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/tarjan-ebcc-template\" target=\"_blank\">https://shouw.blog/posts/tarjan-ebcc-template</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">struct Edge {\n    int to;\n    int id; // 边的编号，非常重要，用于防止走回头路和记录桥\n};\n\nstruct TarjanEBCC {\n    </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/tarjan-ebcc-template\" target=\"_blank\">https://shouw.blog/posts/tarjan-ebcc-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/tarjan-ebcc-template",
             "title": "TarjanEBCC模版",
             "date_modified": "2026-05-06T13:21:41.000Z",
@@ -876,7 +876,7 @@
         },
         {
             "id": "https://shouw.blog/posts/mo-algorithm-template",
-            "content_html": "<pre><code class=\"language-cpp\">struct MoSolver {\n    struct Query {\n        int l, r, id, block;\n        // 奇偶优化排序\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/mo-algorithm-template\" target=\"_blank\">https://shouw.blog/posts/mo-algorithm-template</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">struct MoSolver {\n    struct Query {\n        int l, r, id, block;\n        // 奇偶优化排序\n        </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/mo-algorithm-template\" target=\"_blank\">https://shouw.blog/posts/mo-algorithm-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/mo-algorithm-template",
             "title": "莫队模版",
             "date_modified": "2026-04-20T16:32:27.000Z",
@@ -948,7 +948,7 @@
         },
         {
             "id": "https://shouw.blog/posts/sparse-table-template",
-            "content_html": "<pre><code class=\"language-cpp\">template &lt;typename T&gt;\nstruct ST {\n    int n;\n    int max_log;\n    vector&lt;vector&lt;T&gt;&gt; st;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/sparse-table-template\" target=\"_blank\">https://shouw.blog/posts/sparse-table-template</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">template &lt;typename T&gt;\nstruct ST {\n    int n;\n    int max_log;\n    vector&lt;vector&lt;T&gt;&gt; st;\n    </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/sparse-table-template\" target=\"_blank\">https://shouw.blog/posts/sparse-table-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/sparse-table-template",
             "title": "ST表模版",
             "date_modified": "2026-04-14T13:50:27.000Z",
@@ -960,7 +960,7 @@
         },
         {
             "id": "https://shouw.blog/posts/dinic-template",
-            "content_html": "<pre><code class=\"language-cpp\">struct Dinic {\n    const int INF = 1e9; // int 范围内的无穷大\n\n    struct Edge {\n        int to;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/dinic-template\" target=\"_blank\">https://shouw.blog/posts/dinic-template</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">struct Dinic {\n    const int INF = 1e9; // int 范围内的无穷大\n\n    struct Edge {\n        int to;\n  </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/dinic-template\" target=\"_blank\">https://shouw.blog/posts/dinic-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/dinic-template",
             "title": "Dinic模版",
             "date_modified": "2026-04-14T11:51:18.000Z",
@@ -972,7 +972,7 @@
         },
         {
             "id": "https://shouw.blog/posts/mcmf-template",
-            "content_html": "<pre><code class=\"language-cpp\">struct MCMF {\n    const int INF = 1e9;\n    struct Edge {\n        int to, cap, cost, rev;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/mcmf-template\" target=\"_blank\">https://shouw.blog/posts/mcmf-template</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">struct MCMF {\n    const int INF = 1e9;\n    struct Edge {\n        int to, cap, cost, rev;\n   </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/mcmf-template\" target=\"_blank\">https://shouw.blog/posts/mcmf-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/mcmf-template",
             "title": "MCMF模版",
             "date_modified": "2026-04-14T11:51:18.000Z",
@@ -1104,7 +1104,7 @@
         },
         {
             "id": "https://shouw.blog/posts/ac-automaton-template",
-            "content_html": "<pre><code class=\"language-cpp\">struct AC {\n    struct Node {\n        int next[26];\n        int fail;\n        int count;\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/ac-automaton-template\" target=\"_blank\">https://shouw.blog/posts/ac-automaton-template</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">struct AC {\n    struct Node {\n        int next[26];\n        int fail;\n        int count;\n   </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/ac-automaton-template\" target=\"_blank\">https://shouw.blog/posts/ac-automaton-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/ac-automaton-template",
             "title": "AC自动机模版",
             "date_modified": "2026-03-30T18:17:12.000Z",
@@ -1128,7 +1128,7 @@
         },
         {
             "id": "https://shouw.blog/posts/binomial-coefficient-template",
-            "content_html": "<pre><code class=\"language-cpp\">struct Comb {\n\n    int n, MOD;\n    vector&lt;int&gt; fact, inv;\n\n    int qpow(int a, int b) {\n</code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/binomial-coefficient-template\" target=\"_blank\">https://shouw.blog/posts/binomial-coefficient-template</a> 阅读全文。</p>",
+            "content_html": "<pre><code class=\"language-cpp\">struct Comb {\n\n    int n, MOD;\n    vector&lt;int&gt; fact, inv;\n\n    int qpow(int a, int b) {\n    </code></pre>\n<br/><p>访问 <a href=\"https://shouw.blog/posts/binomial-coefficient-template\" target=\"_blank\">https://shouw.blog/posts/binomial-coefficient-template</a> 阅读全文。</p>",
             "url": "https://shouw.blog/posts/binomial-coefficient-template",
             "title": "组合数模版",
             "date_modified": "2026-03-30T13:04:21.000Z",

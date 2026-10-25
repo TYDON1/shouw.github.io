@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Sun, 25 Oct 2026 15:05:35 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Oct 2026 15:12:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -24,7 +24,7 @@
     struct State {
         int len, fail;
         int next[26];
-</code></pre>
+     </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/pam-template" target="_blank">https://shouw.blog/posts/pam-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -99,7 +99,7 @@
             <content:encoded><![CDATA[<h2>后缀数组模版</h2>
 <pre><code class="language-cpp">// O(n log^2 n) 倍增法，n 在 1e5 级别足够快；更大规模可换成基数排序做到 O(n log n)
 struct SuffixArray {
-</code></pre>
+ </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/suffix-array-template" target="_blank">https://shouw.blog/posts/suffix-array-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -199,7 +199,7 @@ struct DsuOnTree {
 <pre><code class="language-cpp">struct LCT {
     struct Node {
         int ch[2], fa, val, xor_sum;
-</code></pre>
+    </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/lct-template" target="_blank">https://shouw.blog/posts/lct-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -762,7 +762,7 @@ struct DsuOnTree {
 };
 
 struct TarjanEBCC {
-</code></pre>
+    </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/tarjan-ebcc-template" target="_blank">https://shouw.blog/posts/tarjan-ebcc-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -872,7 +872,7 @@ struct TarjanEBCC {
     struct Query {
         int l, r, id, block;
         // 奇偶优化排序
-</code></pre>
+        </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/mo-algorithm-template" target="_blank">https://shouw.blog/posts/mo-algorithm-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -949,7 +949,7 @@ struct ST {
     int n;
     int max_log;
     vector&lt;vector&lt;T&gt;&gt; st;
-</code></pre>
+    </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/sparse-table-template" target="_blank">https://shouw.blog/posts/sparse-table-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -963,7 +963,7 @@ struct ST {
 
     struct Edge {
         int to;
-</code></pre>
+  </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/dinic-template" target="_blank">https://shouw.blog/posts/dinic-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -976,7 +976,7 @@ struct ST {
     const int INF = 1e9;
     struct Edge {
         int to, cap, cost, rev;
-</code></pre>
+   </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/mcmf-template" target="_blank">https://shouw.blog/posts/mcmf-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -1109,7 +1109,7 @@ struct ST {
         int next[26];
         int fail;
         int count;
-</code></pre>
+   </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/ac-automaton-template" target="_blank">https://shouw.blog/posts/ac-automaton-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
@@ -1138,7 +1138,7 @@ struct ST {
     vector&lt;int&gt; fact, inv;
 
     int qpow(int a, int b) {
-</code></pre>
+    </code></pre>
 <br/><p>访问 <a href="https://shouw.blog/posts/binomial-coefficient-template" target="_blank">https://shouw.blog/posts/binomial-coefficient-template</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
