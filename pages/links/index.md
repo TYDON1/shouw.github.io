@@ -31,7 +31,7 @@ links:
     url: https://www.gensou.cn/
     avatar: https://www.gensou.cn/assets/logos.png
     desc: 自分を世界一の美少女だと思っている人の個人ページで、日常生活やテクノロジー、知識の共有などの内容を扱っている。でもとても引きこもり気質～
-    random: false
+random: true
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />

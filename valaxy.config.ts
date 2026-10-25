@@ -23,7 +23,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     pages: [
       {
-        name: '我的小伙伴们',
+        name: '友情链接',
         url: '/links/',
         icon: 'i-ri-genderless-line',
         color: 'dodgerblue',
@@ -31,10 +31,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     ],
 
     footer: {
-      since: 2025,
+      since: 2077,
       beian: {
-        enable: false,
-        icp: '苏ICP备17038157号',
+        enable: true,
+        icp: '下北泽ICP备114514号',
       },
     },
   },
