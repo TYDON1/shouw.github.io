@@ -21,7 +21,12 @@ links:
     url: https://leave-time.site
     avatar: https://leave-time.site/upload/%E5%A4%B4%E5%83%8F.webp
     desc: 天阔云宽海奏歌。｜只是一些碎碎念。
-random: true
+  - blog: arplane's works
+    name: arplane
+    url: https://arplane.art/
+    avatar:
+    desc: 一个做音乐的，偶尔还做点别的
+    random: true
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />
