@@ -1,0 +1,1 @@
+import{I as e}from"./theme.B_MuB3MI.js";var t=e({cast(e){return typeof e==`string`?{url:e}:e},defaults:{"@type":`VirtualLocation`}});export{t as virtualLocationResolver};
