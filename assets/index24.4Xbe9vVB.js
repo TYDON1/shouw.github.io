@@ -1,1 +1,0 @@
-import{I as e}from"./theme.D88D6mpV.js";var t=e({defaults:{"@type":`OpeningHoursSpecification`,opens:`00:00`,closes:`23:59`}});export{t as openingHoursResolver};
