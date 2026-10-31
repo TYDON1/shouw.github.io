@@ -37,6 +37,12 @@ links:
     avatar: https://www.gensou.cn/assets/logos.png
     color: "#e046a8"
     desc: 自分を世界一の美少女だと思っている人の個人ページで、日常生活やテクノロジー、知識の共有などの内容を扱っている。でもとても引きこもり気質～
+  - name: Checkey01
+    blog: Checkey01的小站
+    url: https://blog.checkey01.com/
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=2824434450&s=640
+    desc: 我必须思考过去，因为我必然考虑未来
+    color: "#9400D3"
 random: true
 ---
 
