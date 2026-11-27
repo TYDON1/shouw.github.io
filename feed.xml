@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Fri, 27 Nov 2026 07:25:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 08:11:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -14,6 +14,280 @@
         </image>
         <copyright>CC BY-NC-SA 4.0 2026 © shouw</copyright>
         <atom:link href="https://shouw.blog/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[平面最近点对模版]]></title>
+            <link>https://shouw.blog/posts/closest-pair-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/closest-pair-template</guid>
+            <pubDate>Fri, 27 Nov 2026 18:29:50 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>平面最近点对模版</h2>
+<p>经典分治算法在 $O(n \log n)$ 时间内求解二维平面 $n$ 个点的最近欧氏距离（返回距离平方，纯整数无精度误差）。</p>
+<pre><code class="language-cpp">struct Closest</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/closest-pair-template" target="_blank">https://shouw.blog/posts/closest-pair-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[圆与最小圆覆盖模版]]></title>
+            <link>https://shouw.blog/posts/circle-and-mec-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/circle-and-mec-template</guid>
+            <pubDate>Fri, 27 Nov 2026 18:23:36 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>圆与最小圆覆盖模版</h2>
+<p>包含随机增量法期望 $O(n)$ 最小圆覆盖（Minimum Enclosing Circle）、两圆面积交以及直线与圆交点。</p>
+<pre><code class="language-cpp">struct Circle</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/circle-and-mec-template" target="_blank">https://shouw.blog/posts/circle-and-mec-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[半平面交模版]]></title>
+            <link>https://shouw.blog/posts/half-plane-intersection-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/half-plane-intersection-template</guid>
+            <pubDate>Fri, 27 Nov 2026 18:17:19 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>半平面交模版</h2>
+<p>给定若干有向直线（默认保留每条直线左侧半平面），使用极角排序 + 双端队列在 $O(n \log n)$ 时间内求出半平面交构成的凸多边形（如多边形的核）。</p>
+<pre><code class="language-cpp">s</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/half-plane-intersection-template" target="_blank">https://shouw.blog/posts/half-plane-intersection-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[凸包与旋转卡壳模版]]></title>
+            <link>https://shouw.blog/posts/convex-hull-calipers-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/convex-hull-calipers-template</guid>
+            <pubDate>Fri, 27 Nov 2026 18:11:02 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>凸包与旋转卡壳模版</h2>
+<p>使用 Andrew 单调链在 $O(n \log n)$ 内求二维点集凸包（纯整数无精度误差），并用旋转卡壳在 $O(n)$ 内求凸包直径（最远点对平方距离）。</p>
+<pre><code></code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/convex-hull-calipers-template" target="_blank">https://shouw.blog/posts/convex-hull-calipers-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[多边形与点定位模版]]></title>
+            <link>https://shouw.blog/posts/polygon-geometry-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/polygon-geometry-template</guid>
+            <pubDate>Fri, 27 Nov 2026 18:04:45 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>多边形与点定位模版</h2>
+<p>包含多边形有向面积、重心计算、任意简单多边形点定位（绕数法 $O(n)$），以及逆时针凸多边形 $O(\log n)$ 二分点定位。</p>
+<pre><code class="language-cpp">struct Pol</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/polygon-geometry-template" target="_blank">https://shouw.blog/posts/polygon-geometry-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[二维计算几何基础模版]]></title>
+            <link>https://shouw.blog/posts/geometry-2d-basic-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/geometry-2d-basic-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:58:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>二维计算几何基础模版</h2>
+<p>二维平面计算几何核心基础库：封装 <code>Point</code> / <code>Vec</code>、<code>Line</code> / <code>Seg</code>，涵盖点积、叉积、向量旋转、极角排序、直线交点、线段相交判定与点到直线/线</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/geometry-2d-basic-template" target="_blank">https://shouw.blog/posts/geometry-2d-basic-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[拉格朗日反演模版]]></title>
+            <link>https://shouw.blog/posts/lagrange-inversion-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/lagrange-inversion-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:52:15 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>拉格朗日反演模版</h2>
+<h3>核心公式</h3>
+<p>设形式幂级数 $F(x), G(x)$ 满足 $F(0) = G(0) = 0$、$F'(0) \neq 0$，且互为复合逆 $F(G(x)) = G(</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/lagrange-inversion-template" target="_blank">https://shouw.blog/posts/lagrange-inversion-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[FFT与FWT模版]]></title>
+            <link>https://shouw.blog/posts/fft-fwt-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/fft-fwt-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:46:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>FFT与FWT模版</h2>
+<p>包含迭代版 Cooley-Tukey 复数 FFT（任意模数或整数精确卷积）与 FWT 快速沃尔什变换（支持 OR / AND / XOR 位运算卷积）。</p>
+<pre><code class="language-cpp"></code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/fft-fwt-template" target="_blank">https://shouw.blog/posts/fft-fwt-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[高斯消元模版]]></title>
+            <link>https://shouw.blog/posts/gaussian-elimination-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/gaussian-elimination-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:39:42 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>高斯消元模版</h2>
+<p>包含三种竞赛最常见的高斯-约旦消元：实数线性方程组（列主元稳定版）、质数模意义线性方程组，以及 <code>bitset</code> 压位异或方程组。</p>
+<pre><code class="language-cpp">struct Gauss {</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/gaussian-elimination-template" target="_blank">https://shouw.blog/posts/gaussian-elimination-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[莫比乌斯反演与杜教筛模版]]></title>
+            <link>https://shouw.blog/posts/mobius-inversion-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/mobius-inversion-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:33:25 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>莫比乌斯反演与杜教筛模版</h2>
+<h3>核心反演公式</h3>
+<ul>
+<li>核心性质：$\sum_{d \mid n} \mu(d) = [n = 1]$，即 $\mu * 1 = \varepsilon$。</li>
+<li></li>
+</ul>
+<br/><p>访问 <a href="https://shouw.blog/posts/mobius-inversion-template" target="_blank">https://shouw.blog/posts/mobius-inversion-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[欧拉线性筛模版]]></title>
+            <link>https://shouw.blog/posts/linear-sieve-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/linear-sieve-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:27:10 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>欧拉线性筛模版</h2>
+<p>一次 $O(n)$ 线性筛同时预处理素数表 <code>primes</code>、最小质因子 <code>spf</code>、欧拉函数 $\varphi(n)$、莫比乌斯函数 $\mu(n)$ 与约数个数 $d(n</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/linear-sieve-template" target="_blank">https://shouw.blog/posts/linear-sieve-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[Lyndon分解模版]]></title>
+            <link>https://shouw.blog/posts/lyndon-duval-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/lyndon-duval-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:20:55 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Lyndon分解模版</h2>
+<p>Duval 算法在线性时间内将字符串唯一分解为字典序非严格递减的 Lyndon 串：$s = w_1 w_2 \dots w_k$，满足 $w_1 \ge w_2 \g</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/lyndon-duval-template" target="_blank">https://shouw.blog/posts/lyndon-duval-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[Trie字典树与最小表示法模版]]></title>
+            <link>https://shouw.blog/posts/trie-min-rep-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/trie-min-rep-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:14:40 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Trie字典树与最小表示法模版</h2>
+<p>封装小写字母字典树（支持插入、删除、精确统计、前缀统计）以及线性时间求字符串循环同构最小表示法。</p>
+<pre><code class="language-cpp">struct Trie {
+    stru</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/trie-min-rep-template" target="_blank">https://shouw.blog/posts/trie-min-rep-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[KM算法模版]]></title>
+            <link>https://shouw.blog/posts/km-algorithm-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/km-algorithm-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:08:33 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>KM算法模版</h2>
+<p>BFS 迭代版 Kuhn-Munkres 算法，严格 $O(n^3)$ 求解二分图最大权完美匹配，不存在 DFS 版退化至 $O(n^4)$ 的风险。</p>
+<pre><code class="language-cpp">stru</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/km-algorithm-template" target="_blank">https://shouw.blog/posts/km-algorithm-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[欧拉路径与欧拉回路模版]]></title>
+            <link>https://shouw.blog/posts/euler-path-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/euler-path-template</guid>
+            <pubDate>Fri, 27 Nov 2026 17:02:18 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>欧拉路径与欧拉回路模版</h2>
+<p>使用 Hierholzer 算法（迭代版防爆栈 + 当前弧优化）求解有向图与无向图的欧拉路径/欧拉回路，并保证输出字典序最小。</p>
+<pre><code class="language-cpp">struct Eule</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/euler-path-template" target="_blank">https://shouw.blog/posts/euler-path-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[Tarjan割点与点双连通分量模版]]></title>
+            <link>https://shouw.blog/posts/tarjan-vbcc-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/tarjan-vbcc-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:56:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>Tarjan割点与点双连通分量模版</h2>
+<p>无向图 Tarjan 算法求全部割点（Cut Vertices）、点双连通分量（VBCC），并直接支持构建圆方树（Block-Cut Tree）。</p>
+<p>``</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/tarjan-vbcc-template" target="_blank">https://shouw.blog/posts/tarjan-vbcc-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[最短路全家桶模版]]></title>
+            <link>https://shouw.blog/posts/shortest-path-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/shortest-path-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:49:45 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>最短路全家桶模版</h2>
+<p>汇总竞赛最常用的四大最短路算法：堆优化 Dijkstra（非负权）、0-1 BFS（0/1 边权）、SPFA 判负环与 Floyd 全源最短路 / 最小环。</p>
+<pre><code class="language-cpp"></code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/shortest-path-template" target="_blank">https://shouw.blog/posts/shortest-path-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[树哈希模版]]></title>
+            <link>https://shouw.blog/posts/tree-hash-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/tree-hash-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:43:30 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>树哈希模版</h2>
+<p>使用随机 <code>splitmix64</code> 混合函数计算有根树哈希，并通过换根 DP 在 $O(n)$ 时间内求出以每个点为根的哈希值，支持无根树同构判定。</p>
+<pre><code class="language-cpp">struct</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/tree-hash-template" target="_blank">https://shouw.blog/posts/tree-hash-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[欧拉序ST表LCA模版]]></title>
+            <link>https://shouw.blog/posts/euler-tour-lca-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/euler-tour-lca-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:37:22 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>欧拉序ST表LCA模版</h2>
+<p>采用 DFN 序 ST 表实现 $O(1)$ 在线查询 LCA：无需 $2n$ 长度的欧拉序，仅需 $n$ 长度的 ST 表，空间减半、常数极小。</p>
+<pre><code class="language-cpp">s</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/euler-tour-lca-template" target="_blank">https://shouw.blog/posts/euler-tour-lca-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[树的直径与重心模版]]></title>
+            <link>https://shouw.blog/posts/tree-diameter-centroid-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/tree-diameter-centroid-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:31:10 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>树的直径与重心模版</h2>
+<p>封装非负权树两次 DFS 求直径（含完整路径还原）以及求树的全部重心（至多 2 个）。若存在负边权求直径，应改用树形 DP。</p>
+<pre><code class="language-cpp">struct TreeBas</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/tree-diameter-centroid-template" target="_blank">https://shouw.blog/posts/tree-diameter-centroid-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[CDQ分治模版]]></title>
+            <link>https://shouw.blog/posts/cdq-divide-and-conquer-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/cdq-divide-and-conquer-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:24:55 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>CDQ分治模版</h2>
+<p>以经典三维偏序为例：给定 $n$ 个三元组 $(a_i, b_i, c_i)$，对每个 $i$ 求满足 $j \neq i$ 且 $a_j \le a_i, b_j \le</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/cdq-divide-and-conquer-template" target="_blank">https://shouw.blog/posts/cdq-divide-and-conquer-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[带权并查集模版]]></title>
+            <link>https://shouw.blog/posts/weighted-dsu-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/weighted-dsu-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:18:40 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>带权并查集模版</h2>
+<p>维护每个节点到根节点的势能差 <code>w[x] = val[x] - val[root]</code>，支持一致性检验、查询任意两点差值，以及异或/模意义种类关系。</p>
+<pre><code class="language-cpp">struc</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/weighted-dsu-template" target="_blank">https://shouw.blog/posts/weighted-dsu-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[01-Trie模版]]></title>
+            <link>https://shouw.blog/posts/binary-trie-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/binary-trie-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:12:25 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>01-Trie模版</h2>
+<p>支持插入、删除、查询与 <code>x</code> 的最大/最小异或值，以及统计集合中满足 <code>y ^ x &lt; limit</code> 的元素个数。</p>
+<pre><code class="language-cpp">struct BinaryTrie </code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/binary-trie-template" target="_blank">https://shouw.blog/posts/binary-trie-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[珂朵莉树 (ODT) 模版]]></title>
+            <link>https://shouw.blog/posts/odt-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/odt-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:06:12 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>珂朵莉树 (ODT) 模版</h2>
+<p>珂朵莉树（Old Driver Tree / 颜色段均摊），使用 <code>std::set</code> 维护值相同的连续区间，擅长含区间推平（<code>assign</code>）操作的随机数据题。</p>
+<br/><p>访问 <a href="https://shouw.blog/posts/odt-template" target="_blank">https://shouw.blog/posts/odt-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
+        <item>
+            <title><![CDATA[树状数组模版]]></title>
+            <link>https://shouw.blog/posts/fenwick-tree-template</link>
+            <guid isPermaLink="false">https://shouw.blog/posts/fenwick-tree-template</guid>
+            <pubDate>Fri, 27 Nov 2026 16:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h2>树状数组模版</h2>
+<p>包含标准单点修改/区间查询、树状数组上倍增二分 <code>kth</code>，以及基于差分双树状数组的区间修改/区间查询。</p>
+<pre><code class="language-cpp">// 1-based 标准树状数组：支持单点加、区间和</code></pre>
+<br/><p>访问 <a href="https://shouw.blog/posts/fenwick-tree-template" target="_blank">https://shouw.blog/posts/fenwick-tree-template</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (shouw)</author>
+        </item>
         <item>
             <title><![CDATA[PAM模版]]></title>
             <link>https://shouw.blog/posts/pam-template</link>
