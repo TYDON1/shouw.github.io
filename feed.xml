@@ -4,7 +4,7 @@
         <title>shouwのblog</title>
         <link>https://shouw.blog/</link>
         <description>欢迎来到我的个人blog</description>
-        <lastBuildDate>Wed, 11 Nov 2026 13:47:59 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Nov 2026 07:25:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -1228,21 +1228,6 @@ struct ST {
 <h3>核心问题分析</h3>
 <p>本题的 Easy Version 中，$x = n$，这意</p>
 <br/><p>访问 <a href="https://shouw.blog/posts/cf-eliminating-balls-with-merging-easy-version" target="_blank">https://shouw.blog/posts/cf-eliminating-balls-with-merging-easy-version</a> 阅读全文。</p>]]></content:encoded>
-            <author>i@valaxy.site (shouw)</author>
-        </item>
-        <item>
-            <title><![CDATA[Atc的DP专训]]></title>
-            <link>https://shouw.blog/posts/atcoder-dp-training</link>
-            <guid isPermaLink="false">https://shouw.blog/posts/atcoder-dp-training</guid>
-            <pubDate>Mon, 02 Mar 2026 14:45:14 GMT</pubDate>
-            <content:encoded><![CDATA[<h2>Atc的DP专训</h2>
-<h3>A</h3>
-<pre><code class="language-cpp">// A - Frog 1
-
-#include &lt;bits/stdc++.h&gt;
-#define int long long 
-#define en</code></pre>
-<br/><p>访问 <a href="https://shouw.blog/posts/atcoder-dp-training" target="_blank">https://shouw.blog/posts/atcoder-dp-training</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (shouw)</author>
         </item>
         <item>
